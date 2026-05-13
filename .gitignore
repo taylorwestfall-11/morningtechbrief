@@ -1,0 +1,11 @@
+# Logs
+*.log
+brief_log.txt
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/

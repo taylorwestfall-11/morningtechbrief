@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>☕ Morning Tech Brief</title>
+  <style>
+    :root {
+      --bg: #f0ede8;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --text-muted: #777;
+      --border: #e2dfd8;
+      --picks-accent: #d97706;
+      --picks-bg: #fffbeb;
+      --picks-border: #fcd34d;
+      --ai-accent: #6d28d9;
+      --ai-bg: #f5f3ff;
+      --ai-border: #c4b5fd;
+      --hw-accent: #1d4ed8;
+      --hw-bg: #eff6ff;
+      --hw-border: #bfdbfe;
+      --home-accent: #047857;
+      --home-bg: #ecfdf5;
+      --home-border: #6ee7b7;
+      --creative-accent: #be185d;
+      --creative-bg: #fdf2f8;
+      --creative-border: #f9a8d4;
+      --radius: 10px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 20px 16px 60px;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      max-width: 880px;
+      margin: 0 auto 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 14px;
+    }
+    .header h1 { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; }
+    .header .meta { font-size: 0.8rem; color: var(--text-muted); }
+
+    /* ── LAYOUT ── */
+    .main { max-width: 880px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+
+    /* ── SECTION HEADER ── */
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    /* ── TOP PICKS ── */
+    .picks-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    .pick-card {
+      background: var(--picks-bg);
+      border: 1px solid var(--picks-border);
+      border-top: 3px solid var(--picks-accent);
+      border-radius: var(--radius);
+      padding: 12px 13px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .pick-card .card-source {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pick-card .card-source img {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      object-fit: contain;
+    }
+
+    .pick-card .card-source span {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--picks-accent);
+    }
+
+    .pick-card h3 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .pick-card p {
+      font-size: 0.78rem;
+      color: #555;
+      line-height: 1.4;
+      flex: 1;
+    }
+
+    .pick-card .vote-row { margin-top: 4px; }
+
+    /* ── CATEGORY SECTION ── */
+    .cat-section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+    }
+
+    .stories { display: flex; flex-direction: column; }
+
+    .story {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 10px;
+      align-items: start;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .story:last-child { border-bottom: none; padding-bottom: 0; }
+    .story:first-child { padding-top: 0; }
+
+    .story-logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      object-fit: contain;
+      background: #fafafa;
+      padding: 3px;
+      flex-shrink: 0;
+    }
+
+    .story-body {}
+
+    .story-source {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 3px;
+    }
+
+    .story h3 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+
+    .story p {
+      font-size: 0.8rem;
+      color: #555;
+      line-height: 1.45;
+    }
+
+    /* Category accent colors */
+    .ai .section-tag   { background: var(--ai-bg);       color: var(--ai-accent);       border: 1px solid var(--ai-border); }
+    .ai .story-source  { color: var(--ai-accent); }
+    .hw .section-tag   { background: var(--hw-bg);       color: var(--hw-accent);       border: 1px solid var(--hw-border); }
+    .hw .story-source  { color: var(--hw-accent); }
+    .home .section-tag { background: var(--home-bg);     color: var(--home-accent);     border: 1px solid var(--home-border); }
+    .home .story-source{ color: var(--home-accent); }
+    .cre .section-tag  { background: var(--creative-bg); color: var(--creative-accent); border: 1px solid var(--creative-border); }
+    .cre .story-source { color: var(--creative-accent); }
+
+    /* ── QUICK HITS ── */
+    .quick-section {
+      background: #f9f8f5;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+    }
+    .quick-section .section-tag { background: #eee; color: #555; border: 1px solid #ddd; }
+    .quick-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .quick-list li {
+      font-size: 0.82rem;
+      padding-left: 16px;
+      position: relative;
+      color: #333;
+      line-height: 1.45;
+    }
+    .quick-list li::before { content: "→"; position: absolute; left: 0; color: #aaa; }
+
+    /* ── THUMBS ── */
+    .vote-row {
+      display: flex;
+      gap: 4px;
+    }
+
+    .vote-btn {
+      background: none;
+      border: 1px solid #e0ddd8;
+      border-radius: 6px;
+      width: 28px;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: all 0.12s ease;
+      color: #aaa;
+    }
+    .vote-btn:hover { border-color: #bbb; color: #555; }
+    .vote-btn.active-up   { background: #ecfdf5; border-color: #6ee7b7; color: #047857; }
+    .vote-btn.active-down { background: #fff7ed; border-color: #fed7aa; color: #c2410c; }
+
+    /* ── FEEDBACK SECTION ── */
+    .feedback-section {
+      background: #1c1c1e;
+      color: #f5f5f5;
+      border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .feedback-section h3 { font-size: 0.85rem; font-weight: 700; margin-bottom: 4px; }
+    .feedback-section .sub { font-size: 0.78rem; color: #888; margin-bottom: 12px; }
+
+    .vote-summary {
+      font-size: 0.8rem;
+      color: #ccc;
+      min-height: 20px;
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+
+    .copy-btn {
+      background: #2e2e30;
+      color: #f0f0f0;
+      border: 1px solid #3a3a3c;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .copy-btn:hover { background: #3a3a3c; }
+    .copy-btn.copied { background: #1a3a2a; border-color: #4ade80; color: #4ade80; }
+
+    .copy-output {
+      margin-top: 10px;
+      background: #111;
+      border: 1px solid #2a2a2a;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 0.78rem;
+      color: #a0e0c0;
+      font-family: monospace;
+      white-space: pre-wrap;
+      display: none;
+    }
+
+    /* ── STORY LINKS ── */
+    .read-link {
+      display: inline;
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: #2563eb;
+      text-decoration: none;
+      margin-left: 6px;
+      white-space: nowrap;
+      opacity: 0.85;
+    }
+    .read-link:hover { opacity: 1; text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>☕ Morning Tech Brief</h1>
+  <span class="meta" id="brief-date">Thursday, April 24, 2026</span>
+</div>
+
+<div class="main">
+
+  <!-- TOP PICKS -->
+  <div>
+    <div class="section-tag" style="background:var(--picks-bg);color:var(--picks-accent);border:1px solid var(--picks-border);">⭐ Your Top Picks</div>
+    <div class="picks-grid">
+
+      <div class="pick-card">
+        <div class="card-source">
+          <img src="https://www.google.com/s2/favicons?domain=home-assistant.io&sz=32" alt="">
+          <span>Home Assistant</span>
+        </div>
+        <h3>2026.4: Infrared Support Lands <a class="read-link" href="https://www.home-assistant.io/blog/2026/04/01/release-20264/" target="_blank">[Link]</a></h3>
+        <p>Any device with an IR receiver — old AC, TV, projector — can now be automated. Huge for tinkerers who'd rather extend gear than replace it.</p>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+      <div class="pick-card">
+        <div class="card-source">
+          <img src="https://www.google.com/s2/favicons?domain=motionographer.com&sz=32" alt="">
+          <span>Motionographer</span>
+        </div>
+        <h3>Motionographer 4.0 Coming in May <a class="read-link" href="https://motionographer.com/2026/03/26/motionographer-4-0-under-construction-and-something-big-is-coming-in-may/" target="_blank">[Link]</a></h3>
+        <p>Twenty years in, the site is getting a full redesign with dark mode and a new events hub. The motion community's home is leveling up.</p>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+      <div class="pick-card">
+        <div class="card-source">
+          <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" alt="">
+          <span>Anthropic</span>
+        </div>
+        <h3>"Claude Mythos" — Step Change Coming <a class="read-link" href="https://hipther.com/latest-news/2026/04/23/110667/ai-dispatch-daily-trends-and-innovations-april-23-2026-anthropic-mythos-openai-privacy-filter-jailbroken-ai-safety-claude-economics-ai-health-research/" target="_blank">[Link]</a></h3>
+        <p>Anthropic's next frontier model is reportedly a tier above incremental updates. Expected Q2 2026. Worth watching.</p>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+      <div class="pick-card">
+        <div class="card-source">
+          <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" alt="">
+          <span>Hugging Face</span>
+        </div>
+        <h3>AI Vision Models Now Phone-Sized <a class="read-link" href="https://venturebeat.com/ai/hugging-face-shrinks-ai-vision-models-to-phone-friendly-size-slashing-computing-costs" target="_blank">[Link]</a></h3>
+        <p>Vision AI is now small enough to run on a phone or edge device — real implications for local home automation cameras without cloud costs.</p>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- AI -->
+  <div class="cat-section ai">
+    <div class="section-tag">🤖 AI & Machine Learning</div>
+    <div class="stories">
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=openai.com&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">OpenAI</div>
+          <h3>GPT-5.5: Smarter, Same Speed, Double the Price <a class="read-link" href="https://llm-stats.com/ai-news" target="_blank">[Link]</a></h3>
+          <p>Matches GPT-5.4 latency but jumps significantly in capability benchmarks. Now at $5/1M input tokens — the capability/cost tradeoff question just got sharper.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">Hugging Face</div>
+          <h3>ml-intern: An AI Agent That Trains Other AI Models <a class="read-link" href="https://www.marktechpost.com/2026/04/21/hugging-face-releases-ml-intern-an-open-source-ai-agent-that-automates-the-llm-post-training-workflow/" target="_blank">[Link]</a></h3>
+          <p>Open-source agent that automates the full LLM post-training workflow — research, dataset discovery, training, evaluation. The pace of AI self-improvement tooling is accelerating.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=cnbc.com&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">CNBC</div>
+          <h3>Amazon Pours Another $25B into Anthropic <a class="read-link" href="https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html" target="_blank">[Link]</a></h3>
+          <p>On top of the existing $8B, Amazon is deepening its bet with Anthropic committing $100B in AWS spend over 10 years. The cloud-AI infrastructure arms race keeps escalating.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HARDWARE -->
+  <div class="cat-section hw">
+    <div class="section-tag">🖥️ Hardware</div>
+    <div class="stories">
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=tomshardware.com&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">Tom's Hardware</div>
+          <h3>Intel Wildcat Lake Spotted: Fanless, MacBook-Competitive <a class="read-link" href="https://www.tomshardware.com/news" target="_blank">[Link]</a></h3>
+          <p>Aluminum chassis, 11W fanless mode, gunning directly for MacBook Neo territory. Intel's thin-and-light rebuild continues to look credible.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=tomshardware.com&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">Tom's Hardware</div>
+          <h3>Nvidia Revives RTX 3060 Amid GPU Shortage <a class="read-link" href="https://www.tomshardware.com/news" target="_blank">[Link]</a></h3>
+          <p>With RTX 5050 shelved and mid-range prices elevated, Nvidia is bringing back the 3060 to plug the gap. Pragmatic, not exciting — but the GPU market is still rough.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HOME AUTOMATION -->
+  <div class="cat-section home">
+    <div class="section-tag">🏠 Home Automation & IoT</div>
+    <div class="stories">
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=home-assistant.io&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">Home Assistant</div>
+          <h3>Cross-Domain Automations: Write a Rule Once, Apply Everywhere <a class="read-link" href="https://www.home-assistant.io/blog/2026/04/01/release-20264/" target="_blank">[Link]</a></h3>
+          <p>A "door open" trigger now works across contact sensors, motorized doors, anything that qualifies — no more duplicating rules. Same logic for temperature and water sensors. Makes the whole platform feel more coherent.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=home-assistant.io&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">Home Assistant</div>
+          <h3>1,800 Legacy Devices Just Got Native Support <a class="read-link" href="https://www.archyde.com/home-assistant-compatibility-how-to-connect-more-smart-home-devices-than-ever-before/" target="_blank">[Link]</a></h3>
+          <p>Early Zigbee sensors, first-gen Philips Hue bridges, Z-Wave Plus locks from 2018 — all newly supported natively. Your older gear probably just got a second life.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CREATIVE -->
+  <div class="cat-section cre">
+    <div class="section-tag">🎨 Creative & Motion</div>
+    <div class="stories">
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=motionographer.com&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">Motionographer</div>
+          <h3>MOUVO 2026: Space in Motion Design, Kurzgesagt Headlining <a class="read-link" href="https://motionographer.com/2026/03/09/mouvo-2026-exploring-space-in-motion-design/" target="_blank">[Link]</a></h3>
+          <p>Prague's motion design conference is back for year 11. Theme is "Space," Kurzgesagt (24M subscribers) is on the lineup. A good pulse-check on where the craft is heading.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+      <div class="story">
+        <img class="story-logo" src="https://www.google.com/s2/favicons?domain=motionographer.com&sz=64" alt="">
+        <div class="story-body">
+          <div class="story-source">Motionographer / Envato</div>
+          <h3>Hand-Drawn Animation Is Becoming the Luxury Signal <a class="read-link" href="https://elements.envato.com/learn/motion-design-trends" target="_blank">[Link]</a></h3>
+          <p>AI-generated motion is everywhere, so traditional craft — stop-motion, hand-drawn, mixed media — is emerging as the premium differentiator. The studios leaning into both are standing out.</p>
+        </div>
+        <div class="vote-row">
+          <button class="vote-btn" onclick="vote(this,'up')" title="More like this">👍</button>
+          <button class="vote-btn" onclick="vote(this,'down')" title="Less like this">👎</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- QUICK HITS -->
+  <div class="quick-section">
+    <div class="section-tag">⚡ Quick Hits</div>
+    <ul class="quick-list">
+      <li><strong>Google Workspace</strong> gets heavy AI update at Cloud Next — drafting, Sheets automation, and general "AI as office intern" rolling out now.</li>
+      <li><strong>DeepSeek V4</strong> dropped today (April 24) — community benchmarks landing through the day, worth checking by afternoon.</li>
+      <li><strong>IPO watch:</strong> SpaceX, OpenAI, and Anthropic are all being floated in the same breath as potential 2026 listings.</li>
+      <li><strong>Motion Awards</strong> enters year 10 with a full redesign and two new distinction categories.</li>
+      <li><strong>Anthropic lobbying</strong> hit $1.6M in Q1 2026 — their biggest quarter ever, topping OpenAI at $1M.</li>
+    </ul>
+  </div>
+
+  <!-- FEEDBACK -->
+  <div class="feedback-section">
+    <h3>Shape tomorrow's brief</h3>
+    <p class="sub">👍 = more like this &nbsp;·&nbsp; 👎 = dial it back (not remove) &nbsp;·&nbsp; Your votes carry forward</p>
+    <div class="vote-summary" id="vote-summary">No votes yet today.</div>
+    <button class="copy-btn" id="copy-btn" onclick="copyFeedback()">Copy feedback for Claude</button>
+    <div class="copy-output" id="copy-output"></div>
+  </div>
+
+</div>
+
+<script>
+  // ── Story labels for readable feedback output
+  const storyLabels = {};
+  document.querySelectorAll('.story, .pick-card').forEach((el, i) => {
+    const h3 = el.querySelector('h3');
+    const source = el.querySelector('.story-source, .card-source span');
+    if (h3 && source) {
+      const btns = el.querySelectorAll('.vote-btn');
+      if (btns[0]) btns[0].dataset.storyId = i;
+      if (btns[1]) btns[1].dataset.storyId = i;
+      storyLabels[i] = `${source.textContent.trim()}: "${h3.textContent.trim()}"`;
+    }
+  });
+
+  // ── Load saved votes for today
+  const TODAY = document.getElementById('brief-date').textContent;
+  const STORAGE_KEY = `brief_votes_${TODAY}`;
+  let votes = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  renderAllVotes();
+
+  function vote(btn, direction) {
+    const id = btn.dataset.storyId;
+    if (!id) return;
+    if (votes[id] === direction) {
+      delete votes[id];
+    } else {
+      votes[id] = direction;
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(votes));
+    renderAllVotes();
+  }
+
+  function renderAllVotes() {
+    document.querySelectorAll('.vote-btn').forEach(btn => {
+      const id = btn.dataset.storyId;
+      btn.classList.remove('active-up', 'active-down');
+      if (votes[id] === 'up')   btn.classList.add('active-up');
+      if (votes[id] === 'down') btn.classList.add('active-down');
+    });
+
+    const ups   = Object.entries(votes).filter(([,v]) => v === 'up').map(([k]) => storyLabels[k]).filter(Boolean);
+    const downs = Object.entries(votes).filter(([,v]) => v === 'down').map(([k]) => storyLabels[k]).filter(Boolean);
+
+    const summary = document.getElementById('vote-summary');
+    if (!ups.length && !downs.length) {
+      summary.textContent = 'No votes yet today.';
+    } else {
+      let parts = [];
+      if (ups.length)   parts.push(`👍 More of: ${ups.length} stor${ups.length > 1 ? 'ies' : 'y'}`);
+      if (downs.length) parts.push(`👎 Less of: ${downs.length} stor${downs.length > 1 ? 'ies' : 'y'}`);
+      summary.textContent = parts.join('  ·  ');
+    }
+  }
+
+  function copyFeedback() {
+    const ups   = Object.entries(votes).filter(([,v]) => v === 'up').map(([k]) => `  - ${storyLabels[k]}`).filter(Boolean);
+    const downs = Object.entries(votes).filter(([,v]) => v === 'down').map(([k]) => `  - ${storyLabels[k]}`).filter(Boolean);
+
+    if (!ups.length && !downs.length) {
+      alert('No votes yet — give some stories a 👍 or 👎 first.');
+      return;
+    }
+
+    let msg = `Morning brief feedback for ${TODAY}:\n`;
+    if (ups.length)   msg += `\nMore of:\n${ups.join('\n')}`;
+    if (downs.length) msg += `\nLess of:\n${downs.join('\n')}`;
+    msg += `\n\n(Please save this to news_preferences.md for tomorrow's brief.)`;
+
+    navigator.clipboard.writeText(msg).then(() => {
+      const btn = document.getElementById('copy-btn');
+      btn.textContent = '✓ Copied — paste into Claude Code';
+      btn.classList.add('copied');
+      const out = document.getElementById('copy-output');
+      out.textContent = msg;
+      out.style.display = 'block';
+      setTimeout(() => {
+        btn.textContent = 'Copy feedback for Claude';
+        btn.classList.remove('copied');
+      }, 3000);
+    });
+  }
+</script>
+
+</body>
+</html>

@@ -118,3 +118,10 @@
 - **Nvidia N1X** Arm-based laptop SoC — a 20-core CPU paired with a Blackwell GPU at 6,144 CUDA cores (RTX 5070-class) — set to debut at Computex 2026.
 - **Digital Design Days turns 10**: Italy's biggest motion design event wrapped its most ambitious edition in Milan (May 7–9), with AI vs. craft as the defining undercurrent.
 - **Anthropic + Amazon** lock in up to 5 gigawatts of new compute capacity and a $100B AWS spend commitment over 10 years, doubling down on their AI infrastructure partnership.
+
+## [2026-05-14]
+- **Claude Mythos Preview (Project Glasswing):** Anthropic's most capable model autonomously found and exploited zero-days across every major OS and browser; 73% expert-level CTF success rate — gated to cybersecurity partners only, now also on Vertex AI.
+- **OpenAI Deployment Company:** $4B raised at $10B pre-money valuation, 19 investors and consultancies, acquired Tomoro for Forward Deployed Engineers embedded directly inside enterprise clients.
+- **Dirty Frag (CVE-2026-43284/43500):** Second Linux kernel root chain in 8 days — deterministic LPE across all major distros, public PoC live, Microsoft confirms active in-the-wild exploitation; apply kernel patches immediately.
+- **Google Home Spring 2026:** Gemini 3.1 voice assistant, massive automation trigger/condition expansion across locks, vacuums, appliances, and lighting; Ask Home conversational search coming — biggest Google Home update in two years.
+- **F5 EMPATH 2026 opens tomorrow:** Motion design conference May 15–17 in NYC; AI-vs-craft theme takes center stage in the post-DDD10 creative conversation.

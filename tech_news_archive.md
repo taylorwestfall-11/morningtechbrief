@@ -125,3 +125,10 @@
 - **Dirty Frag (CVE-2026-43284/43500):** Second Linux kernel root chain in 8 days — deterministic LPE across all major distros, public PoC live, Microsoft confirms active in-the-wild exploitation; apply kernel patches immediately.
 - **Google Home Spring 2026:** Gemini 3.1 voice assistant, massive automation trigger/condition expansion across locks, vacuums, appliances, and lighting; Ask Home conversational search coming — biggest Google Home update in two years.
 - **F5 EMPATH 2026 opens tomorrow:** Motion design conference May 15–17 in NYC; AI-vs-craft theme takes center stage in the post-DDD10 creative conversation.
+
+## [2026-05-15]
+- **Anthropic + Gates Foundation $200M:** Four-year partnership deploying grants, Claude credits, and technical support toward AI-screened vaccine trials (polio, HPV) and eclampsia treatment in low- and middle-income countries — announced today.
+- **Claude for Small Business:** 15 agentic workflows wired into QuickBooks, PayPal, HubSpot, Canva, and DocuSign; covers month-end close, payroll forecasting, invoice chasing, and campaign management — no setup required.
+- **F5 EMPATH 2026 opens today (May 15–17, NYC):** First-ever Motionographer Day workshops and live AI-powered promptathon at Webster Hall; AI-as-tool-vs-replacement is the defining conference undercurrent.
+- **Computex 2026 shape-up:** NVIDIA's Jensen Huang keynotes June 1 (N1X ARM SoC, Blackwell RTX 5070-class); Intel's Lip-Bu Tan follows June 2 (52-core Nova Lake, Panther Lake AI PC, 288-core Clearwater Forest Xeon — all on 18A node).
+- **Cisco SD-WAN CVE-2026-20182 (CVSS 10.0):** CISA KEV catalog, 3-day federal patch deadline, sixth SD-WAN zero-day exploited in 2026; paired with new Fragnesia Linux kernel LPE (CVE-2026-46300) also in active disclosure.

@@ -132,3 +132,10 @@
 - **F5 EMPATH 2026 opens today (May 15–17, NYC):** First-ever Motionographer Day workshops and live AI-powered promptathon at Webster Hall; AI-as-tool-vs-replacement is the defining conference undercurrent.
 - **Computex 2026 shape-up:** NVIDIA's Jensen Huang keynotes June 1 (N1X ARM SoC, Blackwell RTX 5070-class); Intel's Lip-Bu Tan follows June 2 (52-core Nova Lake, Panther Lake AI PC, 288-core Clearwater Forest Xeon — all on 18A node).
 - **Cisco SD-WAN CVE-2026-20182 (CVSS 10.0):** CISA KEV catalog, 3-day federal patch deadline, sixth SD-WAN zero-day exploited in 2026; paired with new Fragnesia Linux kernel LPE (CVE-2026-46300) also in active disclosure.
+
+## [2026-05-17]
+- **Thread 1.4 — End of Smart Home Walled Gardens:** Standardized mesh credential sharing across devices and border routers lets fragmented Thread networks merge; spec also extends Thread over Wi-Fi and Ethernet, pairing with Matter for the most interoperable smart home stack to date.
+- **OpenAI Codex on ChatGPT iOS and Android:** Agentic coding across Free, Go, and paid plans — repo browsing, code writing, and test runs from a phone; remote SSH into dev environments went generally available the same week.
+- **Google "Googlebook" leak:** Android-powered Chromebook successor with Gemini as the primary interface leaked ahead of an official reveal — Google's clearest signal yet that ChromeOS is being sunset in favor of an AI-first laptop category.
+- **Hugging Face Transformers v5:** Major rewrite with simpler, more readable model definitions and cleaner modular architecture; backward-compatible across the platform's newly crossed one-million-model milestone.
+- **F5 EMPATH closes / Motionographer 4.0 big announcement pending:** Final day of motion design's biggest NYC event (May 15–17); Motionographer's promised 'something big' for May still outstanding — community watching for a reveal tied to today's closing.

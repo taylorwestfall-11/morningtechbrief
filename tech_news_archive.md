@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-05-20
+- Anthropic acquires Stainless for $300M+, pulling shared SDK/MCP infrastructure away from OpenAI and Google and winding down all hosted Stainless products.
+- zunzunbee Slate Switch joins Works with Home Assistant — snap-on Zigbee 3.0 scene controller, no wiring, fully local, official HA blueprints, 2-year battery.
+- Microsoft Surface for Business refreshed with Intel Panther Lake — claims 35% better GPU than M5 MacBook Air, 120 Hz 3:2 display, starting at $1,299.
+- Seedance 2.0 sets new AI video benchmark with cross-scene character/environment locking, eliminating generative video's character-drift problem.
+- Cerebras IPO pops 68% on Nasdaq debut, raising $5.55B at a $95B market cap — largest U.S. tech IPO since Uber.
+
 ## Sunday, April 26, 2026
 - DeepSeek V4-Pro: 1.6T-param open-source model lands within 0.2 points of Claude on SWE-bench at 1/7th the price ($3.48 vs $25 per 1M output tokens), MIT-licensed.
 - Samsung SmartThings × IKEA: 25 IKEA Matter-over-Thread devices connect direct, no DIRIGERA hub — bulbs from $5.99, leak detector at $9.99.

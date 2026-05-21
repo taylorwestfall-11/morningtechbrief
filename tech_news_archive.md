@@ -160,3 +160,10 @@
 - **Anthropic + Gates Foundation $200M partnership:** Four-year commitment of grants, Claude credits, and technical support targeting vaccine research (polio, HPV, eclampsia) and AI-assisted health governance for the 4.6 billion people without basic health services.
 - **Claude Opus 4.7 GA + Claude Code Desktop rebuilt for parallel agents:** Opus 4.7 gains advanced coding improvements and higher-res vision; Claude Code desktop ships drag-and-drop pane layout, integrated terminal, file editor, SSH support, and in-app HTML/PDF previews.
 - **China's offshore-wind underwater AI data center enters full operation:** $226M facility off Shanghai's Lingang coast, 2,000 servers sealed 35m below the surface, seawater passive cooling, 24MW powered entirely by offshore wind — world's first of its kind.
+
+## [2026-05-21]
+- **Anthropic projects first-ever profitable quarter:** $10.9B Q2 2026 revenue (up from $4.8B in Q1), $559M operating profit — two years ahead of its own 2028 forecast; growth rate outpacing Zoom, Google, and Facebook at their historical peaks.
+- **NVIDIA Q1 FY2027 all-time records:** $81.6B revenue (+85% YoY), $58.3B net income (+200%), data center alone at $75.2B; Q2 guidance raised to $91B; $80B buyback and dividend hike from $0.01 to $0.25/share announced.
+- **OpenAI self-serve Ads Manager launches inside ChatGPT:** CPC bidding, no $50K minimum spend, integrations with Dentsu/Omnicom/WPP/Adobe/Criteo; targeting $2.5B ad revenue in 2026 with rollout to UK, Japan, Brazil.
+- **Computex 2026 preview (June 1–5, Taipei):** Jensen Huang keynotes June 1; Intel's Lip-Bu Tan reveals 52-core Nova Lake desktop on 18A June 2; NVIDIA N1X Arm laptop chip expected to challenge Qualcomm's Windows-on-Arm lead; AMD Ryzen Z2 handhelds.
+- **Google Gemini Spark unveiled at I/O:** Always-on personal AI agent that drafts, monitors, and makes purchases even when devices are locked — the clearest preview yet of ambient home AI.

@@ -167,3 +167,10 @@
 - **OpenAI self-serve Ads Manager launches inside ChatGPT:** CPC bidding, no $50K minimum spend, integrations with Dentsu/Omnicom/WPP/Adobe/Criteo; targeting $2.5B ad revenue in 2026 with rollout to UK, Japan, Brazil.
 - **Computex 2026 preview (June 1–5, Taipei):** Jensen Huang keynotes June 1; Intel's Lip-Bu Tan reveals 52-core Nova Lake desktop on 18A June 2; NVIDIA N1X Arm laptop chip expected to challenge Qualcomm's Windows-on-Arm lead; AMD Ryzen Z2 handhelds.
 - **Google Gemini Spark unveiled at I/O:** Always-on personal AI agent that drafts, monitors, and makes purchases even when devices are locked — the clearest preview yet of ambient home AI.
+
+## [2026-05-22]
+- **OpenAI files confidential S-1 with SEC:** Goldman Sachs + Morgan Stanley underwriting a Q4 2026 IPO at ~$852B valuation; Musk loses all claims in jury trial, clearing the last legal overhang before the offering.
+- **SpaceX S-1 reveals Anthropic's $45B compute deal:** Anthropic pays $1.25 billion per month for exclusive access to SpaceX's Colossus I and II GPU clusters (200,000+ NVIDIA GPUs) through May 2029.
+- **AMD Ryzen 9 9950X3D2 reviews land:** $900 dual V-Cache CPU delivers under 1% average gaming improvement over the $659 predecessor; 27% higher power draw; GamersNexus titled its review "DO NOT BUY."
+- **North Korean hackers use Hugging Face as malware CDN:** Fake npm packages (terminal-logger-utils, pretty-logger-utils) drop a full RAT via postinstall hook — keylogging, clipboard theft, shell access; HF trust bypasses most security filters.
+- **Hackaday: "Why The Smart Home Bubble Popped":** Editorial tracing IoT arc from X10 (1975) to today's abandoned devices — cloud lock-in, competing standards, subscription creep, and vendor exits within two years compounded into a broken promise.

@@ -174,3 +174,10 @@
 - **AMD Ryzen 9 9950X3D2 reviews land:** $900 dual V-Cache CPU delivers under 1% average gaming improvement over the $659 predecessor; 27% higher power draw; GamersNexus titled its review "DO NOT BUY."
 - **North Korean hackers use Hugging Face as malware CDN:** Fake npm packages (terminal-logger-utils, pretty-logger-utils) drop a full RAT via postinstall hook — keylogging, clipboard theft, shell access; HF trust bypasses most security filters.
 - **Hackaday: "Why The Smart Home Bubble Popped":** Editorial tracing IoT arc from X10 (1975) to today's abandoned devices — cloud lock-in, competing standards, subscription creep, and vendor exits within two years compounded into a broken promise.
+
+## 2026-05-23
+- Anthropic set to close $30B+ round at ~$900B valuation as soon as next week — surpassing OpenAI in private market value, Q2 revenue projected at $10.9B with first operating profit two years ahead of schedule.
+- Home Assistant 2026.5 adds first-class sub-gigahertz RF support — motorized blinds, garage door openers, ceiling fans, and wireless doorbells now integrate locally with no cloud dependency.
+- Software Freedom Conservancy confirms two AGPLv3 violations by Bambu Lab, launches "baltobu" open-source replacement project; Bambu also C&D'd a Polish OrcaSlicer fork developer.
+- Autograph motion design tool goes free for studios — Maxon extends zero-cost license to full teams, making it a serious alternative to After Effects for animation workflows.
+- GPT-5.5 Instant is now ChatGPT's default model for all users — 52.5% fewer hallucinations on high-stakes topics, 30% shorter answers, better personalization.

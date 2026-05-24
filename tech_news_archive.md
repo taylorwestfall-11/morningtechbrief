@@ -181,3 +181,10 @@
 - Software Freedom Conservancy confirms two AGPLv3 violations by Bambu Lab, launches "baltobu" open-source replacement project; Bambu also C&D'd a Polish OrcaSlicer fork developer.
 - Autograph motion design tool goes free for studios — Maxon extends zero-cost license to full teams, making it a serious alternative to After Effects for animation workflows.
 - GPT-5.5 Instant is now ChatGPT's default model for all users — 52.5% fewer hallucinations on high-stakes topics, 30% shorter answers, better personalization.
+
+## 2026-05-24
+- Computex 2026 opens June 2 in Taipei — Jensen Huang keynotes June 1 with NVIDIA Vera Arm CPU (forecast 1.5× x86 performance); Intel's Lip-Bu Tan follows June 2 with 52-core Nova Lake on the 18A node.
+- Cohere releases Command A+ as fully open-source under Apache 2.0 — 218B sparse MoE enterprise model, activates 25B parameters per step, runs on just two H100 GPUs via lossless W4A4 quantization.
+- Anthropic opens Milan office as EMEA becomes fastest-growing region — revenue up 9× and large-business accounts up 10× year-on-year; international headcount set to triple.
+- OpenAI's internal reasoning model autonomously disproves the 1946 Erdős unit-distance conjecture in discrete geometry — the first AI-resolved open mathematical problem of this class.
+- Hackaday publishes "Why The Smart Home Bubble Popped" — editorial traces IoT broken promises from X10 (1975) to today: cloud lock-in, proprietary standards, vendor exits, and subscription creep.

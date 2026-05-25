@@ -188,3 +188,10 @@
 - Anthropic opens Milan office as EMEA becomes fastest-growing region — revenue up 9× and large-business accounts up 10× year-on-year; international headcount set to triple.
 - OpenAI's internal reasoning model autonomously disproves the 1946 Erdős unit-distance conjecture in discrete geometry — the first AI-resolved open mathematical problem of this class.
 - Hackaday publishes "Why The Smart Home Bubble Popped" — editorial traces IoT broken promises from X10 (1975) to today: cloud lock-in, proprietary standards, vendor exits, and subscription creep.
+
+## 2026-05-25
+- Anthropic tops CNBC 2026 Disruptor 50 as #1 company above OpenAI — $30B ARR, 80× Q1 revenue growth, $900B funding round underway; Claude Code named fastest-growing product.
+- AMD officially confirms FSR 4.1 ML upscaling for RX 7000-series (RDNA 3) in July 2026 and RX 6000-series (RDNA 2) in early 2027 — same neural model as RDNA 4, in 300+ supported games.
+- Cerebras runs Kimi K2.6 (1T-param open-weight model) at 981 tokens/sec — 6.7× faster than GPU clouds, 29× faster end-to-end; announced days after its Nasdaq IPO.
+- AI HBM demand triggers worst smartphone shipment crash in a decade — 12.9% global drop, average device price hits record $523, sub-$100 phones declared "permanently uneconomical" by IDC.
+- Computex 2026 T-7 days: Jensen Huang keynotes June 1 with NVIDIA Vera ARM CPU (1.5× x86 forecast); Intel shows 52-core Nova Lake on 18A and Panther Lake gaming handhelds June 2.

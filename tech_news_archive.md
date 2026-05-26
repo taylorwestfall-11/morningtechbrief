@@ -195,3 +195,10 @@
 - Cerebras runs Kimi K2.6 (1T-param open-weight model) at 981 tokens/sec — 6.7× faster than GPU clouds, 29× faster end-to-end; announced days after its Nasdaq IPO.
 - AI HBM demand triggers worst smartphone shipment crash in a decade — 12.9% global drop, average device price hits record $523, sub-$100 phones declared "permanently uneconomical" by IDC.
 - Computex 2026 T-7 days: Jensen Huang keynotes June 1 with NVIDIA Vera ARM CPU (1.5× x86 forecast); Intel shows 52-core Nova Lake on 18A and Panther Lake gaming handhelds June 2.
+
+## 2026-05-26
+- Home Assistant 2026.5 ships native sub-gigahertz RF support via ESPHome CC1101 or Broadlink RM4 Pro — garage doors, motorized blinds, ceiling fans, and RF outlets now in HA with no cloud bridge required.
+- OpenAI confidentially files S-1 with the SEC targeting a September 2026 Nasdaq debut at $852B–$1T valuation; $25B ARR but losing $1.22 per $1 earned in Q1; Goldman Sachs and Morgan Stanley lead.
+- Anthropic opens Claude Security public beta (Project Glasswing) — Claude Mythos Preview and 50+ partners including Apple, Microsoft, Google, and NVIDIA have found 10,000+ critical zero-day vulnerabilities across every major OS and browser.
+- Google I/O 2026 launches Gemini 3.5 Flash (flagship quality at Flash speed), Gemini Spark (background personal agent that takes real actions), and a new Managed Agents API with sandboxed remote Linux environments.
+- NVIDIA GTC Taipei keynote set for June 1 ahead of Computex — Jensen Huang to outline "Five-Layer Cake" AI computing strategy; N1X ARM client CPU is the biggest wildcard for whether NVIDIA enters PC silicon in 2026.

@@ -202,3 +202,10 @@
 - Anthropic opens Claude Security public beta (Project Glasswing) — Claude Mythos Preview and 50+ partners including Apple, Microsoft, Google, and NVIDIA have found 10,000+ critical zero-day vulnerabilities across every major OS and browser.
 - Google I/O 2026 launches Gemini 3.5 Flash (flagship quality at Flash speed), Gemini Spark (background personal agent that takes real actions), and a new Managed Agents API with sandboxed remote Linux environments.
 - NVIDIA GTC Taipei keynote set for June 1 ahead of Computex — Jensen Huang to outline "Five-Layer Cake" AI computing strategy; N1X ARM client CPU is the biggest wildcard for whether NVIDIA enters PC silicon in 2026.
+
+## 2026-05-27
+- Pope Leo XIV publishes "Magnifica Humanitas," a 42,300-word AI encyclical calling for robust regulation and autonomous-weapons limits; presented at the Vatican alongside Anthropic co-founder Christopher Olah — the most significant moral statement on AI from any religious institution.
+- Anthropic set to close $30B+ Series H at $900B+ valuation as soon as this week — second $30B round in one calendar year, surpassing OpenAI as the world's most valuable private AI startup; Sequoia, Dragoneer, Altimeter, Greenoaks each invest ~$2B.
+- Jensen Huang arrived in Taipei and declared Vera Rubin "the largest product launch, probably in the history of Taiwan" — 3.5× training and 5× inference over Blackwell at one-seventh the cost; formal Computex keynote June 1, NVIDIA Taiwan HQ groundbreaking this week.
+- Anthropic in early talks to rent Microsoft Maia 200 AI chips — 30%+ cost-per-token improvement; would be the first major external customer for Microsoft's custom silicon program.
+- Motionographer's teased "something big in May" revealed: "Join the 100" founding membership with lifetime perks, VIP F5 access, private Slack, and six curated Founding Partner studios — alongside the Motion Awards X launch in a "bold new era."

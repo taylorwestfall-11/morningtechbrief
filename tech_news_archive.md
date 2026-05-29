@@ -209,3 +209,10 @@
 - Jensen Huang arrived in Taipei and declared Vera Rubin "the largest product launch, probably in the history of Taiwan" — 3.5× training and 5× inference over Blackwell at one-seventh the cost; formal Computex keynote June 1, NVIDIA Taiwan HQ groundbreaking this week.
 - Anthropic in early talks to rent Microsoft Maia 200 AI chips — 30%+ cost-per-token improvement; would be the first major external customer for Microsoft's custom silicon program.
 - Motionographer's teased "something big in May" revealed: "Join the 100" founding membership with lifetime perks, VIP F5 access, private Slack, and six curated Founding Partner studios — alongside the Motion Awards X launch in a "bold new era."
+
+## 2026-05-29
+- Anthropic ships Claude Opus 4.8 with dynamic workflows for large-scale Claude Code tasks, user-selectable effort controls (Low/High/Max), 1M-token context window by default, and 4× fewer missed code errors than Opus 4.7; fast mode is 2.5× quicker at 3× lower cost.
+- Home Assistant 2026.6 beta drops weather tile temperature forecast bar charts, automation notes that travel with exported blueprints, and opt-in custom card suggestions in the card picker; GA and release-party livestream June 3.
+- Mistral rebrands Le Chat as "Vibe" (Vibe for Work + Vibe for Code), enters industrial AI with Airbus, BMW, and ASML, announces a 10 MW Paris inference data center, and says it may design its own chips.
+- Oura Ring 5 launches as the world's smallest smart ring — 40% smaller than Ring 4, rebuilt sensors tracking 30+ biometrics, new blood pressure signals, six titanium finishes, starts at $399, ships June 4.
+- NVIDIA Computex June 1 preview: Vera Rubin NVL72 rack is 100% liquid-cooled with cable-free modular trays cutting install time from two hours to five minutes; Jensen Huang also presents Vera ARM CPU and a co-developed MediaTek consumer chip.

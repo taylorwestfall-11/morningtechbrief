@@ -216,3 +216,10 @@
 - Mistral rebrands Le Chat as "Vibe" (Vibe for Work + Vibe for Code), enters industrial AI with Airbus, BMW, and ASML, announces a 10 MW Paris inference data center, and says it may design its own chips.
 - Oura Ring 5 launches as the world's smallest smart ring — 40% smaller than Ring 4, rebuilt sensors tracking 30+ biometrics, new blood pressure signals, six titanium finishes, starts at $399, ships June 4.
 - NVIDIA Computex June 1 preview: Vera Rubin NVL72 rack is 100% liquid-cooled with cable-free modular trays cutting install time from two hours to five minutes; Jensen Huang also presents Vera ARM CPU and a co-developed MediaTek consumer chip.
+
+## 2026-05-30
+- Anthropic closes $65B Series H at $965B post-money valuation — near $1 trillion, run-rate revenue crossed $47B, Altimeter/Dragoneer/Greenoaks/Sequoia co-lead; likely the final private fundraise before IPO.
+- NVIDIA Vera Rubin NVL72 wins Computex Best Choice Golden Award and Sustainable Tech Award; Jensen Huang keynotes June 1 with Vera ARM CPU and N1X laptop SoC.
+- OpenAI launches Rosalind Biodefense (trusted GPT-Rosalind access for U.S. government biopreparedness partners) and publishes Frontier Governance Framework aligning safety practices with global AI regulations.
+- AI data center bans multiplying across U.S.: 69 jurisdictions now blocking new builds, four permanently; federal moratorium on 20MW+ facilities proposed; developers pivot to unincorporated rural land.
+- HiDream-O1-Image 8B open-sourced on Hugging Face with reasoning-driven prompt agent, layout and skeleton conditioning — motion-design-relevant open image generation model debuting #8 in the Artificial Analysis arena.

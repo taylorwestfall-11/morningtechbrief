@@ -223,3 +223,10 @@
 - OpenAI launches Rosalind Biodefense (trusted GPT-Rosalind access for U.S. government biopreparedness partners) and publishes Frontier Governance Framework aligning safety practices with global AI regulations.
 - AI data center bans multiplying across U.S.: 69 jurisdictions now blocking new builds, four permanently; federal moratorium on 20MW+ facilities proposed; developers pivot to unincorporated rural land.
 - HiDream-O1-Image 8B open-sourced on Hugging Face with reasoning-driven prompt agent, layout and skeleton conditioning — motion-design-relevant open image generation model debuting #8 in the Artificial Analysis arena.
+
+## 2026-05-31
+- NVIDIA GTC Taipei keynote tonight (11 p.m. ET): N1X ARM laptop SoC confirmed with RTX 5070-class GPU and full CUDA stack; Dell, Lenovo, Asus, and MSI readying first devices; Jensen Huang also teasing an unannounced surprise product.
+- Anthropic leads enterprise AI adoption for the first time (34.4% vs. OpenAI's 32.3% per Ramp AI Index) and projects its first-ever operating profit in Q2 with revenue doubling to $10.9 billion.
+- Google Chrome silently installs 4 GB Gemini Nano on every device without consent — no opt-in, auto-reinstalls after deletion; privacy researcher flags potential EU law breach across ~1 billion machines.
+- Home Assistant 2026.6 beta: two-way IR blaster sync, native Matter sirens, Z-Wave smart lock PIN management, BLE-proxy Matter commissioning via ESP32/Shelly, HomeWizard EV charging strategies — GA livestream June 3.
+- TSMC faces Samsung-style strike threat after reported 15% bonus cut despite 58% Q1 profit jump; company concedes and promises faster bonus growth in 2026 than 2025.

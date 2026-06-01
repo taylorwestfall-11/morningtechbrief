@@ -230,3 +230,10 @@
 - Google Chrome silently installs 4 GB Gemini Nano on every device without consent — no opt-in, auto-reinstalls after deletion; privacy researcher flags potential EU law breach across ~1 billion machines.
 - Home Assistant 2026.6 beta: two-way IR blaster sync, native Matter sirens, Z-Wave smart lock PIN management, BLE-proxy Matter commissioning via ESP32/Shelly, HomeWizard EV charging strategies — GA livestream June 3.
 - TSMC faces Samsung-style strike threat after reported 15% bonus cut despite 58% Q1 profit jump; company concedes and promises faster bonus growth in 2026 than 2025.
+
+## 2026-06-01
+- NVIDIA RTX Spark unveiled at Computex — first laptop SoC with 20 Arm cores, Blackwell GPU (6,144 CUDA cores, RTX 5070-class), and 128GB unified LPDDR5X memory; Dell, HP, Lenovo, Microsoft, Asus, MSI building fall devices.
+- Microsoft Surface Laptop Ultra revealed — first RTX Spark device, 15-inch mini-LED PixelSense Ultra at 2,000 nits HDR, 1 petaflop AI compute, runs 120B-parameter models locally; fall availability TBD.
+- Anthropic splits Claude billing June 15 — Agent SDK, Claude Code GitHub Actions, and third-party agents move to a separate non-rolling credit pool ($20 Pro / $100 Max 5× / $200 Max 20×) at full API rates; email notification June 8.
+- Intel launches Arc G3 and Arc G3 Extreme for gaming handhelds (14-core CPU + Xe3 GPU, 25–80W) and previews 52-core Nova Lake desktop (Core Ultra Series 4) for late 2026.
+- Home Assistant 2026.6 beta: weather tile forecast bar charts, bidirectional IR remote receive support, card picker redesign replacing internal technical names — GA release party livestream June 3.

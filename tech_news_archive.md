@@ -237,3 +237,10 @@
 - Anthropic splits Claude billing June 15 — Agent SDK, Claude Code GitHub Actions, and third-party agents move to a separate non-rolling credit pool ($20 Pro / $100 Max 5× / $200 Max 20×) at full API rates; email notification June 8.
 - Intel launches Arc G3 and Arc G3 Extreme for gaming handhelds (14-core CPU + Xe3 GPU, 25–80W) and previews 52-core Nova Lake desktop (Core Ultra Series 4) for late 2026.
 - Home Assistant 2026.6 beta: weather tile forecast bar charts, bidirectional IR remote receive support, card picker redesign replacing internal technical names — GA release party livestream June 3.
+
+## 2026-06-02
+- Anthropic confidentially files IPO S-1 with the SEC on June 1 — revenue run-rate at $47B in May (up from $10B a year ago), last private raise valued the company at $965B; fall debut targeting ~$1 trillion.
+- Intel Computex 2026 keynote: Panther Lake confirmed as first consumer chip on Intel's own 18A fab (H2 2026), 52-core Nova Lake desktop previewed, Crescent Island inference GPU scales to 480GB LPDDR5X for agentic AI.
+- AMD Radeon RX 9070 GRE launches globally at $549 — formerly China-exclusive RDNA 4 card, 48 CUs, 12GB GDDR6 on 192-bit bus; AMD claims 22% faster than RTX 5060 Ti 16GB across 40+ games.
+- Mistral rebrands Le Chat as Vibe — unified agent platform with Work Mode (multi-step tasks) and Code Mode (GitHub-connected dev); industrial AI deals with Airbus, BMW, ASML; €1B revenue targeted for 2026.
+- Home Assistant 2026.6 beta deeper dive: bidirectional IR remotes keep HA state in sync with physical remote use; Z-Wave smart lock credential management; Matter siren support; rebuilt card picker; GA livestream June 3.

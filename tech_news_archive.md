@@ -244,3 +244,10 @@
 - AMD Radeon RX 9070 GRE launches globally at $549 — formerly China-exclusive RDNA 4 card, 48 CUs, 12GB GDDR6 on 192-bit bus; AMD claims 22% faster than RTX 5060 Ti 16GB across 40+ games.
 - Mistral rebrands Le Chat as Vibe — unified agent platform with Work Mode (multi-step tasks) and Code Mode (GitHub-connected dev); industrial AI deals with Airbus, BMW, ASML; €1B revenue targeted for 2026.
 - Home Assistant 2026.6 beta deeper dive: bidirectional IR remotes keep HA state in sync with physical remote use; Z-Wave smart lock credential management; Matter siren support; rebuilt card picker; GA livestream June 3.
+
+## 2026-06-03
+- Home Assistant 2026.6 GA today — two-way IR receives physical remote signals (automation trigger + state sync), full Z-Wave lock credential/PIN management, Matter siren support, rebuilt dashboard editor cuts card setup from 20 minutes to seconds; release party livestream at 12:00 PT.
+- MiniMax M3 launches as the first open-weight model combining 1M-token context, native multimodality, and frontier coding scores (59% SWE-Bench Pro) — surpasses GPT-5.5 and Gemini 3.1 Pro on key benchmarks at 5–10% of the cost; independent verification pending.
+- GitHub Copilot usage-based AI Credit billing live since June 1 — devs report bills jumping from $29/month to $750+ for the same agentic coding workloads; Copilot Pro gets $10/month in credits, Pro+ gets $39.
+- Microsoft MXC (Execution Containers) announced at Build 2026 — kernel-enforced OS-level sandbox that isolates AI agents with per-agent file/network/app policies and strong auditable identities; OpenAI, Nvidia, Manus at launch; ships Windows 11 24H2 Enterprise later in 2026.
+- Anthropic Project Mythos (Glasswing) expands to 150+ organizations in 15+ countries — 10,000+ high/critical vulnerabilities found since launch; Anthropic also confirms Claude stays permanently ad-free.

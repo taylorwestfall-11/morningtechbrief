@@ -251,3 +251,10 @@
 - GitHub Copilot usage-based AI Credit billing live since June 1 — devs report bills jumping from $29/month to $750+ for the same agentic coding workloads; Copilot Pro gets $10/month in credits, Pro+ gets $39.
 - Microsoft MXC (Execution Containers) announced at Build 2026 — kernel-enforced OS-level sandbox that isolates AI agents with per-agent file/network/app policies and strong auditable identities; OpenAI, Nvidia, Manus at launch; ships Windows 11 24H2 Enterprise later in 2026.
 - Anthropic Project Mythos (Glasswing) expands to 150+ organizations in 15+ countries — 10,000+ high/critical vulnerabilities found since launch; Anthropic also confirms Claude stays permanently ad-free.
+
+## 2026-06-04
+- Anthropic files confidential S-1 with the SEC — revenue run-rate at $47B in May (up 4× YoY), $965B valuation after $65B Series H; one of the largest AI IPO filings ever attempted.
+- NVIDIA RTX Spark Superchip detailed at Computex 2026 — 20 Arm CPU cores, Blackwell GPU with 6,144 CUDA cores, 128GB LPDDR5X unified memory at 300 GB/s; runs 120B-param models locally, first devices fall 2026.
+- Intel Crescent Island AI GPU detailed at Computex — Xe3P architecture, up to 480GB LPDDR5X (bypassing HBM shortages), 350W PCIe card targeting data center inference; H2 2026 launch.
+- NVIDIA Nemotron 3 Nano Omni launches — open 30B-param multimodal model activating only 3B per pass; unifies vision, audio, and language on a single GPU at 9× higher throughput than comparable open omni models.
+- Anthropic launches Claude Partner Network Services Track — three-tier certification program (Select/Preferred/Global Premier) for enterprise consulting firms; 40K+ applications and 10K certifications since March launch.

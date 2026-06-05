@@ -258,3 +258,10 @@
 - Intel Crescent Island AI GPU detailed at Computex — Xe3P architecture, up to 480GB LPDDR5X (bypassing HBM shortages), 350W PCIe card targeting data center inference; H2 2026 launch.
 - NVIDIA Nemotron 3 Nano Omni launches — open 30B-param multimodal model activating only 3B per pass; unifies vision, audio, and language on a single GPU at 9× higher throughput than comparable open omni models.
 - Anthropic launches Claude Partner Network Services Track — three-tier certification program (Select/Preferred/Global Premier) for enterprise consulting firms; 40K+ applications and 10K certifications since March launch.
+
+## 2026-06-05
+- Holo3.1 (H Company) releases local computer-use agents running at 140ms on a 12GB GPU — 74.2% OS-World accuracy, 79.3% AndroidWorld, native function-calling; open weights with FP8/Q4 GGUF/NVFP4 on Hugging Face.
+- Anthropic's Code with Claude developer conference opens in Tokyo (June 5–6); Claude Code simultaneously ships the renamed 'ultracode' trigger for dynamic workflows, faster background sessions, and Windows/WSL fixes.
+- Computex 2026 closes (Day 4) — Tom's Hardware flags a deep B2B shift; Phison demonstrates PCIe 6.0 X3 SSD at 28 GB/s and 6.8M IOPS, ASUS debuts the world's first 540Hz 1080p OLED gaming monitor.
+- MO:DE Festival 2026 heads to London June 18–19 — two-day animation, AI, and emerging creative tech event for motion designers with international speakers, workshops, and live demos.
+- Matter and Thread cross 700+ and 1,000+ certified devices respectively in 2026 — a tenfold jump from 2024; analysts say protocol wars are largely settled, platform competition now the defining smart home battleground.

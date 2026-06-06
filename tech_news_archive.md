@@ -265,3 +265,10 @@
 - Computex 2026 closes (Day 4) — Tom's Hardware flags a deep B2B shift; Phison demonstrates PCIe 6.0 X3 SSD at 28 GB/s and 6.8M IOPS, ASUS debuts the world's first 540Hz 1080p OLED gaming monitor.
 - MO:DE Festival 2026 heads to London June 18–19 — two-day animation, AI, and emerging creative tech event for motion designers with international speakers, workshops, and live demos.
 - Matter and Thread cross 700+ and 1,000+ certified devices respectively in 2026 — a tenfold jump from 2024; analysts say protocol wars are largely settled, platform competition now the defining smart home battleground.
+
+## 2026-06-06
+- Anthropic reveals Claude writes over 80% of its production code (up from under 10% in early 2025) and proposes a coordinated global AI pause mechanism if recursive self-improvement accelerates beyond human oversight.
+- OpenAI launches ChatGPT Dreaming V3 memory overhaul — background synthesis replaces manual memory lists, factual recall up to 82.8%; Lockdown Mode rolls out to all accounts to block prompt-injection attacks.
+- Home Assistant 2026.6 ships rebuilt card picker with live previews (dashboard setup drops from 20 min to seconds), bidirectional IR remote support, Z-Wave PIN management, and transparent automation entity counts.
+- Alibaba releases Qwen3.7-Plus — multimodal model with vision, video, 1M-token context at $0.40/$1.60 per million tokens; ships API-only, breaking Alibaba's open-weight tradition.
+- NVIDIA RTX Spark Superchip post-Computex: Dell, HP, Lenovo, ASUS, MSI commit to fall 2026 devices; AMD RX 9070 GRE launches globally at $549 with RDNA 4 at 22% faster than RTX 5060 Ti.

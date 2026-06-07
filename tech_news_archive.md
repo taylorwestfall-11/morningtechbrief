@@ -272,3 +272,10 @@
 - Home Assistant 2026.6 ships rebuilt card picker with live previews (dashboard setup drops from 20 min to seconds), bidirectional IR remote support, Z-Wave PIN management, and transparent automation entity counts.
 - Alibaba releases Qwen3.7-Plus — multimodal model with vision, video, 1M-token context at $0.40/$1.60 per million tokens; ships API-only, breaking Alibaba's open-weight tradition.
 - NVIDIA RTX Spark Superchip post-Computex: Dell, HP, Lenovo, ASUS, MSI commit to fall 2026 devices; AMD RX 9070 GRE launches globally at $549 with RDNA 4 at 22% faster than RTX 5060 Ti.
+
+## 2026-06-07
+- Apple WWDC 2026 opens tomorrow (June 8) — revamped Siri powered by Google's Gemini is the headline expected announcement, alongside iOS 27 and expanded Apple Intelligence tools.
+- Anthropic expands Project Glasswing to 200 organizations in 15+ countries — Claude Mythos Preview has found 23,000+ high/critical vulnerabilities in open-source software since the program launched in April.
+- Claude Code ships a real-time security review plugin that flags vulnerabilities as agents write code, paired with Opus 4.8 as the new default (4× fewer unremarked code flaws than Opus 4.7).
+- Home Assistant 2026.6 adopts MQTT 5 as the default protocol with a silent auto-migration; community custom cards now surface as suggestions in the rebuilt card picker.
+- Writer launches event-triggered autonomous enterprise AI agents that detect business signals across Gmail, Slack, and Gong and execute multi-step workflows without human initiation.

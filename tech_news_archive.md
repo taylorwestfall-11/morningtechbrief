@@ -279,3 +279,10 @@
 - Claude Code ships a real-time security review plugin that flags vulnerabilities as agents write code, paired with Opus 4.8 as the new default (4× fewer unremarked code flaws than Opus 4.7).
 - Home Assistant 2026.6 adopts MQTT 5 as the default protocol with a silent auto-migration; community custom cards now surface as suggestions in the rebuilt card picker.
 - Writer launches event-triggered autonomous enterprise AI agents that detect business signals across Gmail, Slack, and Gong and execute multi-step workflows without human initiation.
+
+## 2026-06-08
+- Apple WWDC 2026 opens: Gemini-powered Siri unveiled, iOS 27 adds Extensions letting users set Claude or Gemini as their default assistant; Apple pays Google ~$1B/year for a custom 1.2T-parameter cloud model.
+- NVIDIA and SK Hynix sign a multi-year memory co-development and supply deal targeting Vera Rubin and future platforms — addressing AI-driven development cycle delays.
+- Home Assistant 2026.6 gains an IR receiver event entity, letting physical remote button presses trigger automations for the first time; Labs purpose triggers renamed "each" and "all."
+- MiniMax M3 debuts as an open-weight model with 1M-token context and 59% SWE-Bench Pro scores at 5–10% the cost of GPT-5.5; open weights ship in roughly 10 days.
+- iOS 27 Photos gets three on-device generative tools: Extend (outpainting), Enhance (auto color/light), and Reframe (spatial perspective shift on spatial photos) — no cloud required.

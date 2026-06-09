@@ -286,3 +286,10 @@
 - Home Assistant 2026.6 gains an IR receiver event entity, letting physical remote button presses trigger automations for the first time; Labs purpose triggers renamed "each" and "all."
 - MiniMax M3 debuts as an open-weight model with 1M-token context and 59% SWE-Bench Pro scores at 5–10% the cost of GPT-5.5; open weights ship in roughly 10 days.
 - iOS 27 Photos gets three on-device generative tools: Extend (outpainting), Enhance (auto color/light), and Reframe (spatial perspective shift on spatial photos) — no cloud required.
+
+## 2026-06-09
+- Hugging Face debuts on NASDAQ as "HFCE" — $42/share IPO raises $2.1B at a $15B market cap, oversubscribed 3×; marks the first major open-source AI platform to list publicly.
+- Anthropic ships Claude support for Apple's Foundation Models framework — new Swift package implements the LanguageModel protocol so iOS 27/macOS 27 apps can route queries to Claude by swapping one SPM dependency; Xcode 27 dual-engine coding assistant uses the same system.
+- Intel Crescent Island AI GPU confirmed at Computex — Xe3P architecture, 480GB LPDDR5X (no HBM), 350W PCIe add-in card targeting agentic inference workloads; H2 2026 launch.
+- LG CNS signs group-wide Claude Enterprise agreement with Anthropic covering all 30+ LG affiliates including LG Electronics (ThinQ platform), LG Chem, and LG Display.
+- NVIDIA GeForce RTX 50 Super series back on track for Q3 2026, headlined by an RTX 5060 Super with 12GB GDDR7 — a 50% VRAM increase over the current RTX 5060.

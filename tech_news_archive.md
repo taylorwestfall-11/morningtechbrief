@@ -293,3 +293,10 @@
 - Intel Crescent Island AI GPU confirmed at Computex — Xe3P architecture, 480GB LPDDR5X (no HBM), 350W PCIe add-in card targeting agentic inference workloads; H2 2026 launch.
 - LG CNS signs group-wide Claude Enterprise agreement with Anthropic covering all 30+ LG affiliates including LG Electronics (ThinQ platform), LG Chem, and LG Display.
 - NVIDIA GeForce RTX 50 Super series back on track for Q3 2026, headlined by an RTX 5060 Super with 12GB GDDR7 — a 50% VRAM increase over the current RTX 5060.
+
+## 2026-06-10
+- Anthropic releases Claude Fable 5 (Mythos-class) to the public — most powerful Claude ever released broadly; free on Pro/Max/Team/Enterprise through June 22; Stripe compressed months of engineering into one day in beta.
+- Home Assistant 2026.6 overhauled the dashboard card picker with entity-first live previews and added two-way IR remote support so physical remotes now update HA device state in real time.
+- OpenAI's ChatGPT Dreaming V3 memory expands to Free-tier users — background synthesis replaces manual memory lists, achieving 82.8% factual recall accuracy; time-aware updates auto-correct stale facts.
+- GPU pricing crisis deepens: RTX 5090 doubles to $3,999 as AI infrastructure demand outbids gaming for GDDR7 and HBM4 wafers; memory now accounts for up to 80% of a GPU's bill of materials.
+- Microsoft June Patch Tuesday sets a record with ~200 vulnerabilities fixed in a single update, covering critical flaws in Windows, Edge, and core system services.

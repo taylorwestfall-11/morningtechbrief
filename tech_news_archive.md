@@ -300,3 +300,10 @@
 - OpenAI's ChatGPT Dreaming V3 memory expands to Free-tier users — background synthesis replaces manual memory lists, achieving 82.8% factual recall accuracy; time-aware updates auto-correct stale facts.
 - GPU pricing crisis deepens: RTX 5090 doubles to $3,999 as AI infrastructure demand outbids gaming for GDDR7 and HBM4 wafers; memory now accounts for up to 80% of a GPU's bill of materials.
 - Microsoft June Patch Tuesday sets a record with ~200 vulnerabilities fixed in a single update, covering critical flaws in Windows, Edge, and core system services.
+
+## 2026-06-11
+- OpenAI files confidential S-1 with the SEC, targeting a September 2026 IPO at an analyst-expected $1T+ valuation; Goldman Sachs, Morgan Stanley, and JPMorgan are underwriting.
+- MiniMax M3 debuts as the first open-weight model to beat GPT-5.5 on SWE-Bench Pro (59%), with a 1M-token context window and native multimodality at 5–10% of proprietary model cost.
+- Holo3.1 brings local computer-use agents to 12GB GPUs — 74.2% OS-World score, web/desktop/mobile support, FP8/GGUF quantized checkpoints, Apache 2.0; no cloud required.
+- AI data centers are on track to consume 600 billion gallons of water annually by 2030, with two-thirds of 809 new U.S. facilities planned in drought-stressed regions.
+- Anthropic expands Project Glasswing to ~150 new organizations across 15+ countries; early partners using Claude Mythos Preview have found 10,000+ high-severity security flaws.

@@ -307,3 +307,10 @@
 - Holo3.1 brings local computer-use agents to 12GB GPUs — 74.2% OS-World score, web/desktop/mobile support, FP8/GGUF quantized checkpoints, Apache 2.0; no cloud required.
 - AI data centers are on track to consume 600 billion gallons of water annually by 2030, with two-thirds of 809 new U.S. facilities planned in drought-stressed regions.
 - Anthropic expands Project Glasswing to ~150 new organizations across 15+ countries; early partners using Claude Mythos Preview have found 10,000+ high-severity security flaws.
+
+## 2026-06-12
+- OpenAI acquires cloud startup Ona to power Codex background agents — persistent cloud environments let the coding assistant run multi-hour tasks without an active session; Codex now has 5M+ weekly users, up 400% this year.
+- Nvidia RTX Spark Superchip debuts at Computex 2026 — Arm CPU + Blackwell GPU + 128GB LPDDR5X unified memory in one package; runs 120B-param LLMs locally, edits 12K video, plays AAA at 1440p 100+ FPS; systems arrive fall 2026.
+- Home Assistant 2026.6 ships with bidirectional IR support (physical remote presses update HA state), MQTT 5 as the new default protocol, and a redesigned live-preview card picker that cuts dashboard setup from 20 minutes to seconds.
+- Apple WWDC 2026 closes — Gemini-powered Siri AI, iOS 27, and macOS "Golden Gate" headline the week; Apple also revised its divisive Liquid Glass design language following widespread pushback from designers and developers.
+- AMD denies researcher a $10,000 bug bounty after patching a critical auto-updater RCE vulnerability in 124 days — company ruled the man-in-the-middle attack vector "out of scope" despite issuing a CVE and attribution.

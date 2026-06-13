@@ -314,3 +314,10 @@
 - Home Assistant 2026.6 ships with bidirectional IR support (physical remote presses update HA state), MQTT 5 as the new default protocol, and a redesigned live-preview card picker that cuts dashboard setup from 20 minutes to seconds.
 - Apple WWDC 2026 closes — Gemini-powered Siri AI, iOS 27, and macOS "Golden Gate" headline the week; Apple also revised its divisive Liquid Glass design language following widespread pushback from designers and developers.
 - AMD denies researcher a $10,000 bug bounty after patching a critical auto-updater RCE vulnerability in 124 days — company ruled the man-in-the-middle attack vector "out of scope" despite issuing a CVE and attribution.
+
+## 2026-06-13
+- SpaceX lists on Nasdaq as SPCX — shares surge 19% to ~$161 on first trading day; $75B raise at a $1.75 trillion market cap makes it the largest IPO in stock market history.
+- Anthropic's Claude Fable 5 (released June 9) leads nearly every AI benchmark with a 1M-token context window, 128K output tokens, and always-on adaptive thinking; free on Pro/Max/Team/Enterprise plans through June 22.
+- "Atomic Arch" supply chain attack backdoors 400+ Arch Linux AUR packages with an eBPF rootkit and credential stealer — orphaned package takeover; detection tools available on GitHub, all affected packages removed.
+- OpenAI confidentially files S-1 with the SEC on June 8, targeting a ~$1 trillion valuation for a late-2026 IPO with Goldman Sachs and Morgan Stanley leading — one week after rival Anthropic's own S-1.
+- Intel Crescent Island AI GPU (Xe3P) details emerge at Computex 2026 — scales to 480GB LPDDR5X (beating Nvidia Rubin and AMD MI450X on capacity), air-cooled at 350W, targeting agentic inference; ships late 2026.

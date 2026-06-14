@@ -321,3 +321,10 @@
 - "Atomic Arch" supply chain attack backdoors 400+ Arch Linux AUR packages with an eBPF rootkit and credential stealer — orphaned package takeover; detection tools available on GitHub, all affected packages removed.
 - OpenAI confidentially files S-1 with the SEC on June 8, targeting a ~$1 trillion valuation for a late-2026 IPO with Goldman Sachs and Morgan Stanley leading — one week after rival Anthropic's own S-1.
 - Intel Crescent Island AI GPU (Xe3P) details emerge at Computex 2026 — scales to 480GB LPDDR5X (beating Nvidia Rubin and AMD MI450X on capacity), air-cooled at 350W, targeting agentic inference; ships late 2026.
+
+## 2026-06-14
+- U.S. government issues emergency export control June 12 ordering Anthropic to suspend Claude Fable 5 and Mythos 5 for all foreign nationals, citing a suspected jailbreak as a national security risk; both models taken offline globally pending review.
+- Anthropic's "When AI Builds Itself" paper reveals Claude now authors 80%+ of merged production code (up from near zero in early 2025), engineers merge 8× more daily; Anthropic simultaneously calls for a global option to pause frontier AI development.
+- Nvidia RTX Spark Superchip unveiled at Computex 2026 — Blackwell GPU + 20 Arm cores + 128GB unified LPDDR5X; 30+ laptops from Dell, HP, Lenovo, and Microsoft arriving fall 2026, directly challenging Apple M5.
+- Home Assistant 2026.6 adds bidirectional IR control (physical remote presses now sync HA device state), redesigned card picker with live preview, Matter siren support, and Z-Wave smart lock credential management.
+- AMD Radeon RX 9070 XT enters the May 2026 Steam Hardware Survey at 1.33% share, landing 25th overall just behind Nvidia's RTX 5080 — confirming strong RDNA 4 adoption roughly one year after launch.

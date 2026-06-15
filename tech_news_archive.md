@@ -328,3 +328,10 @@
 - Nvidia RTX Spark Superchip unveiled at Computex 2026 — Blackwell GPU + 20 Arm cores + 128GB unified LPDDR5X; 30+ laptops from Dell, HP, Lenovo, and Microsoft arriving fall 2026, directly challenging Apple M5.
 - Home Assistant 2026.6 adds bidirectional IR control (physical remote presses now sync HA device state), redesigned card picker with live preview, Matter siren support, and Z-Wave smart lock credential management.
 - AMD Radeon RX 9070 XT enters the May 2026 Steam Hardware Survey at 1.33% share, landing 25th overall just behind Nvidia's RTX 5080 — confirming strong RDNA 4 adoption roughly one year after launch.
+
+## 2026-06-15
+- Anthropic files confidential S-1 with the SEC — $965B valuation after $65B Series H, revenue up 4.7× YoY to $47B run-rate; joins OpenAI and SpaceX in a 2026 AI public-market supercycle.
+- Microsoft Surface Laptop Ultra hands-on reviews land — RTX Spark delivers 1 petaflop AI compute and RTX 5070-class graphics; 2,000-nit mini-LED display is the brightest ever shipped in a Surface; called the best Windows laptop ever made.
+- Fable 5 and Mythos 5 remain offline; Anthropic now describes the export-control action as a "misunderstanding" and is working with the U.S. Commerce Department to restore access.
+- Home Assistant 2026.5 sub-GHz RF support highlighted: motorized blinds, garage door openers, ceiling fans, and RF outlets now natively integrated without Wi-Fi, Zigbee, or Matter.
+- AMD RDNA 5 gaming GPUs slip to late 2027 or 2028 per Computex board partner reports — AI chip demand consuming TSMC capacity that would otherwise supply consumer GPUs.

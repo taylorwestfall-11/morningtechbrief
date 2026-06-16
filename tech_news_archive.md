@@ -335,3 +335,10 @@
 - Fable 5 and Mythos 5 remain offline; Anthropic now describes the export-control action as a "misunderstanding" and is working with the U.S. Commerce Department to restore access.
 - Home Assistant 2026.5 sub-GHz RF support highlighted: motorized blinds, garage door openers, ceiling fans, and RF outlets now natively integrated without Wi-Fi, Zigbee, or Matter.
 - AMD RDNA 5 gaming GPUs slip to late 2027 or 2028 per Computex board partner reports — AI chip demand consuming TSMC capacity that would otherwise supply consumer GPUs.
+
+## 2026-06-16
+- Anthropic's "When AI Builds Itself" report reveals Claude now writes 80%+ of its own merged code (up from under 10% in early 2025) and calls for a global option to pause frontier AI development before recursive self-improvement becomes uncontrollable.
+- Holo3.1 from Hcompany releases local computer-use agents (0.8B–35B) on Hugging Face — 140ms latency, 74.2% OS-World accuracy, runs on a 12GB GPU with no cloud required; adds mobile automation and native function-calling.
+- Home Assistant 2026.6 GA: bidirectional IR turns physical remotes into automation triggers (via ESPHome), redesigned card picker with live entity previews slashes dashboard setup time; Android 2026.6.2 beta patches URI hijack flaw.
+- AMD announces 6GW Instinct GPU deal with Meta — largest single AI infrastructure commitment ever; EPYC Venice (256-core Zen 6, PCIe Gen 6, 1.6 TB/s memory bandwidth) confirmed for H2 2026.
+- Motion Awards X standard entry deadline is today (June 16) — late fees begin tonight for the tenth anniversary edition, which introduces the first-ever audience vote category.

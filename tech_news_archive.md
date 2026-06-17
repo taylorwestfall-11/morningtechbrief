@@ -342,3 +342,10 @@
 - Home Assistant 2026.6 GA: bidirectional IR turns physical remotes into automation triggers (via ESPHome), redesigned card picker with live entity previews slashes dashboard setup time; Android 2026.6.2 beta patches URI hijack flaw.
 - AMD announces 6GW Instinct GPU deal with Meta — largest single AI infrastructure commitment ever; EPYC Venice (256-core Zen 6, PCIe Gen 6, 1.6 TB/s memory bandwidth) confirmed for H2 2026.
 - Motion Awards X standard entry deadline is today (June 16) — late fees begin tonight for the tenth anniversary edition, which introduces the first-ever audience vote category.
+
+## 2026-06-17
+- Trump administration orders Anthropic to suspend all foreign-national access to Fable 5 and Mythos 5 — Commerce Department cites a jailbreak by a foreign actor; Anthropic complied but warned the standard would "essentially halt all new model deployments" industry-wide.
+- Nvidia RTX Spark Superchip unveiled at Computex 2026 — Arm CPU + Blackwell GPU + 128GB LPDDR5X unified memory in one package; runs 120B-parameter models locally, Fall 2026 availability in laptops and mini-PCs.
+- Hugging Face ML Intern open-source agent autonomously runs the full ML research loop (arXiv → train → eval) and outscored Claude Code on GPQA scientific reasoning (32% vs 22.99%) in under 10 hours.
+- Intel Xeon 6+ Clearwater Forest launches with 288 E-cores on Intel 18A — the company's first 18A data center chip; flagship 6990E+ claims 30% better per-thread performance than AMD's 192-core EPYC 9965.
+- Adobe Creative Cloud June 2026 update ships redesigned Roto Brush in After Effects, Global Audio Mute, and Marker Search; Premiere gains new AI masking and high-volume editing tools.

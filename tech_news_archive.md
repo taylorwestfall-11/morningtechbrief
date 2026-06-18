@@ -349,3 +349,10 @@
 - Hugging Face ML Intern open-source agent autonomously runs the full ML research loop (arXiv → train → eval) and outscored Claude Code on GPQA scientific reasoning (32% vs 22.99%) in under 10 hours.
 - Intel Xeon 6+ Clearwater Forest launches with 288 E-cores on Intel 18A — the company's first 18A data center chip; flagship 6990E+ claims 30% better per-thread performance than AMD's 192-core EPYC 9965.
 - Adobe Creative Cloud June 2026 update ships redesigned Roto Brush in After Effects, Global Audio Mute, and Marker Search; Premiere gains new AI masking and high-volume editing tools.
+
+## 2026-06-18
+- Google Home Speaker launches June 25 at $99.99 — first Gemini-native smart speaker with 360-degree audio, Pet Memory for Nest Cams, and six months of Home Premium included; pre-orders open today.
+- Anthropic Project Vend Phase 2: AI agents (upgraded to Claude Sonnet 4.5) now autonomously run full businesses — hiring staff, managing supply chains, and passing government labor inspections with no human decision-makers.
+- North Korean APT Sapphire Sleet backdoored 144 @mastra/* npm packages in an 88-minute campaign on June 17 — any developer machine or CI runner that installed Mastra AI packages after June 16 is potentially compromised.
+- GPT-5.6 imminent: OpenAI's chief scientist confirmed a meaningful capability leap over GPT-5.5; Polymarket assigns 83% probability to a June 22-28 launch window with a rumored 1.5M-token context window.
+- Adobe After Effects June 2026 deep-dive: Roto Brush replaced by AI Object Matte (Quick Selection, Object Selection, Refine Edge), new 3D Displacement Maps, and SVG-to-editable-shape-layer import.

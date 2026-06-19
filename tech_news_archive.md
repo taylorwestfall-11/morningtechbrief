@@ -356,3 +356,10 @@
 - North Korean APT Sapphire Sleet backdoored 144 @mastra/* npm packages in an 88-minute campaign on June 17 — any developer machine or CI runner that installed Mastra AI packages after June 16 is potentially compromised.
 - GPT-5.6 imminent: OpenAI's chief scientist confirmed a meaningful capability leap over GPT-5.5; Polymarket assigns 83% probability to a June 22-28 launch window with a rumored 1.5M-token context window.
 - Adobe After Effects June 2026 deep-dive: Roto Brush replaced by AI Object Matte (Quick Selection, Object Selection, Refine Edge), new 3D Displacement Maps, and SVG-to-editable-shape-layer import.
+
+## 2026-06-19
+- SpaceX acquires Cursor (Anysphere) for $60B in all-stock deal — xAI gains dominant developer AI tooling foothold; SPCX +17%, now 4th most valuable U.S. company.
+- Anthropic Seoul office opens as 3rd Asia-Pacific location; SK Telecom confirmed as Fable 5 ban trigger; Anthropic says model access to return "within days."
+- GPT-5.6 expected this week — 1.5M-token context and one-third GPT-5.5 pricing rumored; Polymarket 83% probability on June 22-28 launch window.
+- Sensereo MSC-1 joins Works with Home Assistant as the first Matter-over-Thread smoke and CO alarm — fully local, no cloud required, air quality sensors planned.
+- ASUS ROG Rapture GT-BN98 Pro unveiled as world's first Wi-Fi 8 router, claiming up to 2× real-world throughput over Wi-Fi 7.

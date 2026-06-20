@@ -363,3 +363,10 @@
 - GPT-5.6 expected this week — 1.5M-token context and one-third GPT-5.5 pricing rumored; Polymarket 83% probability on June 22-28 launch window.
 - Sensereo MSC-1 joins Works with Home Assistant as the first Matter-over-Thread smoke and CO alarm — fully local, no cloud required, air quality sensors planned.
 - ASUS ROG Rapture GT-BN98 Pro unveiled as world's first Wi-Fi 8 router, claiming up to 2× real-world throughput over Wi-Fi 7.
+
+## 2026-06-20
+- Trump tells Axios Anthropic is "no longer a national security threat" after G7 lunch with CEO Dario Amodei in Évian-les-Bains; Amodei and DeepMind's Hassabis jointly proposed a U.S.-led democratic AI coalition — Commerce Dept. ban on Fable 5 and Mythos 5 stays in force, June 20 is the subscriber refund deadline.
+- GPT-5.6 codename iris-alpha leaked: 1.5M-token context window, cleaner frontend code generation from minimal prompts, reward-hacking training fix from April post-mortem; Polymarket 83% on June 22-28 launch window, API pricing rumored at one-third GPT-5.5 rates.
+- Google Home Speaker pre-orders live for June 25 launch at $99.99 — Gemini for Home replaces Google Assistant with sub-100ms on-device NPU; first new Google smart speaker in six years; Nest Mini and Nest Audio discontinued.
+- Qualcomm in talks to acquire Jim Keller's Tenstorrent for $8–10B — QCOM +4% on the report; would be Qualcomm's largest-ever deal and signal a major push from mobile into AI silicon and data-center inference.
+- Adobe CC June 2026: Photo to Video (Firefly + Google Veo motion from stills), Object Matte replaces Roto Brush, Channel Blur / Gradient / Noise FX in After Effects — largest motion design toolset expansion in years.

@@ -370,3 +370,10 @@
 - Google Home Speaker pre-orders live for June 25 launch at $99.99 — Gemini for Home replaces Google Assistant with sub-100ms on-device NPU; first new Google smart speaker in six years; Nest Mini and Nest Audio discontinued.
 - Qualcomm in talks to acquire Jim Keller's Tenstorrent for $8–10B — QCOM +4% on the report; would be Qualcomm's largest-ever deal and signal a major push from mobile into AI silicon and data-center inference.
 - Adobe CC June 2026: Photo to Video (Firefly + Google Veo motion from stills), Object Matte replaces Roto Brush, Channel Blur / Gradient / Noise FX in After Effects — largest motion design toolset expansion in years.
+
+## 2026-06-21
+- Nobel laureate John Jumper (AlphaFold 2 co-creator) leaves Google DeepMind after nine years to join Anthropic, signaling a push into scientific AI and drug discovery pre-IPO.
+- ChatGPT's global AI assistant share fell to 46.4% in May 2026 — the first sub-50% reading ever; Gemini at 27.7%, Claude at 10.3% as the market expanded 22%.
+- Matter 1.6 released June 17: NFC commissioning (pair before mains power is on), Joint Fabric (shared multi-platform device network), and standardized AI Thermostat Suggestions.
+- AMD Ryzen AI Halo launches at $3,999 — $700 below NVIDIA's DGX Spark (now $4,699) — with 128GB LPDDR5X unified memory, Windows 11, and up to 14% faster LLM throughput.
+- Qualcomm Investor Day June 24 will formally unveil a data center AI strategy; $3B+ FY2027 target, hyperscaler custom silicon shipping late 2026, Tenstorrent talks still live.

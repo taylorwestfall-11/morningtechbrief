@@ -377,3 +377,10 @@
 - Matter 1.6 released June 17: NFC commissioning (pair before mains power is on), Joint Fabric (shared multi-platform device network), and standardized AI Thermostat Suggestions.
 - AMD Ryzen AI Halo launches at $3,999 — $700 below NVIDIA's DGX Spark (now $4,699) — with 128GB LPDDR5X unified memory, Windows 11, and up to 14% faster LLM throughput.
 - Qualcomm Investor Day June 24 will formally unveil a data center AI strategy; $3B+ FY2027 target, hyperscaler custom silicon shipping late 2026, Tenstorrent talks still live.
+
+## 2026-06-22
+- CNN: "AI regulation is a mess, and Anthropic is caught in the crosshairs" — Fable 5 and Mythos 5 remain offline day 10; Amazon confirmed as the trigger; Trump called Anthropic "no longer a threat" but the Commerce Dept. ban holds.
+- KPMG survey: 33% of enterprises now deploying AI agents in production, up nearly 3× from 11% just two quarters ago — the fastest enterprise adoption ramp since cloud.
+- GPT-5.6 ("iris-alpha") expected this week at 83% Polymarket odds — rumored 1.5M-token context window and API pricing at one-third of GPT-5.5; OpenAI shipped health intelligence on June 18.
+- Amazon Prime Day 2026 starts June 23 (through June 26): RX 9070 at $559 cheapest ever, Intel Arc B570 at $259 with 10GB VRAM; AI demand makes GPU deals rarer than prior years.
+- ASUS ROG Rapture GT-BN98 Pro launches as the world's first Wi-Fi 8 router, claiming 2× real-world throughput over Wi-Fi 7 — relevant for dense smart home and always-on agent setups.

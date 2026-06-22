@@ -22,6 +22,7 @@ Generate a complete updated HTML file using the same CSS and layout as the templ
 - All story content with today's news
 - Keep all sections: Top Picks (4 cards), AI & ML, Hardware, Home Automation, Creative & Motion, Quick Hits, Feedback footer
 - Keep all vote/feedback JavaScript intact
+- IMPORTANT: Keep the navigation bar intact — the `<nav>` block immediately after `<body>` that links "📰 AI News" and "💼 Jobs" (to the GitHub Pages morning_brief.html and jobs-7m3k9q.html). Reproduce it exactly at the very top of the page; never remove or alter it.
 
 Formatting rule for article previews: every story preview/excerpt (the `<p>` inside `.pick-card` for Top Picks and `.story-body` for section cards) must be at most 50 words. Trim to the first ~50 words of the article's lede; end on a complete sentence where possible. Do not exceed this limit.
 

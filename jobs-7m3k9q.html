@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>QA Leadership Job Tracker — Taylor Westfall</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
+    --txt:#e6e9ef; --muted:#9aa3b2; --accent:#6ea8fe; --accent2:#7ee0a8;
+    --games:#c792ea; --tech:#f0a868; --new:#7ee0a8; --danger:#ff6b6b;
+    --shadow:0 4px 18px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  header{padding:22px 26px 14px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#12151c,#0f1115)}
+  .dailynav{position:sticky;top:0;z-index:99999;display:flex;gap:6px;align-items:center;background:#12151c;border-bottom:1px solid #2a2f3a;padding:8px 12px}
+  .dailynav .brand{color:#e6e9ef;font-weight:800;font-size:14px;margin-right:6px}
+  .dailynav a{text-decoration:none;padding:7px 14px;border-radius:8px;font-size:14px;font-weight:600}
+  .dailynav a.off{color:#9aa3b2;border:1px solid #2a2f3a}
+  .dailynav a.on{color:#0c1018;background:#6ea8fe}
+  h1{margin:0 0 4px;font-size:20px;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:13px}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 18px 60px}
+  .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0 8px}
+  .toolbar input[type=search]{flex:1;min-width:200px;background:var(--panel2);border:1px solid var(--line);color:var(--txt);padding:9px 12px;border-radius:9px;font-size:14px}
+  .seg{display:flex;background:var(--panel2);border:1px solid var(--line);border-radius:9px;overflow:hidden;flex-wrap:wrap}
+  .seg button{background:transparent;border:0;color:var(--muted);padding:8px 13px;cursor:pointer;font-size:13px}
+  .seg button.on{background:var(--accent);color:#0c1018;font-weight:600}
+  .btn{background:var(--panel2);border:1px solid var(--line);color:var(--muted);padding:8px 12px;border-radius:9px;cursor:pointer;font-size:13px}
+  .btn:hover{border-color:var(--accent);color:var(--txt)}
+  .actions-row{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+  .pipe{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+  .pipe .chip{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:7px 11px;font-size:12px;color:var(--muted);display:flex;gap:7px;align-items:center;cursor:pointer}
+  .pipe .chip b{color:var(--txt);font-size:14px}
+  .pipe .chip.on{border-color:var(--accent)}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px 18px;margin:12px 0;box-shadow:var(--shadow);transition:opacity .2s}
+  .card.closed{opacity:.5}
+  .card.offer{border-color:#3a7d52}
+  .card.stale{border-style:dashed}
+  .card-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
+  .title{font-size:17px;font-weight:650;margin:0}
+  .company{color:var(--muted);font-size:14px;margin-top:2px}
+  .salary{color:var(--accent2);font-size:13px;font-weight:600;margin-top:2px}
+  .score{font-size:12px;color:var(--muted);white-space:nowrap;text-align:right}
+  /* fit ring */
+  .fit{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:62px}
+  .fit .ring{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:#0c1018}
+  .fit .lvl{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  .badges{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+  .badge{font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid var(--line);color:var(--muted);background:var(--panel2)}
+  .badge.remote{color:#0c1018;background:var(--accent2);border-color:var(--accent2);font-weight:600}
+  .badge.hybrid{color:var(--accent);border-color:var(--accent)}
+  .badge.new{color:#0c1018;background:var(--new);border-color:var(--new);font-weight:700}
+  .badge.games{color:var(--games);border-color:var(--games)}
+  .badge.tech{color:var(--tech);border-color:var(--tech)}
+  .badge.stale{color:#f0a868;border-color:#f0a868}
+  .badge.stage{color:#0c1018;background:var(--accent);border-color:var(--accent);font-weight:700}
+  .fit-why{font-size:13px;color:var(--txt);background:#12151c;border-left:3px solid var(--accent);border-radius:6px;padding:8px 11px;margin:6px 0}
+  .fit-why .gl{color:var(--muted)}
+  .notes-line{color:var(--muted);font-size:13px;margin:4px 0 10px}
+  .card-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  a.apply{background:var(--accent);color:#0c1018;text-decoration:none;padding:8px 15px;border-radius:9px;font-weight:600;font-size:13px}
+  a.apply:hover{filter:brightness(1.08)}
+  select.stage-sel{background:var(--panel2);color:var(--txt);border:1px solid var(--line);border-radius:9px;padding:8px 10px;font-size:13px;cursor:pointer}
+  .mynotes{width:100%;margin-top:10px;background:#12151c;border:1px solid var(--line);color:var(--txt);border-radius:9px;padding:8px 10px;font-size:13px;font-family:inherit;resize:vertical;min-height:34px}
+  .mynotes::placeholder{color:#5d6472}
+  .aging{color:var(--muted);font-size:12px;margin-left:auto}
+  .aging.warn{color:#f0a868}
+  /* ── Kanban board ── */
+  .board{display:flex;gap:12px;overflow-x:auto;padding:8px 2px 18px;align-items:flex-start}
+  .col{flex:0 0 248px;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:10px;min-height:120px;transition:background .15s,border-color .15s}
+  .col.drop{background:#1b2330;border-color:var(--accent)}
+  .col-head{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding:2px 4px 10px}
+  .col-head .n{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:1px 8px;color:var(--txt)}
+  .bcard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 11px;margin-bottom:9px;cursor:grab;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+  .bcard:active{cursor:grabbing}
+  .bcard.dragging{opacity:.4}
+  .bcard.offer{border-color:#3a7d52}
+  .bcard.stale{border-style:dashed}
+  .bcard .bt{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+  .bcard .bt h4{margin:0;font-size:13px;font-weight:650;line-height:1.3}
+  .bcard .bco{color:var(--muted);font-size:12px;margin-top:2px}
+  .bring{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:11px;color:#0c1018;flex-shrink:0}
+  .bmeta{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px;align-items:center}
+  .bmeta .badge{font-size:10px;padding:2px 7px}
+  .bcard a.bapply{color:var(--accent);font-size:11px;text-decoration:none;font-weight:600}
+  .bcard a.bapply:hover{text-decoration:underline}
+  .bnote{color:var(--muted);font-size:11px;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .col-hint{color:#5d6472;font-size:11px;text-align:center;padding:10px 4px}
+  .empty{text-align:center;color:var(--muted);padding:50px}
+  footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
+</style>
+</head>
+<body>
+<nav class="dailynav">
+  <span class="brand">☕ Taylor's Daily</span>
+  <a class="off" href="https://taylorwestfall-11.github.io/morningtechbrief/morning_brief.html">📰 AI News</a>
+  <a class="on" href="https://taylorwestfall-11.github.io/morningtechbrief/jobs-7m3k9q.html">💼 Jobs</a>
+</nav>
+<header>
+  <div class="wrap" style="padding-bottom:0">
+    <h1>🎮 QA Leadership Job Tracker</h1>
+    <div class="sub">Taylor Westfall · QA Manager / Director / Head of QA / VP Quality · <span id="lastScan"></span></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search title, company, location, notes…">
+    <div class="seg" id="layoutSeg">
+      <button data-layout="list" class="on">📋 List</button>
+      <button data-layout="board">📊 Board</button>
+    </div>
+    <div class="seg" id="catSeg">
+      <button data-cat="all" class="on">All</button>
+      <button data-cat="games">🎮 Games</button>
+      <button data-cat="tech">💻 Tech</button>
+    </div>
+    <div class="seg" id="remoteSeg">
+      <button data-remote="all" class="on">Any location</button>
+      <button data-remote="remote">Remote only</button>
+    </div>
+    <div class="seg" id="sortSeg">
+      <button data-sort="fit" class="on">Sort: Best fit</button>
+      <button data-sort="new">Newest</button>
+    </div>
+    <div class="actions-row">
+      <button class="btn" id="exportBtn">⬇ Export</button>
+      <button class="btn" id="importBtn">⬆ Import</button>
+      <input id="importFile" type="file" accept="application/json" style="display:none">
+    </div>
+  </div>
+
+  <div class="pipe" id="pipe"></div>
+  <div id="list"></div>
+  <footer>Fit scores compare each role to your 2026 resume. Status &amp; notes save in this browser and survive every daily refresh — use <b>Export</b> to back them up.</footer>
+</div>
+
+<script>
+const JOBS = /*__JOBS__*/[
+  {"id":"escapevelocity-studio-qa-director","title":"Studio QA Director","company":"Escape Velocity Entertainment","category":"games","location":"Remote (Worldwide)","remote":"remote","salary":"","source":"Remotive","url":"https://remotive.com/remote/jobs/qa/studio-qa-director-4238360","date_found":"2026-06-22","date_posted":"","notes":"Reports to VP Product Dev. Live-service multiplayer, cross-platform PC/console/mobile. Owns QA budget & vendor partnerships.","fit":{"score":95,"level":"Excellent","why":"Director-level, live-service multiplayer, owns QA budget + vendor partnerships — a near-exact match to your Fortis/Amazon scope.","blurb":"As Director of QA & Localization at Fortis Games, I built a studio-wide QA discipline and automation roadmap for live-service titles from the ground up, and I'm now leading Fortis' AI transformation of QA — using agentic AI and LLMs to target an 80% cut in manual release-test time. That blend of cross-platform live-service ownership and modern AI-driven automation is exactly what scaling competitive titles demands."}},
+  {"id":"epic-senior-qa-manager-fortnite","title":"Senior QA Manager (Fortnite)","company":"Epic Games","category":"games","location":"Cary, NC / Remote-eligible","remote":"hybrid","salary":"","source":"Hitmarker","url":"https://hitmarker.net/jobs/epic-games-senior-qa-manager-1549496","date_found":"2026-06-22","date_posted":"","notes":"Leads internal + external leads/managers/ICs across Fortnite in-development projects.","fit":{"score":86,"level":"Strong","why":"Leading internal + external leads/managers on a flagship live-service title is squarely your wheelhouse; slightly below your current Director title.","blurb":"Leading blended internal and vendor QA teams on a flagship live-service title mirrors my work at Amazon Games and Fortis, where I now drive an AI-led automation transformation to slash manual release testing. At Blizzard I owned test operations for Overwatch and Battle.net, so the scale and live-ops cadence of Fortnite are familiar territory."}},
+  {"id":"epic-qa-manager-online","title":"QA Manager (Online team)","company":"Epic Games","category":"games","location":"Cary, NC / Remote-eligible","remote":"hybrid","salary":"","source":"Hitmarker","url":"https://hitmarker.net/jobs/epic-games-qa-manager-1621175","date_found":"2026-06-22","date_posted":"","notes":"QA Manager for Epic's Online services team.","fit":{"score":70,"level":"Good","why":"Online-services QA is relevant (Battle.net, live ops), but a Manager title is under-leveled vs your Director background.","blurb":"Online-services quality is core to my background — I led test operations for Battle.net at Blizzard and online/live-service pipelines at Amazon and Fortis. I'd bring director-level rigor in CI/CD, telemetry, and incident response to Epic's Online team."}},
+  {"id":"riot-director-qa-rnd","title":"Director, QA - Unpublished R&D Product","company":"Riot Games","category":"games","location":"Los Angeles, USA","remote":"onsite","salary":"","source":"Riot Careers","url":"https://www.riotgames.com/en/work-with-us/job/3347742/director-qa-unpublished-r-d-product-los-angeles-usa","date_found":"2026-06-22","date_posted":"","notes":"Owns QA process for a large team. Requires 10+ yrs QA, 3+ yrs leadership.","fit":{"score":94,"level":"Excellent","why":"Director owning QA for a greenfield R&D product; you exceed the 10+ yrs / 3+ leadership bar, bring AI-driven test automation, and LA is your home region.","blurb":"I've owned QA process and people for large game organizations for over a decade — at Fortis, Netflix, Amazon Games, and Blizzard — and I'm currently leading an AI transformation of QA using agentic tooling and LLMs. Standing up quality and modern AI-assisted automation for an unannounced R&D product is exactly the greenfield work I do today at Fortis, and I'm based in your Los Angeles region."}},
+  {"id":"netflix-senior-qa-project-manager-games","title":"Senior QA Project Manager, Games","company":"Netflix","category":"games","location":"Remote (US)","remote":"remote","salary":"","source":"RemoteGameJobs","url":"https://remotegamejobs.com/jobs/netflix-senior-qa-project-manager-games-remote-job","date_found":"2026-06-22","date_posted":"","notes":"QA program/project management for Netflix Games. Manager-track (verify scope vs people-management).","fit":{"score":82,"level":"Strong","why":"You were Head of Publishing QA at Netflix and ran QA program management at Amazon — insider knowledge of Netflix QA process is a major edge.","blurb":"I previously served as Head of Publishing QA at Netflix, where I built the 3P Publishing QA strategy and JIRA/process standards as the portfolio scaled toward 95+ titles — so I'd ramp on Netflix Games QA program management on day one. My Amazon Games tenure as Program Manager for QA Automation & Tools adds the cross-team delivery and roadmap experience this role needs."}},
+  {"id":"scopely-qa-director-monopoly-go","title":"QA Director (Monopoly GO!)","company":"Scopely","category":"games","location":"Remote (US or Canada)","remote":"remote","salary":"","source":"Glassdoor / Scopely Careers","url":"https://www.scopely.com/careers/","date_found":"2026-06-22","date_posted":"","notes":"Surfaced via Glassdoor remote QA Director search. Confirm exact posting on next scan.","fit":{"score":90,"level":"Excellent","why":"Mobile live-service Director role — matches your Fortis mobile/live-service QA leadership and remote preference.","blurb":"Directing QA for a top-grossing mobile live-service title aligns directly with my work at Fortis Games, where I built the mobile-first QA discipline and now lead its AI transformation — leveraging agentic AI to target an 80% cut in manual release-test time. I pair that with deep LiveOps incident management honed across Blizzard, Amazon, and Netflix."}},
+  {"id":"dfin-director-qa-remote","title":"Director of QA","company":"DFIN (Donnelley Financial Solutions)","category":"tech","location":"Remote","remote":"remote","salary":"","source":"Built In","url":"https://builtin.com/job/director-qa-remote/3193808","date_found":"2026-06-22","date_posted":"","notes":"Fintech/SaaS transformation. Owns QA systems & processes for product lines.","fit":{"score":78,"level":"Good","why":"Director-level software QA leadership transfers cleanly, and DFIN's modernization mandate is a direct match for the AI-driven test-automation transformation you lead at Fortis.","blurb":"Modernizing QA systems and processes across product lines is exactly what I do — at Fortis I stood up CI pipelines and a centralized framework and now lead an AI transformation using LLMs and agentic tooling to target an 80% reduction in manual release testing. That automation-and-AI playbook translates directly to DFIN's SaaS transformation, even coming from a games background."}},
+  {"id":"strive-pharmacy-vp-quality","title":"VP of Quality","company":"Strive Pharmacy","category":"tech","location":"Remote","remote":"remote","salary":"","source":"Indeed","url":"https://www.indeed.com/q-vp-qa-l-remote-jobs.html","date_found":"2026-06-22","date_posted":"","notes":"Strategic + operational quality executive. Non-games. Confirm direct posting next scan.","fit":{"score":48,"level":"Stretch","why":"VP title is a great trajectory step, but a pharmacy 'VP of Quality' is likely regulatory/operational quality (GMP), not software QA — verify before investing.","blurb":"My two decades of executive quality leadership — defining standards, performance targets, and incident-response programs across global teams — would translate to a VP of Quality mandate, though I'd want to confirm the role centers on software/product quality rather than pharmaceutical regulatory compliance."}}
+]/*__JOBS_END__*/;
+const LAST_SCAN = "2026-06-22";
+
+const STAGES = [
+  {key:"new",       label:"⚪ New / Not applied", group:"open"},
+  {key:"applied",   label:"📨 Applied",            group:"pipeline"},
+  {key:"recruiter", label:"📞 Recruiter screen",   group:"pipeline"},
+  {key:"interview", label:"🎤 Interviewing",       group:"pipeline"},
+  {key:"final",     label:"🏁 Final round",         group:"pipeline"},
+  {key:"offer",     label:"🎉 Offer",               group:"pipeline"},
+  {key:"rejected",  label:"❌ Rejected / Denied",   group:"closed"},
+  {key:"ghosted",   label:"👻 No response",         group:"closed"},
+  {key:"dropped",   label:"🚫 Stopped tracking",    group:"closed"}
+];
+const STAGE = Object.fromEntries(STAGES.map(s=>[s.key,s]));
+const STALE_DAYS = 30;
+
+const KEY="jobhunter_status_v2";
+let state = JSON.parse(localStorage.getItem(KEY) || "{}");
+try{ const v1=JSON.parse(localStorage.getItem("jobhunter_status_v1")||"{}");
+  for(const id in v1){ if(!state[id]) state[id]={status:v1[id].status,date:v1[id].date,notes:""}; } }catch(e){}
+const save = ()=>localStorage.setItem(KEY, JSON.stringify(state));
+const today = ()=> new Date().toISOString().slice(0,10);
+const daysBetween = (d)=> d ? Math.floor((Date.now()-new Date(d))/86400000) : null;
+
+function rec(id){ return state[id] || {status:"new",date:"",notes:""}; }
+function statusOf(id){ return rec(id).status; }
+function groupOf(id){ return STAGE[statusOf(id)]?.group || "open"; }
+function fitColor(s){ return s>=90?"#7ee0a8":s>=80?"#9ed16b":s>=65?"#e9c46a":s>=50?"#f0a868":"#e07a5f"; }
+
+let filters={cat:"all",remote:"all",q:"",view:"open",sort:"fit",layout:"list"};
+
+// Board columns: New, the 5 active pipeline stages, and a combined Closed column.
+const BOARD_COLS=[
+  {key:"new",      label:"⚪ New",        set:"new"},
+  {key:"applied",  label:"📨 Applied",    set:"applied"},
+  {key:"recruiter",label:"📞 Recruiter",  set:"recruiter"},
+  {key:"interview",label:"🎤 Interview",  set:"interview"},
+  {key:"final",    label:"🏁 Final",      set:"final"},
+  {key:"offer",    label:"🎉 Offer",      set:"offer"},
+  {key:"closed",   label:"⚫ Closed",     set:"rejected", members:["rejected","ghosted","dropped"]}
+];
+
+function render(){
+  document.getElementById("lastScan").textContent = "Last scan: "+LAST_SCAN+" · "+JOBS.length+" roles tracked";
+  const counts={}; STAGES.forEach(s=>counts[s.key]=0);
+  let openN=0,pipeN=0,closedN=0,freshN=0;
+  JOBS.forEach(j=>{ const g=groupOf(j.id); counts[statusOf(j.id)]++;
+    if(g==="open")openN++; else if(g==="pipeline")pipeN++; else closedN++;
+    if(j.date_found===LAST_SCAN && statusOf(j.id)==="new")freshN++; });
+  const views=[
+    {k:"open",label:"🟢 To review",n:openN,extra:freshN?` (✨${freshN} new)`:""},
+    {k:"pipeline",label:"🔵 In progress",n:pipeN,extra:""},
+    {k:"closed",label:"⚫ Closed",n:closedN,extra:""},
+    {k:"all",label:"All",n:JOBS.length,extra:""}
+  ];
+  document.getElementById("pipe").innerHTML =
+    (filters.layout==="board" ? `<div class="chip" style="cursor:default">📊 Drag cards between columns to update status</div>`
+      : views.map(v=>`<div class="chip ${filters.view===v.k?"on":""}" onclick="setView('${v.k}')">${v.label} <b>${v.n}</b>${v.extra}</div>`).join("")) +
+    `<div class="chip" style="cursor:default" title="Applications in the active pipeline">📨${counts.applied} 📞${counts.recruiter} 🎤${counts.interview} 🏁${counts.final} 🎉${counts.offer}</div>`;
+
+  const q=filters.q.toLowerCase();
+  const sortFn=(a,b)=> filters.sort==="new"
+      ? (b.date_found||"").localeCompare(a.date_found||"") || (b.fit?.score||0)-(a.fit?.score||0)
+      : (b.fit?.score||0)-(a.fit?.score||0);
+  const matches=j=>{
+    if(filters.cat!=="all" && j.category!==filters.cat) return false;
+    if(filters.remote==="remote" && j.remote!=="remote") return false;
+    if(q && !(`${j.title} ${j.company} ${j.location} ${j.notes} ${j.source} ${rec(j.id).notes}`.toLowerCase().includes(q))) return false;
+    return true;
+  };
+  const list=document.getElementById("list");
+  if(filters.layout==="board"){ renderBoard(JOBS.filter(matches).sort(sortFn)); return; }
+  let rows=JOBS.filter(j=> matches(j) && (filters.view==="all"||groupOf(j.id)===filters.view)).sort(sortFn);
+  if(!rows.length){ list.innerHTML=`<div class="empty">No roles match these filters.</div>`; return; }
+  list.innerHTML = rows.map(j=>{
+    const r=rec(j.id), st=r.status, g=STAGE[st].group;
+    const isNew = j.date_found===LAST_SCAN && st==="new";
+    const foundAge = daysBetween(j.date_found);
+    const isStale = st==="new" && foundAge!==null && foundAge>STALE_DAYS;
+    const remoteBadge = j.remote==="remote"?`<span class="badge remote">🌍 Remote</span>`
+      : j.remote==="hybrid"?`<span class="badge hybrid">Hybrid</span>`:`<span class="badge">On-site</span>`;
+    let aging="";
+    if(g==="pipeline" && r.date){ const d=daysBetween(r.date);
+      aging=`<span class="aging ${d>=10?"warn":""}">${STAGE[st].label.replace(/^\S+\s/,"")} · ${d}d ago${d>=10?" — follow up?":""}</span>`; }
+    const opts=STAGES.map(s=>`<option value="${s.key}" ${s.key===st?"selected":""}>${s.label}</option>`).join("");
+    const f=j.fit;
+    const fitBlock = f?`<div class="fit"><div class="ring" style="background:${fitColor(f.score)}">${f.score}</div><div class="lvl">${f.level}</div></div>`:`<div class="score">⭐ —</div>`;
+    return `<div class="card ${g==="closed"?"closed":""} ${st==="offer"?"offer":""} ${isStale?"stale":""}">
+      <div class="card-top">
+        <div>
+          <p class="title">${j.title}</p>
+          <div class="company">${j.company} · ${j.location}</div>
+          ${j.salary?`<div class="salary">💰 ${j.salary}</div>`:""}
+        </div>
+        ${fitBlock}
+      </div>
+      <div class="badges">
+        ${isNew?`<span class="badge new">✨ NEW</span>`:""}
+        ${st!=="new"?`<span class="badge stage">${STAGE[st].label}</span>`:""}
+        ${isStale?`<span class="badge stale">⏳ ${foundAge}d old</span>`:""}
+        <span class="badge ${j.category}">${j.category==="games"?"🎮 Games":"💻 Tech"}</span>
+        ${remoteBadge}
+        <span class="badge">via ${j.source}</span>
+        ${j.date_posted?`<span class="badge">posted ${j.date_posted}</span>`:""}
+      </div>
+      ${f?`<div class="fit-why"><b>Fit:</b> ${f.why}</div>`:""}
+      ${j.notes?`<div class="notes-line">${j.notes}</div>`:""}
+      <div class="card-actions">
+        <a class="apply" href="${j.url}" target="_blank" rel="noopener">View / Apply ↗</a>
+        ${f?.blurb?`<button class="btn" onclick="copyBlurb('${j.id}',this)">📋 Copy cover-letter blurb</button>`:""}
+        <select class="stage-sel" onchange="setStage('${j.id}',this.value)">${opts}</select>
+        ${aging}
+      </div>
+      <textarea class="mynotes" placeholder="My notes: recruiter name, next step, interview date, comp…" onchange="setNotes('${j.id}',this.value)">${(r.notes||"").replace(/</g,"&lt;")}</textarea>
+    </div>`;
+  }).join("");
+}
+
+function renderBoard(rows){
+  const list=document.getElementById("list");
+  const byCol={}; BOARD_COLS.forEach(c=>byCol[c.key]=[]);
+  rows.forEach(j=>{ const st=statusOf(j.id);
+    const col=BOARD_COLS.find(c=> c.members? c.members.includes(st) : c.set===st) || BOARD_COLS[0];
+    byCol[col.key].push(j); });
+  list.innerHTML=`<div class="board">`+BOARD_COLS.map(c=>{
+    const items=byCol[c.key];
+    const cards=items.map(boardCard).join("") || `<div class="col-hint">drop here</div>`;
+    return `<div class="col" data-col="${c.key}" ondragover="colOver(event)" ondragleave="colLeave(event)" ondrop="colDrop(event,'${c.key}')">
+      <div class="col-head"><span>${c.label}</span><span class="n">${items.length}</span></div>${cards}</div>`;
+  }).join("")+`</div>`;
+}
+function boardCard(j){
+  const r=rec(j.id), st=r.status, foundAge=daysBetween(j.date_found);
+  const isStale=st==="new"&&foundAge!==null&&foundAge>STALE_DAYS;
+  const f=j.fit;
+  const ring=f?`<div class="bring" style="background:${fitColor(f.score)}">${f.score}</div>`:"";
+  const remoteB=j.remote==="remote"?`<span class="badge remote">🌍</span>`:j.remote==="hybrid"?`<span class="badge hybrid">Hybrid</span>`:`<span class="badge">On-site</span>`;
+  const note=r.notes?`<div class="bnote">📝 ${r.notes.replace(/</g,"&lt;")}</div>`:"";
+  return `<div class="bcard ${st==="offer"?"offer":""} ${isStale?"stale":""}" draggable="true" data-id="${j.id}" ondragstart="cardDrag(event,'${j.id}')" ondragend="cardDragEnd(event)">
+    <div class="bt"><div><h4>${j.title}</h4><div class="bco">${j.company}</div></div>${ring}</div>
+    <div class="bmeta"><span class="badge ${j.category}">${j.category==="games"?"🎮":"💻"}</span>${remoteB}${isStale?`<span class="badge stale">⏳${foundAge}d</span>`:""}<a class="bapply" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a></div>
+    ${note}</div>`;
+}
+let dragId=null;
+function cardDrag(e,id){ dragId=id; e.dataTransfer.effectAllowed="move"; e.target.classList.add("dragging"); }
+function cardDragEnd(e){ e.target.classList.remove("dragging"); document.querySelectorAll(".col.drop").forEach(c=>c.classList.remove("drop")); }
+function colOver(e){ e.preventDefault(); e.currentTarget.classList.add("drop"); e.dataTransfer.dropEffect="move"; }
+function colLeave(e){ e.currentTarget.classList.remove("drop"); }
+function colDrop(e,colKey){ e.preventDefault(); e.currentTarget.classList.remove("drop");
+  const col=BOARD_COLS.find(c=>c.key===colKey); if(!col||!dragId) return;
+  const cur=statusOf(dragId);
+  let target = (col.members && col.members.includes(cur)) ? cur : col.set;
+  setStage(dragId,target); dragId=null;
+}
+function copyBlurb(id,btn){
+  const j=JOBS.find(x=>x.id===id); if(!j||!j.fit) return;
+  navigator.clipboard.writeText(j.fit.blurb).then(()=>{ const t=btn.textContent; btn.textContent="✅ Copied!"; setTimeout(()=>btn.textContent=t,1500); });
+}
+function setStage(id,status){
+  const r=rec(id);
+  if(status==="new" && !r.notes){ delete state[id]; }
+  else { state[id]={status,date:(status==="new"?"":today()),notes:r.notes||""}; }
+  save(); render();
+}
+function setNotes(id,val){ const r=rec(id); state[id]={status:r.status,date:r.date||"",notes:val}; save(); }
+function setView(v){ filters.view=v; render(); }
+
+document.getElementById("search").addEventListener("input",e=>{filters.q=e.target.value;render();});
+function wireSeg(segId,key){
+  document.querySelectorAll(`#${segId} button`).forEach(b=>b.addEventListener("click",()=>{
+    document.querySelectorAll(`#${segId} button`).forEach(x=>x.classList.remove("on"));
+    b.classList.add("on"); filters[key]=b.dataset[key]; render();
+  }));
+}
+wireSeg("catSeg","cat"); wireSeg("remoteSeg","remote"); wireSeg("sortSeg","sort"); wireSeg("layoutSeg","layout");
+
+document.getElementById("exportBtn").addEventListener("click",()=>{
+  const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+  a.download="jobhunter-status-backup.json"; a.click();
+});
+document.getElementById("importBtn").addEventListener("click",()=>document.getElementById("importFile").click());
+document.getElementById("importFile").addEventListener("change",e=>{
+  const f=e.target.files[0]; if(!f)return;
+  const rd=new FileReader(); rd.onload=()=>{ try{ state={...state,...JSON.parse(rd.result)}; save(); render(); }catch(err){ alert("Invalid file"); } }; rd.readAsText(f);
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+﻿User-agent: *
+Disallow: /jobs-7m3k9q.html

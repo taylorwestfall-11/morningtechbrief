@@ -384,3 +384,10 @@
 - GPT-5.6 ("iris-alpha") expected this week at 83% Polymarket odds — rumored 1.5M-token context window and API pricing at one-third of GPT-5.5; OpenAI shipped health intelligence on June 18.
 - Amazon Prime Day 2026 starts June 23 (through June 26): RX 9070 at $559 cheapest ever, Intel Arc B570 at $259 with 10GB VRAM; AI demand makes GPU deals rarer than prior years.
 - ASUS ROG Rapture GT-BN98 Pro launches as the world's first Wi-Fi 8 router, claiming 2× real-world throughput over Wi-Fi 7 — relevant for dense smart home and always-on agent setups.
+
+## 2026-06-23
+- OpenAI launches GPT-5.5-Cyber (85.6% CyberGym) and "Patch the Planet" with Trail of Bits and HackerOne — full automated vuln-to-patch pipeline across Python, cURL, Go, and Sigstore open-source projects.
+- Claude Fable 5 exits free subscription access today (June 23) — moves to usage-credit API billing at $10/$50 per million tokens; model still offline Day 11 of export ban, 57% odds of restoration before July 1.
+- Amazon Prime Day 2026 goes live (June 23–26): RTX 5070 Ti at $900 cheapest ever, RTX 5080 at $1,249 at Newegg; SSDs and RAM near all-time lows amid AI infrastructure demand squeeze.
+- SpaceX signs $6.3B compute deal with open-source AI startup Reflection for Colossus 2 NVIDIA GB300 access at $150M/month through 2029; SPCX falls 10% on investor concern over compute-rental focus.
+- Gemini 3.5 Pro enters its GA window (June 23–30) — 2M-token context window (largest in any production frontier model), Deep Think reasoning, $15/$60 per million tokens.

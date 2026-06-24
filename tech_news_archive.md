@@ -391,3 +391,10 @@
 - Amazon Prime Day 2026 goes live (June 23–26): RTX 5070 Ti at $900 cheapest ever, RTX 5080 at $1,249 at Newegg; SSDs and RAM near all-time lows amid AI infrastructure demand squeeze.
 - SpaceX signs $6.3B compute deal with open-source AI startup Reflection for Colossus 2 NVIDIA GB300 access at $150M/month through 2029; SPCX falls 10% on investor concern over compute-rental focus.
 - Gemini 3.5 Pro enters its GA window (June 23–30) — 2M-token context window (largest in any production frontier model), Deep Think reasoning, $15/$60 per million tokens.
+
+## 2026-06-24
+- Qualcomm Investor Day in New York reveals "Dragonfly" data center brand with AI200/AI250 inference accelerators and names the unnamed hyperscaler ASIC customer; initial shipments on track for H2 2026, BofA sees $2–5B addressable by FY2028.
+- Legion AI sues US Commerce Department in DC federal court over Fable 5 export ban; Fable 5 and Mythos 5 remain offline Day 12, with Anthropic-Commerce talks active and July 8 as the next key restoration milestone.
+- Noam Shazeer (Transformer paper co-author, Gemini co-lead) joins OpenAI as Architecture Research Lead after less than two years back at Google; Nobel laureate John Jumper (AlphaFold 2) departed for Anthropic the same week; Alphabet -7%.
+- Google Home Speaker launches tomorrow June 25 at $99.99 — on-device Gemini via NPU, Wi-Fi 6 + Thread 1.3 + Matter built in as Thread border router; Nest Mini and Nest Audio discontinued.
+- Open-weight models surge as Fable 5 ban hits Day 12: DeepSeek V4.1 tops Hugging Face trending, GLM-5.2 (MIT) becomes the top international alternative, Chinese models hold five of HF's top ten download slots.

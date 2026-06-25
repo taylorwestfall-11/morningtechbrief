@@ -398,3 +398,10 @@
 - Noam Shazeer (Transformer paper co-author, Gemini co-lead) joins OpenAI as Architecture Research Lead after less than two years back at Google; Nobel laureate John Jumper (AlphaFold 2) departed for Anthropic the same week; Alphabet -7%.
 - Google Home Speaker launches tomorrow June 25 at $99.99 — on-device Gemini via NPU, Wi-Fi 6 + Thread 1.3 + Matter built in as Thread border router; Nest Mini and Nest Audio discontinued.
 - Open-weight models surge as Fable 5 ban hits Day 12: DeepSeek V4.1 tops Hugging Face trending, GLM-5.2 (MIT) becomes the top international alternative, Chinese models hold five of HF's top ten download slots.
+
+## 2026-06-25
+- Google Home Speaker launches today at $99.99 in 18 countries — on-device Gemini via NPU, 58mm 360-degree driver, Wi-Fi 6 + Thread 1.3 + Matter with Thread border router; first new Google smart speaker in six years.
+- Anthropic accuses Alibaba's Qwen lab of the largest-known AI distillation attack: 25,000 fraudulent accounts, 28.8 million Claude exchanges from April 22–June 5, targeting agentic reasoning and software engineering; letter filed with Senate and White House.
+- OpenAI and Broadcom unveil Jalapeño, OpenAI's first custom AI inference chip — a reticle-sized ASIC built in nine months at ~50% lower cost than GPU; initial deployment end of 2026 with multi-generation roadmap.
+- Fable 5 ban Day 13: Tom Brown (Anthropic co-founder) replaces Dario Amodei in Commerce Department negotiations; Polymarket odds for model return next week jump from ~15% to 60%.
+- Two more senior Google Gemini researchers — Jonas Adler and Alexander Pritzel — set to join Anthropic, accelerating Alphabet's AI talent exodus following John Jumper and Noam Shazeer's departures this month.

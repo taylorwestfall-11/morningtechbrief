@@ -405,3 +405,10 @@
 - OpenAI and Broadcom unveil Jalapeño, OpenAI's first custom AI inference chip — a reticle-sized ASIC built in nine months at ~50% lower cost than GPU; initial deployment end of 2026 with multi-generation roadmap.
 - Fable 5 ban Day 13: Tom Brown (Anthropic co-founder) replaces Dario Amodei in Commerce Department negotiations; Polymarket odds for model return next week jump from ~15% to 60%.
 - Two more senior Google Gemini researchers — Jonas Adler and Alexander Pritzel — set to join Anthropic, accelerating Alphabet's AI talent exodus following John Jumper and Noam Shazeer's departures this month.
+
+## 2026-06-26
+- Google loses 4 AI researchers to Anthropic in one week — Jumper, Adler, Pritzel, and Conmy (all AlphaFold contributors); Bloomberg ties the exits to a $270B Alphabet market cap drop and deepening DeepMind retention concerns.
+- Home Assistant 2026.7 beta drops with natural-language automations as the new default — purpose-specific triggers graduate from Labs; release party streams on YouTube July 1 at 20:00 GMT.
+- TwelveLabs launches Rodeo — a creator-facing AI video agent that searches and assembles footage via natural language; powered by Marengo 3.0, supports up to one hour of video, featured on Motionographer.
+- Google delays Gemini 3.5 Pro to July 2026 — quality benchmarks not yet hitting internal targets; analysts link the slip directly to this week's talent exodus from Google DeepMind.
+- OpenAI Codex expands with 'Sites' (instantly hosted interactive dashboards) and six role-specific enterprise plugins covering 62 apps including Snowflake, Figma, and Salesforce; non-developers now 20% of 5M weekly users.

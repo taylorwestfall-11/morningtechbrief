@@ -412,3 +412,10 @@
 - TwelveLabs launches Rodeo — a creator-facing AI video agent that searches and assembles footage via natural language; powered by Marengo 3.0, supports up to one hour of video, featured on Motionographer.
 - Google delays Gemini 3.5 Pro to July 2026 — quality benchmarks not yet hitting internal targets; analysts link the slip directly to this week's talent exodus from Google DeepMind.
 - OpenAI Codex expands with 'Sites' (instantly hosted interactive dashboards) and six role-specific enterprise plugins covering 62 apps including Snowflake, Figma, and Salesforce; non-developers now 20% of 5M weekly users.
+
+## 2026-06-27
+- Home Assistant Matter Server 9.0 ships as a drop-in Rust replacement for the Python-based server — faster device recovery, graphical Thread and Wi-Fi network map tabs, NFC commissioning support, more reliable OTA updates.
+- GPT-5.6 Sol begins government-staged limited release — 1.5M-token context window, redesigned alignment pipeline fixing reward-hacking; White House requested phased rollout over cybersecurity capabilities; public access "coming weeks."
+- Fable 5 ban Day 15: US government clears Mythos 5 for US critical infrastructure organizations; Fable 5 general restoration still pending; Tom Brown leads Commerce Dept. talks; Polymarket ~60% odds for next-week return.
+- GPT-4.5 officially retired from ChatGPT today — final GPT-4 family model gone; all conversations continue on GPT-5.5; o3 follows August 26; GPT-5.3 Instant update ships improved tone and reduced teaser-style phrasing.
+- Anthropic Economic Index "Cadences" report maps Claude usage to human rhythms — morning news peaks, weekday work dips on weekends, sleep advice spikes at 5 a.m.; paying consumer revenue up 75% since January 2026.

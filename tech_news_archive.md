@@ -419,3 +419,10 @@
 - Fable 5 ban Day 15: US government clears Mythos 5 for US critical infrastructure organizations; Fable 5 general restoration still pending; Tom Brown leads Commerce Dept. talks; Polymarket ~60% odds for next-week return.
 - GPT-4.5 officially retired from ChatGPT today — final GPT-4 family model gone; all conversations continue on GPT-5.5; o3 follows August 26; GPT-5.3 Instant update ships improved tone and reduced teaser-style phrasing.
 - Anthropic Economic Index "Cadences" report maps Claude usage to human rhythms — morning news peaks, weekday work dips on weekends, sleep advice spikes at 5 a.m.; paying consumer revenue up 75% since January 2026.
+
+## 2026-06-28
+- Home Assistant 2026.7 beta "Automations That Speak Your Language" — write automations in plain English, AI converts to YAML automatically; full release scheduled July 2, 2026.
+- OpenAI + Broadcom unveil Jalapeño, OpenAI's first custom AI inference chip — built in nine months using AI-assisted chip design, 50% cost savings over GPU clusters; initial deployment end of 2026.
+- TwelveLabs launches Rodeo on Motionographer — AI video production agents that find and assemble footage from natural language descriptions; first application-layer product from TwelveLabs.
+- Alibaba HappyHorse 1.1 rises to global No. 2 in AI video rankings — full API open with enterprise licensing, filling gap left by OpenAI Sora shutdown (March 2026) and ByteDance Seedance exit.
+- Samsung SmartThings becomes first platform to support Matter cameras — Matter 1.5 camera spec, simultaneous multi-ecosystem viewing across Apple Home, Google, and Alexa.

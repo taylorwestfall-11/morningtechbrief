@@ -426,3 +426,10 @@
 - TwelveLabs launches Rodeo on Motionographer — AI video production agents that find and assemble footage from natural language descriptions; first application-layer product from TwelveLabs.
 - Alibaba HappyHorse 1.1 rises to global No. 2 in AI video rankings — full API open with enterprise licensing, filling gap left by OpenAI Sora shutdown (March 2026) and ByteDance Seedance exit.
 - Samsung SmartThings becomes first platform to support Matter cameras — Matter 1.5 camera spec, simultaneous multi-ecosystem viewing across Apple Home, Google, and Alexa.
+
+## 2026-06-29
+- OpenAI GPT-5.6 Sol, Terra &amp; Luna debut in government-gated limited preview — three-tier model family (~20 approved companies), Sol is flagship with strongest safety stack yet; broader GA in weeks.
+- Fable 5 offline Day 17; Mythos 5 cleared for US Annex A critical-infrastructure orgs and foreign staff only — Fable 5 general restoration still awaiting Commerce Dept. sign-off; Polymarket ~60% odds for next-week return.
+- Home Assistant 2026.7 beta adds Thread/Wi-Fi diagnostic sensors for Matter devices (channel, routing role, RSSI), Matter 1.5 soil moisture sensor support, and biggest Activity feed (Logbook) redesign in years; full release July 2.
+- TSMC hiking prices across all advanced nodes — 74% of wafer business affected; will ripple to consumer GPUs, smartphones, and smart home silicon by late 2026.
+- China's CPU-only supercomputer dethrones US El Capitan atop Top500 at 2.198 exaflops — no GPUs in the cluster, first CPU-only #1 in years.

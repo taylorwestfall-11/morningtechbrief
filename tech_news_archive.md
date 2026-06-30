@@ -433,3 +433,10 @@
 - Home Assistant 2026.7 beta adds Thread/Wi-Fi diagnostic sensors for Matter devices (channel, routing role, RSSI), Matter 1.5 soil moisture sensor support, and biggest Activity feed (Logbook) redesign in years; full release July 2.
 - TSMC hiking prices across all advanced nodes — 74% of wafer business affected; will ripple to consumer GPUs, smartphones, and smart home silicon by late 2026.
 - China's CPU-only supercomputer dethrones US El Capitan atop Top500 at 2.198 exaflops — no GPUs in the cluster, first CPU-only #1 in years.
+
+## 2026-06-30
+- California × Anthropic first-of-its-kind deal: all state agencies, cities, and counties get Claude at 50% off — first US state to authorize a broad AI tool under a single centralized contract; CA DMV and Medicaid already in production.
+- Fable 5 ban Day 18: return described as "imminent" by source close to Anthropic; Pentagon and NSA sign-off still pending; Anthropic adds ID verification checks ahead of restoration; end-of-June Manifold market resolves today.
+- GPT-5.6 pricing revealed: Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per million tokens; Sol adds ultra mode with subagents; broader GA expected within weeks.
+- Claude Mythos Preview (claude-mythos-preview) officially retired June 30 — developers must migrate to claude-mythos-5 via platform.claude.com migration guide.
+- After Effects 26.3: 3D Displacement Maps, Depth of Field across all 3D layer types, Variable Font animation via keyframes, and SVG import as editable shape layers — biggest motion design update in the June cycle.

@@ -440,3 +440,10 @@
 - GPT-5.6 pricing revealed: Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per million tokens; Sol adds ultra mode with subagents; broader GA expected within weeks.
 - Claude Mythos Preview (claude-mythos-preview) officially retired June 30 — developers must migrate to claude-mythos-5 via platform.claude.com migration guide.
 - After Effects 26.3: 3D Displacement Maps, Depth of Field across all 3D layer types, Variable Font animation via keyframes, and SVG import as editable shape layers — biggest motion design update in the June cycle.
+
+## 2026-07-01
+- Fable 5 and Mythos 5 fully restored July 1 — U.S. Commerce Dept. lifts 19-day export ban; Anthropic's new cybersecurity safety classifier blocks the Amazon-reported jailbreak in 99%+ of cases; shared severity framework co-developed with Amazon, Microsoft, and Google.
+- Claude Sonnet 5 launches as the most agentic mid-tier model yet — 1M-token context, near-Opus 4.8 performance at $3/$15 per million tokens ($2/$10 intro through Aug 31); new default for Free and Pro plans.
+- Home Assistant 2026.7 ships today — natural-language automations as the new default; Python Matter server auto-migrates to TypeScript matter.js (Matter 1.5.1); new Thread network map, device diagnostics, Raspberry Pi OTA, and 10 new integrations including Dropbox.
+- NVIDIA Rubin Ultra quad-die GPU cancelled — TSMC substrate-warping at extreme chiplet scale forces dual-die redesign with HBM4E; 2027 chip delivers ~half announced compute but claims 3.5× inference throughput per watt over Blackwell B300.
+- OpenAI Codex Micro launches July 15 — first OpenAI hardware product is a 13-key macro pad co-built with Work Louder; six programmable layers, joystick, and rotary encoder targeting Codex's 5 million weekly users.

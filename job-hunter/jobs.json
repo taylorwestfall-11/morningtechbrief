@@ -1,7 +1,7 @@
 {
   "_meta": {
     "last_scan": "2026-07-02",
-    "scan_count": 3,
+    "scan_count": 4,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -283,6 +283,106 @@
         "level": "Stretch",
         "why": "Amazon Games is Taylor's former employer but returning as QA Manager is a step down from the Director/Head scope held there, and Bucharest requires international relocation.",
         "blurb": "Amazon Games is where I built my AAA QA leadership — overseeing New World, Lost Ark, and Crucible across global teams. While I know this organization well, re-entering at QA Manager level would be a step back from the Director scope I've held since, and the Bucharest location requires relocating abroad — I'd watch for a Director-level opening in a US Amazon Games studio."
+      }
+    },
+    {
+      "id": "activision-director-qa",
+      "title": "Director, QA",
+      "company": "Activision",
+      "category": "games",
+      "location": "Minneapolis, MN (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Activision Careers / ShowbizJobs",
+      "url": "https://careers.activision.com/job/R025272/Director-QA-Activision",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Oversees all QA operations at the Bloomington/Minneapolis MN office across multiple concurrent AAA projects. Primary QA contact for all studio teams. 12+ yrs games QA experience and 4+ yrs leading large-scale departments required. Call of Duty franchise.",
+      "fit": {
+        "score": 92,
+        "level": "Excellent",
+        "why": "Director owning all QA operations for a major AAA studio — your exact scope at Amazon Games/Fortis — though onsite Minneapolis requires a cross-country move.",
+        "blurb": "Overseeing all QA efforts across multiple concurrent titles at a studio of Activision's scale mirrors exactly what I led at Amazon Games — coordinating New World, Crucible, and Lost Ark across global teams — and what I do today at Fortis, where I also lead an AI-driven transformation targeting an 80% cut in manual release-test time. I bring 12+ years of video game industry experience at Director level, ISTQB CTAL-TM certification, and the large-scale department leadership this Minneapolis role demands."
+      }
+    },
+    {
+      "id": "benevity-software-qa-director",
+      "title": "Software Quality Assurance (QA) Director",
+      "company": "Benevity",
+      "category": "tech",
+      "location": "Remote (Canada / US)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Built In / LinkedIn",
+      "url": "https://builtin.com/job/software-quality-assurance-qa-director/4024241",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Leads globally dispersed QA team for Benevity's CSR/ESG SaaS platform. Defines QA strategy and roadmap, owns test automation strategy and AI-driven testing approaches, builds and mentors QA organization. 10+ yrs Agile/remote QA experience required.",
+      "fit": {
+        "score": 79,
+        "level": "Good",
+        "why": "Remote SaaS QA Director with explicit AI-driven testing mandate maps directly to your Fortis AI transformation work — strongest non-games tech fit this scan.",
+        "blurb": "Defining QA strategy and championing AI-driven testing approaches for a globally dispersed team is the work I lead at Fortis today — using LLMs and agentic AI to target an 80% reduction in manual release testing across a remote-first organization. I'd bring the same quality-first engineering culture and automation modernization playbook to Benevity's SaaS platform, with 20 years of experience building and scaling QA disciplines from scratch."
+      }
+    },
+    {
+      "id": "clickup-director-quality-engineering",
+      "title": "Director of Quality Engineering",
+      "company": "ClickUp",
+      "category": "tech",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Built In",
+      "url": "https://builtin.com/job/director-quality-engineering/4754580",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Leads and oversees QA strategy, processes, and team for ClickUp's SaaS productivity platform. Implements robust testing frameworks and drives automation initiatives. Visionary QE leadership role.",
+      "fit": {
+        "score": 75,
+        "level": "Good",
+        "why": "Director-level QE leadership at a high-growth SaaS company; automation focus aligns well even with the games-to-SaaS domain shift.",
+        "blurb": "Building and driving QA strategy across a complex SaaS product — implementing robust testing frameworks and pushing automation maturity — is a direct translation of my CI/CD and test-automation leadership at Fortis, Amazon Games, and Blizzard. I'd bring director-level rigor for scaling QA organizations and modernizing automation infrastructure, including my current AI-driven testing initiative targeting an 80% reduction in manual release work."
+      }
+    },
+    {
+      "id": "ibusiness-funding-director-quality-assurance",
+      "title": "Director of Quality Assurance",
+      "company": "iBusiness Funding",
+      "category": "tech",
+      "location": "Fort Lauderdale, FL",
+      "remote": "hybrid",
+      "salary": "$160,000–$250,000",
+      "source": "Built In / LinkedIn",
+      "url": "https://builtin.com/job/director-quality-assurance-lenderai-platform/7058305",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "QA Director for LenderAI — an AI-native SaaS platform processing $11B+ in SBA/non-SBA loans. Leads QA Community of Practice. $160K-$250K comp. Fort Lauderdale FL (hybrid). Small-mid size fintech with AI product at core.",
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "QA leadership for an AI-native SaaS product triggers the AI bonus — testing LLM-driven platform outputs is Taylor's emerging specialty — offsetting the fintech domain shift.",
+        "blurb": "Delivering quality assurance for an AI-native platform — where test strategy must account for non-deterministic LLM outputs and agentic workflows — is exactly the challenge I'm solving at Fortis today, where I lead an AI transformation targeting an 80% reduction in manual release testing. My experience building QA disciplines from scratch and owning quality strategy across complex product suites would let me apply that AI-testing expertise directly to LenderAI."
+      }
+    },
+    {
+      "id": "drivewealth-head-of-qa",
+      "title": "Head of QA",
+      "company": "DriveWealth",
+      "category": "tech",
+      "location": "New York, NY (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Built In / Wellfound",
+      "url": "https://wellfound.com/jobs/3216279-head-of-qa",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Leads QA organization for DriveWealth's global B2B fintech API trading platform. Oversees functional and automation QA engineers. Hybrid New York. Prioritizes quality, resiliency, and innovation across the engineering org.",
+      "fit": {
+        "score": 60,
+        "level": "Stretch",
+        "why": "Head of QA title is right-leveled but fintech domain shift plus hybrid NYC office makes this a meaningful stretch from your games/CA base.",
+        "blurb": "Leading a QA organization that prioritizes quality, resiliency, and innovation across high-throughput API infrastructure mirrors my live-service incident management and CI/CD discipline at Blizzard, Amazon, and Fortis — where real-time reliability is non-negotiable at scale. I'd apply that proven framework for building high-performing QA teams and automation architecture to DriveWealth's trading platform."
       }
     }
   ]

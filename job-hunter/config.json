@@ -1,0 +1,97 @@
+{
+  "candidate": {
+    "name": "Taylor Westfall",
+    "email": "taylorwestfall@gmail.com",
+    "location_preference": "Flexible. Remote preferred; on-site/hybrid OK for the right role. Open to relocation.",
+    "seniority_floor": "QA Manager",
+    "target_titles": [
+      "QA Manager",
+      "Quality Assurance Manager",
+      "QA Director",
+      "Director of QA",
+      "Director of Quality Engineering",
+      "Head of QA",
+      "Head of Quality",
+      "VP of Quality",
+      "VP QA",
+      "Senior QA Manager",
+      "Studio QA Director",
+      "Director of Test Automation",
+      "Director of QE / Quality Engineering (AI/automation)",
+      "Head of Test Automation",
+      "Director, AI Quality / QA for AI",
+      "QA Lead (only if 'Senior'/'Principal' and people-management scope)"
+    ],
+    "exclude_titles": [
+      "QA Tester",
+      "QA Engineer (IC)",
+      "Game Tester",
+      "QA Analyst (junior)",
+      "SDET (IC)"
+    ],
+    "scope": "QA/Quality leadership. Primary: video game studios. Secondary: QA/QE leadership at any tech company (SaaS, fintech, etc.)."
+  },
+  "resume": {
+    "file": "D:\\Claude Projects\\Job Hunter\\Taylor_Westfall_Resume_2026.pdf",
+    "profile_for_fit": "Director-level QA & Localization leader, 20+ yrs. Current: Director, QA & Localization @ Fortis Games. Prior: Head of Publishing QA @ Netflix; Head of Publishing QA + Program Manager QA Automation/Tools + QA Manager @ Amazon Games (New World, Crucible, Lost Ark, Lumberyard); Test Manager II @ Blizzard (Overwatch, Battle.net, Diablo 3). Strengths: building QA orgs from scratch, CI/CD & test automation strategy, live-service/LiveOps & incident management, multi-platform (Mobile, PC, Xbox, PlayStation, Mac), vendor management, staffing & budget ownership, localization, ISTQB Advanced Test Manager (CTAL-TM). BS Media Arts & Animation. Based Orange County, CA. KEY DIFFERENTIATOR (2026): leading Fortis' AI transformation of QA — using LLMs and agentic AI tools to automate test workflows and enable QA staff to build their own automation/optimization tech, targeting an 80% reduction in manual release-test time. Strong on agentic AI & LLM-driven test automation and AI workflow/tooling design.",
+    "fit_rubric": "Score 0-100. Excellent (90-100): games + Director/Head, live-service or automation focus. Strong (80-89): games leadership slightly above/below his level (e.g. Senior QA Manager), OR any role centered on AI/LLM-driven test-automation transformation. Good (65-79): plain QA Manager (under-leveled) OR strong non-games QA-leadership at SaaS/games-adjacent. Stretch (50-64): non-games domain shift (fintech) or VP-level reach. Low (<50): likely non-software quality (e.g. pharma/manufacturing QA) or scope mismatch. AI BONUS: add +5 to +10 when a role explicitly wants AI/LLM/agentic-driven testing, test-automation modernization, or QE-tooling transformation — Taylor now leads exactly this. When AI/automation is central, weave the '80% manual-test reduction via agentic AI' story into the blurb. Generate a 1-line 'why' and a 2-sentence first-person cover-letter blurb tailored to the role."
+  },
+  "ranking": {
+    "remote": 3,
+    "hybrid": 2,
+    "onsite": 1,
+    "games_bonus": 2,
+    "director_or_above_bonus": 1
+  },
+  "sources": {
+    "direct_game_studios": [
+      {"name": "Blizzard / Activision", "url": "https://careers.activision.com/c/quality-assurance-jobs"},
+      {"name": "Epic Games", "url": "https://www.epicgames.com/site/en-US/careers/jobs"},
+      {"name": "Electronic Arts (EA)", "url": "https://www.ea.com/careers"},
+      {"name": "Riot Games", "url": "https://www.riotgames.com/en/work-with-us/jobs"},
+      {"name": "Ubisoft", "url": "https://www.ubisoft.com/en-us/company/careers/search"},
+      {"name": "Take-Two / Rockstar / 2K", "url": "https://www.take2games.com/careers"},
+      {"name": "Sony / PlayStation", "url": "https://www.playstation.com/en-us/corporate/playstation-careers/"},
+      {"name": "Xbox / Microsoft Gaming", "url": "https://jobs.careers.microsoft.com/global/en/search?q=QA%20gaming"},
+      {"name": "Bungie", "url": "https://www.bungie.net/7/en/Careers"},
+      {"name": "Nintendo of America", "url": "https://careers.nintendo.com/"},
+      {"name": "Valve", "url": "https://www.valvesoftware.com/en/jobs"},
+      {"name": "Roblox", "url": "https://corp.roblox.com/careers"},
+      {"name": "Zynga / Take-Two Mobile", "url": "https://www.zynga.com/careers/"},
+      {"name": "Scopely", "url": "https://www.scopely.com/careers/"},
+      {"name": "Netflix Games", "url": "https://jobs.netflix.com/search?q=QA%20games"},
+      {"name": "Amazon Games", "url": "https://www.amazongames.com/en-us/jobs"},
+      {"name": "Unity", "url": "https://careers.unity.com/"},
+      {"name": "Square Enix", "url": "https://www.square-enix-games.com/en_US/careers"},
+      {"name": "Bandai Namco", "url": "https://www.bandainamcoent.com/careers"},
+      {"name": "Gearbox", "url": "https://www.gearboxsoftware.com/careers/"},
+      {"name": "CD Projekt Red", "url": "https://www.cdprojektred.com/en/careers"}
+    ],
+    "job_boards_games": [
+      {"name": "Hitmarker", "url": "https://hitmarker.net/jobs?q=QA%20manager"},
+      {"name": "Work With Indies", "url": "https://www.workwithindies.com/"},
+      {"name": "GameJobs Direct", "url": "https://www.gamesjobsdirect.com/qa-jobs"},
+      {"name": "RemoteGameJobs", "url": "https://remotegamejobs.com/"},
+      {"name": "InGameJob", "url": "https://ingamejob.com/en/jobs/qa-and-testing"},
+      {"name": "gamejobs.co", "url": "https://gamejobs.co/"},
+      {"name": "Grackle HQ (games)", "url": "https://gracklehq.com/"},
+      {"name": "ShowbizJobs (games)", "url": "https://www.showbizjobs.com/jobs/category/video-game"}
+    ],
+    "job_boards_general": [
+      {"name": "LinkedIn", "url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Manager%20Director%20games"},
+      {"name": "Indeed", "url": "https://www.indeed.com/q-QA-Director-Games-jobs.html"},
+      {"name": "Glassdoor (remote QA director)", "url": "https://www.glassdoor.com/Job/remote-qa-director-jobs-SRCH_IL.0,6_IS11047_KO7,18.htm"},
+      {"name": "Built In (remote QA)", "url": "https://builtin.com/jobs/remote/dev-engineering/qa"},
+      {"name": "Hacker News Who's Hiring", "url": "https://hnhiring.com/locations/remote"},
+      {"name": "Otta / Welcome to the Jungle", "url": "https://app.otta.com/"},
+      {"name": "Wellfound (AngelList)", "url": "https://wellfound.com/jobs"},
+      {"name": "Levels.fyi", "url": "https://www.levels.fyi/jobs?searchText=QA%20Director"},
+      {"name": "Dice (tech)", "url": "https://www.dice.com/jobs?q=QA%20Director"},
+      {"name": "ZipRecruiter", "url": "https://www.ziprecruiter.com/Jobs/Qa-Director"}
+    ]
+  },
+  "job_schema": {
+    "fields": ["id","title","company","category","location","remote","salary","source","url","date_found","date_posted","notes","closed"],
+    "notes_on_fields": "salary = comp range if posted (e.g. '$150k-$190k'). date_posted = when the role went live, if shown. closed = true if the posting now 404s/closed (dashboard dims it). Auto-archive: dashboard flags a role 'stale' if still un-actioned 30+ days after date_found."
+  }
+}

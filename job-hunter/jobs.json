@@ -1,0 +1,169 @@
+{
+  "_meta": {
+    "last_scan": "2026-07-01",
+    "scan_count": 2,
+    "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
+  },
+  "jobs": [
+    {
+      "id": "escapevelocity-studio-qa-director",
+      "title": "Studio QA Director",
+      "company": "Escape Velocity Entertainment",
+      "category": "games",
+      "location": "Remote (Worldwide)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Remotive",
+      "url": "https://remotive.com/remote/jobs/qa/studio-qa-director-4238360",
+      "date_found": "2026-06-22",
+      "date_posted": "",
+      "notes": "Reports to VP Product Dev. Live-service multiplayer, cross-platform PC/console/mobile. Owns QA budget & vendor partnerships.",
+      "fit": {
+        "score": 95,
+        "level": "Excellent",
+        "why": "Director-level, live-service multiplayer, owns QA budget + vendor partnerships — a near-exact match to your Fortis/Amazon scope.",
+        "blurb": "As Director of QA & Localization at Fortis Games, I built a studio-wide QA discipline and automation roadmap for live-service titles from the ground up, and I'm now leading Fortis' AI transformation of QA — using agentic AI and LLMs to target an 80% cut in manual release-test time. That blend of cross-platform live-service ownership and modern AI-driven automation is exactly what scaling competitive titles demands."
+      }
+    },
+    {
+      "id": "epic-senior-qa-manager-fortnite",
+      "title": "Senior QA Manager (Fortnite)",
+      "company": "Epic Games",
+      "category": "games",
+      "location": "Cary, NC / Remote-eligible",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Hitmarker",
+      "url": "https://hitmarker.net/jobs/epic-games-senior-qa-manager-1549496",
+      "date_found": "2026-06-22",
+      "date_posted": "",
+      "notes": "Leads internal + external leads/managers/ICs across Fortnite in-development projects.",
+      "fit": {
+        "score": 86,
+        "level": "Strong",
+        "why": "Leading internal + external leads/managers on a flagship live-service title is squarely your wheelhouse; slightly below your current Director title.",
+        "blurb": "Leading blended internal and vendor QA teams on a flagship live-service title mirrors my work at Amazon Games and Fortis, where I now drive an AI-led automation transformation to slash manual release testing. At Blizzard I owned test operations for Overwatch and Battle.net, so the scale and live-ops cadence of Fortnite are familiar territory."
+      }
+    },
+    {
+      "id": "epic-qa-manager-online",
+      "title": "QA Manager (Online team)",
+      "company": "Epic Games",
+      "category": "games",
+      "location": "Cary, NC / Remote-eligible",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Hitmarker",
+      "url": "https://hitmarker.net/jobs/epic-games-qa-manager-1621175",
+      "date_found": "2026-06-22",
+      "date_posted": "",
+      "notes": "QA Manager for Epic's Online services team.",
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "Online-services QA is relevant (Battle.net, live ops), but a Manager title is under-leveled vs your Director background.",
+        "blurb": "Online-services quality is core to my background — I led test operations for Battle.net at Blizzard and online/live-service pipelines at Amazon and Fortis. I'd bring director-level rigor in CI/CD, telemetry, and incident response to Epic's Online team."
+      }
+    },
+    {
+      "id": "riot-director-qa-rnd",
+      "title": "Director, QA - Unpublished R&D Product",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, USA",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Riot Careers",
+      "url": "https://www.riotgames.com/en/work-with-us/job/3347742/director-qa-unpublished-r-d-product-los-angeles-usa",
+      "date_found": "2026-06-22",
+      "date_posted": "",
+      "notes": "Owns QA process for a large team. Requires 10+ yrs QA, 3+ yrs leadership.",
+      "fit": {
+        "score": 94,
+        "level": "Excellent",
+        "why": "Director owning QA for a greenfield R&D product; you exceed the 10+ yrs / 3+ leadership bar, bring AI-driven test automation, and LA is your home region.",
+        "blurb": "I've owned QA process and people for large game organizations for over a decade — at Fortis, Netflix, Amazon Games, and Blizzard — and I'm currently leading an AI transformation of QA using agentic tooling and LLMs. Standing up quality and modern AI-assisted automation for an unannounced R&D product is exactly the greenfield work I do today at Fortis, and I'm based in your Los Angeles region."
+      }
+    },
+    {
+      "id": "netflix-senior-qa-project-manager-games",
+      "title": "Senior QA Project Manager, Games",
+      "company": "Netflix",
+      "category": "games",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "",
+      "source": "RemoteGameJobs",
+      "url": "https://remotegamejobs.com/jobs/netflix-senior-qa-project-manager-games-remote-job",
+      "date_found": "2026-06-22",
+      "date_posted": "",
+      "notes": "QA program/project management for Netflix Games. Manager-track (verify scope vs people-management).",
+      "fit": {
+        "score": 82,
+        "level": "Strong",
+        "why": "You were Head of Publishing QA at Netflix and ran QA program management at Amazon — insider knowledge of Netflix QA process is a major edge.",
+        "blurb": "I previously served as Head of Publishing QA at Netflix, where I built the 3P Publishing QA strategy and JIRA/process standards as the portfolio scaled toward 95+ titles — so I'd ramp on Netflix Games QA program management on day one. My Amazon Games tenure as Program Manager for QA Automation & Tools adds the cross-team delivery and roadmap experience this role needs."
+      }
+    },
+    {
+      "id": "scopely-qa-director-monopoly-go",
+      "title": "QA Director (Monopoly GO!)",
+      "company": "Scopely",
+      "category": "games",
+      "location": "Remote (US or Canada)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Glassdoor / Scopely Careers",
+      "url": "https://www.scopely.com/careers/",
+      "date_found": "2026-06-22",
+      "date_posted": "",
+      "notes": "Surfaced via Glassdoor remote QA Director search. Confirm exact posting on next scan.",
+      "fit": {
+        "score": 90,
+        "level": "Excellent",
+        "why": "Mobile live-service Director role — matches your Fortis mobile/live-service QA leadership and remote preference.",
+        "blurb": "Directing QA for a top-grossing mobile live-service title aligns directly with my work at Fortis Games, where I built the mobile-first QA discipline and now lead its AI transformation — leveraging agentic AI to target an 80% cut in manual release-test time. I pair that with deep LiveOps incident management honed across Blizzard, Amazon, and Netflix."
+      }
+    },
+    {
+      "id": "dfin-director-qa-remote",
+      "title": "Director of QA",
+      "company": "DFIN (Donnelley Financial Solutions)",
+      "category": "tech",
+      "location": "Remote",
+      "remote": "remote",
+      "salary": "",
+      "source": "Built In",
+      "url": "https://builtin.com/job/director-qa-remote/3193808",
+      "date_found": "2026-06-22",
+      "date_posted": "",
+      "notes": "Fintech/SaaS transformation. Owns QA systems & processes for product lines.",
+      "fit": {
+        "score": 78,
+        "level": "Good",
+        "why": "Director-level software QA leadership transfers cleanly, and DFIN's modernization mandate is a direct match for the AI-driven test-automation transformation you lead at Fortis.",
+        "blurb": "Modernizing QA systems and processes across product lines is exactly what I do — at Fortis I stood up CI pipelines and a centralized framework and now lead an AI transformation using LLMs and agentic tooling to target an 80% reduction in manual release testing. That automation-and-AI playbook translates directly to DFIN's SaaS transformation, even coming from a games background."
+      }
+    },
+    {
+      "id": "strive-pharmacy-vp-quality",
+      "title": "VP of Quality",
+      "company": "Strive Pharmacy",
+      "category": "tech",
+      "location": "Remote",
+      "remote": "remote",
+      "salary": "",
+      "source": "Indeed",
+      "url": "https://www.indeed.com/q-vp-qa-l-remote-jobs.html",
+      "date_found": "2026-06-22",
+      "date_posted": "",
+      "notes": "Strategic + operational quality executive. Non-games. Confirm direct posting next scan.",
+      "fit": {
+        "score": 48,
+        "level": "Stretch",
+        "why": "VP title is a great trajectory step, but a pharmacy 'VP of Quality' is likely regulatory/operational quality (GMP), not software QA — verify before investing.",
+        "blurb": "My two decades of executive quality leadership — defining standards, performance targets, and incident-response programs across global teams — would translate to a VP of Quality mandate, though I'd want to confirm the role centers on software/product quality rather than pharmaceutical regulatory compliance."
+      }
+    }
+  ]
+}

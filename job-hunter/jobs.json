@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-01",
-    "scan_count": 2,
+    "last_scan": "2026-07-02",
+    "scan_count": 3,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -163,6 +163,126 @@
         "level": "Stretch",
         "why": "VP title is a great trajectory step, but a pharmacy 'VP of Quality' is likely regulatory/operational quality (GMP), not software QA — verify before investing.",
         "blurb": "My two decades of executive quality leadership — defining standards, performance targets, and incident-response programs across global teams — would translate to a VP of Quality mandate, though I'd want to confirm the role centers on software/product quality rather than pharmaceutical regulatory compliance."
+      }
+    },
+    {
+      "id": "gameloft-qa-associate-director",
+      "title": "QA Associate Director",
+      "company": "Gameloft",
+      "category": "games",
+      "location": "Barcelona, Spain (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Hitmarker / gamejobs.co",
+      "url": "https://gamejobs.co/QA-Associate-Director-at-Gameloft",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Hybrid Barcelona. Reports to Head of QA; oversees QA Managers and Department Leads across the QA Business Unit. Mobile game studio.",
+      "fit": {
+        "score": 68,
+        "level": "Good",
+        "why": "Games QA leadership with clear people-management scope, but Associate Director reports into the Head of QA (below your current Director level) and requires relocation to Barcelona.",
+        "blurb": "Managing QA leaders and driving quality strategy across Gameloft's global mobile portfolio aligns with my experience building cross-platform QA organizations at Fortis, Netflix, and Amazon. I'd bring a director-level playbook — including my current AI-driven automation initiative targeting an 80% cut in manual release-test time — to help scale Gameloft's QA Business Unit."
+      }
+    },
+    {
+      "id": "roblox-qa-manager-apps",
+      "title": "QA Manager, Apps",
+      "company": "Roblox",
+      "category": "games",
+      "location": "San Mateo, CA (onsite)",
+      "remote": "onsite",
+      "salary": "$239,190–$296,300",
+      "source": "Roblox Careers",
+      "url": "https://meet.jobs/en/jobs/43454-qa-manager-apps",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Leads 6-8 FT QA Coordinators + outsourced testers for Roblox Player App (70M+ DAU). Platform Orchestration team. Weekly mobile release cadence. Exceptional comp.",
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "Leading QA for a 70M-DAU gaming platform at exceptional comp, but QA Manager is under-leveled vs your Director background and role is onsite San Mateo.",
+        "blurb": "Leading QA for Roblox's Player App — enjoyed by 70+ million daily users — is the high-stakes mobile release environment I've been building toward at Fortis and Amazon Games. I'd bring director-level rigor in release-cycle quality, CI/CD automation strategy, and people development to a team operating at Roblox's unprecedented scale."
+      }
+    },
+    {
+      "id": "hhaexchange-director-quality-engineering",
+      "title": "Director, Quality Engineering",
+      "company": "HHAeXchange",
+      "category": "tech",
+      "location": "Remote (US, EST/CST)",
+      "remote": "remote",
+      "salary": "$174,000–$195,000",
+      "source": "Himalayas / HHAeXchange Careers",
+      "url": "https://himalayas.app/companies/hhaexchange/jobs/director-quality-engineering",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Leads enterprise-wide QA strategy across QA engineers, SDETs, automation engineers, and accessibility/compliance testers. SaaS health-tech platform. EST/CST timezone preferred. 10+ yrs exp, 4+ yrs leading QA orgs.",
+      "fit": {
+        "score": 72,
+        "level": "Good",
+        "why": "Director-level QE leadership with automation modernization mandate is a strong skills match — even across the games-to-health-tech domain gap — and fully remote.",
+        "blurb": "Standardizing QA processes and driving test automation enterprise-wide is exactly the transformation I lead at Fortis today — where I use LLMs and agentic AI to target an 80% reduction in manual release testing. I'd apply that same QE-modernization playbook to HHAeXchange's platform, bringing proven experience building and scaling QA organizations from scratch across multiple product lines."
+      }
+    },
+    {
+      "id": "ci-games-qa-manager",
+      "title": "QA Manager",
+      "company": "CI Games (Hexworks)",
+      "category": "games",
+      "location": "Remote",
+      "remote": "remote",
+      "salary": "",
+      "source": "RemoteGameJobs",
+      "url": "https://remotegamejobs.com/jobs/ci-games-qa-manager-remote-job",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Manages internal and external QA teams at Hexworks studio (Lords of the Fallen). Covers FQA, CQA, LQA. Partners with QA Managers across CI Games. Requires 2+ yrs lead QA and 5+ yrs games QA.",
+      "fit": {
+        "score": 66,
+        "level": "Good",
+        "why": "Remote AAA games QA Manager with people-management scope, but seniority bar and QA Manager title are well below your Director-level background.",
+        "blurb": "Building quality processes at Hexworks — a studio with AAA ambitions on the Lords of the Fallen franchise — would draw on my experience standing up QA disciplines from scratch at multiple game studios. I'd bring senior-level FQA/LQA/CQA coverage, cross-studio coordination depth from Amazon Games and Fortis, and AI-driven automation strategy to help Hexworks scale quality."
+      }
+    },
+    {
+      "id": "unity-qa-manager-software-engineering",
+      "title": "QA Manager, Software Engineering",
+      "company": "Unity",
+      "category": "games",
+      "location": "Burbank, CA",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Unity Careers / Hitmarker",
+      "url": "https://careers.unity.com/position/qa-manager-software-engineering/2450378",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Leads Quality Analysts supporting global development teams. Partners with Professional Services/external delivery. Burbank CA is commutable from OC. Games engine company.",
+      "fit": {
+        "score": 65,
+        "level": "Good",
+        "why": "Unity's engine QA organization is games-adjacent and Burbank is commutable from OC — but QA Manager is below your Director trajectory.",
+        "blurb": "Leading QA for Unity's software engineering teams would let me apply 20 years of game-development quality leadership to the engine layer that powers the entire industry — from global CI/CD strategy to modern automation frameworks. I'd bring director-level rigor and my current AI/agentic-testing focus to help Unity's QA team raise quality velocity across Professional Services delivery."
+      }
+    },
+    {
+      "id": "amazon-games-qa-manager-bucharest",
+      "title": "QA Manager",
+      "company": "Amazon Games (Bucharest)",
+      "category": "games",
+      "location": "Bucharest, Romania (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Amazon Jobs",
+      "url": "https://amazon.jobs/en/jobs/3014304/qa-manager-amazon-games",
+      "date_found": "2026-07-02",
+      "date_posted": "",
+      "notes": "Leads QA Engineers + manual testers on AAA HD title in Bucharest expansion studio. Taylor's former employer. Under-leveled vs Director scope held at Amazon; requires international relocation to Romania.",
+      "fit": {
+        "score": 60,
+        "level": "Stretch",
+        "why": "Amazon Games is Taylor's former employer but returning as QA Manager is a step down from the Director/Head scope held there, and Bucharest requires international relocation.",
+        "blurb": "Amazon Games is where I built my AAA QA leadership — overseeing New World, Lost Ark, and Crucible across global teams. While I know this organization well, re-entering at QA Manager level would be a step back from the Director scope I've held since, and the Bucharest location requires relocating abroad — I'd watch for a Director-level opening in a US Amazon Games studio."
       }
     }
   ]

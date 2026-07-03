@@ -440,3 +440,10 @@
 - Home Assistant 2026.7 ships July 1 — intent-based automation triggers now default for all users; matter.js replaces Python Matter server with Matter 1.5.1 compliance and zero-recommission auto-migration
 - GPT-5.6 Sol/Terra/Luna targeting July 10–17 for broader ChatGPT and API access; OpenAI and Broadcom unveil purpose-built LLM inference chip
 - AMD FSR 4.1 expanded to all RX 7000 series GPUs a month early via Adrenalin 26.6.2 — INT8 upscaler active in 300+ games natively
+
+## [2026-07-03]
+- Anthropic launches Claude Science — AI workbench for researchers with 60+ curated skills for genomics, proteomics, and cheminformatics; funding up to 50 projects with $30K credits each; enters drug discovery for rare diseases
+- White House voluntary AI standards framework expected ~July 7 — would formalize GPT-5.6 government-coordination process as the frontier model release playbook; Sol/Terra/Luna targeting API rollout July 10–17
+- Runway Gen-4 integrates into Adobe Firefly as a partner model — world-consistent AI video generation now inside Creative Cloud for animators and motion designers
+- OpenAI and Nvidia announce 10-gigawatt Vera Rubin infrastructure deal — first phase online H2 2026; largest AI infrastructure commitment to date
+- Virginia geolocation data ban takes effect July 1 — third state after Maryland and Oregon to prohibit sale of precise consumer location data; six more states watching

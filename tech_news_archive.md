@@ -447,3 +447,10 @@
 - Runway Gen-4 integrates into Adobe Firefly as a partner model — world-consistent AI video generation now inside Creative Cloud for animators and motion designers
 - OpenAI and Nvidia announce 10-gigawatt Vera Rubin infrastructure deal — first phase online H2 2026; largest AI infrastructure commitment to date
 - Virginia geolocation data ban takes effect July 1 — third state after Maryland and Oregon to prohibit sale of precise consumer location data; six more states watching
+
+## [2026-07-04]
+- Home Assistant 2026.7 GA — intent-based natural-language automations now default for all users; matter.js replaces Python Matter server with Matter 1.5.1 compliance; Dropbox backup and Raspberry Pi firmware updates ship; 10 new integrations
+- GPT-5.6 Sol, Terra & Luna government-gated preview targets July 10–17 broad API rollout; Sol deploys on Cerebras wafer-scale hardware at 750 tok/sec (15× baseline); Sol leads Terminal-Bench 2.1 at 88.8%
+- Grok 4.5 enters private beta at SpaceX and Tesla — 1.5T-parameter V9 architecture, 3× larger than current production model; Musk targets broader public release "just after July 4"; monthly model cadence planned through 2026
+- Valar Atomics activates nuclear microreactor live on stage to power an Nvidia RTX Spark desktop PC — first microreactor-powered consumer AI PC demo; highlights AI compute's escalating energy infrastructure challenge
+- "Bad Epoll" CVE-2026-46242 Linux kernel flaw disclosed — unprivileged root access on desktops, servers, and Android; fix available; HAOS, Proxmox, and Pi users should patch immediately

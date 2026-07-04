@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-03",
-    "scan_count": 5,
+    "last_scan": "2026-07-04",
+    "scan_count": 6,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -423,6 +423,111 @@
         "level": "Good",
         "why": "Building QA from scratch for a Cyberpunk AAA title is meaningful ownership, but QA Manager is well below your Director trajectory and requires onsite relocation to Boston.",
         "blurb": "Standing up QA processes and a team from the ground floor for Project Orion at CD Projekt Red is the kind of greenfield build I've done repeatedly — at Fortis, Amazon Games, and Netflix — and CDPR's AAA ambitions match the caliber of work I care about. That said, the QA Manager title is a step back from my Director scope, and the onsite Boston requirement would mean a cross-country relocation from Orange County."
+      }
+    },
+    {
+      "id": "riot-senior-manager-qa-valorant",
+      "title": "Senior Manager, QA - VALORANT Experience Team",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, USA (onsite)",
+      "remote": "onsite",
+      "salary": "$178,800–$249,200",
+      "source": "Riot Games Careers / ShowbizJobs",
+      "url": "https://www.riotgames.com/en/work-with-us/job/6008694/senior-manager-qa-valorant-experience-team-los-angeles-usa",
+      "date_found": "2026-07-04",
+      "date_posted": "",
+      "notes": "Reports to Director of Quality for VALORANT. Holistically owns QA strategy for Cross VALORANT Experiences. Manages QA Managers and ICs. 8+ yrs QA, 2+ yrs leadership required. $178,800–$249,200 base + incentive + equity. LA is Taylor's home region.",
+      "closed": false,
+      "fit": {
+        "score": 84,
+        "level": "Strong",
+        "why": "Senior Manager owning end-to-end quality for VALORANT Experiences at Riot — excellent comp, LA is your home base, people-management scope confirmed — slightly below your current Director title.",
+        "blurb": "Managing quality end-to-end across VALORANT's cross-experience products is the high-stakes live-service scope I've built my career on — directing QA for Fortis, Netflix Games, and Amazon's new titles through launch and live ops. Riot's LA headquarters is in my home region, and my 20+ years of games QA leadership — including an active AI transformation targeting an 80% cut in manual release testing — means I'd be effective from day one."
+      }
+    },
+    {
+      "id": "riot-senior-manager-qa-tft",
+      "title": "Senior Manager, QA - Teamfight Tactics",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, USA (onsite)",
+      "remote": "onsite",
+      "salary": "$187,700–$261,700",
+      "source": "Riot Games Careers / Glassdoor",
+      "url": "https://www.riotgames.com/en/work-with-us/job/6908931/senior-manager-qa-teamfight-tactics-los-angeles-usa",
+      "date_found": "2026-07-04",
+      "date_posted": "",
+      "notes": "Manages QA professionals on TFT AXE Team. Delivers high-quality in-game events, passes, and content. Follows Riot Test Policy across full SDLC. $187,700–$261,700 base + incentive + equity. LA onsite.",
+      "closed": false,
+      "fit": {
+        "score": 81,
+        "level": "Strong",
+        "why": "Senior Manager leading QA on a flagship Riot competitive title in LA — strong comp, people-management scope, commutable from OC — one level below your current Director track.",
+        "blurb": "Delivering consistent quality for Teamfight Tactics — a competitive live-service title with a passionate global player base — is the kind of high-throughput, content-heavy QA challenge I've mastered at Fortis and Amazon Games. I'd bring proven people leadership across large blended teams and my current AI-automation initiative — targeting an 80% reduction in manual release testing — to help the TFT AXE team ship faster and with greater confidence."
+      }
+    },
+    {
+      "id": "netflix-qa-manager-studio-development-games",
+      "title": "QA Manager, Studio Development Games",
+      "company": "Netflix",
+      "category": "games",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "$60,000–$270,000",
+      "source": "Netflix Careers",
+      "url": "https://explore.jobs.netflix.net/careers/job/790311932645-qa-manager-studio-development-games-usa-remote",
+      "date_found": "2026-07-04",
+      "date_posted": "",
+      "notes": "Part of Games Operations, reports to Director of QA, Games. Leads multi-studio QA teams, builds external QA partnerships. Ensures Netflix-developed games meet quality standards across the platform portfolio. Application deadline July 8, 2026. Taylor is a Netflix alum (Head of Publishing QA).",
+      "closed": false,
+      "fit": {
+        "score": 85,
+        "level": "Strong",
+        "why": "You were Head of Publishing QA at Netflix; returning as QA Manager is slightly under Director level but your insider knowledge, platform familiarity, and alum status are a decisive edge — and it's remote.",
+        "blurb": "I built Netflix Games Publishing QA from scratch — developing the 3P QA strategy, defining quality standards, and scaling the framework toward a 95-title portfolio — so I'd contribute from day one without any ramp-up on the platform, culture, or games ecosystem. My current AI-driven testing initiative at Fortis — using LLMs and agentic automation to target an 80% reduction in manual release test time — would bring a modern automation uplift to Netflix Games QA operations."
+      }
+    },
+    {
+      "id": "bestow-director-quality-assurance",
+      "title": "Director of Quality Assurance",
+      "company": "Bestow",
+      "category": "tech",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "$215,000–$240,000",
+      "source": "Built In / Himalayas",
+      "url": "https://builtin.com/job/director-quality-assurance/7416252",
+      "date_found": "2026-07-04",
+      "date_posted": "",
+      "notes": "InsurTech SaaS vertical (life insurance platform). Reports to CTO. Builds QA org from scratch. Explicitly calls out AI-enabled testing tools. 8+ yrs QA, 3+ yrs mgmt. $215K–$240K. Remote US.",
+      "closed": false,
+      "fit": {
+        "score": 73,
+        "level": "Good",
+        "why": "Remote Director of QA at InsurTech SaaS — strong comp ($215K–$240K), build-from-scratch mandate is your specialty, and AI-enabled testing is explicitly in scope (+AI bonus).",
+        "blurb": "Establishing a world-class QA function from the ground up is precisely what I've done at Fortis, Netflix, and Amazon Games — and Bestow's mandate to leverage AI-enabled testing aligns directly with my current work using LLMs and agentic tooling to target an 80% reduction in manual release testing. While insurtech is a domain shift from games, the challenge of building scalable QA disciplines for a compliance-sensitive SaaS platform is one I'm fully equipped to take on at the Director level."
+      }
+    },
+    {
+      "id": "bridgeway-director-quality-assurance",
+      "title": "Director, Quality Assurance",
+      "company": "Bridgeway Benefit Technologies",
+      "category": "tech",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Built In / Remotive",
+      "url": "https://builtin.com/job/director-quality-assurance/9417716",
+      "date_found": "2026-07-04",
+      "date_posted": "",
+      "notes": "Benefits/HR tech SaaS. Player-coach QA leader: owns strategy + contributes directly to automation framework. Manages QA Engineers and Analysts. ISTQB CTAL-TM explicitly required — Taylor holds it. Playwright, CI/CD, remote.",
+      "closed": false,
+      "fit": {
+        "score": 69,
+        "level": "Good",
+        "why": "Remote Director of QA for a benefits SaaS — ISTQB CTAL-TM is explicitly required (Taylor holds it), automation-first mandate is a direct match, though HR tech is a domain shift.",
+        "blurb": "Bridgeway's player-coach Director of QA mandate — driving automation framework strategy while remaining close to the code — aligns with how I've led QA at Fortis and Amazon Games, where I pair strategic quality ownership with direct automation architecture work. My ISTQB Advanced Test Manager certification (CTAL-TM) is the exact credential Bridgeway calls out, and my current AI-driven testing initiative adds a modern capability that benefits SaaS transformations can leverage directly."
       }
     }
   ]

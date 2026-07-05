@@ -454,3 +454,10 @@
 - Grok 4.5 enters private beta at SpaceX and Tesla — 1.5T-parameter V9 architecture, 3× larger than current production model; Musk targets broader public release "just after July 4"; monthly model cadence planned through 2026
 - Valar Atomics activates nuclear microreactor live on stage to power an Nvidia RTX Spark desktop PC — first microreactor-powered consumer AI PC demo; highlights AI compute's escalating energy infrastructure challenge
 - "Bad Epoll" CVE-2026-46242 Linux kernel flaw disclosed — unprivileged root access on desktops, servers, and Android; fix available; HAOS, Proxmox, and Pi users should patch immediately
+
+## [2026-07-05]
+- Claude Sonnet 5 now default for all Free and Pro Claude users — most agentic Sonnet yet (multi-step tasks, browser/terminal use), near-Opus-4.8 performance; intro pricing $2/$10/Mtok through August 31
+- Fable 5 redeployed globally with new automated cybersecurity classifier — Amazon researchers discovered exploit-code bypass that triggered June 12 ban; Anthropic patched and restored July 1; Mythos 5 also back for select US orgs
+- Apple releases surprise iOS 26.5.2 security patch — 30 vulnerabilities fixed out-of-cycle, Apple cites AI-accelerated exploit development as primary driver; update immediately
+- IKEA launches 21 Matter-over-Thread devices on SmartThings — sensors, remotes, lights, and border router hub; largest single-vendor Thread expansion yet, making affordable whole-home coverage practical
+- Intel Nova Lake-S leak reveals 16-core desktop CPU with 12 Xe3P integrated GPU cores — most powerful Intel iGPU in a mainstream desktop chip; targets AMD Ryzen G-series APU dominance in mini-PCs

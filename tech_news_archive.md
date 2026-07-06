@@ -461,3 +461,10 @@
 - Apple releases surprise iOS 26.5.2 security patch — 30 vulnerabilities fixed out-of-cycle, Apple cites AI-accelerated exploit development as primary driver; update immediately
 - IKEA launches 21 Matter-over-Thread devices on SmartThings — sensors, remotes, lights, and border router hub; largest single-vendor Thread expansion yet, making affordable whole-home coverage practical
 - Intel Nova Lake-S leak reveals 16-core desktop CPU with 12 Xe3P integrated GPU cores — most powerful Intel iGPU in a mainstream desktop chip; targets AMD Ryzen G-series APU dominance in mini-PCs
+
+## [2026-07-06]
+- World's first UN Global Dialogue on AI Governance opens in Geneva with all 193 member states — an independent science panel warned AI capabilities are outpacing regulatory capacity and no technical safety guarantee exists
+- Intel hikes Arrow Lake Refresh CPU prices up to 17% starting July 2 (Core Ultra 7 270K+ now ~$349); TrendForce warns 30% cumulative hikes by year-end, AMD matching with 16–17% increase
+- ZemiSmart launches Zigbee IR blaster (ZBCIR01) and Matter Wi-Fi AC controller (ZMCIR01) at $34.95 each — 200,000+ IR codes bridge legacy appliances to Apple Home, Google Home, SmartThings, and HA
+- Cavalry Pro now fully free for all individual users after Canva's February acquisition — the procedural, node-based 2D animation tool now commercially free; enterprise SSO remains paid
+- OpenAI GPT-5.6 Sol begins rolling out on Cerebras at 750 tokens/sec (35× GPU baseline); still restricted to ~20 US government-approved trusted partners, broader access expected within weeks

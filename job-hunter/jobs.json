@@ -781,6 +781,27 @@
         "why": "Games QA Manager with confirmed people-management scope and cross-platform breadth, but under-leveled (reports to a QA Director) and requires onsite relocation to Boston from OC.",
         "blurb": "Managing and scaling a games QA team at Demiurge — spanning mobile, console, and PC titles — is a scope I've performed many times, from Marvel Puzzle Quest-scale mobile at Amazon to multi-platform live-service games at Fortis and Blizzard. That said, the QA Manager title is a step back from the Director-level scope I've held for years, and relocating to Boston from Orange County would be a significant commitment at this seniority level."
       }
+    },
+    {
+      "id": "side-senior-manager-global-qa-operations",
+      "title": "Senior Manager, Global QA Operations",
+      "company": "Side",
+      "category": "games",
+      "location": "Remote (Global)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Workable (direct) — manual add",
+      "url": "https://apply.workable.com/sideinc/j/D7FC901824/",
+      "date_found": "2026-07-06",
+      "date_posted": "",
+      "notes": "Manually added (not surfaced by daily scan). Games QA/localization services vendor. Global multi-site QA operations: quality visibility & reporting, KPIs, calibration, root-cause; influence without authority; client/partner relationships; AI-led quality improvements. Reports to Global Director of QA. Tailored resume: T_Westfall_Side_Senior_Manager_Global_QA_Operations.",
+      "closed": false,
+      "fit": {
+        "score": 83,
+        "level": "Strong",
+        "why": "Senior QA operations leadership at a global games-services vendor — your multi-site QA ops, KPI/reporting, calibration, and vendor-side insight fit well; a notch below your Director title.",
+        "blurb": "I've run global, multi-site QA operations, reporting, and quality standards across Fortis, Netflix, Amazon, and Blizzard, and I'm now leading Fortis' AI transformation of QA — using agentic AI and LLMs to target an 80% cut in manual release-test time. Having directed external QA and localization partners from the client side, I know exactly what Side's clients expect, and I'd bring strong calibration, root-cause, and cross-site consistency to your global QA operations."
+      }
     }
   ]
 }

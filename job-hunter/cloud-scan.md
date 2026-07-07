@@ -41,12 +41,28 @@ normal; NEVER invent roles to pad the list.
    "N days ago" date on the page — convert relative dates using today's UTC date.
 3a. BACKFILL: also scan `jobs.json` for existing entries whose `date_posted` is "" and, when their
    posting is still reachable this run, fill it in using the same rules (leave "" if not found).
-4. Dedupe against `job-hunter/jobs.json` by `id` (lowercase-kebab `company-title`). Skip existing.
-4a. DEAD-LINK CHECK: never ADD a new role whose direct apply URL already 404s/410s or redirects to a
-   generic "no longer available" / careers-root page — skip it entirely, don't list it. Also re-check
-   the apply URL of each EXISTING open (non-closed) role this run; if it is now dead (404/410/removed
-   listing), set that entry's `closed: true` in jobs.json (do NOT delete it — keep for dedupe/history).
-   The dashboard hides every `closed:true` role from all views and counts, so dead postings vanish.
+4. Dedupe against `job-hunter/jobs.json`. Skip a candidate if EITHER: (a) its `id` (lowercase-kebab
+   `company-title`) already exists, OR (b) it is a NEAR-duplicate of an existing role — same company
+   AND a title that matches after normalizing (lowercase; strip parentheticals like "(Fortnite)";
+   drop the words senior/sr/lead/staff/principal, punctuation, and em/en dashes; collapse whitespace).
+   e.g. "Senior Manager, QA - Teamfight Tactics" and "Senior QA Manager, Gameplay – TFT" are the SAME
+   role — keep only one. Never list the same posting twice under slightly different titles.
+4a. DEAD-LINK CHECK — this is the step that was being skipped; do it rigorously with curl:
+   `curl -sL -o /dev/null --max-time 12 -A "<a desktop Chrome UA string>" -w "%{http_code} %{url_effective}" "<URL>"`.
+   A posting is DEAD if ANY of these is true — in which case NEVER add it (for new roles) or set
+   `"closed": true` on it (for existing open roles):
+     • http_code is 404 or 410;
+     • the final `url_effective` differs from the posting and lands on a careers ROOT / listing page
+       (e.g. ".../jobs", ".../careers", ".../global/en", ".../us/en", ".../positions") — a redirect to
+       the site root means the specific posting was removed;
+     • the final URL contains an error marker like `?error=true`, `?not_found=true`, `not-found`, or the
+       page body says "no longer available" / "position has been filled".
+   Treat http_code 403 or 429 as UNVERIFIABLE (bot-blocked) — do NOT mark those dead; leave as-is.
+   Also NEVER add a role whose only link is a generic search/listing page (e.g. an Indeed `q-...`
+   search URL, a Lever/Greenhouse company root with no job id) — require a direct posting URL.
+   When you mark an existing role closed, also set `"closed_on"` = today and `"closed_reason"`.
+   The dashboard hides every `closed:true` role from all views and counts, so dead postings vanish
+   permanently and are never shown again (they stay in jobs.json only for dedupe/history).
 5. FIT-SCORE each NEW role against `config.json.resume.profile_for_fit` + `fit_rubric`. Add a
    `"fit"` object: `{score 0-100, level, why (1 line), blurb (2-sentence first-person
    cover-letter snippet)}`. Honor the AI bonus for AI/automation-centric roles.

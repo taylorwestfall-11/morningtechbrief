@@ -26,9 +26,10 @@ normal; NEVER invent roles to pad the list.
    Direct, RemoteGameJobs, InGameJob, LinkedIn, Indeed, Glassdoor, Built In, Wellfound,
    Levels.fyi, Dice, ZipRecruiter) — plus the games service/outsourcing vendors in
    `config.json.sources.games_service_vendors` (Side/PTW, Keywords Studios, Testronic, Virtuos,
-   Lionbridge Games, Room 8 Group), whose in-house QA/localization leadership roles rarely reach
-   the aggregators — and the AI-automation angle (Director of Test Automation, Head of QE,
-   "AI-driven testing", "QA for AI").
+   Lionbridge Games, Room 8 Group) and the non-games QA/QE/AI-testing vendors in
+   `config.json.sources.qa_saas_vendors` (Qualitest, QA Wolf, Applause), whose in-house
+   QA/localization leadership roles rarely reach the aggregators — and the AI-automation angle
+   (Director of Test Automation, Head of QE, "AI-driven testing", "QA for AI").
 3. For each candidate role capture the `config.json.job_schema` fields: title, company, category
    (games|tech), location, remote (remote|hybrid|onsite), salary, source, direct apply URL
    (prefer canonical posting over a search page), date_posted, one-line note. Leave "" if unknown.

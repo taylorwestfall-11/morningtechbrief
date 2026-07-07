@@ -85,6 +85,11 @@
       {"name": "Lionbridge Games", "url": "https://careers.lionbridge.com/jobs/search/search-page-games"},
       {"name": "Room 8 Group", "url": "https://room8group.com/join-the-team/"}
     ],
+    "qa_saas_vendors": [
+      {"name": "Qualitest", "url": "https://apply.workable.com/qualitest-1/"},
+      {"name": "QA Wolf", "url": "https://jobs.ashbyhq.com/QAWolf"},
+      {"name": "Applause", "url": "https://www.applause.com/jobs/"}
+    ],
     "job_boards_general": [
       {"name": "LinkedIn", "url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Manager%20Director%20games"},
       {"name": "Indeed", "url": "https://www.indeed.com/q-QA-Director-Games-jobs.html"},

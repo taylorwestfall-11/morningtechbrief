@@ -37,6 +37,8 @@
   .pipe .chip.on{border-color:var(--accent)}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px 18px;margin:12px 0;box-shadow:var(--shadow);transition:opacity .2s}
   .card.closed{opacity:.5}
+  .card.expired{opacity:.6}
+  .bcard.expired{opacity:.55}
   .card.offer{border-color:#3a7d52}
   .card.stale{border-style:dashed}
   .card-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
@@ -195,6 +197,7 @@ const STAGES = [
 ];
 const STAGE = Object.fromEntries(STAGES.map(s=>[s.key,s]));
 const STALE_DAYS = 30;
+const EXPIRE_DAYS = 90;  // date_posted older than ~3 months ⇒ likely expired/filled
 
 const KEY="jobhunter_status_v2";
 let state = JSON.parse(localStorage.getItem(KEY) || "{}");
@@ -259,6 +262,8 @@ function render(){
     const isNew = j.date_found===LAST_SCAN && st==="new";
     const foundAge = daysBetween(j.date_found);
     const isStale = st==="new" && foundAge!==null && foundAge>STALE_DAYS;
+    const postedAge = daysBetween(j.date_posted);
+    const likelyExpired = st==="new" && postedAge!==null && postedAge>EXPIRE_DAYS;
     const remoteBadge = j.remote==="remote"?`<span class="badge remote">🌍 Remote</span>`
       : j.remote==="hybrid"?`<span class="badge hybrid">Hybrid</span>`:`<span class="badge">On-site</span>`;
     let aging="";
@@ -267,7 +272,7 @@ function render(){
     const opts=STAGES.map(s=>`<option value="${s.key}" ${s.key===st?"selected":""}>${s.label}</option>`).join("");
     const f=j.fit;
     const fitBlock = f?`<div class="fit"><div class="ring" style="background:${fitColor(f.score)}">${f.score}</div><div class="lvl">${f.level}</div></div>`:`<div class="score">⭐ —</div>`;
-    return `<div class="card ${g==="closed"?"closed":""} ${st==="offer"?"offer":""} ${isStale?"stale":""}">
+    return `<div class="card ${g==="closed"?"closed":""} ${likelyExpired?"expired":""} ${st==="offer"?"offer":""} ${isStale?"stale":""}">
       <div class="card-top">
         <div>
           <p class="title">${j.title}</p>
@@ -284,6 +289,7 @@ function render(){
         ${remoteBadge}
         <span class="badge">via ${j.source}</span>
         ${j.date_posted?`<span class="badge">📅 posted ${j.date_posted}</span>`:""}
+        ${likelyExpired?`<span class="badge stale">⚠️ likely expired · ${Math.round(postedAge/30)}mo</span>`:""}
       </div>
       ${f?`<div class="fit-why"><b>Fit:</b> ${f.why}</div>`:""}
       ${j.notes?`<div class="notes-line">${j.notes}</div>`:""}
@@ -314,13 +320,15 @@ function renderBoard(rows){
 function boardCard(j){
   const r=rec(j.id), st=r.status, foundAge=daysBetween(j.date_found);
   const isStale=st==="new"&&foundAge!==null&&foundAge>STALE_DAYS;
+  const postedAge=daysBetween(j.date_posted);
+  const likelyExpired=st==="new"&&postedAge!==null&&postedAge>EXPIRE_DAYS;
   const f=j.fit;
   const ring=f?`<div class="bring" style="background:${fitColor(f.score)}">${f.score}</div>`:"";
   const remoteB=j.remote==="remote"?`<span class="badge remote">🌍</span>`:j.remote==="hybrid"?`<span class="badge hybrid">Hybrid</span>`:`<span class="badge">On-site</span>`;
   const note=r.notes?`<div class="bnote">📝 ${r.notes.replace(/</g,"&lt;")}</div>`:"";
-  return `<div class="bcard ${st==="offer"?"offer":""} ${isStale?"stale":""}" draggable="true" data-id="${j.id}" ondragstart="cardDrag(event,'${j.id}')" ondragend="cardDragEnd(event)">
+  return `<div class="bcard ${likelyExpired?"expired":""} ${st==="offer"?"offer":""} ${isStale?"stale":""}" draggable="true" data-id="${j.id}" ondragstart="cardDrag(event,'${j.id}')" ondragend="cardDragEnd(event)">
     <div class="bt"><div><h4>${j.title}</h4><div class="bco">${j.company}</div></div>${ring}</div>
-    <div class="bmeta"><span class="badge ${j.category}">${j.category==="games"?"🎮":"💻"}</span>${remoteB}${j.date_posted?`<span class="badge">📅 ${j.date_posted}</span>`:""}${isStale?`<span class="badge stale">⏳${foundAge}d</span>`:""}<a class="bapply" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a></div>
+    <div class="bmeta"><span class="badge ${j.category}">${j.category==="games"?"🎮":"💻"}</span>${remoteB}${j.date_posted?`<span class="badge">📅 ${j.date_posted}</span>`:""}${likelyExpired?`<span class="badge stale">⚠️ ${Math.round(postedAge/30)}mo</span>`:""}${isStale?`<span class="badge stale">⏳${foundAge}d</span>`:""}<a class="bapply" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a></div>
     ${note}</div>`;
 }
 let dragId=null;

@@ -283,7 +283,7 @@ function render(){
         <span class="badge ${j.category}">${j.category==="games"?"🎮 Games":"💻 Tech"}</span>
         ${remoteBadge}
         <span class="badge">via ${j.source}</span>
-        ${j.date_posted?`<span class="badge">posted ${j.date_posted}</span>`:""}
+        ${j.date_posted?`<span class="badge">📅 posted ${j.date_posted}</span>`:""}
       </div>
       ${f?`<div class="fit-why"><b>Fit:</b> ${f.why}</div>`:""}
       ${j.notes?`<div class="notes-line">${j.notes}</div>`:""}
@@ -320,7 +320,7 @@ function boardCard(j){
   const note=r.notes?`<div class="bnote">📝 ${r.notes.replace(/</g,"&lt;")}</div>`:"";
   return `<div class="bcard ${st==="offer"?"offer":""} ${isStale?"stale":""}" draggable="true" data-id="${j.id}" ondragstart="cardDrag(event,'${j.id}')" ondragend="cardDragEnd(event)">
     <div class="bt"><div><h4>${j.title}</h4><div class="bco">${j.company}</div></div>${ring}</div>
-    <div class="bmeta"><span class="badge ${j.category}">${j.category==="games"?"🎮":"💻"}</span>${remoteB}${isStale?`<span class="badge stale">⏳${foundAge}d</span>`:""}<a class="bapply" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a></div>
+    <div class="bmeta"><span class="badge ${j.category}">${j.category==="games"?"🎮":"💻"}</span>${remoteB}${j.date_posted?`<span class="badge">📅 ${j.date_posted}</span>`:""}${isStale?`<span class="badge stale">⏳${foundAge}d</span>`:""}<a class="bapply" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a></div>
     ${note}</div>`;
 }
 let dragId=null;

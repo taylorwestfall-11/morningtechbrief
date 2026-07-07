@@ -33,6 +33,14 @@ normal; NEVER invent roles to pad the list.
 3. For each candidate role capture the `config.json.job_schema` fields: title, company, category
    (games|tech), location, remote (remote|hybrid|onsite), salary, source, direct apply URL
    (prefer canonical posting over a search page), date_posted, one-line note. Leave "" if unknown.
+   DATE_POSTED — try hard to fill it (YYYY-MM-DD), but ONLY from an explicitly-stated date; never
+   guess or use date_found as a fallback. The raw posting page often 403s, so use the board APIs:
+   Greenhouse → `https://boards-api.greenhouse.io/v1/boards/<board>/jobs/<id>` (first_published);
+   Lever → `https://api.lever.co/v0/postings/<org>/<id>?mode=json` (createdAt epoch-ms → date);
+   aggregators (Hitmarker, Remotive, RemoteGameJobs, gamejobs.co, Built In) usually show a posted or
+   "N days ago" date on the page — convert relative dates using today's UTC date.
+3a. BACKFILL: also scan `jobs.json` for existing entries whose `date_posted` is "" and, when their
+   posting is still reachable this run, fill it in using the same rules (leave "" if not found).
 4. Dedupe against `job-hunter/jobs.json` by `id` (lowercase-kebab `company-title`). Skip existing.
 5. FIT-SCORE each NEW role against `config.json.resume.profile_for_fit` + `fit_rubric`. Add a
    `"fit"` object: `{score 0-100, level, why (1 line), blurb (2-sentence first-person

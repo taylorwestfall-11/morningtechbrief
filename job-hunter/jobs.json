@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-06",
-    "scan_count": 8,
+    "last_scan": "2026-07-07",
+    "scan_count": 9,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -113,11 +113,11 @@
       "location": "Remote (US or Canada)",
       "remote": "remote",
       "salary": "",
-      "source": "Glassdoor / Scopely Careers",
-      "url": "https://www.scopely.com/careers/",
+      "source": "Glassdoor / Scopely Careers (Greenhouse)",
+      "url": "https://job-boards.greenhouse.io/scopely/jobs/4865386008",
       "date_found": "2026-06-22",
       "date_posted": "",
-      "notes": "Surfaced via Glassdoor remote QA Director search. Confirm exact posting on next scan.",
+      "notes": "Direct Greenhouse URL confirmed on 2026-07-07 scan. Remote US or Canada. Role explicitly champions AI-powered QA solutions to optimize testing workflows, improve defect detection, and accelerate release cycles. Reports to Senior QA Director (EU).",
       "fit": {
         "score": 90,
         "level": "Excellent",
@@ -801,6 +801,90 @@
         "level": "Strong",
         "why": "Senior QA operations leadership at a global games-services vendor — your multi-site QA ops, KPI/reporting, calibration, and vendor-side insight fit well; a notch below your Director title.",
         "blurb": "I've run global, multi-site QA operations, reporting, and quality standards across Fortis, Netflix, Amazon, and Blizzard, and I'm now leading Fortis' AI transformation of QA — using agentic AI and LLMs to target an 80% cut in manual release-test time. Having directed external QA and localization partners from the client side, I know exactly what Side's clients expect, and I'd bring strong calibration, root-cause, and cross-site consistency to your global QA operations."
+      }
+    },
+    {
+      "id": "bungie-incubation-qa-director",
+      "title": "Incubation QA Director",
+      "company": "Bungie",
+      "category": "games",
+      "location": "Remote (US — CA and 18+ states; Bellevue/Seattle preferred)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Bungie Careers / Greenhouse",
+      "url": "https://boards.greenhouse.io/bungie/jobs/5048526",
+      "date_found": "2026-07-07",
+      "date_posted": "",
+      "notes": "QA Director for an unannounced Bungie incubation project. Build QA org from the ground up through ship and into live ops. Partners closely with project leadership to build holistic Test strategy. Remote-eligible in CA and 18+ other US states. Distinct from Destiny QA Director role (job 5309128).",
+      "closed": false,
+      "fit": {
+        "score": 91,
+        "level": "Excellent",
+        "why": "QA Director building from ground up on an unannounced Bungie project — near-exact match to your greenfield org-building and live-ops QA scope; remote-in-CA policy means no relocation.",
+        "blurb": "Building a QA organization from scratch for a new title — defining the test strategy, establishing processes, and scaling through ship and live ops — is exactly what I've done at Fortis Games, Netflix, and Amazon Games, and I'm now leading Fortis' AI transformation of QA using agentic tooling to target an 80% reduction in manual release-test time. Bungie's remote-eligible-in-California policy means I can contribute from my Orange County base, and an unannounced incubation project offers the greenfield quality leadership challenge I find most compelling."
+      }
+    },
+    {
+      "id": "blizzard-test-director-unannounced-game",
+      "title": "Test Director, Unannounced Game",
+      "company": "Blizzard Entertainment",
+      "category": "games",
+      "location": "Irvine, CA (hybrid)",
+      "remote": "hybrid",
+      "salary": "$107,200–$198,320",
+      "source": "Blizzard Careers (Activision Workday, job R025431)",
+      "url": "https://careers.blizzard.com/gb/en/job/R025431/Test-Director-Unannounced-Game-Irvine-CA",
+      "date_found": "2026-07-07",
+      "date_posted": "",
+      "notes": "Hybrid Irvine, CA — OC home region. 'Test Director' is Blizzard's title for QA Director. Leads QA operations and testing across one or more unannounced products. $107K–$198K base + comprehensive benefits; relocation assistance offered. Taylor's former employer (Overwatch, Battle.net, Diablo 3).",
+      "closed": false,
+      "fit": {
+        "score": 88,
+        "level": "Strong",
+        "why": "Director-level QA leadership for an unannounced Blizzard game in OC — Taylor's former employer and home base, strong comp ceiling, Blizzard brand prestige; hybrid (not remote) and wide salary range are the only tempering factors.",
+        "blurb": "Leading QA for a new Blizzard title would be a return to the studio where I first mastered AAA quality — overseeing test operations for Overwatch, Battle.net, and Diablo 3 — and I'd bring the AI-driven transformation mindset I've since developed at Fortis, targeting an 80% reduction in manual release testing via agentic tooling and LLMs. Blizzard's Irvine campus is in my Orange County home region, and standing up quality from greenfield for a new Blizzard franchise is the kind of challenge that drew me to this industry."
+      }
+    },
+    {
+      "id": "blizzard-test-director-world-of-warcraft",
+      "title": "Test Director, World of Warcraft",
+      "company": "Blizzard Entertainment",
+      "category": "games",
+      "location": "Irvine, CA (hybrid — verify)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Blizzard Careers",
+      "url": "https://careers.blizzard.com/pl-pl/openings/oiKDcfwB",
+      "date_found": "2026-07-07",
+      "date_posted": "",
+      "notes": "Leads QA for World of Warcraft (Blizzard's flagship MMORPG, 20+ years in continuous live service). Leads global QA teams toward quality initiatives, drives test risk mitigation strategy, innovates on test methods and technology. Taylor's former employer. English apply URL: search careers.blizzard.com/global/en/worldofwarcraft to confirm.",
+      "closed": false,
+      "fit": {
+        "score": 91,
+        "level": "Excellent",
+        "why": "Test Director for WoW — Blizzard's flagship live-service MMORPG — at Taylor's former employer in OC; long-running live-service title and global team leadership align precisely with his profile.",
+        "blurb": "Leading quality for World of Warcraft — one of the longest-running live-service games in history — is exactly the continuous-delivery, global-team QA challenge I've built my career toward at Fortis, Netflix, Amazon, and Blizzard itself, where I led test operations for Overwatch and Battle.net. I'd bring an AI-driven testing transformation to WoW QA, using the agentic tooling and LLM-enabled test automation I now champion at Fortis — targeting an 80% cut in manual release-test time — to help WoW's team sustain quality at flagship scale indefinitely."
+      }
+    },
+    {
+      "id": "rockbot-director-quality-assurance",
+      "title": "Director, Quality Assurance",
+      "company": "Rockbot",
+      "category": "tech",
+      "location": "Remote (US — Detroit/San Francisco preferred)",
+      "remote": "remote",
+      "salary": "$190,000–$220,000",
+      "source": "Remotive / Greenhouse",
+      "url": "https://job-boards.greenhouse.io/rockbot/jobs/5843957004",
+      "date_found": "2026-07-07",
+      "date_posted": "",
+      "notes": "Leads global quality strategy for Rockbot's business media-streaming hardware + cloud SaaS platform. Primary requirement: hardware/firmware validation expertise for physical A/V streaming devices. Also requires modern automation (Playwright, PyTest, CI/CD) and hardware-software integration testing. $190K–$220K + equity. Remote US.",
+      "closed": false,
+      "fit": {
+        "score": 48,
+        "level": "Low",
+        "why": "Director QA with strong comp ($190-220K, remote) but the primary requirement is hardware/firmware validation for physical streaming devices — a scope mismatch with Taylor's pure software QA background.",
+        "blurb": "The Director, Quality Assurance mandate at Rockbot — building global QA infrastructure spanning connected hardware and cloud applications — draws on my experience establishing QA organizations from scratch and driving automation maturity through modern frameworks and CI/CD integration. While my background is software QA at scale, the systems-level quality strategy and leadership culture I've built at Fortis, Amazon, and Blizzard could transfer; the hardware-first scope would require a domain ramp."
       }
     }
   ]

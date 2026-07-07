@@ -24,8 +24,11 @@ normal; NEVER invent roles to pad the list.
 2. Sweep the sources in config.json using WebSearch (date-scoped queries for the current month)
    and WebFetch on the studio career pages and boards (Hitmarker, Work With Indies, GameJobs
    Direct, RemoteGameJobs, InGameJob, LinkedIn, Indeed, Glassdoor, Built In, Wellfound,
-   Levels.fyi, Dice, ZipRecruiter) — plus the AI-automation angle (Director of Test Automation,
-   Head of QE, "AI-driven testing", "QA for AI").
+   Levels.fyi, Dice, ZipRecruiter) — plus the games service/outsourcing vendors in
+   `config.json.sources.games_service_vendors` (Side/PTW, Keywords Studios, Testronic, Virtuos,
+   Lionbridge Games, Room 8 Group), whose in-house QA/localization leadership roles rarely reach
+   the aggregators — and the AI-automation angle (Director of Test Automation, Head of QE,
+   "AI-driven testing", "QA for AI").
 3. For each candidate role capture the `config.json.job_schema` fields: title, company, category
    (games|tech), location, remote (remote|hybrid|onsite), salary, source, direct apply URL
    (prefer canonical posting over a search page), date_posted, one-line note. Leave "" if unknown.

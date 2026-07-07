@@ -77,6 +77,14 @@
       {"name": "Grackle HQ (games)", "url": "https://gracklehq.com/"},
       {"name": "ShowbizJobs (games)", "url": "https://www.showbizjobs.com/jobs/category/video-game"}
     ],
+    "games_service_vendors": [
+      {"name": "Side (formerly PTW)", "url": "https://apply.workable.com/sideinc/"},
+      {"name": "Keywords Studios", "url": "https://www.keywordsstudios.com/en/careers/browse-careers/"},
+      {"name": "Testronic", "url": "https://apply.workable.com/testronic/"},
+      {"name": "Virtuos", "url": "https://www.virtuosgames.com/careers/"},
+      {"name": "Lionbridge Games", "url": "https://careers.lionbridge.com/jobs/search/search-page-games"},
+      {"name": "Room 8 Group", "url": "https://room8group.com/join-the-team/"}
+    ],
     "job_boards_general": [
       {"name": "LinkedIn", "url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Manager%20Director%20games"},
       {"name": "Indeed", "url": "https://www.indeed.com/q-QA-Director-Games-jobs.html"},

@@ -468,3 +468,10 @@
 - ZemiSmart launches Zigbee IR blaster (ZBCIR01) and Matter Wi-Fi AC controller (ZMCIR01) at $34.95 each — 200,000+ IR codes bridge legacy appliances to Apple Home, Google Home, SmartThings, and HA
 - Cavalry Pro now fully free for all individual users after Canva's February acquisition — the procedural, node-based 2D animation tool now commercially free; enterprise SSO remains paid
 - OpenAI GPT-5.6 Sol begins rolling out on Cerebras at 750 tokens/sec (35× GPU baseline); still restricted to ~20 US government-approved trusted partners, broader access expected within weeks
+
+## [2026-07-07]
+- Anthropic's J-lens reveals a hidden 'J-space' global workspace inside Claude — an interpretability tool that reads concepts the model holds internally but never verbalizes; key safety use: detect deceptive reasoning or hidden goals
+- GPT-5.6 Sol, Terra, and Luna family targeting July 10–17 for broad ChatGPT and API access; Sol on Cerebras at 750 tokens/sec, 1.5M-token context window, priced at one-third of GPT-5.5
+- Mistral OCR 4 becomes a full enterprise document extraction platform — bounding boxes, block classification, 170-language support, self-hosting; production webinar today at 6 PM CET
+- Home Assistant 2026.7 week-one field reports: intent-based automation editor called the biggest usability upgrade in HA history; matter.js now powering the Matter server at 1.5.1 compliance
+- Bad Epoll (CVE-2026-46242) Linux kernel root exploit disclosed — patch available now; HA OS, Proxmox, Raspberry Pi, and VPS users should update kernel immediately

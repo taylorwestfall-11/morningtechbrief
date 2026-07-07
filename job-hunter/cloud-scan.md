@@ -42,6 +42,11 @@ normal; NEVER invent roles to pad the list.
 3a. BACKFILL: also scan `jobs.json` for existing entries whose `date_posted` is "" and, when their
    posting is still reachable this run, fill it in using the same rules (leave "" if not found).
 4. Dedupe against `job-hunter/jobs.json` by `id` (lowercase-kebab `company-title`). Skip existing.
+4a. DEAD-LINK CHECK: never ADD a new role whose direct apply URL already 404s/410s or redirects to a
+   generic "no longer available" / careers-root page — skip it entirely, don't list it. Also re-check
+   the apply URL of each EXISTING open (non-closed) role this run; if it is now dead (404/410/removed
+   listing), set that entry's `closed: true` in jobs.json (do NOT delete it — keep for dedupe/history).
+   The dashboard hides every `closed:true` role from all views and counts, so dead postings vanish.
 5. FIT-SCORE each NEW role against `config.json.resume.profile_for_fit` + `fit_rubric`. Add a
    `"fit"` object: `{score 0-100, level, why (1 line), blurb (2-sentence first-person
    cover-letter snippet)}`. Honor the AI bonus for AI/automation-centric roles.

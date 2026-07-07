@@ -226,17 +226,18 @@ const BOARD_COLS=[
 ];
 
 function render(){
-  document.getElementById("lastScan").textContent = "Last scan: "+LAST_SCAN+" · "+JOBS.length+" roles tracked";
+  const LIVE=JOBS.filter(j=>!j.closed);  // dead-link (404) postings are hidden entirely
+  document.getElementById("lastScan").textContent = "Last scan: "+LAST_SCAN+" · "+LIVE.length+" roles tracked";
   const counts={}; STAGES.forEach(s=>counts[s.key]=0);
   let openN=0,pipeN=0,closedN=0,freshN=0;
-  JOBS.forEach(j=>{ const g=groupOf(j.id); counts[statusOf(j.id)]++;
+  LIVE.forEach(j=>{ const g=groupOf(j.id); counts[statusOf(j.id)]++;
     if(g==="open")openN++; else if(g==="pipeline")pipeN++; else closedN++;
     if(j.date_found===LAST_SCAN && statusOf(j.id)==="new")freshN++; });
   const views=[
     {k:"open",label:"🟢 To review",n:openN,extra:freshN?` (✨${freshN} new)`:""},
     {k:"pipeline",label:"🔵 In progress",n:pipeN,extra:""},
     {k:"closed",label:"⚫ Closed",n:closedN,extra:""},
-    {k:"all",label:"All",n:JOBS.length,extra:""}
+    {k:"all",label:"All",n:LIVE.length,extra:""}
   ];
   document.getElementById("pipe").innerHTML =
     (filters.layout==="board" ? `<div class="chip" style="cursor:default">📊 Drag cards between columns to update status</div>`
@@ -248,6 +249,7 @@ function render(){
       ? (b.date_found||"").localeCompare(a.date_found||"") || (b.fit?.score||0)-(a.fit?.score||0)
       : (b.fit?.score||0)-(a.fit?.score||0);
   const matches=j=>{
+    if(j.closed) return false;
     if(filters.cat!=="all" && j.category!==filters.cat) return false;
     if(filters.remote==="remote" && j.remote!=="remote") return false;
     if(q && !(`${j.title} ${j.company} ${j.location} ${j.notes} ${j.source} ${rec(j.id).notes}`.toLowerCase().includes(q))) return false;

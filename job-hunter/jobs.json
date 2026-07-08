@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-07",
-    "scan_count": 9,
+    "last_scan": "2026-07-08",
+    "scan_count": 10,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -703,7 +703,7 @@
       "remote": "hybrid",
       "salary": "",
       "source": "Creative Assembly Careers / GameJobs.co",
-      "url": "https://www.creative-assembly.com/node/23155",
+      "url": "https://www.creative-assembly.com/careers/view/studio-qa-director/o78rlfwL",
       "date_found": "2026-07-06",
       "date_posted": "",
       "notes": "Leads QA function across Creative Assembly studios and teams (Total War franchise). Requires live-service Director experience, budget management, and hiring capability. 2+ days/week in Horsham studio required — cannot be fully remote. Sega-owned AAA studio.",
@@ -938,6 +938,126 @@
       },
       "closed_on": "2026-07-07",
       "closed_reason": "Dead link — URL 404s / 410s or redirects to careers root (verified 2026-07-07)"
+    },
+    {
+      "id": "scopely-qa-director-stumble-guys",
+      "title": "QA Director (Stumble Guys)",
+      "company": "Scopely",
+      "category": "games",
+      "location": "Barcelona, Spain / Dundee, UK (hybrid)",
+      "remote": "hybrid",
+      "salary": "£106,000–£132,000",
+      "source": "Greenhouse (Scopely) / SportsTechJobs",
+      "url": "https://job-boards.greenhouse.io/scopely/jobs/5180556008",
+      "date_found": "2026-07-08",
+      "date_posted": "",
+      "notes": "QA Director for Stumble Guys (200M+ downloads, Scopely's mobile battle-royale live-service hit). Hybrid Barcelona or Dundee. Scope includes AI-powered QA tooling, vendor management, full mobile live-service QA ownership. £106K–£132K. Confirmed Greenhouse posting (job 5180556008). Distinct from existing scopely-qa-director-monopoly-go entry.",
+      "fit": {
+        "score": 84,
+        "level": "Strong",
+        "why": "Games QA Director for a massive mobile live-service title with AI-powered QA tooling mandate — excellent scope and domain match; Barcelona/Dundee hybrid and EU location are the main friction.",
+        "blurb": "Directing QA for Stumble Guys — a 200M+ download mobile battle-royale in continuous live service — maps directly to my work at Fortis Games, where I own QA for mobile live-service titles and now lead an AI transformation targeting an 80% reduction in manual release-test time via agentic tooling. I bring deep mobile QA leadership, vendor management, and the AI-driven test automation experience Scopely's QA Director mandate calls for."
+      }
+    },
+    {
+      "id": "sportsinteractive-head-of-qa-football-manager",
+      "title": "Head of QA (Football Manager)",
+      "company": "Sports Interactive (Sega Europe)",
+      "category": "games",
+      "location": "London, UK / Sofia, Bulgaria (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "GameJobs.co",
+      "url": "https://gamejobs.co/Head-of-QA-at-Sega-Europe-8804",
+      "date_found": "2026-07-08",
+      "date_posted": "",
+      "notes": "Head of QA for Football Manager franchise at Sports Interactive (Sega-owned, London + Sofia studios). Leads all QA across the Football Manager series — a globally renowned sports simulation franchise with millions of annual players. People management and live-service QA strategy confirmed. UK/London onsite.",
+      "fit": {
+        "score": 76,
+        "level": "Good",
+        "why": "Head of QA for a globally recognized live-service sports sim franchise — right title and scope — though UK onsite (London + Sofia) requires international relocation from OC.",
+        "blurb": "Leading QA across the Football Manager franchise — a live-service sports sim with a passionate global fanbase — draws on the same multi-platform, live-ops quality discipline I've built at Fortis, Amazon Games, and Blizzard, including the AI-driven automation initiative I now lead targeting an 80% cut in manual release-test time. The Head of QA scope and Sega pedigree are compelling; the primary consideration is the London onsite requirement from my Orange County base."
+      }
+    },
+    {
+      "id": "wargaming-head-of-qa-world-of-warships-pc",
+      "title": "Head of QA (World of Warships, PC)",
+      "company": "Wargaming",
+      "category": "games",
+      "location": "Prague, Czech Republic (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Wargaming Careers",
+      "url": "https://wargaming.com/en/careers/vacancy_3012911_prague/",
+      "date_found": "2026-07-08",
+      "date_posted": "",
+      "notes": "Leads QA department of 4 streams (functional, regression, automation, compliance) for World of Warships PC — Wargaming's flagship live-service naval combat title. Cross-team QA strategy, process optimization, and team management. Prague onsite. Direct vacancy URL confirmed.",
+      "fit": {
+        "score": 72,
+        "level": "Good",
+        "why": "Head of QA leading a multi-stream QA department for a flagship live-service PC naval title — right seniority and live-ops scope; Prague onsite and international relocation from OC are the barriers.",
+        "blurb": "Managing a multi-stream QA department through continuous live-service shipping for World of Warships mirrors my work at Fortis, Amazon Games, and Blizzard, where I've led blended functional, automation, and compliance QA teams across major titles in continuous live ops. I'd bring the same structured QA discipline and AI-driven automation strategy to Wargaming's Prague studio; the primary consideration is the relocation from Orange County, CA."
+      }
+    },
+    {
+      "id": "wargaming-head-of-qa-unannounced-project",
+      "title": "Head of QA (Unannounced Project)",
+      "company": "Wargaming",
+      "category": "games",
+      "location": "Nicosia, Cyprus (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Wargaming Careers / LinkedIn",
+      "url": "https://wargaming.com/en/careers/vacancy_2983937_nicosia/",
+      "date_found": "2026-07-08",
+      "date_posted": "",
+      "notes": "Head of QA for an unannounced Wargaming project. Game engine QA focus — leads QA strategy and team for a new title built on Wargaming's internal engine. Greenfield QA org-building opportunity. Onsite Nicosia, Cyprus. LinkedIn job ID 4054951266.",
+      "fit": {
+        "score": 68,
+        "level": "Good",
+        "why": "Head of QA for an unannounced Wargaming title — greenfield org-building matches your specialty — but Cyprus onsite requires major international relocation and the game-engine QA niche is a stretch.",
+        "blurb": "Building QA from the ground up for an unannounced title is the kind of greenfield challenge I've taken on repeatedly — at Fortis Games, Netflix, and Amazon Games — and I'd bring the same AI-driven quality transformation, from CI/CD strategy through agentic test automation, to Wargaming's new project. The Head of QA scope and the opportunity to shape quality from day one are compelling; relocating to Nicosia from Orange County would be the primary consideration."
+      }
+    },
+    {
+      "id": "csaa-insurance-director-software-quality-assurance",
+      "title": "Director, Software Quality Assurance",
+      "company": "CSAA Insurance Group",
+      "category": "tech",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Remotive",
+      "url": "https://remotive.com/remote/jobs/qa/director-software-quality-assurance-5082457",
+      "date_found": "2026-07-08",
+      "date_posted": "2026-07-01",
+      "notes": "Leads quality engineering, test automation strategy, and performance engineering across CSAA Insurance Group's software platforms. Remote US. Owns QA org, process, and tooling. Posted ~1 week ago per Remotive listing (approx. 2026-07-01). Insurance-tech domain.",
+      "fit": {
+        "score": 63,
+        "level": "Stretch",
+        "why": "Remote Director of Software QA with test automation and performance engineering scope — strong skills transfer — but insurance domain is a meaningful pivot from games/tech; no explicit AI bonus.",
+        "blurb": "Directing software quality engineering — spanning functional QA, test automation, and performance testing — translates directly from my work at Fortis, Amazon Games, and Blizzard, where I've owned exactly that scope for complex, multi-platform product lines. The insurance domain is new territory, but QA process maturity, automation architecture, and quality culture leadership are universal; I'd ramp on the business context while contributing modern practices from day one."
+      }
+    },
+    {
+      "id": "epic-senior-qa-manager-operations",
+      "title": "Senior QA Manager, Operations",
+      "company": "Epic Games",
+      "category": "games",
+      "location": "Cary, NC (hybrid/remote-eligible)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Epic Games Careers (R25255)",
+      "url": "https://www.epicgames.com/site/en-US/careers/jobs/5158920004",
+      "date_found": "2026-07-08",
+      "date_posted": "",
+      "notes": "Senior QA Manager for Epic's Distribution QA (Distro QA) team. Distinct from existing epic-senior-qa-manager-fortnite (job 1549496) and epic-qa-manager-online (job 1621175) entries. Leads the Distro QA team overseeing distribution/publishing pipeline quality. Cary NC hybrid with remote-eligible status. Internal job code R25255.",
+      "fit": {
+        "score": 71,
+        "level": "Good",
+        "why": "Games-platform Senior QA Manager for Epic's distribution pipeline — meaningful scope at a major publisher — but under-leveled vs your Director background and Cary NC hybrid limits remote flexibility.",
+        "blurb": "Leading QA for Epic's distribution pipeline draws on my publishing QA experience at Netflix Games and Amazon Games, where I managed end-to-end quality workflows for major titles through submission, platform certification, and live launch. I'd bring director-level rigor to Epic's Distro QA team, though the Senior QA Manager title is a step below my current Director trajectory and the Cary NC hybrid arrangement would require relocating from Orange County."
+      }
     }
   ]
 }

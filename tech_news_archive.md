@@ -475,3 +475,10 @@
 - Mistral OCR 4 becomes a full enterprise document extraction platform — bounding boxes, block classification, 170-language support, self-hosting; production webinar today at 6 PM CET
 - Home Assistant 2026.7 week-one field reports: intent-based automation editor called the biggest usability upgrade in HA history; matter.js now powering the Matter server at 1.5.1 compliance
 - Bad Epoll (CVE-2026-46242) Linux kernel root exploit disclosed — patch available now; HA OS, Proxmox, Raspberry Pi, and VPS users should update kernel immediately
+
+## [2026-07-08]
+- Anthropic Fable 5 exits subscription plans (extended to July 12 after backlash) — then usage-credit-only at $10/$50 per million tokens, the highest per-token price Anthropic has ever charged
+- OpenAI GPT-5.6 Sol, Terra, and Luna receive U.S. Commerce Dept. clearance and launch July 9 — Sol on Cerebras at 750 tokens/sec; Terra matches GPT-5.5 at half price; Luna at $1/M input
+- Claude Cowork expands to iOS, Android, and web for Max subscribers — sessions run cloud-side after laptop closes; 90%+ of usage is non-coding tasks (reports, checklists, spreadsheets)
+- Samsung Galaxy Unpacked confirmed July 22 in London: "A New Shape Unfolds" teases redesigned Z Fold 8, Z Flip 8, two Galaxy Watches, and possibly Samsung's first smart glasses
+- Figma Motion enters open beta — native timeline, keyframes, and AI-generated animations inside Figma Design; free on all plans, Full seat required for AI generation and HD video export

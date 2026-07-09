@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-08",
-    "scan_count": 10,
+    "last_scan": "2026-07-09",
+    "scan_count": 11,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -1057,6 +1057,146 @@
         "level": "Good",
         "why": "Games-platform Senior QA Manager for Epic's distribution pipeline — meaningful scope at a major publisher — but under-leveled vs your Director background and Cary NC hybrid limits remote flexibility.",
         "blurb": "Leading QA for Epic's distribution pipeline draws on my publishing QA experience at Netflix Games and Amazon Games, where I managed end-to-end quality workflows for major titles through submission, platform certification, and live launch. I'd bring director-level rigor to Epic's Distro QA team, though the Senior QA Manager title is a step below my current Director trajectory and the Cary NC hybrid arrangement would require relocating from Orange County."
+      }
+    },
+    {
+      "id": "wargaming-head-of-qa-wow-legends",
+      "title": "Head of QA (World of Warships: Legends)",
+      "company": "Wargaming",
+      "category": "games",
+      "location": "Belgrade, Serbia (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Wargaming Careers",
+      "url": "https://wargaming.com/en/careers/vacancy_3193409_belgrade/",
+      "date_found": "2026-07-09",
+      "date_posted": "",
+      "notes": "Cross-platform QA lead for World of Warships: Legends (PS/Xbox consoles, mobile, Steam). Owns complete QA strategy, team leadership, CI/CD optimization, and competency frameworks. Belgrade, Serbia onsite. Distinct from wargaming-head-of-qa-world-of-warships-pc (Prague) entry.",
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "Cross-platform live-service Head of QA for a flagship franchise — right seniority and domain; Belgrade Serbia requires international relocation from OC.",
+        "blurb": "Managing a multi-platform QA organization across consoles, mobile, and Steam for a live-service naval title mirrors my leadership work at Fortis, Amazon Games, and Blizzard, where I've owned blended QA teams through continuous live operations. I'd bring the same automation-first, AI-driven quality strategy to Wargaming's World of Warships: Legends; the primary consideration is the relocation from Orange County to Belgrade, Serbia."
+      }
+    },
+    {
+      "id": "ptw-director-quality-assurance-global",
+      "title": "Director of Quality Assurance, Global Game Services",
+      "company": "PTW",
+      "category": "games",
+      "location": "Charleston, SC (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "PTW / Workable",
+      "url": "https://apply.workable.com/ptw-i/j/F09DBA7B4C/",
+      "date_found": "2026-07-09",
+      "date_posted": "",
+      "notes": "Leads PTW's global QA and Localization line of business, reporting to COO. Oversees large global team, workforce planning, client deliverables, and AI-QA Automation capabilities. Charleston, SC preferred. PTW (Pole To Win / Side brand) is a top global game services company.",
+      "fit": {
+        "score": 77,
+        "level": "Good",
+        "why": "Games-services Director of QA managing global QA+LQA — AI-QA Automation mandate earns AI bonus; Taylor's vendor-management experience from the client side gives insider edge.",
+        "blurb": "Leading PTW's global QA and LQA operations — from workforce planning and client deliverables to AI-QA automation capability — aligns directly with my 20+ years managing blended teams across Fortis, Amazon Games, Netflix, and Blizzard, where I've directed both internal and external QA from the client side. PTW's explicit focus on AI-QA Automation matches my current initiative at Fortis using LLMs and agentic tooling to target an 80% reduction in manual release-test time."
+      }
+    },
+    {
+      "id": "ubisoft-qa-director-riders-republic",
+      "title": "QA Director, Riders Republic",
+      "company": "Ubisoft",
+      "category": "games",
+      "location": "Annecy, France (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "GameJobs.co",
+      "url": "https://gamejobs.co/QA-Director-at-Ubisoft",
+      "date_found": "2026-07-09",
+      "date_posted": "",
+      "notes": "QA Director for Riders Republic live-service sports game at Ubisoft Annecy. Leads dev test, editor test, and automated testing teams. Oversees live-service quality at each update across all platforms. Represents quality in Riders Republic management team.",
+      "fit": {
+        "score": 74,
+        "level": "Good",
+        "why": "Director-level games QA owning live-service quality at a Tier 1 publisher — strong scope and domain match; Annecy France onsite is a major relocation from OC.",
+        "blurb": "Directing QA for a live-service open-world sports game at Ubisoft — managing dev test, editor test, and automation while overseeing quality at every update across all platforms — is precisely the kind of scope I've owned at Fortis, Amazon Games, and Blizzard. Ubisoft's Annecy studio and the Riders Republic franchise represent high-caliber live-game quality leadership; the primary consideration is relocating from Orange County to France."
+      }
+    },
+    {
+      "id": "supermassive-qa-director-ftc",
+      "title": "QA Director (6 Month FTC)",
+      "company": "Supermassive Games",
+      "category": "games",
+      "location": "Guildford, UK (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Workable (Supermassive Games)",
+      "url": "https://apply.workable.com/supermassive-games/j/40591676FB/",
+      "date_found": "2026-07-09",
+      "date_posted": "",
+      "notes": "QA Director on a 6-month Fixed-Term Contract at Supermassive Games (Until Dawn, Dark Pictures Anthology). Leads internal QA team and manages external QA partners for PC/console titles. Guildford, UK onsite. FTC role.",
+      "fit": {
+        "score": 52,
+        "level": "Stretch",
+        "why": "Correct seniority and games QA scope with confirmed people management — but 6-month fixed-term contract and UK onsite are double barriers to a permanent move from OC.",
+        "blurb": "Leading QA for a narrative AAA studio's next title — managing internal teams and external testing partners through development and release — is a scope I've held multiple times across Fortis, Amazon Games, and Blizzard. The Supermassive pedigree and QA Director scope are compelling, though a 6-month FTC with a UK onsite requirement would need to offer a clear path to permanent placement to justify the relocation from Orange County."
+      }
+    },
+    {
+      "id": "aristocrat-interactive-director-quality-assurance",
+      "title": "Director, Quality Assurance",
+      "company": "Aristocrat Interactive",
+      "category": "tech",
+      "location": "Las Vegas, NV (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Built In",
+      "url": "https://builtin.com/job/director-qa/3758621",
+      "date_found": "2026-07-09",
+      "date_posted": "",
+      "notes": "Director of QA for Aristocrat Interactive's regulated online real money gaming (RMG) platform. Manages 10+ QA team, owns defect management, test planning, and team development. Reports to CTO. 20% hands-on. Requires mobile/web testing expertise, no visa sponsorship. Las Vegas, NV.",
+      "fit": {
+        "score": 55,
+        "level": "Stretch",
+        "why": "Director-level QA with people management at an iGaming company — correct seniority but regulated RMG/online casino domain is a significant shift from Taylor's game-dev QA background; Las Vegas onsite requires relocation.",
+        "blurb": "Managing a QA team for a regulated online gaming platform — overseeing defect management, test planning, and team development — draws on my Director-level QA leadership across Fortis, Amazon Games, and Blizzard. Aristocrat Interactive's RMG platform is gaming-adjacent and the mobile/web testing scope maps to my multi-platform experience; the Las Vegas onsite requirement and domain shift from game development to regulated online gambling are the primary considerations."
+      }
+    },
+    {
+      "id": "aristocrat-bigfish-director-qa",
+      "title": "Director, QA",
+      "company": "Big Fish Games (Aristocrat Pixel United)",
+      "category": "games",
+      "location": "Las Vegas, NV (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "SimplyHired",
+      "url": "https://www.simplyhired.com/job/gylyl4Lzby6rWYE99Z_q3Y9lAT615Az8tIM4qKLOn1WEvvmGplL3Pw",
+      "date_found": "2026-07-09",
+      "date_posted": "",
+      "notes": "Leads QA for Big Fish Games' free-to-play mobile portfolio (Pixel United/Aristocrat). Manages global quality professionals supporting game teams and development studios worldwide. Partners with product, art, engineering. 10+ yrs exp, 5+ yrs management with global teams. Las Vegas, NV.",
+      "fit": {
+        "score": 68,
+        "level": "Good",
+        "why": "Mobile games QA Director managing a global quality team — right seniority and games category; Las Vegas onsite from OC requires commute or relocation.",
+        "blurb": "Building and leading a global QA organization across Big Fish's free-to-play mobile portfolio — managing quality professionals, partnering with game teams worldwide, and influencing quality standards across Pixel United — maps directly to my Director-level work at Fortis, Amazon Games, and Netflix. I'd bring my modern automation-first approach and AI-driven testing initiative to help Big Fish's Las Vegas studio deliver the highest quality player experiences at scale."
+      }
+    },
+    {
+      "id": "scopely-development-director-qa",
+      "title": "Development Director, QA",
+      "company": "Scopely",
+      "category": "games",
+      "location": "Barcelona, Spain (hybrid)",
+      "remote": "hybrid",
+      "salary": "$170,000–$210,000",
+      "source": "Greenhouse (Scopely)",
+      "url": "https://job-boards.greenhouse.io/scopely/jobs/4773806008",
+      "date_found": "2026-07-09",
+      "date_posted": "",
+      "notes": "Leads global QA execution and program growth across Scopely's entire portfolio of titles. Partners with game teams and development partners worldwide. Hybrid Barcelona, Spain. $170K-$210K. Distinct from scopely-qa-director-monopoly-go (closed) and scopely-qa-director-stumble-guys (open) entries.",
+      "fit": {
+        "score": 72,
+        "level": "Good",
+        "why": "Portfolio-level games QA Director at a major mobile publisher — strong scope and comp at $170K–$210K; Barcelona hybrid and international relocation from OC are the main friction.",
+        "blurb": "Owning QA execution and growth across Scopely's global portfolio of titles — from partnering with game teams to aligning quality with senior leadership — is the breadth of organizational QA leadership I've built at Fortis, Netflix, and Amazon Games. Scopely's mobile live-service franchise portfolio and the $170K–$210K compensation range are compelling; Barcelona hybrid is the primary consideration for relocation from Orange County."
       }
     }
   ]

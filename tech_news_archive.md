@@ -482,3 +482,10 @@
 - Claude Cowork expands to iOS, Android, and web for Max subscribers — sessions run cloud-side after laptop closes; 90%+ of usage is non-coding tasks (reports, checklists, spreadsheets)
 - Samsung Galaxy Unpacked confirmed July 22 in London: "A New Shape Unfolds" teases redesigned Z Fold 8, Z Flip 8, two Galaxy Watches, and possibly Samsung's first smart glasses
 - Figma Motion enters open beta — native timeline, keyframes, and AI-generated animations inside Figma Design; free on all plans, Full seat required for AI generation and HD video export
+
+## [2026-07-09]
+- **GPT-5.6 Sol, Terra & Luna launch publicly today** — Sol on Cerebras at 750 tokens/sec with 1.5M-token context; Terra at $2.5/$15 per Mtok; Luna at $1/$6; new 90%-discount prompt caching active across all three tiers from day one.
+- **Grok 4.5 public launch (SpaceXAI)** — 1.5T-parameter V9 model trained on Cursor coding data, claims Opus-class performance at $2/$6 per million tokens; SpaceXAI commits to monthly model releases through end of 2026.
+- **Fable 5 subscription deadline July 12** — Anthropic extended the cutoff five days after backlash; after July 12, access requires prepaid credits at $10/$50 per Mtok — the highest pricing Anthropic has ever charged; Sonnet 5 at $2/$10 is the practical alternative.
+- **Samsung Galaxy Unpacked July 22 in London** — Z Fold 8 Ultra (wider 7.8-inch format), Z Flip 8, Galaxy Watches, and full commercial debut of Galaxy Glasses (Android XR + Gemini, co-designed with Gentle Monster).
+- **Home Assistant 2026.7 week-one field reports** — intent-based automation editor called the biggest usability upgrade in HA history; no entity IDs needed, just pick area + device type; matter.js Matter 1.5.1 server performing reliably.

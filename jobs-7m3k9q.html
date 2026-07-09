@@ -236,7 +236,10 @@ const BOARD_COLS=[
 ];
 
 function render(){
-  const LIVE=JOBS.filter(j=>!j.closed);  // dead-link (404) postings are hidden entirely
+  // Hide dead-link postings ONLY if you haven't engaged with them. Anything you've applied to /
+  // moved through the pipeline (or rejected/ghosted) stays visible so your tracking survives.
+  const isHidden=(j)=> j.closed && (statusOf(j.id)==="new" || statusOf(j.id)==="dropped");
+  const LIVE=JOBS.filter(j=>!isHidden(j));
   document.getElementById("lastScan").textContent = "Last scan: "+LAST_SCAN+" · "+LIVE.length+" roles tracked";
   const counts={}; STAGES.forEach(s=>counts[s.key]=0);
   let openN=0,pipeN=0,closedN=0,freshN=0;
@@ -259,7 +262,7 @@ function render(){
       ? (b.date_found||"").localeCompare(a.date_found||"") || (b.fit?.score||0)-(a.fit?.score||0)
       : (b.fit?.score||0)-(a.fit?.score||0);
   const matches=j=>{
-    if(j.closed) return false;
+    if(isHidden(j)) return false;
     if(filters.cat!=="all" && j.category!==filters.cat) return false;
     if(filters.remote==="remote" && j.remote!=="remote") return false;
     if(q && !(`${j.title} ${j.company} ${j.location} ${j.notes} ${j.source} ${rec(j.id).notes}`.toLowerCase().includes(q))) return false;
@@ -295,6 +298,7 @@ function render(){
       </div>
       <div class="badges">
         ${isNew?`<span class="badge new">✨ NEW</span>`:""}
+        ${j.closed?`<span class="badge" style="border-color:#e07a5f;color:#e07a5f">🔗 posting closed</span>`:""}
         ${st!=="new"?`<span class="badge stage">${STAGE[st].label}</span>`:""}
         ${isStale?`<span class="badge stale">⏳ ${foundAge}d old</span>`:""}
         <span class="badge ${j.category}">${j.category==="games"?"🎮 Games":"💻 Tech"}</span>

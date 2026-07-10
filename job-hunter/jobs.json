@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-09",
-    "scan_count": 11,
+    "last_scan": "2026-07-10",
+    "scan_count": 12,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -1197,6 +1197,90 @@
         "level": "Good",
         "why": "Portfolio-level games QA Director at a major mobile publisher — strong scope and comp at $170K–$210K; Barcelona hybrid and international relocation from OC are the main friction.",
         "blurb": "Owning QA execution and growth across Scopely's global portfolio of titles — from partnering with game teams to aligning quality with senior leadership — is the breadth of organizational QA leadership I've built at Fortis, Netflix, and Amazon Games. Scopely's mobile live-service franchise portfolio and the $170K–$210K compensation range are compelling; Barcelona hybrid is the primary consideration for relocation from Orange County."
+      }
+    },
+    {
+      "id": "blizzard-associate-test-director-diablo-iv",
+      "title": "Associate Test Director, Diablo IV",
+      "company": "Blizzard Entertainment",
+      "category": "games",
+      "location": "Irvine, CA (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Blizzard Careers (R024925)",
+      "url": "https://careers.blizzard.com/gb/en/job/R024925/Associate-Test-Director-Diablo-IV-Irvine-CA",
+      "date_found": "2026-07-10",
+      "date_posted": "",
+      "notes": "Associate Director-level QA for Diablo IV live-service franchise at Blizzard's Irvine campus. Manages end-to-end test teams across globally distributed staff, aligns with departmental and org strategy, establishes QA standards. Taylor's former employer; worked on Diablo 3. OC home region. Distinct from blizzard-test-director-unannounced-game (closed) and blizzard-test-director-world-of-warcraft (closed).",
+      "closed": false,
+      "fit": {
+        "score": 86,
+        "level": "Strong",
+        "why": "Associate Director-level QA for Diablo IV at Taylor's former studio in OC — franchise knowledge from Diablo 3 tenure and Blizzard culture fit; 'Associate' level is one step below his current Director trajectory.",
+        "blurb": "Leading QA for Diablo IV — a live-service ARPG whose quality bar I understand from my Blizzard tenure on Diablo 3 — builds directly on the AAA games QA leadership I've carried from Blizzard through Netflix, Amazon Games, and Fortis, where I now lead an AI transformation targeting an 80% reduction in manual release-test time. Blizzard's Irvine campus is in my Orange County home region, making this a rare opportunity to step into a named-franchise Director role at a studio whose culture, tooling, and standards I already know deeply."
+      }
+    },
+    {
+      "id": "blizzard-test-manager-overwatch",
+      "title": "Test Manager, Overwatch",
+      "company": "Blizzard Entertainment",
+      "category": "games",
+      "location": "Irvine, CA (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Blizzard Careers (R025023)",
+      "url": "https://careers.blizzard.com/gb/en/job/R025023/Test-Manager-Overwatch-Irvine-CA",
+      "date_found": "2026-07-10",
+      "date_posted": "",
+      "notes": "People-management QA role for Overwatch at Blizzard Irvine — 'Test Manager' is Blizzard's title for QA Manager with full team ownership. Manages end-to-end test teams across globally distributed staff; hybrid Irvine CA. Taylor's former employer and former game franchise (managed Overwatch QA at Blizzard). OC home region.",
+      "closed": false,
+      "fit": {
+        "score": 75,
+        "level": "Good",
+        "why": "Test Manager for Overwatch at Taylor's former employer in OC — direct franchise experience from Blizzard tenure, but 'Test Manager' (QA Manager equivalent) is well below his current Director trajectory.",
+        "blurb": "Managing QA for Overwatch — the live-service competitive shooter I helped test and ship during my time at Blizzard — would be a return to deeply familiar franchise territory with zero culture ramp, and I'd bring Director-level rigor, live-ops incident response depth, and my current AI-driven automation initiative to help Overwatch's team sustain quality at scale. Blizzard's Irvine campus is in my Orange County home region; while Test Manager is below my Director trajectory, the Overwatch franchise and studio culture make this a conversation worth having."
+      }
+    },
+    {
+      "id": "scopely-senior-qa-manager",
+      "title": "Senior QA Manager",
+      "company": "Scopely",
+      "category": "games",
+      "location": "Barcelona, Spain (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Greenhouse (Scopely)",
+      "url": "https://job-boards.greenhouse.io/scopely/jobs/5210907008",
+      "date_found": "2026-07-10",
+      "date_posted": "2026-05-08",
+      "notes": "Central Studio Operations QA & Deployment team; portfolio-level Senior QA Manager across Scopely's entire title lineup (MONOPOLY GO!, Pokémon GO, Stumble Guys, etc.). Defines standardized QA frameworks, oversees cross-functional quality initiatives, collaborates with external QA partners, provides mentorship to internal and external teams. Hybrid Barcelona. Distinct from scopely-qa-director-stumble-guys (open) and scopely-development-director-qa (open).",
+      "closed": false,
+      "fit": {
+        "score": 66,
+        "level": "Good",
+        "why": "Portfolio-level Senior QA Manager across all Scopely titles — meaningful scope at a top mobile publisher; under-leveled vs Director trajectory and hybrid Barcelona requires international relocation.",
+        "blurb": "Owning and standardizing QA frameworks across Scopely's celebrated title portfolio — from MONOPOLY GO! to Pokémon GO and Stumble Guys — maps to the cross-studio quality leadership I've built at Fortis, Netflix, and Amazon Games, and I'd bring my AI-driven automation mindset to help Scopely's Central Studio Operations raise the quality bar globally. Barcelona hybrid is the primary consideration; the portfolio breadth and Scopely's publishing scale make this a meaningful conversation despite the relocation."
+      }
+    },
+    {
+      "id": "ingame-qa-director-technical-vertical",
+      "title": "QA Director, Technical Vertical",
+      "company": "Confidential (via InGame Recruitment)",
+      "category": "games",
+      "location": "Remote (Eastern USA/Canada, EST/AST)",
+      "remote": "remote",
+      "salary": "Up to $142,000",
+      "source": "GameJobs Direct / InGame Recruitment",
+      "url": "https://www.gamesjobsdirect.com/job/ingame-recruitment/qa-director-technical-vertical--eastern-usa-canada-remote/335945",
+      "date_found": "2026-07-10",
+      "date_posted": "2026-04-08",
+      "notes": "QA Director for unnamed high-growth mobile entertainment company's Core Technology Vertical. Defines long-term QA strategy for tech vertical, leads and scales high-performing QA team, oversees automation frameworks and quality gates across multiple large-scale projects. Fully remote with EST/AST working hours required. Salary up to $142k USD.",
+      "closed": false,
+      "fit": {
+        "score": 75,
+        "level": "Good",
+        "why": "Remote games QA Director with automation-scale mandate and team-leadership scope — EST/AST timezone constraint and $142k salary cap are friction points for a Director at Taylor's current level.",
+        "blurb": "Defining long-term QA strategy and scaling automation frameworks for a major mobile entertainment company's technical vertical maps directly to my Director-level work at Fortis, Amazon Games, and Blizzard — where I've owned end-to-end quality strategy, team leadership, and test automation modernization across complex multi-platform environments. I'd bring my current AI-driven testing initiative — using LLMs and agentic tooling to target an 80% reduction in manual release-test time — to drive quality velocity for a high-growth mobile portfolio."
       }
     }
   ]

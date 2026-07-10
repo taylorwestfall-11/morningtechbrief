@@ -489,3 +489,10 @@
 - **Fable 5 subscription deadline July 12** — Anthropic extended the cutoff five days after backlash; after July 12, access requires prepaid credits at $10/$50 per Mtok — the highest pricing Anthropic has ever charged; Sonnet 5 at $2/$10 is the practical alternative.
 - **Samsung Galaxy Unpacked July 22 in London** — Z Fold 8 Ultra (wider 7.8-inch format), Z Flip 8, Galaxy Watches, and full commercial debut of Galaxy Glasses (Android XR + Gemini, co-designed with Gentle Monster).
 - **Home Assistant 2026.7 week-one field reports** — intent-based automation editor called the biggest usability upgrade in HA history; no entity IDs needed, just pick area + device type; matter.js Matter 1.5.1 server performing reliably.
+
+## [2026-07-10]
+- **Claude Cowork launches on iOS & Android** — agentic sessions no longer need a desktop to stay active; delegate tasks, monitor background work, and continue across devices; Anthropic and OpenAI (ChatGPT Work) launched competing mobile platforms on the same day.
+- **OpenAI merges Codex + ChatGPT into ChatGPT Work** — single super-app with GPT-Live-1 full-duplex voice model; Sol business use free through August 6; then flexible pricing kicks in.
+- **IoTorero joins Works with Home Assistant** — first ESPHome-native smart plugs and relays in the program; all 7 devices pre-flashed, fully local, no cloud, no flashing required; also carry Made for ESPHome certification.
+- **AMD Zen 6 Medusa Point 10-core APU returns on Geekbench** — beats both Ryzen AI 9 HX 370 and Ryzen AI Max+ 395; RDNA 4m iGPU and updated NPU; CES 2027 launch expected on TSMC 2nm.
+- **Grok 4.5 Day-1 benchmarks: #4 on Intelligence Index** — behind Fable 5, GPT-5.5, and Opus 4.8; claims #1 on SWE marathon long-horizon coding benchmark; EU launch delayed for AI Act compliance review.

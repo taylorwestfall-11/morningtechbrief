@@ -1,7 +1,7 @@
 {
   "_meta": {
     "last_scan": "2026-07-10",
-    "scan_count": 12,
+    "scan_count": 13,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -1281,6 +1281,69 @@
         "level": "Good",
         "why": "Remote games QA Director with automation-scale mandate and team-leadership scope — EST/AST timezone constraint and $142k salary cap are friction points for a Director at Taylor's current level.",
         "blurb": "Defining long-term QA strategy and scaling automation frameworks for a major mobile entertainment company's technical vertical maps directly to my Director-level work at Fortis, Amazon Games, and Blizzard — where I've owned end-to-end quality strategy, team leadership, and test automation modernization across complex multi-platform environments. I'd bring my current AI-driven testing initiative — using LLMs and agentic tooling to target an 80% reduction in manual release-test time — to drive quality velocity for a high-growth mobile portfolio."
+      }
+    },
+    {
+      "id": "riot-director-qa-tft",
+      "title": "Director, QA - Teamfight Tactics",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, USA (onsite)",
+      "remote": "onsite",
+      "salary": "$201,900–$301,800",
+      "source": "Riot Games Careers / GameJobs.co / ShowbizJobs",
+      "url": "https://www.riotgames.com/en/work-with-us/job/7398855/director-qa-teamfight-tactics-los-angeles-usa",
+      "date_found": "2026-07-10",
+      "date_posted": "",
+      "notes": "Director-level QA role for Teamfight Tactics (TFT) at Riot Games. Shapes and drives quality vision for one of Riot's fastest-growing global products. Leads team of QA Managers and embedded quality professionals across multiple initiatives and regions. Multi-platform (PC, Mobile). 10+ yrs QA, 4+ yrs managing QA Managers required. $201,900–$301,800 base + incentive + equity. LA onsite. Distinct from riot-senior-manager-qa-tft (job 6908931, closed) and riot-senior-qa-manager-gameplay-tft (job 7272504, closed) — this is a Director-level role.",
+      "closed": false,
+      "fit": {
+        "score": 93,
+        "level": "Excellent",
+        "why": "Director owning QA for a flagship Riot live-service title in LA — exact scope and home region match, exceptional comp at $201K–$301K + equity.",
+        "blurb": "Shaping and executing quality strategy for Teamfight Tactics — a globally competitive live-service title at Riot's scale — is exactly the Director-level challenge I've built toward across Fortis, Amazon Games, and Blizzard, where I led live-ops QA through continuous shipping for flagship titles. I now lead Fortis' AI transformation of QA — using LLMs and agentic tooling to target an 80% reduction in manual release-test time — and I'd bring that modern automation-first quality culture to help TFT's players experience a consistently high-quality, resonant game worldwide."
+      }
+    },
+    {
+      "id": "nintendo-manager-qa-testing",
+      "title": "Manager, QA Testing",
+      "company": "Nintendo of America",
+      "category": "games",
+      "location": "Redmond, WA (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Nintendo of America Careers",
+      "url": "https://careers.nintendo.com/job-openings/listing/240000003V.html",
+      "date_found": "2026-07-10",
+      "date_posted": "",
+      "notes": "QA Testing Manager at Nintendo of America, Redmond WA hybrid. Requires 2+ years people management experience. Responsibilities: test plan facilitation/adherence, process improvement, metrics monitoring, policy authoring. Under-leveled vs Taylor's Director background; Nintendo brand and games category are strong; requires relocation from OC to Redmond.",
+      "closed": false,
+      "fit": {
+        "score": 63,
+        "level": "Good",
+        "why": "QA Manager at Nintendo of America — iconic games brand with confirmed people-management scope; under-leveled vs Director trajectory and Redmond WA requires relocation from OC.",
+        "blurb": "Contributing to Nintendo's legendary game quality — managing QA Testing processes and standards at one of the world's most iconic game companies — aligns with my 20 years of games QA leadership, and the Redmond office is familiar territory from my Amazon Games days in the Pacific Northwest. While the QA Manager title is below my current Director trajectory, Nintendo's culture and standards make this a compelling conversation, and I'd bring modern CI/CD automation and AI-driven testing practices to help Nintendo's QA team raise velocity."
+      }
+    },
+    {
+      "id": "keywords-studios-qa-manager-aaa-au",
+      "title": "QA Manager, AAA Games",
+      "company": "Keywords Studios (Australia)",
+      "category": "games",
+      "location": "Australia (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Keywords Studios Careers",
+      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xOf-quality-assurance-manager-aaa-games/",
+      "date_found": "2026-07-10",
+      "date_posted": "",
+      "notes": "QA Manager reporting directly to CEO of Keywords Australia (Tantalus Media, Wicked Workshop, Mighty Games). Full ownership of QA strategy, department growth, and delivery standards across AAA remasters, ports, and expansion packs. 8+ yrs video games QA, 3+ yrs management required. Australia-based; major international relocation from OC.",
+      "closed": false,
+      "fit": {
+        "score": 57,
+        "level": "Stretch",
+        "why": "Games QA Manager at a top AAA services vendor with direct CEO reporting line — right category and management scope; under-leveled vs Director trajectory and requires international relocation to Australia.",
+        "blurb": "Managing QA strategy and delivery standards across Keywords Australia's AAA games portfolio — aligning with global best practices and championing automation — draws directly on my years directing external QA partnerships from the client side at Fortis, Netflix, and Amazon Games. I know what AAA publisher clients expect from their testing partners, and I'd bring that perspective plus my AI-driven automation initiative to help Keywords Australia elevate its delivery quality; the relocation to Australia from Orange County is the primary consideration."
       }
     }
   ]

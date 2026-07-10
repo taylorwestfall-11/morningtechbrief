@@ -202,15 +202,15 @@ const JOBS = /*__JOBS__*/[
 const LAST_SCAN = "2026-07-09";
 
 const STAGES = [
-  {key:"new",       label:"⚪ New / Not applied", group:"open"},
-  {key:"applied",   label:"📨 Applied",            group:"pipeline"},
-  {key:"recruiter", label:"📞 Recruiter screen",   group:"pipeline"},
-  {key:"interview", label:"🎤 Interviewing",       group:"pipeline"},
-  {key:"final",     label:"🏁 Final round",         group:"pipeline"},
-  {key:"offer",     label:"🎉 Offer",               group:"pipeline"},
-  {key:"rejected",  label:"❌ Rejected / Denied",   group:"closed"},
-  {key:"ghosted",   label:"👻 No response",         group:"closed"},
-  {key:"dropped",   label:"🚫 Stopped tracking",    group:"closed"}
+  {key:"new",            label:"⚪ New",                                 group:"home"},
+  {key:"reviewed",       label:"👀 Reviewed (not applied)",              group:"home"},
+  {key:"applied",        label:"📨 Applied",                             group:"pipeline"},
+  {key:"recruiter",      label:"📞 Recruiter screen",                    group:"pipeline"},
+  {key:"interview",      label:"🎤 Interview",                           group:"pipeline"},
+  {key:"final",          label:"🏁 Final round",                         group:"pipeline"},
+  {key:"offer",          label:"🎉 Offer",                               group:"pipeline"},
+  {key:"rejected",       label:"❌ Rejected",                            group:"closed"},
+  {key:"not-interested", label:"🚫 Not interested / No longer available", group:"dismissed"}
 ];
 const STAGE = Object.fromEntries(STAGES.map(s=>[s.key,s]));
 const STALE_DAYS = 30;
@@ -220,13 +220,19 @@ const KEY="jobhunter_status_v2";
 let state = JSON.parse(localStorage.getItem(KEY) || "{}");
 try{ const v1=JSON.parse(localStorage.getItem("jobhunter_status_v1")||"{}");
   for(const id in v1){ if(!state[id]) state[id]={status:v1[id].status,date:v1[id].date,notes:""}; } }catch(e){}
+// migrate legacy statuses to the current stage set
+for(const id in state){ const s=state[id]&&state[id].status;
+  if(s==="dropped") state[id].status="not-interested";   // "Stopped tracking" → hidden for good
+  else if(s==="ghosted") state[id].status="rejected";     // "No response" → Rejected history
+}
+localStorage.setItem(KEY, JSON.stringify(state));
 const save = ()=>localStorage.setItem(KEY, JSON.stringify(state));
 const today = ()=> new Date().toISOString().slice(0,10);
 const daysBetween = (d)=> d ? Math.floor((Date.now()-new Date(d))/86400000) : null;
 
 function rec(id){ return state[id] || {status:"new",date:"",notes:""}; }
 function statusOf(id){ return rec(id).status; }
-function groupOf(id){ return STAGE[statusOf(id)]?.group || "open"; }
+function groupOf(id){ return STAGE[statusOf(id)]?.group || "home"; }
 function fitColor(s){ return s>=90?"#7ee0a8":s>=80?"#9ed16b":s>=65?"#e9c46a":s>=50?"#f0a868":"#e07a5f"; }
 
 let filters={cat:"all",remote:"all",q:"",view:"open",sort:"fit",layout:"list"};
@@ -234,35 +240,37 @@ let filters={cat:"all",remote:"all",q:"",view:"open",sort:"fit",layout:"list"};
 // Board columns: New, the 5 active pipeline stages, and a combined Closed column.
 const BOARD_COLS=[
   {key:"new",      label:"⚪ New",        set:"new"},
+  {key:"reviewed", label:"👀 Reviewed",   set:"reviewed"},
   {key:"applied",  label:"📨 Applied",    set:"applied"},
   {key:"recruiter",label:"📞 Recruiter",  set:"recruiter"},
   {key:"interview",label:"🎤 Interview",  set:"interview"},
   {key:"final",    label:"🏁 Final",      set:"final"},
   {key:"offer",    label:"🎉 Offer",      set:"offer"},
-  {key:"closed",   label:"⚫ Closed",     set:"rejected", members:["rejected","ghosted","dropped"]}
+  {key:"rejected", label:"❌ Rejected",   set:"rejected"}
 ];
 
 function render(){
-  // Hide dead-link postings ONLY if you haven't engaged with them. Anything you've applied to /
-  // moved through the pipeline (or rejected/ghosted) stays visible so your tracking survives.
-  const isHidden=(j)=> j.closed && (statusOf(j.id)==="new" || statusOf(j.id)==="dropped");
+  // Hidden = you dismissed it (Not interested / No longer available) OR it's a dead posting you
+  // never engaged with. Anything you've Applied to / moved through the pipeline (or Rejected) stays.
+  const isHidden=(j)=> statusOf(j.id)==="not-interested" || (j.closed && (statusOf(j.id)==="new"||statusOf(j.id)==="reviewed"));
   const LIVE=JOBS.filter(j=>!isHidden(j));
   document.getElementById("lastScan").textContent = "Last scan: "+LAST_SCAN+" · "+LIVE.length+" roles tracked";
-  const counts={}; STAGES.forEach(s=>counts[s.key]=0);
-  let openN=0,pipeN=0,closedN=0,freshN=0;
-  LIVE.forEach(j=>{ const g=groupOf(j.id); counts[statusOf(j.id)]++;
-    if(g==="open")openN++; else if(g==="pipeline")pipeN++; else closedN++;
-    if(j.date_found===LAST_SCAN && statusOf(j.id)==="new")freshN++; });
-  const views=[
-    {k:"open",label:"🟢 To review",n:openN,extra:freshN?` (✨${freshN} new)`:""},
-    {k:"pipeline",label:"🔵 In progress",n:pipeN,extra:""},
-    {k:"closed",label:"⚫ Closed",n:closedN,extra:""},
-    {k:"all",label:"All",n:LIVE.length,extra:""}
-  ];
+  let newN=0,revN=0,pipeN=0,rejN=0,freshN=0;
+  const c={applied:0,recruiter:0,interview:0,final:0,offer:0};
+  LIVE.forEach(j=>{ const s=statusOf(j.id), g=groupOf(j.id);
+    if(s==="new")newN++; else if(s==="reviewed")revN++;
+    else if(g==="pipeline"){pipeN++; if(c[s]!==undefined)c[s]++;}
+    else if(g==="closed")rejN++;
+    if(j.date_found===LAST_SCAN && s==="new")freshN++; });
   document.getElementById("pipe").innerHTML =
-    (filters.layout==="board" ? `<div class="chip" style="cursor:default">📊 Drag cards between columns to update status</div>`
-      : views.map(v=>`<div class="chip ${filters.view===v.k?"on":""}" onclick="setView('${v.k}')">${v.label} <b>${v.n}</b>${v.extra}</div>`).join("")) +
-    `<div class="chip" style="cursor:default" title="Applications in the active pipeline">📨${counts.applied} 📞${counts.recruiter} 🎤${counts.interview} 🏁${counts.final} 🎉${counts.offer}</div>`;
+    (filters.layout==="board"
+      ? `<div class="chip" style="cursor:default">📊 Drag cards between columns · 🚫 button = not interested</div>`
+      : `<div class="chip" style="cursor:default">🏠 Home shows New + Reviewed · use 📊 Board for Applied→Offer</div>`)
+    + `<div class="chip" style="cursor:default">⚪ New <b>${newN}</b>${freshN?` (✨${freshN} today)`:""}</div>`
+    + `<div class="chip" style="cursor:default">👀 Reviewed <b>${revN}</b></div>`
+    + `<div class="chip" style="cursor:default" title="Applied → Offer — manage in Board view">📨 In pipeline <b>${pipeN}</b></div>`
+    + (rejN?`<div class="chip" style="cursor:default">❌ Rejected <b>${rejN}</b></div>`:"")
+    + `<div class="chip" style="cursor:default" title="Pipeline breakdown">📨${c.applied} 📞${c.recruiter} 🎤${c.interview} 🏁${c.final} 🎉${c.offer}</div>`;
 
   const q=filters.q.toLowerCase();
   const sortFn=(a,b)=> filters.sort==="new"
@@ -277,8 +285,8 @@ function render(){
   };
   const list=document.getElementById("list");
   if(filters.layout==="board"){ renderBoard(JOBS.filter(matches).sort(sortFn)); return; }
-  let rows=JOBS.filter(j=> matches(j) && (filters.view==="all"||groupOf(j.id)===filters.view)).sort(sortFn);
-  if(!rows.length){ list.innerHTML=`<div class="empty">No roles match these filters.</div>`; return; }
+  let rows=JOBS.filter(j=> matches(j) && groupOf(j.id)==="home").sort(sortFn);
+  if(!rows.length){ list.innerHTML=`<div class="empty">Nothing new to review. Applied &amp; in-progress roles live in the 📊 Board view.</div>`; return; }
   list.innerHTML = rows.map(j=>{
     const r=rec(j.id), st=r.status, g=STAGE[st].group;
     const isNew = j.date_found===LAST_SCAN && st==="new";
@@ -311,7 +319,7 @@ function render(){
         <span class="badge ${j.category}">${j.category==="games"?"🎮 Games":"💻 Tech"}</span>
         ${remoteBadge}
         <span class="badge">via ${j.source}</span>
-        ${j.date_posted?`<span class="badge">📅 posted ${j.date_posted}</span>`:""}
+        ${(j.date_posted||j.date_found)?`<span class="badge">📅 ${j.date_posted?("posted "+j.date_posted):("seen "+j.date_found)}</span>`:""}
         ${likelyExpired?`<span class="badge stale">⚠️ likely expired · ${Math.round(postedAge/30)}mo</span>`:""}
       </div>
       ${f?`<div class="fit-why"><b>Fit:</b> ${f.why}</div>`:""}
@@ -351,8 +359,9 @@ function boardCard(j){
   const note=r.notes?`<div class="bnote">📝 ${r.notes.replace(/</g,"&lt;")}</div>`:"";
   return `<div class="bcard ${likelyExpired?"expired":""} ${st==="offer"?"offer":""} ${isStale?"stale":""}" draggable="true" data-id="${j.id}" ondragstart="cardDrag(event,'${j.id}')" ondragend="cardDragEnd(event)">
     <div class="bt"><div><h4>${j.title}</h4><div class="bco">${j.company}</div></div>${ring}</div>
-    <div class="bmeta"><span class="badge ${j.category}">${j.category==="games"?"🎮":"💻"}</span>${remoteB}${j.date_posted?`<span class="badge">📅 ${j.date_posted}</span>`:""}${likelyExpired?`<span class="badge stale">⚠️ ${Math.round(postedAge/30)}mo</span>`:""}${isStale?`<span class="badge stale">⏳${foundAge}d</span>`:""}<a class="bapply" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a></div>
-    ${note}</div>`;
+    <div class="bmeta"><span class="badge ${j.category}">${j.category==="games"?"🎮":"💻"}</span>${remoteB}${(j.date_posted||j.date_found)?`<span class="badge">📅 ${j.date_posted||("seen "+j.date_found)}</span>`:""}${j.closed?`<span class="badge" style="border-color:#e07a5f;color:#e07a5f">🔗 closed</span>`:""}${likelyExpired?`<span class="badge stale">⚠️ ${Math.round(postedAge/30)}mo</span>`:""}<a class="bapply" href="${j.url}" target="_blank" rel="noopener">Apply ↗</a></div>
+    ${note}
+    <div style="margin-top:6px"><button class="btn" style="font-size:11px;padding:3px 8px" onclick="setStage('${j.id}','not-interested')">🚫 Not interested</button></div></div>`;
 }
 let dragId=null;
 function cardDrag(e,id){ dragId=id; e.dataTransfer.effectAllowed="move"; e.target.classList.add("dragging"); }

@@ -496,3 +496,10 @@
 - **IoTorero joins Works with Home Assistant** — first ESPHome-native smart plugs and relays in the program; all 7 devices pre-flashed, fully local, no cloud, no flashing required; also carry Made for ESPHome certification.
 - **AMD Zen 6 Medusa Point 10-core APU returns on Geekbench** — beats both Ryzen AI 9 HX 370 and Ryzen AI Max+ 395; RDNA 4m iGPU and updated NPU; CES 2027 launch expected on TSMC 2nm.
 - **Grok 4.5 Day-1 benchmarks: #4 on Intelligence Index** — behind Fable 5, GPT-5.5, and Opus 4.8; claims #1 on SWE marathon long-horizon coding benchmark; EU launch delayed for AI Act compliance review.
+
+## [2026-07-11]
+- **GPT-5.6 Sol/Terra/Luna goes fully public** — ChatGPT Work GA; Sol scores 53.6 on Agents' Last Exam (13 pts above Fable 5); pricing Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per million tokens; GPT-Live-1 voice rolls out globally as default for paid users.
+- **SK Hynix raises $26.5B on Nasdaq (SKHY)** — biggest-ever U.S. IPO by a foreign company, eclipsing Alibaba 2014; 7× oversubscribed, opened 14% above price; funds new HBM fabs in South Korea and advanced AI packaging plant in Indiana.
+- **Claude Cowork is now a cloud-native service** — background agent sessions persist without any active device; Max subscribers first; 90%+ of usage is non-coding tasks (reports, checklists, spreadsheets).
+- **Rapidus 2nm wafers targeting ~$20K vs TSMC's ~$30K** — Japan's government-backed chipmaker has engaged 60+ prospective customers; mass production target is 2027 with $4B in government backing.
+- **Motionographer Tribeca 2026 recap published** — deeper pieces now shipping from the festival notebook; Tribeca X "Human-Anchored Future of AI Filmmaking" panel featured animators and directors debating creative ownership over AI-assisted production.

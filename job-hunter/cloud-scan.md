@@ -69,6 +69,11 @@ normal; NEVER invent roles to pad the list.
 6. Append new roles to `job-hunter/jobs.json` with `date_found` = today (UTC, YYYY-MM-DD).
    ALWAYS set `_meta.last_scan` to today and increment `_meta.scan_count` — even with zero new
    roles, so the page visibly shows it ran.
+6b. **MANDATORY — run the deterministic dead-link check** (the LLM eyeball check in step 4a is a
+   first pass only; it has proven unreliable, so this script is the source of truth):
+   `python job-hunter/deadlink_check.py`
+   It curls every non-closed role, follows redirects, and sets `closed:true` on anything that 404s,
+   hits an error page, or bounces to a careers root. Do NOT skip this step. Report its summary line.
 7. Regenerate `jobs-7m3k9q.html`: replace the JS array between the `/*__JOBS__*/` and
    `/*__JOBS_END__*/` markers with the full current jobs array from jobs.json, and set the
    `LAST_SCAN` constant to today. DO NOT modify anything else — the tab `<nav>` bar, the

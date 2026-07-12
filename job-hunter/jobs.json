@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-11",
-    "scan_count": 14,
+    "last_scan": "2026-07-12",
+    "scan_count": 15,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -1462,6 +1462,69 @@
       },
       "closed_on": "2026-07-11",
       "closed_reason": "Auto dead-link check: 404"
+    },
+    {
+      "id": "riot-senior-manager-qa-player-experience",
+      "title": "Senior Manager, QA - Player Experience",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, USA (onsite)",
+      "remote": "onsite",
+      "salary": "$173,000–$241,000",
+      "source": "Riot Games Careers / Hitmarker",
+      "url": "https://www.riotgames.com/en/work-with-us/job/4735130/senior-manager-qa-player-experience-los-angeles-usa",
+      "date_found": "2026-07-12",
+      "date_posted": "",
+      "notes": "Manages QA professionals for Riot's Player Platform – Player Experience Initiative, ensuring testing and delivery of critical player experiences used by millions across Riot's AAA titles. Reports to Director of Engineering. People management and full test coverage ownership confirmed. $173K–$241K base + incentive + equity. LA onsite. 5+ yrs QA, 2+ yrs leadership required.",
+      "closed": false,
+      "fit": {
+        "score": 82,
+        "level": "Strong",
+        "why": "Senior Manager owning QA for Riot's Player Platform — excellent comp, LA home base, people-management scope confirmed; one notch below current Director trajectory.",
+        "blurb": "Leading QA for Riot's Player Platform — ensuring quality of critical player experiences across millions of users of Riot's AAA titles — draws directly on my live-service backend and platform quality background at Amazon Games (New World, Lost Ark, Crucible) and Fortis, where I also lead an AI transformation targeting an 80% reduction in manual release-test time. Riot's LA headquarters is in my Orange County home region, and my 20+ years of games QA leadership mean I'd contribute from day one at a level above the scope this role demands."
+      }
+    },
+    {
+      "id": "archetype-entertainment-qa-manager",
+      "title": "QA Manager",
+      "company": "Archetype Entertainment",
+      "category": "games",
+      "location": "Austin, TX (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "GameJobs.co",
+      "url": "https://gamejobs.co/QA-Manager-at-Archetype-Entertainment-6727",
+      "date_found": "2026-07-12",
+      "date_posted": "",
+      "notes": "Building and leading QA organization from scratch for Archetype's first AAA game. Studio founded by BioWare, 343, EA, and Naughty Dog veterans; Wizards of the Coast (Hasbro) subsidiary in Austin, TX. Responsibilities: QA strategy across multiple methodologies, test automation collaboration with Engineering, first-party certification, quality metrics for leadership. People management confirmed.",
+      "closed": false,
+      "fit": {
+        "score": 58,
+        "level": "Stretch",
+        "why": "Greenfield QA org-building at a well-backed AAA studio matches your specialty, but QA Manager is well below Director trajectory and Austin TX requires cross-country relocation from OC.",
+        "blurb": "Building QA from the ground up for a studio launched by BioWare and AAA veterans, backed by Wizards of the Coast, is a challenge I've met multiple times — at Fortis, Netflix, and Amazon Games — and I'd bring the same automation-first, AI-driven strategy to help Archetype ship a high-quality first title. That said, the QA Manager title is a significant step below my current Director scope, and relocating from Orange County to Austin is the primary consideration."
+      }
+    },
+    {
+      "id": "blizzard-quality-manager-overwatch-r026488",
+      "title": "Quality Manager, Overwatch",
+      "company": "Blizzard Entertainment",
+      "category": "games",
+      "location": "Irvine, CA (hybrid)",
+      "remote": "hybrid",
+      "salary": "$79,000–$147,320",
+      "source": "Blizzard Careers (R026488)",
+      "url": "https://careers.blizzard.com/global/en/job/R026488/Quality-Manager-Overwatch-Irvine-CA",
+      "date_found": "2026-07-12",
+      "date_posted": "",
+      "notes": "Quality Manager (Blizzard's QA Manager-level title) for Overwatch. Manages end-to-end test team across globally distributed staff, establishes QA standards, drives strategic quality vision. Taylor's former employer; managed Overwatch QA at Blizzard. Hybrid Irvine CA — OC home region. $79K–$147K base. Distinct from closed entry blizzard-test-manager-overwatch (R025023).",
+      "closed": false,
+      "fit": {
+        "score": 68,
+        "level": "Good",
+        "why": "QA Manager for Overwatch at Taylor's former employer and franchise in OC — direct knowledge and culture fit; 'Quality Manager' is well below Director trajectory and salary range is modest.",
+        "blurb": "Managing quality for Overwatch — the live-service competitive shooter I helped test and ship during my first Blizzard tenure — would be a return to deeply familiar territory with zero culture or tooling ramp, and I'd bring Director-level rigor plus my AI-driven automation initiative to help the team sustain quality at scale. Blizzard's Irvine campus is in my Orange County home region; while Quality Manager is a step back from my Director scope, the franchise familiarity and proximity make this worth a conversation."
+      }
     }
   ]
 }

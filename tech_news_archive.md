@@ -503,3 +503,10 @@
 - **Claude Cowork is now a cloud-native service** — background agent sessions persist without any active device; Max subscribers first; 90%+ of usage is non-coding tasks (reports, checklists, spreadsheets).
 - **Rapidus 2nm wafers targeting ~$20K vs TSMC's ~$30K** — Japan's government-backed chipmaker has engaged 60+ prospective customers; mass production target is 2027 with $4B in government backing.
 - **Motionographer Tribeca 2026 recap published** — deeper pieces now shipping from the festival notebook; Tribeca X "Human-Anchored Future of AI Filmmaking" panel featured animators and directors debating creative ownership over AI-assisted production.
+
+## [2026-07-12]
+- **Apple sues OpenAI for trade secret theft** — 400+ former Apple employees cited; complaint alleges coordinated extraction of silicon and on-device AI IP at every level; former VP Tang Tan named for directing interviewees to share confidential information; damages and injunctions sought.
+- **Fable 5 subscription access ends tonight** — 11:59 PM PT is the cutoff for Pro, Max, Team, and Enterprise subscribers; after tonight access shifts to prepaid credits at $10/$50 per million tokens, Anthropic's highest-ever pricing; Sonnet 5 at $2/$10 is the practical alternative.
+- **Gemini 3.5 Pro confirmed for July 17** — Google DeepMind scrapped the original base model for a full architectural rebuild targeting improved math, SVG generation, and multi-layer tool-calling; 2-million-token context window and Deep Think reasoning are the headliners.
+- **GPT-5.6 developer consensus: Terra is the value pick** — scores 84.3% on Terminal-Bench 2.1 at $2.50/$15 per million tokens, roughly matching Claude Fable 5 at half the cost; Sol leads benchmarks, Luna handles budget bulk tasks.
+- **Figma Motion open beta** — native AI timeline animation inside Figma launched at Config 2026; describe motion and the Figma agent adds keyframes; export as MP4, GIF, WEBM, or Animated SVG; free on all plans, full seat required for AI generation and HD exports.

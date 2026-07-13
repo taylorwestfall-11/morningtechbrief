@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-12",
-    "scan_count": 15,
+    "last_scan": "2026-07-13",
+    "scan_count": 16,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -1524,6 +1524,66 @@
         "level": "Good",
         "why": "QA Manager for Overwatch at Taylor's former employer and franchise in OC — direct knowledge and culture fit; 'Quality Manager' is well below Director trajectory and salary range is modest.",
         "blurb": "Managing quality for Overwatch — the live-service competitive shooter I helped test and ship during my first Blizzard tenure — would be a return to deeply familiar territory with zero culture or tooling ramp, and I'd bring Director-level rigor plus my AI-driven automation initiative to help the team sustain quality at scale. Blizzard's Irvine campus is in my Orange County home region; while Quality Manager is a step back from my Director scope, the franchise familiarity and proximity make this worth a conversation."
+      }
+    },
+    {
+      "id": "ghost-story-games-qa-manager",
+      "title": "QA Manager",
+      "company": "Ghost Story Games (Take-Two)",
+      "category": "games",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Greenhouse / Indeed",
+      "url": "https://www.indeed.com/viewjob?jk=159dec1a61cd7b33",
+      "date_found": "2026-07-13",
+      "date_posted": "",
+      "notes": "Fully remote studio led by Ken Levine (BioShock creator). Building QA org from scratch for Judas (AAA narrative FPS). Leads internal QA team and manages external QA vendor relationships. Test automation strategy responsibility confirmed. Shipped 2+ AAA titles in QA leadership required.",
+      "fit": {
+        "score": 65,
+        "level": "Good",
+        "why": "Remote games QA Manager building from scratch for Ken Levine's Judas — right vertical and greenfield org-building scope; QA Manager title is below Taylor's Director trajectory.",
+        "blurb": "Building QA from the ground up for a narrative AAA FPS by the creator of BioShock is the kind of greenfield challenge I've met repeatedly — at Fortis, Netflix, and Amazon Games — and I'd bring director-level rigor, test automation architecture, and my current AI-driven testing initiative to ensure Judas ships at the quality level players expect from Ken Levine. Ghost Story's fully remote studio culture aligns with my work style, and I'd apply the same playbook that's targeting an 80% reduction in manual release-test time at Fortis to Judas QA."
+      }
+    },
+    {
+      "id": "playstation-sr-manager-production-localisation-qa",
+      "title": "Sr Manager, Production & Localisation QA",
+      "company": "Sony Interactive Entertainment / PlayStation Studios",
+      "category": "games",
+      "location": "London, UK (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "PlayStation Careers / Greenhouse",
+      "url": "https://careers.playstation.com/sr-manager-production-localisation-qa/job/5836726004",
+      "date_found": "2026-07-13",
+      "date_posted": "2026-03-26",
+      "notes": "Reports to Senior Director of International Production & Localisation (IPL). Leads two teams: Production and Localisation QA. Partners with PlayStation Studios and external developers worldwide to deliver best-in-class localisation and LQA solutions. London UK hybrid.",
+      "fit": {
+        "score": 67,
+        "level": "Good",
+        "why": "Senior-Manager-level QA + LQA leadership at Sony/PlayStation — direct localization QA relevance and games pedigree; London onsite is the primary barrier from OC.",
+        "blurb": "Leading Sony's global Localisation QA and Production teams — driving LQA quality standards and partnering with PlayStation Studios worldwide — maps precisely to my current Director of QA & Localization role at Fortis, where I own both functional and localization QA across all titles. I'd bring 20+ years of games QA leadership, deep LQA process expertise from Netflix and Amazon Games, and my AI-driven test automation initiative to elevate PlayStation's international quality operations; London hybrid would require a meaningful lifestyle commitment from Orange County."
+      }
+    },
+    {
+      "id": "2k-sr-manager-lqa",
+      "title": "Sr. Manager, LQA",
+      "company": "2K (2K Madrid)",
+      "category": "games",
+      "location": "Madrid, Spain (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Greenhouse / Built In",
+      "url": "https://job-boards.greenhouse.io/2k/jobs/7796121003",
+      "date_found": "2026-07-13",
+      "date_posted": "",
+      "notes": "Leads and grows 2K's regional Localization QA organization in Madrid. Manages managers, ICs, and vendor partners. Drives strategic planning, staffing, budgeting, tooling/automation, and cross-regional LQA workflows. Serves as escalation for complex LQA issues. Spain-based (Estatuto de los Trabajadores compliant).",
+      "fit": {
+        "score": 58,
+        "level": "Stretch",
+        "why": "Sr. Manager of LQA at a top-tier publisher — managing managers, vendors, and regional strategy — but Spain-based with relocation barrier and pure-LQA scope is narrower than Taylor's full QA Director role.",
+        "blurb": "Leading 2K's regional Localization QA organization — setting LQA strategy, building vendor relationships, and aligning with studio OKRs — aligns directly with my work at Fortis, where I own both QA and Localization quality across all titles and have spent years managing external LQA partners. The 2K brand and the localization quality leadership scope are compelling; relocating to Madrid from Orange County is the primary consideration for a role that focuses on LQA rather than the full QA Director mandate I hold today."
       }
     }
   ]

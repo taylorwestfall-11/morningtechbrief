@@ -510,3 +510,10 @@
 - **Gemini 3.5 Pro confirmed for July 17** — Google DeepMind scrapped the original base model for a full architectural rebuild targeting improved math, SVG generation, and multi-layer tool-calling; 2-million-token context window and Deep Think reasoning are the headliners.
 - **GPT-5.6 developer consensus: Terra is the value pick** — scores 84.3% on Terminal-Bench 2.1 at $2.50/$15 per million tokens, roughly matching Claude Fable 5 at half the cost; Sol leads benchmarks, Luna handles budget bulk tasks.
 - **Figma Motion open beta** — native AI timeline animation inside Figma launched at Config 2026; describe motion and the Figma agent adds keyframes; export as MP4, GIF, WEBM, or Animated SVG; free on all plans, full seat required for AI generation and HD exports.
+
+## [2026-07-13]
+- **Fable 5 + Claude Code 50% limits extended to July 19** — Anthropic's third extension since the June 30 restore; Enterprise gains Microsoft 365 write tools (draft/send email, manage calendar, create OneDrive/SharePoint files); usage-credit pricing at $10/$50 per million tokens starts July 20.
+- **OpenAI Build Week kicks off today (July 13–21)** — global Codex and GPT-5.6 hackathon; 10am PT kickoff livestream; cash prizes, DevDay passes, API credits; 40+ worldwide events; submit by July 21.
+- **Z.ai launches ZCode free agentic coding IDE** — built on GLM-5.2 (beats GPT-5.5 on SWE-bench Pro at ~1/6th cost); free desktop app Mac/Windows/Linux, $16/month Pro tier; all API calls subject to China's National Intelligence Law.
+- **NVIDIA RTX 50 Super series "back on track"** — RTX 5080 Super spotted at 415W TDP in Seasonic PSU calculator; RTX 5060 Super with 12GB GDDR7 newly rumored; full lineup targeted for late 2026 per leakers.
+- **SK Hynix SKHY regular Nasdaq trading opens today** — graduating from pre-listing SKHYV ticker; opened 14%+ above $47 IPO price; first major Korean chipmaker on a US exchange.

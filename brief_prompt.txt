@@ -1,8 +1,9 @@
 You are running Taylor's daily morning tech news briefing. Work through all steps completely without stopping.
+NOTE: This file is kept for reference. The active combined routine (morning brief + job scan) is in daily-routine.md.
 
 ## STEP 1 — Load preferences
-Read this file: C:\Users\taylo\OneDrive\Desktop\Claude Projects\Morning Brief\news_preferences.md
-If it exists, note any topics or sources to prioritize, deprioritize, or skip. If it doesn't exist, proceed with defaults.
+Read this file: brief_prompt.txt (this file) for any topic/source priorities.
+If a news_preferences.md exists in the repo root, read that too.
 
 ## STEP 2 — Search for today's news
 Run multiple web searches to get fresh stories (last 24 hours) from each of these groups:
@@ -13,7 +14,7 @@ Run multiple web searches to get fresh stories (last 24 hours) from each of thes
 - Creative & Motion: Motionographer, motion design news
 
 ## STEP 3 — Build the HTML brief
-Read the template file to get the exact styling: C:\Users\taylo\OneDrive\Desktop\Claude Projects\Morning Brief\morning_brief.html
+Read the current morning_brief.html for exact styling.
 
 Taylor's profile for prioritization: tech tinkerer, digital animation background, active home automation projects, understands tech patterns without being a developer. Prioritize stories connecting to home automation, creative tech, and practical AI tools.
 
@@ -22,12 +23,12 @@ Generate a complete updated HTML file using the same CSS and layout as the templ
 - All story content with today's news
 - Keep all sections: Top Picks (4 cards), AI & ML, Hardware, Home Automation, Creative & Motion, Quick Hits, Feedback footer
 - Keep all vote/feedback JavaScript intact
-- IMPORTANT: Keep the navigation bar intact — the `<nav>` block immediately after `<body>` that links "📰 AI News" and "💼 Jobs" (to the GitHub Pages morning_brief.html and jobs-7m3k9q.html). Reproduce it exactly at the very top of the page; never remove or alter it.
+- IMPORTANT: Keep the navigation bar intact — the `<nav>` block immediately after `<body>` that links "📰 AI News" and "💼 Jobs". Reproduce it exactly at the very top of the page; never remove or alter it.
 
 Formatting rule for article previews: every story preview/excerpt (the `<p>` inside `.pick-card` for Top Picks and `.story-body` for section cards) must be at most 50 words. Trim to the first ~50 words of the article's lede; end on a complete sentence where possible. Do not exceed this limit.
 
-Write the output to: C:\Users\taylo\OneDrive\Desktop\Claude Projects\Morning Brief\morning_brief.html
+Write the output to: morning_brief.html
 
 ## STEP 4 — Update the archive
-Append today's top 5 stories as plain text to: C:\Users\taylo\OneDrive\Desktop\Claude Projects\Morning Brief\tech_news_archive.md
+Append today's top 5 stories as plain text to: tech_news_archive.md
 Format: ## [Date] followed by a short bullet list.

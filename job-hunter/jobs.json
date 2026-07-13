@@ -1,7 +1,7 @@
 {
   "_meta": {
     "last_scan": "2026-07-13",
-    "scan_count": 16,
+    "scan_count": 17,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -1584,6 +1584,86 @@
         "level": "Stretch",
         "why": "Sr. Manager of LQA at a top-tier publisher — managing managers, vendors, and regional strategy — but Spain-based with relocation barrier and pure-LQA scope is narrower than Taylor's full QA Director role.",
         "blurb": "Leading 2K's regional Localization QA organization — setting LQA strategy, building vendor relationships, and aligning with studio OKRs — aligns directly with my work at Fortis, where I own both QA and Localization quality across all titles and have spent years managing external LQA partners. The 2K brand and the localization quality leadership scope are compelling; relocating to Madrid from Orange County is the primary consideration for a role that focuses on LQA rather than the full QA Director mandate I hold today."
+      }
+    },
+    {
+      "id": "annapurna-interactive-qa-director",
+      "title": "QA Director",
+      "company": "Annapurna Interactive",
+      "category": "games",
+      "location": "Los Angeles, CA",
+      "remote": "onsite",
+      "salary": "$200k-$250k (may be outdated)",
+      "source": "Annapurna Interactive Careers",
+      "url": "https://annapurnainteractive.com/en/jobs/publishing-team/qa-director",
+      "date_found": "2026-07-13",
+      "date_posted": "",
+      "notes": "Director of QA overseeing multiple external QA teams across Annapurna's publishing slate. Owns QA strategy/roadmap, test plans, external vendor coordination, and qualitative playtests. Requires 8+ yrs in games, 5 yrs QA, 3 yrs publishing, 3 yrs leadership. Apply via hiring@annapurnainteractive.com.",
+      "fit": {
+        "score": 82,
+        "level": "Strong",
+        "why": "Games publisher QA Director in LA — mirrors Taylor's Netflix Games publishing QA background, Director scope, and external-vendor management experience.",
+        "blurb": "Leading QA across Annapurna Interactive's critically acclaimed publishing slate mirrors exactly what I did at Netflix Games — managing external QA partners and owning quality across a diverse multi-title portfolio. My 20+ years spanning Blizzard, Amazon Games, and Netflix, plus Fortis' ongoing AI-driven QA transformation, make me a strong match for this Director mandate."
+      }
+    },
+    {
+      "id": "respawn-development-director-qa-manager-apex-legends",
+      "title": "Development Director / QA Manager (Apex Legends)",
+      "company": "Respawn Entertainment (EA)",
+      "category": "games",
+      "location": "Baton Rouge, LA (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Respawn.com / LinkedIn",
+      "url": "https://www.respawn.com/careers/development-director-qa-manager-apex-legends",
+      "date_found": "2026-07-13",
+      "date_posted": "",
+      "notes": "Hybrid Development Director + QA Manager for live-service Apex Legends. Manages test effort across multiple global studios, reporting to QA Product Owner. Requires 5+ yrs PM, 3+ yrs AAA/SaaS. Baton Rouge, LA (relocation from OC required).",
+      "fit": {
+        "score": 78,
+        "level": "Strong",
+        "why": "Live-service AAA QA leadership for Apex Legends (EA/Respawn) with global multi-studio scope — Director-equivalent role; Baton Rouge relocation is the constraint.",
+        "blurb": "Owning quality and development process for a live-service franchise the scale of Apex Legends is a natural fit for my background running QA for live-service titles at Amazon Games (New World, Lost Ark) and Netflix Games. My experience managing cross-studio, cross-platform test efforts globally — and now leading Fortis' agentic AI QA transformation — is precisely the multi-studio live-service leadership this role demands."
+      }
+    },
+    {
+      "id": "netflix-qa-manager-games-experience-engineering",
+      "title": "QA Manager, Games Experience Engineering",
+      "company": "Netflix",
+      "category": "games",
+      "location": "Remote (USA)",
+      "remote": "remote",
+      "salary": "$180k-$900k total comp (Netflix range; Manager level ~$250k-$450k est.)",
+      "source": "Netflix Careers / LinkedIn / Himalayas",
+      "url": "https://explore.jobs.netflix.net/careers/job/790311932645-qa-manager-games-experience-engineering-usa-remote",
+      "date_found": "2026-07-13",
+      "date_posted": "",
+      "notes": "QA Manager for Netflix's Games Experience Engineering (platform) team — different from the Netflix Senior QA Project Manager (Games Operations) already tracked. Leads QA for Netflix games platform infrastructure; works with automation teams to augment frameworks. Remote.",
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "Netflix Games remote QA Manager — under-leveled vs Taylor's current Director scope, but prior employer, strong automation/platform angle, and excellent total comp range.",
+        "blurb": "I know Netflix Games deeply from my time as Head of Publishing QA, giving me immediate context on the platform team's quality challenges and a network of existing cross-functional relationships. While this Manager role is a step below my current Director mandate, Netflix's total comp ceiling and the automation-engineering focus — especially the AI-assisted testing dimensions — make it a genuinely compelling return."
+      }
+    },
+    {
+      "id": "digital-eclipse-qa-manager",
+      "title": "QA Manager (Games)",
+      "company": "Digital Eclipse Entertainment Partners",
+      "category": "games",
+      "location": "USA (office-based)",
+      "remote": "hybrid",
+      "salary": "$90k-$110k",
+      "source": "Built In",
+      "url": "https://builtin.com/job/qa-manager-games/8829694",
+      "date_found": "2026-07-13",
+      "date_posted": "2026-06-01",
+      "notes": "QA Manager at heritage games preservation studio (TMNT: Shredder's Revenge, Metal Slug Tactics). Owns QA strategy across multiple projects, manages external QA vendors. Posted June 1, 2026. Salary $90k-$110k is significantly under-leveled for Taylor's Director background.",
+      "fit": {
+        "score": 62,
+        "level": "Stretch",
+        "why": "Games QA Manager at a respected heritage studio — under-leveled title and comp ($90k-$110k) for a 20-year Director-level QA leader.",
+        "blurb": "Digital Eclipse's mission to preserve gaming heritage and its multi-project QA ownership model resonate with my passion for craft, and I've led multi-title QA strategy at Amazon Games and Netflix. That said, the QA Manager title and $90k-$110k compensation represent a meaningful step back from my current Director mandate, so understanding growth path and total comp would be the first conversation."
       }
     }
   ]

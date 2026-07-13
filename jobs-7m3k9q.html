@@ -104,7 +104,8 @@
 <header>
   <div class="wrap" style="padding-bottom:0">
     <h1>🎮 QA Leadership Job Tracker</h1>
-    <div class="sub">Taylor Westfall · QA Manager / Director / Head of QA / VP Quality · <span id="lastScan"></span></div>
+    <div class="sub">Taylor Westfall · QA Manager / Director / Head of QA / VP Quality</div>
+    <div class="sub" id="lastScan" style="margin-top:4px;color:var(--accent2);font-size:12px"></div>
   </div>
 </header>
 
@@ -271,7 +272,7 @@ function render(){
   // never engaged with. Anything you've Applied to / moved through the pipeline (or Rejected) stays.
   const isHidden=(j)=> statusOf(j.id)==="not-interested" || (j.closed && (statusOf(j.id)==="new"||statusOf(j.id)==="reviewed"));
   const LIVE=JOBS.filter(j=>!isHidden(j));
-  document.getElementById("lastScan").textContent = "Last scan: "+LAST_SCAN+" · "+LIVE.length+" roles tracked";
+  document.getElementById("lastScan").textContent = "🕐 Last updated: "+LAST_SCAN+" · "+LIVE.length+" roles tracked";
   let newN=0,revN=0,pipeN=0,rejN=0,freshN=0;
   const c={applied:0,recruiter:0,interview:0,final:0,offer:0};
   LIVE.forEach(j=>{ const s=statusOf(j.id), g=groupOf(j.id);

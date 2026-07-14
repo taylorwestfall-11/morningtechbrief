@@ -517,3 +517,10 @@
 - **Z.ai launches ZCode free agentic coding IDE** — built on GLM-5.2 (beats GPT-5.5 on SWE-bench Pro at ~1/6th cost); free desktop app Mac/Windows/Linux, $16/month Pro tier; all API calls subject to China's National Intelligence Law.
 - **NVIDIA RTX 50 Super series "back on track"** — RTX 5080 Super spotted at 415W TDP in Seasonic PSU calculator; RTX 5060 Super with 12GB GDDR7 newly rumored; full lineup targeted for late 2026 per leakers.
 - **SK Hynix SKHY regular Nasdaq trading opens today** — graduating from pre-listing SKHYV ticker; opened 14%+ above $47 IPO price; first major Korean chipmaker on a US exchange.
+
+## [2026-07-14]
+- **Anthropic Claude Cowork expands to Web & Mobile** — cloud-hosted sessions run without a laptop; Chat and Cowork unified in one workspace; iOS & Android apps live; Max subscribers first; usage limits doubled through August 5.
+- **Samsung Health forces AI training consent or deletes your data** — steps, sleep, medications, and full health records used for AI model training unless users opt out; opting out loses all cloud sync and backup; local device data unaffected.
+- **OpenAI kills ChatGPT Atlas browser by August 9** — retiring the 9-month-old standalone browser and merging capabilities into a new ChatGPT desktop superapp bundling Codex, a built-in browser, and "ChatGPT Work" agentic tools.
+- **Claude Sonnet 5 is now Claude Code's default model** — native 1-million-token context window; promotional API pricing of $2 input / $10 output per million tokens through August 31; screen reader mode and vim insert-mode key remaps added.
+- **IoTorero joins Works with Home Assistant** — first ESPHome-ready pre-flashed smart plugs and relays in the certified program; all 7 devices arrive ready for full local control with zero cloud dependency or firmware setup.

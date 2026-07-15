@@ -59,8 +59,17 @@ ATS_API = [
      lambda m: "https://api.lever.co/v0/postings/%s/%s?mode=json" % (m.group(1), m.group(2))),
 ]
 
-MAX_FAILS = 5      # consecutive unverifiable checks before we consider closing
-STALE_DAYS = 45    # ...and only if the posting is also this old
+# A bot-block is NOT evidence of death, and repeated bot-blocks are not evidence
+# either -- they just mean the host always blocks this IP. Measured 2026-07-15:
+# the same sweep saw 4 x 403 from a home IP and 14 x 403 from a GitHub runner,
+# including live Riot/Epic/Ubisoft postings. An "auto-close after N failures"
+# rule would therefore have deleted live roles off the board within a week.
+#
+# So: unverifiable NEVER auto-closes. We only ever close on positive evidence
+# (404/410, a soft-404 phrase, or a redirect to a careers root). Unverified roles
+# get a badge and a "how long since we could check" counter, and the human is the
+# final oracle via the report-dead button. Rotting-but-labelled beats silently
+# deleting a real job.
 
 
 def curl(url):
@@ -94,20 +103,6 @@ def ats_url(url):
         if m:
             return build(m)
     return None
-
-
-def days_old(job):
-    """Real feeds carry '2026-05-14', '2026-05', '2026', ISO timestamps, and junk.
-    Anything unparseable is treated as brand new, so we never age out a job we
-    can't date. Fail toward keeping the posting."""
-    raw = (job.get("date_posted") or job.get("date_found") or "").strip()[:10]
-    for fmt in ("%Y-%m-%d", "%Y-%m", "%Y"):
-        try:
-            then = datetime.strptime(raw, fmt).replace(tzinfo=timezone.utc)
-            return (datetime.now(timezone.utc) - then).days
-        except ValueError:
-            continue
-    return 0
 
 
 def classify(url):
@@ -166,18 +161,16 @@ def main():
         if verdict == "live":
             job["check_fails"] = 0
             job.pop("unverified", None)
+            job.pop("unverified_since", None)
 
         elif verdict == "unverified":
+            # Never closes -- see the bot-block note above. This counter feeds the
+            # UI badge only; it is never a liveness decision.
             job["check_fails"] = job.get("check_fails", 0) + 1
             job["unverified"] = reason
-            if job["check_fails"] >= MAX_FAILS and days_old(job) > STALE_DAYS:
-                job.update(closed=True, closed_on=TODAY,
-                           closed_reason="Unverifiable %dx and %d+ days old (%s)"
-                                         % (job["check_fails"], STALE_DAYS, reason))
-                closed += 1
-                print("CLOSED [aged-out] %s" % job["id"])
-            else:
-                print("  unverified [%s] %s (%dx)" % (reason, job["id"], job["check_fails"]))
+            job.setdefault("unverified_since", TODAY)
+            print("  unverified [%s] %s (%dx since %s)"
+                  % (reason, job["id"], job["check_fails"], job["unverified_since"]))
 
         else:  # dead
             job.update(closed=True, closed_on=TODAY,

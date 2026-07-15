@@ -1,0 +1,75 @@
+# Deterministic job-board maintenance. No AI, no API key, no secrets.
+#
+# This exists because the dead-link sweep used to live in the daily AI prompt,
+# marked "MANDATORY -- do not skip", and was skipped four days running while
+# 15 dead postings piled up on the board. An LLM prompt is not an execution
+# guarantee. Everything mechanical belongs here, where skipping isn't possible.
+#
+# The AI scan's only job is to append to job-hunter/jobs.json. This renders.
+name: Maintain job board
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # after the 12:00 brief and the 12:20 job scan have pushed
+  workflow_dispatch:        # run by hand from the Actions tab
+
+permissions:
+  contents: write           # the repo default is read-only; we need to commit
+  pages: write              # to request a Pages build (see the last step)
+
+concurrency:
+  group: maintain-jobs
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Sweep dead links
+        run: python job-hunter/deadlink_check.py
+
+      - name: Render the page
+        id: build
+        run: python job-hunter/build_page.py
+
+      - name: Commit and push
+        id: commit
+        run: |
+          git config user.name  "job-hunter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add job-hunter/jobs.json jobs-7m3k9q.html
+          if git diff --staged --quiet; then
+            echo "nothing changed — no dead links today"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Dead-link sweep: $(date -u +%F)"
+          # The daily AI routine pushes around 12:20-12:40; rebase if it raced us.
+          for i in 1 2 3; do
+            if git push origin HEAD; then
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "push rejected, rebasing (attempt $i)"
+            git pull --rebase origin main || exit 1
+          done
+          echo "could not push after 3 attempts" && exit 1
+
+      - name: Request a Pages rebuild
+        if: steps.commit.outputs.pushed == 'true'
+        # Pages here is the legacy deploy-from-branch kind, and a push made with
+        # GITHUB_TOKEN does not reliably trigger its build. Ask for one explicitly
+        # so the phone actually sees today's board.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST \
+            -H "Accept: application/vnd.github+json" \
+            "repos/${GITHUB_REPOSITORY}/pages/builds" || \
+            echo "::warning::Pages build request failed; the branch push may still trigger it."

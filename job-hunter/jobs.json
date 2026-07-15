@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-14",
-    "scan_count": 18,
+    "last_scan": "2026-07-15",
+    "scan_count": 19,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -1664,6 +1664,66 @@
         "level": "Stretch",
         "why": "Games QA Manager at a respected heritage studio — under-leveled title and comp ($90k-$110k) for a 20-year Director-level QA leader.",
         "blurb": "Digital Eclipse's mission to preserve gaming heritage and its multi-project QA ownership model resonate with my passion for craft, and I've led multi-title QA strategy at Amazon Games and Netflix. That said, the QA Manager title and $90k-$110k compensation represent a meaningful step back from my current Director mandate, so understanding growth path and total comp would be the first conversation."
+      }
+    },
+    {
+      "id": "scopely-senior-qa-manager-star-trek",
+      "title": "Senior QA Manager (Star Trek Fleet Command)",
+      "company": "Scopely",
+      "category": "games",
+      "location": "Barcelona, Spain / London, UK / Dublin, Ireland (hybrid)",
+      "remote": "hybrid",
+      "salary": "£71,000–£86,000",
+      "source": "Greenhouse (Scopely) / gamejobs.co",
+      "url": "https://job-boards.greenhouse.io/scopely/jobs/5195045008",
+      "date_found": "2026-07-15",
+      "date_posted": "2026-04-27",
+      "notes": "Senior QA Manager reporting to Executive Producer; directs all QA operations for Star Trek Fleet Command (top-grossing 4X Strategy MMO). Manages internal and external teams/studios. Barcelona, Dublin, or UK (hybrid). Distinct from scopely-senior-qa-manager (Central Studio Operations / cross-portfolio role).",
+      "fit": {
+        "score": 61,
+        "level": "Stretch",
+        "why": "Games Senior QA Manager for a flagship mobile live-service title — right vertical, confirmed people-management scope; one notch below Director trajectory and EU/UK relocation from OC is the major barrier.",
+        "blurb": "Directing QA for Star Trek Fleet Command — a top-grossing live-service mobile strategy MMO — is the high-stakes live-service quality challenge I've owned at Fortis, Amazon Games, and Netflix, where I managed blended internal and external QA teams through continuous operations. I'd bring my AI-driven testing initiative (targeting an 80% reduction in manual release-test time via agentic tooling) to elevate STFC's QA strategy; the primary consideration is the EU/UK relocation requirement from Orange County."
+      }
+    },
+    {
+      "id": "riot-senior-manager-qa-league-around-game",
+      "title": "Senior Manager, QA – League, Around Game",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, USA (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "GameJobs.co / Riot Games Careers",
+      "url": "https://gamejobs.co/Senior-Manager-QA-League-Motivation-at-Riot-Games",
+      "date_found": "2026-07-15",
+      "date_posted": "",
+      "notes": "Senior QA Manager serving as vision holder for QA on League of Legends' Around Game initiative (making the League experience enjoyable, rewarding, and welcoming). Manages QA professionals across the team. 8+ yrs QA, 2+ yrs leadership required. LA onsite. Distinct from all other Riot QA entries.",
+      "fit": {
+        "score": 79,
+        "level": "Good",
+        "why": "Senior Manager QA for League of Legends' Around Game initiative at Riot — Riot brand, LA home base, 8+ yrs QA matches Taylor's 20+ yr profile; one notch below Director trajectory.",
+        "blurb": "As the Senior QA Manager for League of Legends' Around Game initiative, I'd be the quality vision holder for player-facing features experienced by tens of millions of players daily — scope that draws directly on the live-service QA leadership I've built at Fortis, Amazon Games, and Blizzard. Riot's LA headquarters is in my Orange County home region, and I now lead Fortis' AI transformation using LLMs and agentic tooling to target an 80% reduction in manual release-test time, bringing modern automation depth to this player-experience quality role."
+      }
+    },
+    {
+      "id": "riot-manager-qa-2xko-game-loop",
+      "title": "Manager, QA, Game Loop – 2XKO",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, USA (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Riot Games Careers",
+      "url": "https://www.riotgames.com/en/work-with-us/job/6330781/manager-qa-game-loop-2xko-los-angeles-usa",
+      "date_found": "2026-07-15",
+      "date_posted": "",
+      "notes": "QA Manager for 2XKO Game Loop team. 2XKO is Riot's League-IP free-to-play 2v2 competitive fighting game (formerly Project L). LA onsite. Confirmed people-management scope. Distinct from riot-senior-manager-qa-league-around-game and all other Riot QA entries.",
+      "fit": {
+        "score": 67,
+        "level": "Good",
+        "why": "QA Manager for Riot's 2XKO fighting game — confirmed people-management scope, LA home base, Riot prestige — under-leveled vs Director trajectory.",
+        "blurb": "Leading QA for the Game Loop of 2XKO — Riot's competitive fighting game built on the League of Legends universe — draws on the same live-service quality and competitive-game testing discipline I've honed across Fortis, Amazon Games, and Blizzard. LA is my home region and Riot is a company I'd be proud to contribute to; while QA Manager is below my current Director mandate, the 2XKO launch cycle and Riot's culture make this a conversation worth exploring."
       }
     }
   ]

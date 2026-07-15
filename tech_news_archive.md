@@ -524,3 +524,10 @@
 - **OpenAI kills ChatGPT Atlas browser by August 9** — retiring the 9-month-old standalone browser and merging capabilities into a new ChatGPT desktop superapp bundling Codex, a built-in browser, and "ChatGPT Work" agentic tools.
 - **Claude Sonnet 5 is now Claude Code's default model** — native 1-million-token context window; promotional API pricing of $2 input / $10 output per million tokens through August 31; screen reader mode and vim insert-mode key remaps added.
 - **IoTorero joins Works with Home Assistant** — first ESPHome-ready pre-flashed smart plugs and relays in the certified program; all 7 devices arrive ready for full local control with zero cloud dependency or firmware setup.
+
+## [2026-07-15]
+- **OpenAI Codex Micro launches today** — first-ever OpenAI hardware, a 13-key programmable macro pad built with Work Louder for tactile AI coding shortcuts; targets Codex's 5M weekly users; pricing not yet announced.
+- **Claude Science grant deadline today** — last day to apply for Anthropic's AI research grants (up to $30K credits); workbench ships with 60+ scientific toolkits and agentic sub-agents for CRISPR, protein structure, and manuscript prep.
+- **Homey Pro 2026 integrates Claude + ChatGPT as AI agents** — local-first hub unifying 7 wireless protocols (Zigbee, Z-Wave, Matter) now lets Claude and ChatGPT control devices, trigger automations, and set moods via natural language.
+- **Figma Code Layers enters early access this month** — convert any design layer to live, editable code in one click; design and code stay in sync side by side in one Figma file; CSS, JSON, and React output supported.
+- **Ubiquiti patches critical UniFi flaws across 5 product lines** — Connect, Talk, Access, Protect, and OS all affected; home network users running UniFi gear should update firmware immediately to close remote access vulnerabilities.

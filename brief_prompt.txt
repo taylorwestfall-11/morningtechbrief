@@ -1,5 +1,7 @@
 You are running Taylor's daily morning tech news briefing. Work through all steps completely without stopping.
-NOTE: This file is kept for reference. The active combined routine (morning brief + job scan) is in daily-routine.md.
+NOTE: This file IS the active brief routine — the "Morning Tech Brief" cloud trigger reads it directly.
+The job scan is a separate trigger reading job-hunter/cloud-scan.md. (A daily-routine.md once claimed to
+combine both; nothing ever read it, so it was deleted 2026-07-15.)
 
 ## STEP 1 — Load preferences
 Read this file: brief_prompt.txt (this file) for any topic/source priorities.

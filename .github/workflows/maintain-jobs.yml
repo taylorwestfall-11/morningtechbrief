@@ -9,8 +9,14 @@
 name: Maintain job board
 
 on:
+  push:
+    paths:
+      - "job-hunter/jobs.json"
+    # Fires when the AI scan pushes new roles, so the board is swept and republished
+    # within a minute instead of waiting for the cron. This cannot loop: pushes made
+    # with GITHUB_TOKEN (i.e. this workflow's own commits) do not trigger workflows.
   schedule:
-    - cron: "0 13 * * *"   # after the 12:00 brief and the 12:20 job scan have pushed
+    - cron: "0 13 * * *"   # safety net: sweeps even on a day the scan never ran
   workflow_dispatch:        # run by hand from the Actions tab
 
 permissions:

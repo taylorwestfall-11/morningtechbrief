@@ -271,6 +271,19 @@
   },
   "branding": {
     "title": "QA Leadership Job Tracker",
-    "emoji": "🎮"
+    "emoji": "🎮",
+    "page": "jobs-7m3k9q.html",
+    "brand": "☕ Taylor's Daily",
+    "nav": [
+      {
+        "label": "📰 AI News",
+        "url": "https://taylorwestfall-11.github.io/morningtechbrief/morning_brief.html"
+      },
+      {
+        "label": "💼 Jobs",
+        "url": "https://taylorwestfall-11.github.io/morningtechbrief/jobs-7m3k9q.html",
+        "active": true
+      }
+    ]
   }
 }

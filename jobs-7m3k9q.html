@@ -254,6 +254,10 @@
   <div class="fgroup"><div class="lab">Category</div><div class="opts" id="oCat"></div></div>
   <div class="fgroup"><div class="lab">Location</div><div class="opts" id="oRemote"></div></div>
   <div class="fgroup"><div class="lab">Sort</div><div class="opts" id="oSort"></div></div>
+  <div class="fgroup"><div class="lab">Archive</div><div class="opts" id="oArchive"></div>
+    <p class="help" style="margin:8px 0 0">Dead postings and ones you dismissed are hidden by
+      default. Show them to find a role again — for example to mark something you applied to
+      before its posting closed.</p></div>
   <div class="sheet-foot">
     <button class="opt" id="fReset" style="min-height:48px">Reset</button>
     <button class="prim" id="fApply">Show <span id="fN">0</span> roles</button>
@@ -2050,7 +2054,12 @@ function everEngaged(id){
   const r = state.jobs[id];
   return !!r && (r.status!=="new" || (r.history && r.history.length>0) || !!r.notes);
 }
+/* ...but the invariant is only as good as the record. If the record IS lost, a
+   dead posting you'd applied to becomes invisible -- and then you can't re-mark
+   it, because you can't see it. That catch-22 is why the archive exists: it's
+   the escape hatch back to anything hidden. */
 function isHidden(j){
+  if(filters.archive) return false;
   return statusOf(j.id)==="not-interested" || (j.closed && !everEngaged(j.id));
 }
 
@@ -2219,7 +2228,7 @@ pending = pending.filter(p => !JOBS.some(j => j.url === p.url));
 savePending();
 
 /* ── ui ─────────────────────────────────────────────────────────────────── */
-let filters = {cat:"all", remote:"all", q:"", sort:"fit", layout:"list", col:"applied"};
+let filters = {cat:"all", remote:"all", q:"", sort:"fit", layout:"list", col:"applied", archive:false};
 const fitColor = s => s>=90?"#7ee0a8" : s>=80?"#9ed16b" : s>=65?"#e9c46a" : s>=50?"#f0a868" : "#e07a5f";
 
 function banner(kind, html){
@@ -2251,7 +2260,8 @@ function matches(j){
 const sortFn = (a,b) => filters.sort==="new"
   ? (b.date_found||"").localeCompare(a.date_found||"") || (b.fit?.score||0)-(a.fit?.score||0)
   : (b.fit?.score||0)-(a.fit?.score||0);
-const nActive = ()=> (filters.cat!=="all"?1:0)+(filters.remote!=="all"?1:0)+(filters.sort!=="fit"?1:0);
+const nActive = ()=> (filters.cat!=="all"?1:0)+(filters.remote!=="all"?1:0)
+                   + (filters.sort!=="fit"?1:0)+(filters.archive?1:0);
 
 function badgesFor(j, opts){
   const st = statusOf(j.id), small = opts && opts.small;
@@ -2301,6 +2311,18 @@ function render(){
   document.getElementById("foot").innerHTML = token
     ? `Statuses and notes sync privately. Fit scores compare each role to your resume.`
     : `⚠️ Not syncing — statuses live only on this device. Tap the sync chip to fix that.`;
+
+  // Archive is a mode, not a filter you forget you left on.
+  let ab = document.getElementById("archiveBar");
+  if(filters.archive && !ab){
+    ab = document.createElement("div");
+    ab.id = "archiveBar"; ab.className = "banner warn";
+    ab.innerHTML = `<div>🗄 <b>Archive shown.</b> Dead and dismissed postings are visible so you
+      can find and re-mark one. Set a stage on anything you want back on the board.</div>
+      <button aria-label="Exit archive">×</button>`;
+    ab.querySelector("button").onclick = ()=>{ filters.archive=false; paintOpts(); render(); };
+    document.getElementById("banners").appendChild(ab);
+  } else if(!filters.archive && ab){ ab.remove(); }
 
   filters.layout==="board" ? renderBoard() : renderList(n, c);
   paintSync();
@@ -2474,11 +2496,15 @@ function opts(host, key, list){
 const CAT=[["all","All"],["games","🎮 Games"],["tech","💻 Tech"]];
 const REM=[["all","Any location"],["remote","🌍 Remote only"]];
 const SRT=[["fit","Best fit"],["new","Newest"]];
-function paintOpts(){ opts("oCat","cat",CAT); opts("oRemote","remote",REM); opts("oSort","sort",SRT); }
-[["oCat","cat",CAT],["oRemote","remote",REM],["oSort","sort",SRT]].forEach(([h,k,l])=>{
+const ARC=[[false,"Hidden"],[true,"🗄 Show dead & dismissed"]];
+function paintOpts(){ opts("oCat","cat",CAT); opts("oRemote","remote",REM);
+                      opts("oSort","sort",SRT); opts("oArchive","archive",ARC); }
+[["oCat","cat",CAT],["oRemote","remote",REM],["oSort","sort",SRT],["oArchive","archive",ARC]]
+  .forEach(([h,k,l])=>{
   document.getElementById(h).addEventListener("click", e=>{
     const b = e.target.closest("[data-v]"); if(!b) return;
-    filters[k] = b.dataset.v; paintOpts(); render();
+    filters[k] = (k==="archive") ? b.dataset.v==="true" : b.dataset.v;
+    paintOpts(); render();
   });
 });
 paintOpts();
@@ -2492,7 +2518,8 @@ document.addEventListener("keydown", e=>{ if(e.key==="Escape") shut(); });
 document.getElementById("fbtn").addEventListener("click", ()=>openSheet(document.getElementById("fsheet")));
 document.getElementById("fApply").addEventListener("click", shut);
 document.getElementById("fReset").addEventListener("click", ()=>{
-  filters.cat="all"; filters.remote="all"; filters.sort="fit"; paintOpts(); render();
+  filters.cat="all"; filters.remote="all"; filters.sort="fit"; filters.archive=false;
+  paintOpts(); render();
 });
 document.getElementById("fab").addEventListener("click", ()=>openSheet(document.getElementById("asheet")));
 document.getElementById("aCancel").addEventListener("click", shut);

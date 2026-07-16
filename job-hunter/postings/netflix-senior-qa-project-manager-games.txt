@@ -1,0 +1,77 @@
+Senior QA Project Manager, Games
+Netflix
+Remote (US)
+Posted: 2024-08-14
+https://remotegamejobs.com/jobs/netflix-senior-qa-project-manager-games-remote-job
+
+------------------------------------------------------------
+
+Netflix is one of the world’s leading entertainment services with 278 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.
+
+The Role
+
+Netflix is looking for an experienced Sr Quality Assurance Project Manager to join the Netflix Game Studio in delivering the next generation of video games to a worldwide audience. This role is a part of the Games Operations team reporting to the Director of QA, Games; driving the highest-quality testing standards of the new games on our world-class platform.
+
+This role will require a deep skillset in leading the way for data analysis, project tracking, initiatives roll out and building on our established partnerships with our internal and external studios.
+
+As a Senior QA Project Manager (Sr QAPM), you will have a significant impact on delivering functional and stable games to Netflix members. You will have responsibility for initiatives and programs related to the work of the QA organization across the QA operations organization. You will partner with other QA team members, and cross-functionally to help with test planning and test analysis and you will contribute to the growth of the area of responsibility that you are assigned, either as a contributor to a specific project or program. There will also be specific projects related to the function of QA throughout all of Netflix that you will obtain and analyze data, coordinate initiatives, and support game teams where needed on short term availability.
+
+Responsibilities
+
+• Own and implement program responsibility and requirements for specific projects or programs
+
+• Outline the cost, scope, and time needed for specific initiatives
+
+• Work with stakeholders to align with cross functional partners in rolling out programs or initiatives
+
+• Own and be responsible for
+
+• Provide detailed information and data back to leadership and management outlining the effectiveness of new initiatives or programs
+
+• Propose new ideas and/or processes to improve the work speed and reduce the time spent on repetitive tasks.
+
+• Ensuring the successful execution of projects as per plan, along with transitions to operational support or QA leadership as needed.
+
+• In relation to game specific responsibilities:
+
+• Track game defects and errors within our pipeline to ensure they are resolved
+
+• Verify bug fixes and ensure that our database is up to date
+
+• Work with engineering and/or development teams to identify requirements and develop test plans
+
+• Defining test coverage, creating and maintaining test cases, reporting test results, and evaluating readiness to ship throughout the software development lifecycle
+
+• Provide qualitative feedback to development team regarding player experience and usability
+
+• Exemplify reliability, accountability, and professionalism in all work-related interactions
+
+• Maintain a strong understanding of our Game Requirements for Netflix (GRN), devices, and/or our game designs and features
+
+Requirements
+
+• Passion for games with a commitment to quality
+
+• 6+ years of experience in mobile game testing (iOS and Android)
+
+• 4+ years of experience in a production or quality-driven role
+
+• Exceptional iOS/Android testing experience
+
+• Expert knowledge of technical requirements, tools, and processes
+
+• Experience translating requirements into effective test cases
+
+• Proficiency with Jira, Confluence, or a similar defect-tracking software
+
+Compensation:
+
+Our compensation structure consists solely of an annual salary; we do not have bonuses. You choose each year how much of your compensation you want in salary versus stock options. To determine your personal top of market compensation, we rely on market indicators and consider your specific job family, background, skills, and experience to determine your compensation in the market range. The range for this role is $100,000 - $300,000 USD.
+
+Netflix provides comprehensive benefits including Health Plans, Mental Health support, a 401(k) Retirement Plan with employer match, Stock Option Program, Disability Programs, Health Savings and Flexible Spending Accounts, Family-forming benefits, and Life and Serious Injury Benefits. We also offer paid leave of absence programs. Full-time hourly employees accrue 35 days annually for paid time off to be used for vacation, holidays, and sick paid time off. Full-time salaried employees are immediately entitled to flexible time off. See more detail about our Benefits here .
+
+Location: Remote U.S. or Canada- with a preference for PST Hours
+
+We are an equal-opportunity employer and celebrate diversity, recognizing that diversity of thought and background builds stronger teams. We approach diversity and inclusion seriously and thoughtfully. We do not discriminate on the basis of race, religion, color, ancestry, national origin, caste, sex, sexual orientation, gender, gender identity or expression, age, disability, medical condition, pregnancy, genetic makeup, marital status, or military service.
+
+Job is open for no less than 20 days and will be removed when the position is filled.

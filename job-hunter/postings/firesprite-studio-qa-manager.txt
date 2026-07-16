@@ -1,0 +1,77 @@
+Studio QA Manager
+Firesprite (PlayStation Studios)
+Liverpool, UK (hybrid)
+https://gamejobs.co/QA-Manager-QA-at-Firesprite
+
+------------------------------------------------------------
+
+QA Manager - QA
+Firesprite
+GBR-Liverpool-Vanilla Factory
+3 years ago
+Apply
+Save
+
+Why Firesprite?
+Founded in 2012 by a group of creative and management veterans with years of industry experience, Firesprite is a visionary game development studio based in the heart of Liverpool’s vibrant game development hub with over 200 team members.
+Creating a number of showcase games for PlayStation console and peripheral launches over the years, Firesprite’s core focus is developing innovative and memorable experiences for players on cutting edge gaming hardware. At Firesprite, the end player experience always comes first and the team is passionate about how to best combine the disciplines of design, art and code to deliver games that surprise and delight.
+
+A visionary game development studio founded in 2012, Firesprite builds innovative showcase titles for PlayStation platforms as part of the PlayStation Studios family.
+
+Due to studio growth, we are looking for a Studio QA Manager to lead our internal QA Team.
+
+Working with internal QA and production teams, you will support the project development teams, through improving QA processes, managing internal QA team members, and managing the relationship with external QA teams. You will also work closely with our internal Dev Ops team to define robust build review and build management processes.
+
+Key Responsibilities:
+
+• Working closely with the Studio Development Director and Development Managers to establish a clear testing strategy for the Studio and all our games
+
+• Working with product owners and developers to define acceptance criteria, identify risks, and plan testing coverage for projects.
+
+• Lead and grow the internal QA team as both a people manager and a driver of new process.
+
+• Manage the relationship with external QA teams.
+
+• Managing test plans in a dynamic and fast-paced environment.
+
+• Work to improve, refine and standardize QA processes in the studio.
+
+• Develop testing initiatives using a combination of process, people, and effective testing methodologies.
+
+• Work with the internal Dev Ops team to ensure that automation efforts are moving forward effectively and efficiently.
+
+Requirements:
+
+• Several years of Quality Assurance experience in games development.
+
+• Experience working with and testing for multiple Platforms (Desktop, Mobile, Consoles)
+
+• A deep understanding of defect reporting, version control, and configuration management best practices, along with different testing phase best practices and objectives
+
+• Experience with automation best practices and development tools
+
+• Ability to prioritize and work independently, as well as in a team environment
+
+• Ability to thrive while working in a fast-paced working environment, with the ability to juggle multiple projects
+
+• Outstanding communication skills
+
+• Experience using MS Office packages
+
+• Experience with Unreal Engine and its core systems to help shape the Studios QA strategy
+
+Additional Desirable Skills:
+
+• Knowledge of project management practices (Agile, Prince2 etc.)
+
+• Knowledge of Confluence for documentation
+
+• Experience of Jira & Perforce useful but not essential
+
+• Experience working with PlayStation and the platform
+
+Firesprite is proud to be an equal opportunity employer, with a commitment to a culture of inclusion and mutual respect for all employees from every walk of life, reflecting the community we make games for. We welcome and encourage applications from all suitable applicants regardless of age, disability, sex, gender reassignment, sexual orientation, pregnancy and maternity, race, religion or belief and marriage and civil partnerships.
+
+Create Your Profile — Game companies can contact you with their relevant job openings.
+
+Apply Save

@@ -1,0 +1,103 @@
+Senior QA Manager
+Scopely
+Barcelona, Spain (hybrid)
+Posted: 2026-05-08
+https://job-boards.greenhouse.io/scopely/jobs/5210907008
+
+------------------------------------------------------------
+
+Scopely is seeking a Senior QA Manager to join our Barcelona studio, as part of Central Studio Operations’ QA & Deployment team, to own and develop an impactful, multifaceted QA and Deployment Program across Scopely’s diverse portfolio of selected titles.
+
+In this role, you will define and implement standardized QA frameworks, oversee cross-functional quality initiatives, and ensure testing practices and QA skills align with Scopely’s business objectives. You will champion continuous improvement in quality assurance, collaborate with external trusted QA partners, and provide guidance and mentorship to internal and external QA team members.
+
+Working closely with QA peers and Game team leadership, you’ll ensure operations align with Scopely’s global mission, values, and long-term strategic goals while driving ongoing service improvements.
+
+The ideal candidate is a highly data-driven leader always playing in offense, with a proven track record of managing complex projects, driving impact through influence, and maintaining a strong focus on progress, quality, and efficiency.
+
+What you will do
+
+• Lead and execute strategic QA initiatives, ensuring scope, timelines, and quality objectives are consistently achieved.
+
+• Ensure the consistent implementation of testing KPIs and reporting standards across all projects, and drive improvements around the quality metrics tracked
+
+• Actively contribute to iterating on the design of the QA OS
+
+• Collaborate with internal and external partners to build action plans aimed at improving the execution of the entire QA pipeline.
+
+• Be the main Central QA POC and help drive the release quality of some of Scopely’s wide array of titles.
+
+• Champion transformation and collaboration across multiple teams, cultures, and global locations.
+
+• Build action plans in collaboration with internal and external partners, to level up the execution of end to end QA pipelines
+
+• Drive the plans, and continuously assess risks and define necessary mitigation plans leading to expected outcomes.
+
+• Ensure the consistent implementation of testing strategies, KPIs, and reporting standards across all projects.
+
+• Advance the adoption of automation, AI-driven testing, and lead QA process and workflow transition through AI adoption, and support QA peers through their new AI responsibilities.
+
+• Actively contribute to iterating on the design of the QA Operating System and processes
+
+• Work with trusted External QA Partners to improve the quality and variety of the services performed, and iterate to grow impactful and relevant external QA teams that work with the game teams.
+
+• Drive continuous improvement through root cause analysis, lessons learned, and the application of industry best practices.
+
+• Foster a culture of ownership, accountability, and shared responsibility for quality at every level.
+
+• Build and scale QA communities of practice, promoting shared learning and professional growth.
+
+• Champion quality as a core organizational value, partnering closely with engineering, product, and operations teams.
+
+• Continuously enhance operational efficiency and effectiveness by evaluating current QA practices and implementing new strategies.
+
+• Act as an advocate and spokesperson for QA & Deployment, clearly communicating risks, issues, successes, and improvements to stakeholders.
+
+• Contribute to performance evaluations by providing objective, constructive feedback that supports both individual and process development.
+
+• Establish and refine communication and knowledge-sharing processes between internal and external teams.
+
+• Help manage external QA budgets to ensure teams operate efficiently, effectively, and with measurable impact.
+
+• Ensure effective reporting and coordination across distributed teams, maintaining clarity and alignment across all QA-related functions.
+
+What you will need
+
+• Degree level education or equivalent experience.
+
+• Passion for mobile and console/PC games, with proven experience working on games as a live service.
+
+• Experience with DevOps QA and/or LiveOps QA
+
+• Ability to generate impact and make progress through influence
+
+• Experience managing a portfolio of projects or in a central capacity
+
+• Proven ability to oversee and manage projects with complex setups
+
+• Strong accountability in observing deadlines and engagements
+
+• Minimum 5 years of QA experience in a game development environment with proven experience in management.
+
+• Very strong interpersonal and communication skills (both written and verbally) and ability to collaborate with senior management
+
+• Ability to identify risks and changes needed and to execute solutions, with appropriate sense of urgency.
+
+• Strong and demonstrated knowledge of project management, software development methodologies, QA best known practices
+
+• Proficient with setting up and navigating through JIRA, TestRail, Google Docs, Google Sheets/Excel, and a build distribution management system
+
+About Scopely
+
+Scopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.
+
+Founded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Niantic games businesses — Scopely consistently delivers experiences players love today and return to for years to come.
+
+Recognized multiple times as one of the "100 Most Influential Companies in the World" by TIME magazine and one of Fast Company's "World's Most Innovative Companies" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.
+
+Scopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/ .
+
+Notice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @ scopely.com .
+
+Should you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice .
+
+Employment at Scopely is based solely on a person's merit and qualifications. Scopely does not discriminate against any employee or applicant because of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), or any other basis protected by law. We also consider qualified applicants with arrest or conviction records, consistent with applicable federal, state and local law.

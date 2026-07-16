@@ -1,0 +1,58 @@
+QA Manager
+Avalanche Studios Group
+Stockholm, Sweden (hybrid)
+https://jobs.lever.co/avalanchestudios/06b9cfb7-b18c-45d9-900b-83edebda0299
+
+------------------------------------------------------------
+
+The Position
+
+At Avalanche Studios Group, we are looking for a QA Manager to join our successful title theHunter: Call of the Wild.
+
+This isn't a role about running a test department. It's about evolving how we build confidence in what we ship. You'll be responsible for moving our quality systems from reactive to proactive, improving production observability, and making quality a shared capability across Engineering, Production, Design and LiveOps. If you're someone who thinks systemically, values learning over blame, and gets energized by meaningful organizational change — we'd love to hear from you.
+
+Please note that this role is based in either our Malmö or Stockholm office three days a week (Mondays, Tuesdays and Thursdays).
+
+What You'll Do
+
+• Drive continuous improvement across QA practices, workflows and collaboration models with the QA team — and bring the rest of the studio along for the ride.
+
+• Champion quality ownership across disciplines, reducing dependency on late discovery and reactive firefighting.
+
+• Improve operational visibility into quality risks, verification pressure and release readiness through better metrics, telemetry and reporting.
+
+• Identify systemic bottlenecks and recurring failure patterns and find the right solutions for it.
+
+• Evaluate and modernize QA tooling, test infrastructure and verification workflows.
+
+• Build strong collaboration between embedded QA, operational QA functions and QA Partners.
+
+• Support, mentor and grow the people in your team — setting clear expectations, fostering psychological safety and encouraging continuous learning.
+
+• Own people management responsibilities including performance, goal-setting, career development and hiring
+
+Who You Are
+
+• You think at the organizational level, not just within the walls of QA
+
+• You value observability and transparency over process for process's sake
+
+• You're comfortable in complex, adaptive environments where the answer isn't always obvious
+
+• You balance structure with the flexibility to iterate and improve
+
+• You understand that sustainable quality systems have to work for the humans inside them
+
+• You have a track record of improving how teams collaborate around quality, not just how QA teams operate
+Note: Research shows under-represented groups in the industry might not apply to a job if they don’t check off every requirement. At Avalanche, we’re more about your drive to learn and interest in tackling challenges than what’s on your resume! So don’t stress if you don’t tick every box— shoot us your application anyway! Diverse opinions and different experiences are what make our teams so great, not itemized lists of qualifications.
+ 
+The Stockholm location
+Our Stockholm office is situated in Södermalm, the beating heart of the city’s game industry. It’s a physical representation of our games – the lush vegetation of Just Cause and theHunter: Call of the Wild meets corroded metal straight out of Mad Max. Our hybrid model requires you to be in the office on Mondays, Tuesdays, and Thursdays to foster collaboration and creativity.
+ 
+Our values
+At Avalanche Studios Group, we create worlds beyond limits. But that’s not exclusive to our games, so we’re committed to developing a diverse and inclusive workplace. All Avalanchers have a shared responsibility to create an open work environment where everyone is treated equally and respectfully. Being part of our world is not contingent on your heritage, your gender, or sexual orientation. It’s all about your passion and creativity.
+ 
+How to apply
+To apply for this position, please register below and provide your CV in English. We review applications continuously. All further studio-related information is provided under a non-disclosure agreement.
+ 
+At Avalanche Studios Group we're always on the lookout for talented individuals to join our passionate team, but please note that relocation assistance is not available for this role.

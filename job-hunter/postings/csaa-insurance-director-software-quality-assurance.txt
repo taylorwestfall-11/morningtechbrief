@@ -1,0 +1,57 @@
+Director, Software Quality Assurance
+CSAA Insurance Group
+Remote (US)
+Posted: 2026-07-01
+https://remotive.com/remote/jobs/qa/director-software-quality-assurance-5082457
+
+------------------------------------------------------------
+
+Role Description
+
+As the Director, Software Quality Assurance - Personal Lines, you will shape the quality strategy for some of our most important digital products and platforms. You will lead teams responsible for quality engineering, test automation, performance engineering, and continuous improvement across the software development lifecycle.
+
+In this role, you will partner with business, product, engineering, architecture, and delivery leaders to ensure our solutions are reliable, secure, scalable, and aligned with customer and business needs. You will help create a culture where quality is built into every stage of development, enabling faster delivery and better outcomes for our customers.
+
+This is an opportunity to influence enterprise-wide technology strategy, develop high-performing teams, and drive innovation in modern software delivery practices.
+
+Qualifications
+
+•
+Strong background in system design, cloud/SaaS markets, and modern DevSecOps pipelines, including vulnerability management and audit compliance.
+
+•
+Coding experience in object-oriented languages is highly preferred.
+
+•
+Advanced ability to analyze complex organizational workflows, isolate operational variables, and implement data-driven improvements that optimize cost and delivery.
+
+•
+Proven success collaborating with and influencing senior leadership and executive stakeholders through clear, concise, and persuasive communication.
+
+•
+Experience managing organizational budgets, vendor relationships, and time-sensitive operational decisions in a distributed or remote team environment.
+
+Requirements
+
+•
+Minimum 10 years of experience in a senior IT leadership role within a fast-paced environment, directly managing strategy, vision, and daily operations.
+
+•
+Minimum 10 years managing agile delivery workflows (Scrum, Kanban, SAFe) and utilizing enterprise tools like Jira to coordinate multiple cross-functional teams.
+
+•
+Bachelor of Science (B.S.) in Computer Science, a related field, or equivalent practical experience.
+
+Benefits
+
+•
+Experience within the insurance industry.
+
+•
+Familiarity with policy administration platforms such as Guidewire, Duck Creek, or Exigen.
+
+•
+Experience with distributed systems architecture and software development.
+
+•
+Experience leading DevSecOps or platform engineering initiatives.

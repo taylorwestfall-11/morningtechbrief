@@ -1,0 +1,74 @@
+QA Manager
+Demiurge Studios
+Boston, MA (onsite)
+https://gamejobs.co/QA-Manager-at-Demiurge-Studios
+
+------------------------------------------------------------
+
+QA Manager
+Demiurge Studios
+Boston, MA
+4 years ago
+Apply
+Save
+
+Demiurge Studios is seeking a QA Manager to lead our growing testing department and work with our amazing teams to bring the highest quality, world-class games to our players! You will be an integral part of project team leadership and work closely with our QA Director to help manage, improve & scale our quality assurance organization.
+If you have fun taking quality seriously, and have a passion for supporting QA teams while making great games, we’d love to talk with you!
+Responsibilities:
+
+• Ensure QA/QC processes support our games in meeting all internal and external quality goals
+
+• Collaborate with Production to plan & monitor upcoming resource needs, test cycles and schedules; communicate status and action plans
+
+• Collaborate with Engineering to analyze risks and recommend tooling & practices to support project quality & test coverage goals
+
+• Manage and oversee test activities & execution; visualize & communicate QA trends
+
+• Collaborate with all stakeholders to ensure quality issues are addressed; assist to remove impediments as needed. Participate in root cause analysis & developing mitigation for future risks
+
+• Hire, train, manage & mentor QA team members in their career growth
+
+• Work with clients and third-party vendors on Security, Compliance/Certification, Localization, Performance, Regression, Release & other test phases as appropriate
+
+• Recommend and lead the implementation of appropriate test automation strategies
+
+• Work closely with QA Director, Leads and company leadership on long-term Quality Strategy for scalability and efficiency
+
+• Lead dept. initiatives & continuous improvement efforts for QA methodologies
+
+• May have the opportunity to contribute directly to one or more projects in flight
+Qualifications:
+
+• 5+ years QA Management experience and overall career game credits on multiple Console, PC, Web, Mobile and/or VR games
+
+• Experience with recruiting, hiring, mentoring, training and performance management of QA staff via day-to-day management
+
+• Expert knowledge of QA methodologies that cover all testing phases (Functional, Exploratory, UI/UX, Integration, E2E, Regression, Security, Localization, Compatibility, etc.)
+
+• Success working within various SDLC methodologies: Scrum/Agile, Kanban, Waterfall, Hybrid
+
+• Deep experience with defect reporting, triage and root cause analysis as well as test case/test artifact management, tracking & reporting (Dashboarding/Metrics)
+
+• Professional demeanor with a team-focused attitude & positive mentorship style
+
+• Our ideal candidate will have had experience standing up QA processes & owning all aspects of QA including managing vendor relations
+Preference To Candidates With:
+
+• Experience managing diverse, inclusive teams with a high degree of emotional intelligence & psychological safety skills
+
+• Certifications (ISTQB, QAI or other relevant QA & technical certifications). Ability to mentor others on this path
+
+• Proven success working with outsourced partners and managing external vendor teams
+
+• Success in implementation of test automation to support playtest cycles; direct automation skills preferred
+
+• Proficiency with Jira, Confluence, Microsoft and Google Office, TestRail and/or other relevant test case management tools
+
+• Creative & motivated to make great games even better!
+About Us:
+Demiurge Studios is a rapidly growing video game developer based in Boston, MA. Creating games is our passion and we bring years of expertise to our projects. The teams at Demiurge build fun, accessible games like our hit, Marvel Puzzle Quest. We also provide co-development services to larger, best-in-industry game companies. In that capacity, Demiurge has contributed to titles such as Bioshock, Rock Band, and Mass Effect.
+Demiurge Studios is an equal opportunity employer, dedicated to diversity, equity and inclusion. All employment decisions are made without regard to race, color, national origin, gender identity, sexual orientation, age, religion, disability, medical condition, pregnancy, marital status, or Veteran status. Demiurge Studios also makes workplace accommodations for individuals with disabilities or special needs.
+
+Create Your Profile — Game companies can contact you with their relevant job openings.
+
+Apply Save

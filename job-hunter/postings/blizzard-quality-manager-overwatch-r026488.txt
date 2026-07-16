@@ -1,0 +1,119 @@
+Quality Manager, Overwatch
+Blizzard Entertainment
+Irvine, CA (hybrid)
+Compensation: $79,000–$147,320
+https://careers.blizzard.com/global/en/job/R026488/Quality-Manager-Overwatch-Irvine-CA
+
+------------------------------------------------------------
+
+Team Name:
+Quality Assurance
+
+Job Title:
+Quality Manager, Overwatch | Irvine, CA
+Requisition ID:
+R026488
+Job Description:
+YOUR MISSION AND ABOUT BLIZZARD QUALITY ASSURANCE (QA)
+At Blizzard Entertainment, we pour our hearts and souls into everything we create. Best known for iconic video game universes, including Warcraft, Overwatch, Diablo, and StarCraft, we’ve been creating genre-defining games for millions of players around the world for more than 30 years. We’re on a quest: bring our dreams to life and craft the most epic entertainment experiences…ever. Hard work, iteration, and polish go into the Blizzard “secret recipe,” but the most important ingredients come from talented people who share our vision.
+
+The concept of “Blizzard polish,” that is, the infinite care and loving detail put into every aspect of our games, is something we take seriously and pride ourselves on delivering to our players. It’s a responsibility shared across the company – and its undisputed heart and soul is Blizzard QA. Blizzard QA is a close-knit team; we care about iteration, problem-solving, and succeeding as a group. We genuinely love what we do for a living and expect the same from everyone who joins us!
+
+JOB SUMMARY
+The Quality Manager oversees Quality Assurance (QA) operations and testing for a product, ensuring software quality and process improvement. This role involves managing the end-to-end test team, aligning with departmental and organizational strategies. The Quality Manager establishes standards for cross-functional teams, manages product test schedules and resources, and drives a strategic vision for quality assurance. Responsibilities include addressing project-impacting issues, managing team members' performance for excellence, and promoting software development best practices. This role plays a crucial role in delivering epic gaming experiences for customers and key internal partners.
+
+This role is anticipated to be a hybrid work position, with some work on-site and some work-from-home. The home studio for this role is Irvine, CA.
+
+WHAT YOU BRING TO THE TABLE
+
+• Manage the end-to-end management of the test team for a product or section of a product, ensuring alignment with department and organizational strategies across globally distributed teams.
+
+• Establish standards for cross-functional teams, encompassing strategy, test execution, and reporting, while ensuring the quality of all deliverables, workflows, and relationships.
+
+• Manage product test schedules, team needs, dependencies, and resources, collaborating with key quality stakeholders to incorporate advanced testing methods into the testing strategy.
+
+• Provide resources and assistance and oversee adherence to the master test plans for products. Collaborate with senior leadership on shifting work or resources to promote test quality, software development best practices, and enhanced customer experience.
+
+• Conduct regular business reviews, provide quality-related services to production leadership, and manage the master test plan for the product.
+
+• Create, monitor, and control metrics impacting product and team quality, analyzing product quality and usability, associated system limitations, and reporting on risk.
+
+• Develop training materials for the project team and lead workshops for test leadership requirements.
+
+• Lead and support projects and initiatives with regional teams, cross-functional partners, and QA teams. Ensure project tracking tools and documentation meet team standards and are up to date.
+
+• Provide leadership, support and guidance to the assigned team, ensuring their performance is managed effectively and fostering a productive, positive, collaborative work culture.
+
+• Champion efforts that build synergy, trust, collaboration, and inclusivity within the organization. Own and manage relationships with key partners, resources, colleagues, and leaders ensuring transparency around critical decisions and trade-offs.
+
+• Performs other duties as assigned.
+
+MINIMUM REQUIREMENTS
+Experience
+
+• Minimum 8 years of experience in Quality Assurance.
+
+• Minimum 3 years directing the work of individual contributors and multiple levels of management and teams.
+
+• Experience with game engines, content and asset editors, and shared technologies.
+
+Knowledge & Skills
+
+• High School diploma or equivalent required. Bachelor’s Degree in a related field preferred.
+
+• Thorough understanding of Software Development Life Cycle (SDLC), specifically QA processes in agile and waterfall development environments.
+
+• Be an expert in one or more software testing methodologies.
+
+• Practical knowledge of relational databases such as Oracle, MySQL, & SQLServer. Working experience with Jira process.
+
+• Proven ability to analyze, interpret, and act on data sets and complex workflows.
+
+• Excellent written and verbal communication, planning, organization, and time management skills. Ability to tailor presented information for the appropriate audience.
+
+EXTRA POINTS
+
+• Scripting or software tool creation experience. White box testing experience.
+
+• Certifications: PMP, Scrum Master and/or Product Owner, ISTQB.
+
+• Coding Knowledge: XML / HTML, JavaScript, Python, Java, C / C++ / C#, SQL.
+
+• Experience working with outsourced teams.
+
+• High level of gaming knowledge and/or skill.
+
+• Passion for Blizzard’s line of products and services
+
+Your Platform
+Best known for iconic video game universes including Warcraft®, Overwatch®, Diablo®, and StarCraft®, Blizzard Entertainment, Inc. ( www.blizzard.com ), a division of Activision Blizzard, which was acquired by Microsoft (NASDAQ: MSFT), is a premier developer and publisher of entertainment experiences. Blizzard Entertainment has created some of the industry’s most critically acclaimed and genre-defining games over the last 30 years, with a track record that includes multiple Game of the Year awards. Blizzard Entertainment engages tens of millions of players around the world with titles available on PC via Battle.net®, Xbox, PlayStation, Nintendo Switch, iOS, and Android.
+
+Our World
+Activision Blizzard, Inc., is one of the world's largest and most successful interactive entertainment companies and is at the intersection of media, technology and entertainment. We are home to some of the most beloved entertainment franchises including Call of Duty®, World of Warcraft®, Overwatch®, Diablo®, Candy Crush™ and Bubble Witch™. Our combined entertainment network delights hundreds of millions of monthly active users in 196 countries, making us the largest gaming network on the planet!
+
+Our ability to build immersive and innovative worlds is only enhanced by diverse teams working in an inclusive environment. We aspire to have a culture where everyone can thrive in order to connect and engage the world through epic entertainment. We provide a suite of benefits that promote physical, emotional and financial well-being for ‘Every World’ - we’ve got our employees covered!
+
+The videogame industry and therefore our business is fast-paced and will continue to evolve. As such, the duties and responsibilities of this role may be changed as directed by the Company at any time to promote and support our business and relationships with industry partners.
+
+We love hearing from anyone who is enthusiastic about changing the games industry. Not sure you meet all qualifications? Let us decide! Research shows that women and members of other under-represented groups tend to not apply to jobs when they think they may not meet every qualification, when, in fact, they often do! We are committed to creating a diverse and inclusive environment and strongly encourage you to apply.
+
+We are committed to working with and providing reasonable assistance to individuals with physical and mental disabilities. If you are a disabled individual requiring an accommodation to apply for an open position, please email your request to accommodationrequests@activisionblizzard.com . General employment questions cannot be accepted or processed here. Thank you for your interest.
+
+We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status, among other characteristics.
+
+Rewards
+We provide a suite of benefits that promote physical, emotional and financial well-being for ‘Every World’ - we’ve got our employees covered! Subject to eligibility requirements, the Company offers comprehensive benefits including:
+
+• Medical, dental, vision, health savings account or health reimbursement account, healthcare spending accounts, dependent care spending accounts, life and AD&D insurance, disability insurance;
+
+• 401(k) with Company match, tuition reimbursement, charitable donation matching;
+
+• Paid holidays and vacation, paid sick time, floating holidays, compassion and bereavement leaves, parental leave;
+
+• Mental health & wellbeing programs, fitness programs, free and discounted games, and a variety of other voluntary benefit programs like supplemental life & disability, legal service, ID protection, rental insurance, and others;
+
+• If the Company requires that you move geographic locations for the job, then you may also be eligible for relocation assistance.
+
+Eligibility to participate in these benefits may vary for part time and temporary full-time employees and interns with the Company. You can learn more by visiting https://www.benefitsforeveryworld.com/ .
+
+In the U.S., the standard base pay range for this role is $79,360.00 - $146,816.00 Annual. These values reflect the expected base pay range of new hires across all U.S. locations. Ultimately, your specific range and offer will be based on several factors, including relevant experience, performance, and work location. Your Talent Professional can share this role’s range details for your local geography during the hiring process. In addition to a competitive base pay, employees in this role may be eligible for incentive compensation. Incentive compensation is not guaranteed. While we strive to provide competitive offers to successful candidates, new hire compensation is negotiable.

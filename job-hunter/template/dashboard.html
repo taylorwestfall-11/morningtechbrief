@@ -725,8 +725,8 @@ function renderList(n, c){
         ${stageSel(j.id)}
         <button class="ghost" data-dead="${j.id}" title="This link is dead">🚩</button>
       </div>
-      ${fit&&fit.blurb?`<div class="row"><button class="ghost" data-blurb="${j.id}"
-        style="flex:1">📋 Copy cover-letter blurb</button></div>`:""}
+      <div class="row"><button class="ghost" data-posting="${j.id}"
+        style="flex:1">📋 Copy job posting</button></div>
       <textarea class="mynotes" data-notes="${j.id}"
         placeholder="Notes: recruiter, next step, comp…">${esc(r.notes||"")}</textarea>
     </div>`;
@@ -809,14 +809,60 @@ document.getElementById("view").addEventListener("change", e=>{
 document.getElementById("view").addEventListener("click", e=>{
   const d = e.target.closest("[data-dead]");
   if(d){ if(confirm("Mark this posting as dead? It'll be closed on the next run.")) reportDead(d.dataset.dead); return; }
-  const b = e.target.closest("[data-blurb]");
-  if(b){
-    const j = JOBS.find(x=>x.id===b.dataset.blurb);
-    if(j&&j.fit&&j.fit.blurb) navigator.clipboard.writeText(j.fit.blurb).then(()=>{
-      const t=b.textContent; b.textContent="✅ Copied"; setTimeout(()=>b.textContent=t,1500);
-    });
-  }
+  const b = e.target.closest("[data-posting]");
+  if(b) copyPosting(b.dataset.posting, b);
 });
+
+/* Copy the posting as plain text, to paste into another AI to tailor a resume.
+   The text can't live in this page -- 31 descriptions would add ~150KB to
+   something loaded on a phone -- and the browser can't fetch the posting itself
+   (CORS). So postings.py caches each one server-side and we pull it same-origin,
+   on demand. Roughly a third of sites are JS-rendered or bot-blocked and have no
+   cached text; those fall back to the facts we do have plus the URL, which is
+   still useful because the other AI can open the link itself. */
+async function copyPosting(id, btn){
+  const j = JOBS.find(x=>x.id===id); if(!j) return;
+  const label = btn.textContent;
+  btn.textContent = "⏳ Copying…";
+  const head = [
+    j.title,
+    j.company + (j.location ? " — " + j.location : ""),
+    j.remote ? "Work model: " + j.remote : "",
+    j.salary ? "Compensation: " + j.salary : "",
+    j.date_posted ? "Posted: " + j.date_posted : "",
+    "Source: " + (j.source || "—"),
+    j.url
+  ].filter(Boolean).join("\n");
+
+  let body = "";
+  if(j.txt){
+    try{
+      const r = await fetch(`job-hunter/postings/${encodeURIComponent(id)}.txt`,
+                            {cache:"no-cache"});
+      if(r.ok){
+        const raw = await r.text();
+        // The cached file carries a header of its own; keep only the description,
+        // or you paste the same facts twice. Tolerate CRLF — a Windows-written
+        // cache file did exactly that and slipped a second header into every copy.
+        const m = raw.match(/\r?\n-{60}\r?\n/);
+        body = (m ? raw.slice(m.index + m[0].length) : raw).trim();
+      }
+    }catch(e){}
+  }
+  const out = body
+    ? head + "\n\n" + "-".repeat(60) + "\n\n" + body + "\n"
+    : head + "\n\n" + "-".repeat(60) + "\n\n" +
+      "[Full description isn't cached for this role — the site renders it with " +
+      "JavaScript or blocks automated fetches. Open the URL above to read it.]\n";
+  try{
+    await navigator.clipboard.writeText(out);
+    btn.textContent = body ? `✅ Copied (${(out.length/1000).toFixed(1)}k chars)`
+                           : "✅ Copied link + details";
+  }catch(e){
+    btn.textContent = "⚠️ Couldn't copy";
+  }
+  setTimeout(()=>{ btn.textContent = label; }, 2200);
+}
 document.getElementById("counts").addEventListener("click", e=>{
   const b = e.target.closest("[data-col]"); if(!b) return;
   filters.col = b.dataset.col; render();

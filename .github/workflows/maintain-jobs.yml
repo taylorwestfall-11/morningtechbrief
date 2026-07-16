@@ -45,6 +45,11 @@ jobs:
       - name: Sweep dead links
         run: python job-hunter/deadlink_check.py
 
+      - name: Cache posting text
+        # After the sweep, so we never fetch text for a role we just closed.
+        # Only fetches roles with no cached file, so this is cheap day to day.
+        run: python job-hunter/postings.py
+
       - name: Render the page
         id: build
         run: python job-hunter/build_page.py
@@ -54,7 +59,7 @@ jobs:
         run: |
           git config user.name  "job-hunter-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add job-hunter/jobs.json job-hunter/inbox.json jobs-7m3k9q.html
+          git add job-hunter/jobs.json job-hunter/inbox.json job-hunter/postings jobs-7m3k9q.html
           if git diff --staged --quiet; then
             echo "nothing changed — no dead links today"
             echo "pushed=false" >> "$GITHUB_OUTPUT"

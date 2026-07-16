@@ -1,0 +1,86 @@
+QA Director, Riders Republic
+Ubisoft
+Annecy, France (onsite)
+https://gamejobs.co/QA-Director-at-Ubisoft
+
+------------------------------------------------------------
+
+QA Director
+Ubisoft
+Annecy Auvergne-Rhône-Alpes fr
+4 years ago
+Apply
+Save
+
+Description du poste
+En tant que QA Director, vous serez representant de la qualité au sein de l’équipe de direction Riders Republic. De fait, vous dirigerez les équipes d’Annecy, dev test, editor test, automotaed testing. Vous mettrez en place une stratégie de contrôle de la qualité et coordonnerez, piloterez cette stratégie avec les équipes QC support et différents groupes d’experts (compliance, UOR, networking, audio, pc requirements, CVAA, QA Live etc.).
+Vous veillez à la qualité du service live à chaque mise à jour (title update), pilotez les équipes QA live pour comprendre et documenter les retours qualités communautaires, comprendrez et maitrisez l’usage de la data live (stabilité, impact / platform/user) pour piloter les priorités de debugs. Responsable de la qualité des updates live deployés sur l’ensemble des plateformes, vous aurez de ce fait un rôle majeur dans le suivi et le contrôle du debug en phase de closing.
+Les enjeux principaux et challenge habituels dans ce rôle sont :
+
+• Établir une stratégie de test incluant les équipes devtest prod, autotest, test editeur, QC, QC specialist et Live QA permettant un contrôle continu et efficace de la qualité sur l’ensemble du scope du jeu et sur son live.
+
+• Établir avec le lead Dev test et lead automation, le plan déployant cette stratégie et ses routines
+
+• Capable d’analyser les routines de test et d'orientez l'automatisation des tests pour aider à l’efficacité de l’équipe.
+
+• Connaitre les expertises des métiers du test (compliance, networking, uor, CVAA, …) et être capable d’analyser les impacts / sévérités des issues du jeux sur l’ensemble de la communauté et de prendre des décisions en conséquence
+
+• Etre porte parole du statuts de la qualité pour les environnements Live et Dev du jeu au sein de l’équipe de direction, travailler avec la game direction et le producing pour prioriser la qualité du jeu
+
+• Définir les KPIs clefs de la qualité et assurer le reporting (avec l'équipe Data Analyst) de ces KPIs pour la direction du projet
+
+• Développer et superviser l’équipe Dev test, planifier la stratégie de recrutement et l'appliquer afin de créer un pole performant pour le studio.
+
+• Participer à la planification du plan maître et en assurer la mise en place incluant la gestion des ressources
+
+• Communiquer à l’ensemble des membres de son équipe les objectifs, les stratégies et les informations globales au projet qui proviennent des autres métiers et du management du projet
+Qualifications
+Plusieurs années d'expérience en gestion d'équipe seront nécessaires pour mener à bien vos futures responsabilités. Justifier d'une expertise technique est également un atout.
+Habiletés et connaissances demandées :
+
+• Sens de l'initiative;
+
+• Créativité et innovation;
+
+• Leadership d'influence;
+
+• Excellentes aptitudes en communication (français & anglais);
+
+• Capacité d'adaptation;
+
+• Capacité à travailler en équipe;
+
+• Aptitudes en négociation et persuasion;
+
+• Compétences organisationnelles;
+
+• Esprit d'analyse et aptitudes en résolution de problèmes;
+
+• Orientation client;
+
+• Intérêt pour la technologie, en particulier pour la technologie de pointe (p. ex. programmation, capture de mouvement, informatique décisionnelle, apprentissage machine, etc.);
+
+• Connaissances approfondies des principales technologies du jeu vidéo et des pipelines de production de jeux vidéo, un atout majeur.
+Informations supplémentaires
+Ubisoft veille à développer un environnement de travail inclusif qui reflète la diversité de sa communauté de joueurs dans ses équipes. En tant qu’employeur, Ubisoft offre à tous les mêmes opportunités d’accès à l’emploi sans distinction de genre, ethnicité, religion, orientation sexuelle, statut social, handicap et d’âge. Ubisoft veille à développer un environnement de travail inclusif qui reflète la diversité de sa communauté de joueurs dans ses équipes.
+Toute information sera traitée de manière confidentielle conformément à la Loi sur l'équité en matière d'emploi.
+Intégrer les studios France, c’est aussi:
+
+• Rejoindre des équipes passionnées et d’un excellent niveau technique, toutes animées par l’envie de concevoir et développer des jeux innovants et se démarquant par leur qualité
+
+• Collaborer avec des équipes reconnues pour leur expérience sur des franchises renommées
+
+• Développer une expertise en participant aux événements de partage organisés en interne (talks ; conférences ; salons) et en bénéficiant de programmes de formation sur-mesure
+
+• Évoluer dans un groupe leader dans l’industrie du jeu vidéo en France et présent dans 30 pays différents, avec des opportunités d’évolution à l’international
+Au plaisir de vous lire !
+Description de l'entreprise
+20 000 collaborateur·trice·s d'Ubisoft, réparti·e·s sur plus de 40 sites à travers le monde, sont lié·e·s par une mission commune : enrichir la vie des joueur·euse·s par des expériences de jeu originales et mémorables. Leur énergie et leur talent ont permis de donner vie à de nombreuses franchises acclamées telles que Assassin's Creed, Far Cry, Watch Dogs, Just Dance, Rainbow Six, et bien d'autres à venir.
+Ubisoft Annecy
+Fondé en 1996, Ubisoft Annecy a participé aux différents blockbusters à succès du groupe en collaborant notamment sur les sagas Splinter Cell, Assassin’s Creed®, en développant les aspects multijoueur online et social des mais aussi sur des parties de jeu à part entière telles que le raid de Tom Clancy’s : The Division 2® et Ghost Recon Wildlands. Nous sommes également fiers d’avoir développé notre propre IP, Steep !
+Dans l’une des régions les plus dynamiques de France, Ubisoft s’est implanté dans un endroit idyllique entre lac et montagnes, au cœur de la Venise des Alpes à seulement 30 minutes de l’aéroport international de Genève. Fort d’un studio en perpétuelle croissance, nous mettons au centre de nos préoccupations l’engagement de nos collaborateurs et le travail d’équipe. Notre ambition se traduit par l’innovation et l’excellence pour un but ultime : la satisfaction de nos joueurs !
+Ubisoft est un employeur soucieux de l'égalité des chances et estime que la diversité des origines et des perspectives est essentielle pour créer des mondes où les joueur·euse·s et ses équipes puissent s'épanouir et s'exprimer. Si vous êtes enthousiaste à l'idée de relever des défis passionnants, exploiter des technologies de pointe, et prendre part au futur du divertissement, rejoignez-nous et créez l’inconnu.
+
+Create Your Profile — Game companies can contact you with their relevant job openings.
+
+Apply Save

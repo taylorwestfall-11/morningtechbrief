@@ -1,0 +1,252 @@
+QA Manager (Online team)
+Epic Games
+Cary, NC / Remote-eligible
+https://hitmarker.net/jobs/epic-games-qa-manager-1621175
+
+------------------------------------------------------------
+
+Jobs
+Hire
+News
+Ecosystem
+
+Jobs
+Hire
+News
+Ecosystem
+
+Search
+
+New:
+Hitmarker Profiles.
+Turn your experience and skills into a profile that gets you hired.
+
+Create profile →
+
+Job Closed
+
+QA Manager
+
+Epic Games
+
+🇺🇸
+California, USA
+
+🇺🇸
+Washington, USA
+
+Full Time
+
+Senior (5+ years)
+
+$113,370 - $166,276 per year
+
+Report
+
+WHAT MAKES US EPIC?
+
+At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.
+
+Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.
+QUALITY ASSURANCE
+
+What We Do
+
+The Quality Assurance team owns the testing process, risk management, and quality evaluation of all products and functions across Epic. Our team works closely with developers and production to ensure the best possible user experience for our community and customers.
+
+What You'll Do
+
+We’re looking for an experienced QA Manager for our Online team! In this role, you will be a leader in developing a quality strategy. You will be guiding quality for our Distribution team, partnering with other discipline leads, and innovating and improving our quality processes. If you are passionate about leading and mentoring experienced QA professionals in an exciting, fast-paced environment, we’d love to talk to you!
+
+In this role, you will
+
+• Lead, manage, and mentor a diverse QA organization within the Distro team, including functional testers and external partners, QA analysts, programmers, and SDETs. Support growth across all QA disciplines while effectively managing and mentoring senior QA SMEs with deep domain and technical expertise.
+
+• Own the Distro Quality Strategy and quality signals, accounting for staffing constraints, backend services, and distributable applications. Ensure QA engagement throughout the full development and release lifecycle while using KPIs, metrics, and qualitative signals to assess product quality, testing effectiveness, and release risk, and to drive continuous improvement.
+
+• Drive prioritization and execution in a dynamic operating model, where QA supports testing, release validation, and live support. Balance competing priorities, unplanned work, and external requests to prevent QA from becoming a bottleneck while maintaining appropriate quality standards in a low-risk-tolerance environment
+
+• Guide release readiness and provide cross-pod oversight, collaborating closely with programming, product, and stakeholder teams to determine test scope, release timing, and acceptable risk. Collaborate with QA leadership across Epic to identify cross-product risks, dependencies, and mitigation strategies.
+
+• Communicate clearly and effectively across teams and stakeholders, explaining priority shifts, risk trade-offs, and release decisions to QA teams, partner teams, and leadership.p
+
+• Remain technically capable and hands-on when required, stepping in to support testing or releases during coverage gaps, and maintaining sufficient technical depth to engage credibly with QA programmers and developers.
+
+What we're looking for
+
+• Proven senior experience leading QA teams with mixed skill sets and seniority, including technical and non-technical contributors, external partners, and senior QA SMEs. Demonstrated ability to mentor experienced ICs while providing clear direction and accountability
+
+• Proven strong understanding of testing and releasing both backend services and distributable applications, including APIs, services, and client-facing software, with an appreciation for the differing risks and validation strategies involved
+
+• Exceptional prioritization and operational judgment, particularly in understaffed, fast-paced environments with multiple stakeholders and low tolerance for risk
+
+• Experience supporting release management activities, making informed decisions around test scope, release readiness, and risk acceptance, and setting clear expectations with internal and cross-team stakeholders
+
+• Solid technical foundation in modern QA practices, including test automation, CI/CD integration, testability, and quality metrics, with the ability to contribute directly when needed
+
+• Strong communication skills, able to clearly explain priority shifts, risks, and trade-offs to QA teams, partner teams, and leadership
+
+• Expert-level use of quality metrics and KPIs to guide prioritization, forecast risk, and drive continuous improvement across products, processes, and teams
+
+This role is open to multiple locations in North America (including CA & WA).
+
+Pay Transparency Information
+
+The expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).
+California Base Pay Range$113,370—$166,276 USDWashington Base Pay Range$103,064—$151,161 USD ABOUT US
+
+Epic Games spans across 25 countries with 46 studios and 4,500+ employees globally. For over 25 years, we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.
+
+Like what you hear? Come be a part of something Epic!
+
+Epic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here .
+
+Note to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here .
+
+Learn game design from industry experts and build your portfolio to land roles faster
+
+Game Design Skills Bootcamps
+
+Autumn 2026 · Enrol by 25 September
+
+Featured Jobs
+
+More Jobs
+
+Multiple Open Positions
+
+WarForge Studio LLC
+
+🌎
+
+Remote (Anywhere)
+
+Customer Support Lead
+
+Swish Breaks
+
+🇺🇸
+
+New York, USA
+
+(Senior) Sales Manager (m/f/d)
+
+build a rocket GmbH
+
+🇩🇪
+
+Cologne, NW, Germany
+
+Community & Partner Manager
+
+Packsify
+
+🌎
+
+Remote (Illinois), Remote (USA)
+
+Video editor/Short Form Content Creator
+
+Infernozilla
+
+🌎
+
+Remote (Anywhere)
+
+Account Manager, Influencer Marketing
+
+Aftershock Media Group
+
+🌎
+
+Remote (Anywhere)
+
+Account Coordinator, Influencer Marketing
+
+Aftershock Media Group
+
+🌎
+
+Remote (Anywhere)
+
+Senior 3D Character Artist
+
+WarForge Studio LLC
+
+🌎
+
+Remote (Anywhere)
+
+Analyst, Mobile Gaming
+
+Mattel
+
+🇺🇸
+
+El Segundo, CA, USA
+
+Senior Manager, Ad Ops - Mattel Digital Studio
+
+Mattel
+
+🇺🇸
+
+El Segundo, CA, USA
+
+Lead Artist (Digital Gaming)
+
+Mattel
+
+🇺🇸
+
+El Segundo, CA, USA
+
+Latest News
+
+More News
+
+•
+
+FromSoftware's Switch 2 exclusive The Duskbloods now has a network test date
+
+•
+
+A Nintendo Switch 2 OLED model is reportedly in early discussions, with Samsung pushing for the deal
+
+•
+
+New survey finds every Japanese online game developer is now using generative AI
+
+•
+
+Disney has announced a Kingdom Hearts panel at D23, and fans think a Kingdom Hearts 4 update is coming
+
+LinkedIn
+
+Twitter
+
+Join our newsletter
+
+Email Address
+
+Sign up
+
+© 2026 Hitmarker LTD
+·
+Find a Job
+·
+Post a Job
+·
+About
+·
+Contact
+·
+Terms & Conditions
+·
+Privacy Policy
+·
+Cookie Policy
+
+Switch to light mode
+
+Enable JavaScript to use Hitmarker

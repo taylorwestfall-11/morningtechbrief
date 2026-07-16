@@ -20,6 +20,7 @@ ROOT = os.path.dirname(HERE)
 TEMPLATE = os.path.join(HERE, "template", "dashboard.html")
 JOBS = os.path.join(HERE, "jobs.json")
 CONFIG = os.path.join(HERE, "config.json")
+POSTINGS = os.path.join(HERE, "postings")
 OUT = os.path.join(ROOT, "jobs-7m3k9q.html")
 
 START, END = "/*__JOBS__*/", "/*__JOBS_END__*/"
@@ -35,10 +36,17 @@ STRIP = {"closed_on", "closed_reason", "check_fails", "last_checked", "unverifie
 # load, on a phone, for text nobody reads.
 def slim(job):
     j = {k: v for k, v in job.items() if k not in STRIP}
-    if j.get("closed") and isinstance(j.get("fit"), dict):
-        j["fit"] = {k: v for k, v in j["fit"].items() if k in ("score", "level")}
+    if isinstance(j.get("fit"), dict):
+        # `blurb` backed the old cover-letter button, which is now "Copy job
+        # posting". Nothing reads it, and it was ~20KB across the array.
+        keep = ("score", "level") if j.get("closed") else ("score", "level", "why")
+        j["fit"] = {k: v for k, v in j["fit"].items() if k in keep}
     if j.get("closed"):
         j.pop("notes", None)
+    # Flag whether postings.py managed to cache this description, so the button
+    # knows to fetch it rather than promising text that doesn't exist.
+    if not j.get("closed") and os.path.exists(os.path.join(POSTINGS, j["id"] + ".txt")):
+        j["txt"] = 1
     return j
 
 

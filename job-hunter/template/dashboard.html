@@ -83,8 +83,23 @@
     border:1px solid var(--line);color:var(--txt);border-radius:10px;font-size:14px;font-weight:600;
     cursor:pointer;display:flex;align-items:center;gap:6px;flex-shrink:0;font-family:inherit}
   .ibtn:hover{border-color:var(--accent)}
+  .ibtn.on{background:var(--accent);color:#0c1018;border-color:var(--accent)}
+  .ibtn.on .cnt{background:#0c1018;color:var(--accent)}
   .ibtn .cnt{background:var(--accent);color:#0c1018;border-radius:20px;min-width:17px;height:17px;
     font:700 10px/17px var(--mono);text-align:center;padding:0 4px}
+
+  /* Undo lives here rather than in a filter sheet: a mis-tap needs catching in
+     the moment, not archaeology three taps deep afterwards. Sits clear of the FAB. */
+  .snack{position:fixed;left:12px;right:82px;bottom:calc(20px + env(safe-area-inset-bottom));
+    z-index:55;background:var(--panel2);border:1px solid var(--line);border-radius:12px;
+    padding:9px 9px 9px 13px;display:flex;align-items:center;gap:9px;
+    box-shadow:0 6px 22px rgba(4,8,18,.6);font-size:12.5px}
+  .snack[hidden]{display:none}
+  .snack .msg{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+    color:var(--txt)}
+  .snack button{background:transparent;border:1px solid var(--accent);color:var(--accent);
+    border-radius:8px;min-height:34px;padding:0 12px;font:600 12.5px inherit;cursor:pointer;
+    flex-shrink:0;font-family:inherit}
   .seg{display:flex;background:var(--panel2);border:1px solid var(--line);border-radius:10px;
     overflow:hidden;flex-shrink:0;min-height:var(--tap)}
   .seg button{background:transparent;border:0;color:var(--muted);padding:0 13px;cursor:pointer;
@@ -253,6 +268,8 @@
   <div id="banners"></div>
   <div class="tb">
     <input id="search" type="search" placeholder="Search roles…" aria-label="Search roles">
+    <button class="ibtn" id="arcBtn" aria-label="Show dismissed and dead roles"
+            title="Show dismissed & dead roles">🗄<span class="cnt" id="arcCnt" hidden>0</span></button>
     <button class="ibtn" id="fbtn" aria-label="Filters">⚙<span class="cnt" id="fcnt" hidden>0</span></button>
     <div class="seg" id="layoutSeg" role="group" aria-label="Layout">
       <button data-layout="list" class="on" aria-label="List view">📋</button>
@@ -262,6 +279,11 @@
   <div class="counts" id="counts"></div>
   <div id="view"></div>
   <footer id="foot"></footer>
+</div>
+
+<div class="snack" id="snack" hidden>
+  <span class="msg" id="snackMsg"></span>
+  <button id="snackUndo">Undo</button>
 </div>
 
 <button class="fab" id="fab" aria-label="Add a posting by URL">+</button>
@@ -404,10 +426,15 @@ function isHidden(j){
   return statusOf(j.id)==="not-interested" || (j.closed && !everEngaged(j.id));
 }
 
-function setStage(id, status){
+/* Remembers the record a stage change overwrote, so one tap puts it back. Only
+   the last change -- this is for "I hit the wrong button", not a history stack. */
+let lastChange = null;
+
+function setStage(id, status, quiet){
   if(!STAGE[status]) return;
   const r = rec(id);
   if(r.status === status) return;
+  const before = state.jobs[id] ? JSON.parse(JSON.stringify(state.jobs[id])) : null;
   const hist = (r.history||[]).concat([{status, at:nowISO()}]).slice(-40);
   state.jobs[id] = {
     status,
@@ -417,6 +444,37 @@ function setStage(id, status){
     history: hist
   };
   saveLocal(); queueSync(); render();
+  if(!quiet){
+    lastChange = {id, before};
+    const j = JOBS.find(x=>x.id===id);
+    // Worth offering undo when the role LEAVES the list you're looking at --
+    // that's the change you can't casually reverse by tapping the card again.
+    const vanished = statusOf(id)==="not-interested" || groupOf(id)!=="home";
+    snack(`${STAGE[status].label.split(" ")[0]} ${j ? j.company : ""} — ${
+      STAGE[status].label.replace(/^\S+\s/,"")}`, vanished ? 7000 : 4000);
+  }
+}
+
+function undoLast(){
+  if(!lastChange) return;
+  const {id, before} = lastChange;
+  if(before === null) delete state.jobs[id];
+  else state.jobs[id] = before;
+  lastChange = null;
+  saveLocal(); queueSync(); render(); hideSnack();
+}
+
+let snackT;
+function snack(msg, ms){
+  const el = document.getElementById("snack");
+  document.getElementById("snackMsg").textContent = msg;
+  el.hidden = false;
+  clearTimeout(snackT);
+  snackT = setTimeout(hideSnack, ms || 4000);
+}
+function hideSnack(){
+  document.getElementById("snack").hidden = true;
+  clearTimeout(snackT);
 }
 function setNotes(id, val){
   const r = rec(id);
@@ -644,6 +702,15 @@ function render(){
 
   const f = document.getElementById("fcnt"), k = nActive();
   f.hidden = k===0; f.textContent = k;
+
+  // The archive button carries its own count, so you can see at a glance whether
+  // there's anything put away to go back for.
+  const stowed = JOBS.filter(j =>
+    statusOf(j.id)==="not-interested" || (j.closed && !everEngaged(j.id))).length;
+  const ab = document.getElementById("arcBtn"), ac = document.getElementById("arcCnt");
+  ab.classList.toggle("on", filters.archive);
+  ac.hidden = stowed===0; ac.textContent = stowed;
+  ab.setAttribute("aria-pressed", String(filters.archive));
   // Count what you'll actually SEE: the list renders the home group only, the
   // board renders everything. Otherwise "Show 3 roles" shows you 2.
   document.getElementById("fN").textContent = filters.layout==="board"
@@ -654,16 +721,16 @@ function render(){
     : `⚠️ Not syncing — statuses live only on this device. Tap the sync chip to fix that.`;
 
   // Archive is a mode, not a filter you forget you left on.
-  let ab = document.getElementById("archiveBar");
-  if(filters.archive && !ab){
-    ab = document.createElement("div");
-    ab.id = "archiveBar"; ab.className = "banner warn";
-    ab.innerHTML = `<div>🗄 <b>Archive shown.</b> Dead and dismissed postings are visible so you
+  let abar = document.getElementById("archiveBar");
+  if(filters.archive && !abar){
+    abar = document.createElement("div");
+    abar.id = "archiveBar"; abar.className = "banner warn";
+    abar.innerHTML = `<div>🗄 <b>Archive shown.</b> Dead and dismissed postings are visible so you
       can find and re-mark one. Set a stage on anything you want back on the board.</div>
       <button aria-label="Exit archive">×</button>`;
-    ab.querySelector("button").onclick = ()=>{ filters.archive=false; paintOpts(); render(); };
-    document.getElementById("banners").appendChild(ab);
-  } else if(!filters.archive && ab){ ab.remove(); }
+    abar.querySelector("button").onclick = ()=>{ filters.archive=false; paintOpts(); render(); };
+    document.getElementById("banners").appendChild(abar);
+  } else if(!filters.archive && abar){ abar.remove(); }
 
   filters.layout==="board" ? renderBoard() : renderList(n, c);
   paintSync();
@@ -676,7 +743,13 @@ function renderList(n, c){
     + `<span class="chip" title="Manage these in 📊 Board">📨 Pipeline <b>${n.pipe}</b></span>`
     + (n.rej?`<span class="chip">❌ Rejected <b>${n.rej}</b></span>`:"");
 
-  const rows = JOBS.filter(j=>matches(j) && groupOf(j.id)==="home").sort(sortFn);
+  // The list normally shows the "home" group only (New + Reviewed). In archive
+  // mode it must ALSO show the dismissed group -- otherwise the archive reveals
+  // dead postings but not the role you just mis-tapped 🚫 on, which is the whole
+  // reason someone opens it.
+  const inList = j => groupOf(j.id)==="home"
+                   || (filters.archive && groupOf(j.id)==="dismissed");
+  const rows = JOBS.filter(j=>matches(j) && inList(j)).sort(sortFn);
   const view = document.getElementById("view");
 
   const pendHtml = pending.map(p=>`
@@ -902,6 +975,11 @@ function openSheet(el){ sheets.forEach(s=>s.classList.remove("on")); el.classLis
 function shut(){ sheets.forEach(s=>s.classList.remove("on")); veil.classList.remove("on"); }
 veil.addEventListener("click", shut);
 document.addEventListener("keydown", e=>{ if(e.key==="Escape") shut(); });
+document.getElementById("arcBtn").addEventListener("click", ()=>{
+  filters.archive = !filters.archive; paintOpts(); render();
+  if(filters.archive) window.scrollTo({top:0, behavior:"smooth"});
+});
+document.getElementById("snackUndo").addEventListener("click", undoLast);
 document.getElementById("fbtn").addEventListener("click", ()=>openSheet(document.getElementById("fsheet")));
 document.getElementById("fApply").addEventListener("click", shut);
 document.getElementById("fReset").addEventListener("click", ()=>{

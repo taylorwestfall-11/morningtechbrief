@@ -13,7 +13,7 @@ The AI's job is to append to jobs.json. Rendering is this script's job.
 The template is the source of truth for markup; the output is disposable. If you
 want to change the page, change job-hunter/template/dashboard.html.
 """
-import json, os, sys
+import json, os, re, shutil, subprocess, sys, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -53,6 +53,41 @@ def slim(job):
 def read(path):
     with open(path, encoding="utf-8") as f:
         return f.read()
+
+
+def check_js(html):
+    """Refuse to publish a page whose JavaScript doesn't parse.
+
+    The string assertions below only prove a name is PRESENT. They happily passed
+    a build where one duplicated `let` killed the entire script: the page rendered
+    its markup, showed zero jobs, and reported no error -- the failure looked like
+    empty data. A parse check is the only thing that catches that class of bug.
+
+    node isn't required to run this script (CI has it; a laptop may not), so this
+    warns rather than blocks when node is missing.
+    """
+    m = re.search(r"<script>(.*)</script>", html, re.S)
+    if not m:
+        sys.exit("FATAL: no <script> block in the template -- refusing to write.")
+    node = shutil.which("node")
+    if not node:
+        print("  note: node not found, skipping the JS syntax check")
+        return
+    tmp = None
+    try:
+        with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False,
+                                         encoding="utf-8") as f:
+            f.write(m.group(1))
+            tmp = f.name
+        r = subprocess.run([node, "--check", tmp], capture_output=True, text=True)
+        if r.returncode != 0:
+            err = (r.stderr or "").strip().splitlines()
+            detail = "\n".join("    " + l for l in err[:6])
+            sys.exit("FATAL: the page's JavaScript does not parse -- refusing to "
+                     "write.\n%s" % detail)
+    finally:
+        if tmp and os.path.exists(tmp):
+            os.unlink(tmp)
 
 
 def main():
@@ -100,6 +135,8 @@ def main():
     ]:
         if needle not in html:
             sys.exit("FATAL: %s is missing -- refusing to write." % what)
+
+    check_js(html)
 
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)

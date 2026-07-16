@@ -1,0 +1,88 @@
+Manager, Quality Assurance – League of Legends
+Riot Games
+Singapore (onsite)
+https://www.riotgames.com/en/work-with-us/job/7930984/manager-quality-assurance-league-of-legends-singapore
+
+------------------------------------------------------------
+
+QA Group
+Manager, Quality Assurance - League of Legends
+Singapore Job Id: REQ-0010016
+
+Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title League of Legends to critical and player acclaim. As the most played PC game in the world, over 100 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the League of Legends experience.
+
+We’re looking for humble but ambitious, razor-sharp professionals who can teach us a thing or two. We promise to return the favor. Like us, you take play seriously; you’re passionate about games. We embrace those who see things differently, aren’t afraid to experiment, and who have a healthy disregard for constraints.
+
+That's where you come in.
+
+For League of Legends, the Manager, QA will lead a team of 5 QA professionals working alongside software engineers, content developers, artists, project managers, and producers to create value for players around the world. Guided by Riot’s Test Policy, you will develop and drive quality activities across every stage of the software development lifecycle. You will also partner with your team and fellow craft leaders to improve delivery and create more efficient solutions to everyday challenges, while coordinating additional QA support, often across remote teams, to ensure work is completed effectively.
+
+Responsibilities:
+
+• Impact/Scope and Complexity
+
+• Shape QA strategy for League of Legends and directly influence development quality across the game
+
+• Be accountable for delivering a comprehensive quality strategy across your team
+
+• Ownership
+
+• Be responsible for the results and delivery quality of QA professionals across your sphere of influence
+
+• Management
+
+• You directly manage the QA professionals on your initiative/teams in addition to guiding their day to day work.
+
+• Craft Knowledge
+
+• Bring broad quality assurance knowledge within game development and understand how QA approaches support team goals
+
+• Partner across disciplines to influence testing practices, quality decisions, and player experience outcomes
+
+Required Qualifications:
+
+• 5+ years of Quality Assurance experience within game development environments - you have supported & shipped games
+
+• 2+ years leading QA teams within game development, including direct people management, performance management, and HR responsibility
+
+• Experience leading embedded QA professionals as part of cross functional development teams rather than outsourced QA functions
+
+• Experience creating and driving test strategies for (live) games, game features, or live service environments
+
+• Experience managing and aligning with HQ stakeholders remotely across multiple time zones
+
+• Experience with game development pipelines and workflows, with art pipeline experience strongly preferred
+
+• Experience setting strategic goals and driving execution across QA teams
+
+• Experience establishing and tracking quality metrics that influence development decisions and drive improvements
+
+Desired Qualifications:
+
+• Familiarity with League of Legends, the game, the champions, its players and community
+
+• I/ASTQB Advanced Test Manager Certification
+
+Our Perks:
+
+• Full relocation support
+
+• Full health insurance for you, your spouse and children
+
+• Open paid time off
+
+• Retirement benefits with company matching
+
+• Life insurance, parental leave, plus short-term and long-term disability
+
+• Play Fund so you can broaden and deepen your knowledge of our players and community through games
+
+• We will double down on your donations of time and money to non-profits
+
+If you’re interested in both Manager, QA openings, we’d ask that you apply to the one that excites you most. Both roles share the same interview process, so there’s no need to apply to multiple positions.
+
+For this role, you'll find success through craft expertise, a collaborative spirit, and decision-making that prioritizes the delight of players.
+
+Apply
+
+Please enable JavaScript to apply for this position.

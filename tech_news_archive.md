@@ -531,3 +531,10 @@
 - **Homey Pro 2026 integrates Claude + ChatGPT as AI agents** — local-first hub unifying 7 wireless protocols (Zigbee, Z-Wave, Matter) now lets Claude and ChatGPT control devices, trigger automations, and set moods via natural language.
 - **Figma Code Layers enters early access this month** — convert any design layer to live, editable code in one click; design and code stay in sync side by side in one Figma file; CSS, JSON, and React output supported.
 - **Ubiquiti patches critical UniFi flaws across 5 product lines** — Connect, Talk, Access, Protect, and OS all affected; home network users running UniFi gear should update firmware immediately to close remote access vulnerabilities.
+
+## [2026-07-16]
+- **Anthropic, Blackstone & Hellman & Friedman launch Ode** — $1.5B Claude-first enterprise AI services firm built on acquired Fractional AI; deploys AI engineers inside mid-market companies; backed by Goldman Sachs, Apollo, and Sequoia Capital.
+- **Home Assistant 2026.7 deeper coverage** — intent-based automation triggers are now the default for all users; no entity IDs needed; also ships Dropbox backup, Raspberry Pi firmware updates, 10 new integrations, and rebuilt Activity feed timeline.
+- **SpaceXAI launches Grok 4.5** — first model jointly trained with Cursor post-$60B acquisition; 500K-token context window, priced at $2/M input tokens, targets coding and agentic tasks at ~half the cost of comparable frontier models.
+- **Adobe Creative Agent expands across all Creative Cloud apps** — Photoshop, Premiere, Illustrator, After Effects; describe a goal in natural language, agent orchestrates multi-step workflows; After Effects adds Variable font animation and parametric 3D shapes.
+- **Rapidus targets 2nm wafer pricing 30% below TSMC** — $18K–$21.5K vs TSMC's ~$30K, ahead of a 2027 production launch; in talks with 60+ companies globally as a credible alternative to TSMC at the cutting edge.

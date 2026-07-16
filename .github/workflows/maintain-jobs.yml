@@ -11,10 +11,12 @@ name: Maintain job board
 on:
   push:
     paths:
-      - "job-hunter/jobs.json"
-    # Fires when the AI scan pushes new roles, so the board is swept and republished
-    # within a minute instead of waiting for the cron. This cannot loop: pushes made
-    # with GITHUB_TOKEN (i.e. this workflow's own commits) do not trigger workflows.
+      - "job-hunter/jobs.json"    # the AI scan pushed new roles
+      - "job-hunter/inbox.json"   # a URL was pasted from the phone
+      - "job-hunter/template/**"  # the dashboard itself changed
+    # Fires so the board is swept and republished within a minute instead of waiting
+    # for the cron. This cannot loop: pushes made with GITHUB_TOKEN (i.e. this
+    # workflow's own commits) do not trigger workflows.
   schedule:
     - cron: "0 13 * * *"   # safety net: sweeps even on a day the scan never ran
   workflow_dispatch:        # run by hand from the Actions tab
@@ -37,6 +39,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Enrich pasted URLs
+        run: python job-hunter/enrich.py
+
       - name: Sweep dead links
         run: python job-hunter/deadlink_check.py
 
@@ -49,7 +54,7 @@ jobs:
         run: |
           git config user.name  "job-hunter-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add job-hunter/jobs.json jobs-7m3k9q.html
+          git add job-hunter/jobs.json job-hunter/inbox.json jobs-7m3k9q.html
           if git diff --staged --quiet; then
             echo "nothing changed — no dead links today"
             echo "pushed=false" >> "$GITHUB_OUTPUT"

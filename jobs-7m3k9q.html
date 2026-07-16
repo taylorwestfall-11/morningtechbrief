@@ -8,7 +8,7 @@
      iOS treats a tap on the other tab as leaving the web app and opens it in an
      in-app browser overlay -- the X, the URL bar and the bottom toolbar. -->
 <link rel="manifest" href="/morningtechbrief/manifest.json">
-<meta name="theme-color" content="#12151c">
+<meta name="theme-color" content="#0e1524">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Daily">
@@ -16,10 +16,15 @@
 <title>QA Leadership Job Tracker</title>
 <style>
   :root{
-    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
-    --txt:#e6e9ef; --muted:#9aa3b2; --accent:#6ea8fe; --accent2:#7ee0a8;
+    /* Soft dark blue. Every surface is one hue family (~218deg) climbing in
+       lightness -- bg < panel < panel2 -- so depth comes from the ramp rather
+       than from borders. The blue is desaturated as it lightens, otherwise the
+       cards read as purple next to the accent. */
+    --nav:#0e1524;
+    --bg:#121a2b; --panel:#1a2437; --panel2:#222e45; --line:#2f3d57;
+    --txt:#e7ebf3; --muted:#94a3bd; --accent:#6ea8fe; --accent2:#7ee0a8;
     --games:#c792ea; --tech:#f0a868; --new:#7ee0a8; --danger:#ff6b6b;
-    --shadow:0 4px 18px rgba(0,0,0,.35);
+    --shadow:0 4px 18px rgba(4,8,18,.45);
     --mono:ui-monospace,"SF Mono","Cascadia Code",Consolas,monospace;
     --tap:44px;
   }
@@ -36,16 +41,16 @@
      rows, which is what forced the brand to be hidden and made the two navs
      diverge in the first place. */
   .dailynav{position:sticky;top:0;z-index:60;display:flex;gap:6px;align-items:center;
-    flex-wrap:nowrap;background:#12151c;border-bottom:1px solid #2a2f3a;padding:8px 12px;
+    flex-wrap:nowrap;background:#0e1524;border-bottom:1px solid #263349;padding:8px 12px;
     padding-top:calc(8px + env(safe-area-inset-top))}
-  .dailynav .brand{color:#e6e9ef;font-weight:800;font-size:14px;margin-right:6px;
+  .dailynav .brand{color:#e7ebf3;font-weight:800;font-size:14px;margin-right:6px;
     white-space:nowrap}
   .dailynav a{text-decoration:none;padding:7px 14px;border-radius:8px;font-size:14px;
     font-weight:600;white-space:nowrap}
-  .dailynav a.off{color:#9aa3b2;border:1px solid #2a2f3a}
+  .dailynav a.off{color:#94a3bd;border:1px solid #263349}
   .dailynav a.on{color:#0c1018;background:#6ea8fe}
 
-  header{padding:9px 12px 8px;border-bottom:1px solid var(--line);background:#12151c;
+  header{padding:9px 12px 8px;border-bottom:1px solid var(--line);background:var(--nav);
     display:flex;align-items:center;gap:10px}
   header .htext{min-width:0;flex:1}
   h1{margin:0;font-size:16px;letter-spacing:-.01em;font-weight:750}
@@ -73,7 +78,7 @@
   .tb{display:flex;gap:7px;padding:10px 12px;align-items:center}
   .tb input[type=search]{flex:1;min-width:0;background:var(--panel2);border:1px solid var(--line);
     color:var(--txt);padding:0 12px;height:var(--tap);border-radius:10px;font-size:16px;font-family:inherit}
-  .tb input[type=search]::placeholder{color:#5d6472}
+  .tb input[type=search]::placeholder{color:#67779a}
   .ibtn{height:var(--tap);min-width:var(--tap);padding:0 12px;background:var(--panel2);
     border:1px solid var(--line);color:var(--txt);border-radius:10px;font-size:14px;font-weight:600;
     cursor:pointer;display:flex;align-items:center;gap:6px;flex-shrink:0;font-family:inherit}
@@ -122,7 +127,7 @@
   .badge.stage{color:#0c1018;background:var(--accent);border-color:var(--accent);font-weight:700}
   .badge.unv{color:var(--tech);border-color:color-mix(in srgb,var(--tech) 55%,transparent)}
   .badge.dead{color:var(--danger);border-color:color-mix(in srgb,var(--danger) 55%,transparent)}
-  .why{font-size:12.5px;color:var(--txt);background:#12151c;border-left:3px solid var(--accent);
+  .why{font-size:12.5px;color:var(--txt);background:var(--nav);border-left:3px solid var(--accent);
     border-radius:6px;padding:8px 10px;margin:10px 0 0;line-height:1.5}
   .notes-line{color:var(--muted);font-size:12.5px;margin:8px 0 0}
   .row{display:flex;gap:7px;align-items:center;margin-top:11px;flex-wrap:wrap}
@@ -139,9 +144,9 @@
   .ghost:hover{color:var(--danger);border-color:var(--danger)}
   /* 16px minimum on anything focusable: iOS Safari zooms the whole page in on
      focus for any input under 16px, and you can't zoom back out cleanly. */
-  .mynotes{width:100%;margin-top:10px;background:#12151c;border:1px solid var(--line);color:var(--txt);
+  .mynotes{width:100%;margin-top:10px;background:var(--nav);border:1px solid var(--line);color:var(--txt);
     border-radius:10px;padding:10px;font-size:16px;font-family:inherit;resize:vertical;min-height:44px}
-  .mynotes::placeholder{color:#5d6472}
+  .mynotes::placeholder{color:#67779a}
   .aging{color:var(--muted);font-size:11.5px;font-family:var(--mono)}
   .aging.warn{color:var(--tech)}
 
@@ -152,7 +157,7 @@
     scroll-snap-type:x mandatory;overscroll-behavior-x:contain}
   .col{flex:0 0 86%;background:var(--panel2);border:1px solid var(--line);border-radius:12px;
     padding:10px;min-height:110px;scroll-snap-align:center;transition:border-color .15s,background .15s}
-  .col.drop{background:#1b2330;border-color:var(--accent)}
+  .col.drop{background:#243654;border-color:var(--accent)}
   .col-head{display:flex;justify-content:space-between;align-items:center;font-size:11px;
     font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding:2px 4px 10px}
   .col-head .n{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:1px 8px;
@@ -169,7 +174,7 @@
     justify-content:center;font:800 11.5px var(--mono);color:#0c1018;flex-shrink:0}
   .bnote{color:var(--muted);font-size:11px;margin-top:7px;overflow:hidden;text-overflow:ellipsis;
     white-space:nowrap}
-  .col-hint{color:#5d6472;font-size:11px;text-align:center;padding:12px 4px}
+  .col-hint{color:#67779a;font-size:11px;text-align:center;padding:12px 4px}
   .empty{text-align:center;color:var(--muted);padding:54px 24px;line-height:1.6}
 
   .fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));width:56px;height:56px;
@@ -194,7 +199,7 @@
   .opts{display:flex;gap:7px;flex-wrap:wrap}
   .opt{background:var(--panel2);border:1px solid var(--line);color:var(--muted);border-radius:10px;
     min-height:var(--tap);padding:0 14px;font-size:14px;cursor:pointer;font-family:inherit}
-  .opt.on{border-color:var(--accent);color:var(--txt);background:#1b2330}
+  .opt.on{border-color:var(--accent);color:var(--txt);background:#243654}
   .sheet-foot{display:flex;gap:9px;margin-top:6px}
   .prim{flex:1;background:var(--accent);color:#0c1018;border:0;border-radius:10px;height:48px;
     font-weight:700;font-size:15px;cursor:pointer;font-family:inherit}

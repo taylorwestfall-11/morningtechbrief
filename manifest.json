@@ -6,8 +6,8 @@
   "scope": "/morningtechbrief/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#12151c",
-  "theme_color": "#12151c",
+  "background_color": "#0e1524",
+  "theme_color": "#0e1524",
   "icons": [
     {
       "src": "icon-192.png",

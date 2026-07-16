@@ -1,11 +1,13 @@
-# Logs
-*.log
-brief_log.txt
 
+# Logs
 # OS / editor cruft
-.DS_Store
-Thumbs.db
-desktop.ini
+*.log
+*.pyc
 *.swp
-.vscode/
+.DS_Store
 .idea/
+.vscode/
+Thumbs.db
+__pycache__/
+brief_log.txt
+desktop.ini

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-15",
-    "scan_count": 19,
+    "last_scan": "2026-07-16",
+    "scan_count": 20,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -1872,6 +1872,174 @@
       },
       "last_checked": "2026-07-16",
       "check_fails": 0
+    },
+    {
+      "id": "hypixel-studios-qa-director",
+      "title": "QA Director",
+      "company": "Hypixel Studios",
+      "category": "games",
+      "location": "Remote (Worldwide)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Greenhouse (Hypixel Studios)",
+      "url": "https://job-boards.greenhouse.io/hypixelstudios/jobs/6209852003",
+      "date_found": "2026-07-16",
+      "date_posted": "",
+      "notes": "Leads QA for Hytale (large-scale multiplayer game from the Minecraft/Hypixel community). Building sustainable quality systems across the full game experience. Fully remote studio; overlap hours GMT-8 to GMT+1. Competitive salary + annual performance bonus. Hypixel Studios has Riot Games investment/backing.",
+      "closed": false,
+      "fit": {
+        "score": 82,
+        "level": "Strong",
+        "why": "Games QA Director at a fully remote studio building a massive-scale multiplayer title — right seniority, live-service multiplayer scope, and global remote policy are a strong match.",
+        "blurb": "I've spent 20+ years building and leading QA organizations for multiplayer and live-service games — at Fortis, Amazon Games (New World, Lost Ark), and Blizzard (Overwatch) — and I now lead Fortis' AI transformation of QA targeting an 80% reduction in manual release-test time via agentic tooling. Hypixel Studios' ambitious multiplayer vision for Hytale and its remote-first culture are a compelling fit for both the organizational QA leadership and the automation-first quality practices I bring."
+      }
+    },
+    {
+      "id": "klang-games-qa-director",
+      "title": "QA Director (f/m/d)",
+      "company": "Klang Games",
+      "category": "games",
+      "location": "Berlin, Germany / Remote",
+      "remote": "remote",
+      "salary": "",
+      "source": "Greenhouse EU (Klang Games)",
+      "url": "https://boards.eu.greenhouse.io/klanggames/jobs/4162415101",
+      "date_found": "2026-07-16",
+      "date_posted": "",
+      "notes": "Discipline leader for all QA Testers at Klang Games (Seed — large-scale life-simulation MMO). Reports to Head of Production. Berlin HQ or fully remote. Mission-critical quality ownership for a technically ambitious MMO.",
+      "closed": false,
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "Games QA Director for a live MMO with confirmed people-management scope — right seniority; smaller indie studio and optional Berlin relocation are the tempering factors.",
+        "blurb": "Leading QA for Seed — a large-scale life-simulation MMO — requires the same systematic, scalable quality approach I've built across live-service multiplayer titles at Fortis, Amazon Games, and Blizzard, including my current AI-driven automation initiative targeting an 80% reduction in manual release-test time. Klang's ambition and remote flexibility are appealing, and I'd bring the org-building and cross-discipline QA leadership this mission-critical role demands."
+      }
+    },
+    {
+      "id": "riot-manager-qa-league-of-legends-singapore",
+      "title": "Manager, Quality Assurance – League of Legends",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Singapore (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Riot Games Careers",
+      "url": "https://www.riotgames.com/en/work-with-us/job/7930984/manager-quality-assurance-league-of-legends-singapore",
+      "date_found": "2026-07-16",
+      "date_posted": "",
+      "notes": "Leads a team of 5 QA professionals for League of Legends in Riot's Singapore regional office. Full people management and HR responsibility confirmed. Onsite Singapore — major international relocation from OC, CA. Distinct from all US-based Riot QA entries.",
+      "closed": false,
+      "fit": {
+        "score": 55,
+        "level": "Stretch",
+        "why": "Riot prestige and LoL franchise ownership with confirmed people-management scope, but QA Manager is under-leveled vs Director trajectory and Singapore onsite requires international relocation.",
+        "blurb": "Managing QA for League of Legends — one of the world's most-played competitive games — draws directly on the live-service quality leadership I've built at Fortis, Blizzard, and Amazon Games, where I directed quality for flagship multiplayer titles through continuous live operations. The Riot brand and LoL franchise scope are genuinely compelling; relocating from Orange County to Singapore and stepping back from Director to QA Manager would be the primary considerations."
+      }
+    },
+    {
+      "id": "magnet-forensics-director-quality-engineering",
+      "title": "Director, Quality Engineering",
+      "company": "Magnet Forensics",
+      "category": "tech",
+      "location": "Remote (United States)",
+      "remote": "remote",
+      "salary": "$171,500–$294,000",
+      "source": "Lever (Magnet Forensics)",
+      "url": "https://jobs.lever.co/magnetforensics/7295e877-3b8e-47f0-b5c4-beb13a70ef87",
+      "date_found": "2026-07-16",
+      "date_posted": "",
+      "notes": "Define and drive quality strategy across all products at Magnet Forensics (digital forensics and cybersecurity SaaS). 10+ years QA required, 3+ years leading a QE org. Remote US. $171,500–$294,000 salary range confirmed via aggregators.",
+      "closed": false,
+      "fit": {
+        "score": 72,
+        "level": "Good",
+        "why": "Director-level QE with full org-ownership at a remote SaaS company with excellent comp — strong skills transfer despite the cybersecurity/forensics domain shift from games.",
+        "blurb": "Defining and executing quality strategy across a multi-product portfolio — building the QE team, driving automation maturity, and raising the quality bar — is the work I've led at Fortis, Amazon Games, and Blizzard, and the $171k–$294k comp range reflects a Director mandate I'd be stepping into rather than up to. I'd apply the same QE-modernization playbook I've built in games, including my current AI-driven test automation initiative targeting an 80% reduction in manual release-test time, to Magnet Forensics' cybersecurity SaaS products."
+      }
+    },
+    {
+      "id": "workwave-director-quality-engineering",
+      "title": "Director, Quality Engineering",
+      "company": "WorkWave",
+      "category": "tech",
+      "location": "Remote (Holmdel, NJ HQ)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Lever (WorkWave)",
+      "url": "https://jobs.lever.co/workwave/30c4c708-e504-4726-b8a3-7b480d29c389",
+      "date_found": "2026-07-16",
+      "date_posted": "",
+      "notes": "Leads automation and performance engineers across WorkWave's field-service SaaS product suite (pest control, lawn care, field service management software). Remote-first with HQ in Holmdel, NJ.",
+      "closed": false,
+      "fit": {
+        "score": 67,
+        "level": "Good",
+        "why": "Director QE leading automation engineers at a remote SaaS company — strong skills match; field-service software domain is new territory but QE leadership and automation modernization transfer cleanly.",
+        "blurb": "Leading automation and performance engineering across a multi-product SaaS portfolio is a direct translation of the test automation strategy and team leadership I've built at Fortis, Amazon Games, and Blizzard — and I'm currently driving an AI transformation of QA targeting an 80% reduction in manual release-test time at Fortis. WorkWave's remote-first culture and QE-modernization mandate are well-aligned with my background, even making the jump from games to field-service software."
+      }
+    },
+    {
+      "id": "greenlight-vp-engineering-quality-tools",
+      "title": "VP Engineering, Quality & Tools",
+      "company": "Greenlight Financial Technology",
+      "category": "tech",
+      "location": "Remote (United States)",
+      "remote": "remote",
+      "salary": "$240,000–$350,000 + bonus + equity",
+      "source": "Lever (Greenlight Financial Technology)",
+      "url": "https://jobs.lever.co/greenlight/5ca32b64-7b99-41df-a232-86f5cfa4356b",
+      "date_found": "2026-07-16",
+      "date_posted": "",
+      "notes": "VP-level role owning Quality Engineering, Developer Experience (DevX), Technical Operations, and Internal Tools at Greenlight (family banking fintech app for kids and teens). $240k–$350k base (NY/CA/WA/CO ranges) + bonus + equity. Scope extends beyond QA into DevX and TechOps.",
+      "closed": false,
+      "fit": {
+        "score": 62,
+        "level": "Stretch",
+        "why": "Exceptional VP-level comp ($240k–$350k remote) but fintech domain shift and scope extends well beyond QA into DevX/TechOps — VP reach plus multi-function mandate makes this a meaningful stretch.",
+        "blurb": "A VP Engineering mandate spanning Quality, Developer Experience, and Technical Operations would let me apply 20+ years of test automation leadership, cross-functional team building, and engineering culture investment to a consumer fintech platform — and the $240k–$350k comp reflects the seniority and organizational impact expected. While Greenlight is a step into fintech from games, the quality engineering and automation transformation priorities are consistent with what I do today at Fortis, where I lead an AI-driven tooling modernization targeting an 80% reduction in manual release-test time."
+      }
+    },
+    {
+      "id": "amount-head-quality-engineering",
+      "title": "Head of Quality Engineering",
+      "company": "Amount",
+      "category": "tech",
+      "location": "Remote (United States)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Greenhouse (Amount)",
+      "url": "https://job-boards.greenhouse.io/amount/jobs/4416565007",
+      "date_found": "2026-07-16",
+      "date_posted": "",
+      "notes": "Responsible for all quality engineering functions across multiple platforms and market-leading SaaS products at Amount (fintech SaaS for banks and lenders). 10+ years QE, 5+ years in QE leadership required. Remote US.",
+      "closed": false,
+      "fit": {
+        "score": 68,
+        "level": "Good",
+        "why": "Head of QE owning all quality functions across a multi-platform fintech SaaS — right seniority level and org-ownership scope; banking/lending domain is the primary gap from games.",
+        "blurb": "Owning all quality engineering functions across a multi-platform SaaS product suite — defining QE strategy, building the org, and driving automation maturity — maps directly to my Director-level work at Fortis, Amazon Games, and Blizzard, where I've led QA from greenfield through ongoing live operations. Amount's 10+ year / 5+ year leadership bar sits well within my 20-year profile, and I'd bring the AI-driven testing transformation I now lead at Fortis — using LLMs and agentic tooling — to raise quality velocity across Amount's banking platform."
+      }
+    },
+    {
+      "id": "onebrief-director-engineering-quality",
+      "title": "Director of Engineering, Quality",
+      "company": "Onebrief",
+      "category": "tech",
+      "location": "Remote (United States)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Ashby (Onebrief)",
+      "url": "https://jobs.ashbyhq.com/onebrief/5478dc1f-36a8-408f-918c-a44a759b05c8",
+      "date_found": "2026-07-16",
+      "date_posted": "",
+      "notes": "Leads quality engineering for Onebrief's AI-powered military operations planning software. QA leadership for an AI-native platform (agentic AI for military planning). Remote-first US company with 23+ open remote roles. Engineering leadership within an AI product company.",
+      "closed": false,
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "Director of Quality Engineering for an AI-native SaaS product — QA-for-AI mandate earns the AI bonus; defense/gov domain is a shift, but testing AI systems aligns directly with Taylor's current work.",
+        "blurb": "Leading quality engineering for an AI-native planning platform — ensuring correctness, reliability, and trustworthiness of agentic AI outputs — maps directly to the cutting edge of my current work at Fortis, where I use LLMs and agentic tooling to transform QA workflows and validate AI-assisted processes. Onebrief's remote-first culture and AI-product focus make this a compelling application of my emerging AI-quality expertise to a mission-critical domain."
+      }
     }
   ]
 }

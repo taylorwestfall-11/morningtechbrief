@@ -4,7 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#0f1115">
+<!-- Keep these identical to morning_brief.html. Without a shared manifest scope,
+     iOS treats a tap on the other tab as leaving the web app and opens it in an
+     in-app browser overlay -- the X, the URL bar and the bottom toolbar. -->
+<link rel="manifest" href="/morningtechbrief/manifest.json">
+<meta name="theme-color" content="#12151c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Daily">
+<link rel="apple-touch-icon" href="/morningtechbrief/icon-192.png">
 <title>QA Leadership Job Tracker</title>
 <style>
   :root{
@@ -21,29 +29,34 @@
        font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
        overscroll-behavior-y:none}
 
-  /* nowrap: at 375px the brand + 2 links + sync chip wrapped to two rows and ate
-     80px of a phone screen before any content. */
+  /* This nav must stay VISUALLY IDENTICAL to the one in morning_brief.html --
+     same height, padding, fonts and brand -- so switching tabs doesn't reflow the
+     top of the screen. The sync chip deliberately lives in <header>, not here:
+     brand + 2 links + chip measured ~399px on a 393px phone and wrapped to two
+     rows, which is what forced the brand to be hidden and made the two navs
+     diverge in the first place. */
   .dailynav{position:sticky;top:0;z-index:60;display:flex;gap:6px;align-items:center;
-    flex-wrap:nowrap;background:#12151c;border-bottom:1px solid var(--line);padding:6px 10px;
-    padding-top:calc(6px + env(safe-area-inset-top))}
+    flex-wrap:nowrap;background:#12151c;border-bottom:1px solid #2a2f3a;padding:8px 12px;
+    padding-top:calc(8px + env(safe-area-inset-top))}
   .dailynav .brand{color:#e6e9ef;font-weight:800;font-size:14px;margin-right:6px;
-    white-space:nowrap;display:none}
-  .dailynav a{text-decoration:none;padding:7px 12px;border-radius:8px;font-size:13.5px;
+    white-space:nowrap}
+  .dailynav a{text-decoration:none;padding:7px 14px;border-radius:8px;font-size:14px;
     font-weight:600;white-space:nowrap}
   .dailynav a.off{color:#9aa3b2;border:1px solid #2a2f3a}
   .dailynav a.on{color:#0c1018;background:#6ea8fe}
-  .dailynav .sync{margin-left:auto;font:600 10px/1 var(--mono);border-radius:20px;
-    padding:11px 9px;border:1px solid var(--line);color:var(--muted);cursor:pointer;
-    white-space:nowrap;flex-shrink:0}
-  @media (min-width:430px){ .dailynav .brand{display:inline} }
-  .dailynav .sync.ok{color:var(--accent2);border-color:color-mix(in srgb,var(--accent2) 35%,transparent)}
-  .dailynav .sync.warn{color:var(--tech);border-color:color-mix(in srgb,var(--tech) 45%,transparent)}
-  .dailynav .sync.err{color:var(--danger);border-color:color-mix(in srgb,var(--danger) 45%,transparent)}
 
-  header{padding:9px 12px 8px;border-bottom:1px solid var(--line);background:#12151c}
+  header{padding:9px 12px 8px;border-bottom:1px solid var(--line);background:#12151c;
+    display:flex;align-items:center;gap:10px}
+  header .htext{min-width:0;flex:1}
   h1{margin:0;font-size:16px;letter-spacing:-.01em;font-weight:750}
   header .sub{color:var(--muted);font-size:11px;margin-top:2px;font-family:var(--mono);
     font-variant-numeric:tabular-nums}
+  .sync{font:600 10px/1 var(--mono);border-radius:20px;padding:10px 9px;
+    border:1px solid var(--line);color:var(--muted);cursor:pointer;white-space:nowrap;
+    flex-shrink:0;background:var(--panel2)}
+  .sync.ok{color:var(--accent2);border-color:color-mix(in srgb,var(--accent2) 35%,transparent)}
+  .sync.warn{color:var(--tech);border-color:color-mix(in srgb,var(--tech) 45%,transparent)}
+  .sync.err{color:var(--danger);border-color:color-mix(in srgb,var(--danger) 45%,transparent)}
   .wrap{max-width:1140px;margin:0 auto;padding:0 0 90px}
 
   .banner{margin:9px 12px 0;border-radius:10px;padding:9px 10px;font-size:12px;line-height:1.45;
@@ -222,11 +235,13 @@
   <span class="brand">☕ Taylor's Daily</span>
   <a class="off" href="https://taylorwestfall-11.github.io/morningtechbrief/morning_brief.html">📰 AI News</a>
   <a class="on" href="https://taylorwestfall-11.github.io/morningtechbrief/jobs-7m3k9q.html">💼 Jobs</a>
-  <button class="sync" id="syncChip" title="Sync settings">…</button>
 </nav>
 <header>
-  <h1>🎮 QA Leadership Job Tracker</h1>
-  <div class="sub" id="lastScan"></div>
+  <div class="htext">
+    <h1>🎮 QA Leadership Job Tracker</h1>
+    <div class="sub" id="lastScan"></div>
+  </div>
+  <button class="sync" id="syncChip" title="Sync settings">…</button>
 </header>
 
 <div class="wrap">
@@ -317,12 +332,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://remotive.com/remote/jobs/qa/studio-qa-director-4238360",
   "date_found": "2026-06-22",
   "date_posted": "2026-04-02",
-  "notes": "Reports to VP Product Dev. Live-service multiplayer, cross-platform PC/console/mobile. Owns QA budget & vendor partnerships.",
   "fit": {
    "score": 95,
-   "level": "Excellent",
-   "why": "Director-level, live-service multiplayer, owns QA budget + vendor partnerships — a near-exact match to your Fortis/Amazon scope.",
-   "blurb": "As Director of QA & Localization at Fortis Games, I built a studio-wide QA discipline and automation roadmap for live-service titles from the ground up, and I'm now leading Fortis' AI transformation of QA — using agentic AI and LLMs to target an 80% cut in manual release-test time. That blend of cross-platform live-service ownership and modern AI-driven automation is exactly what scaling competitive titles demands."
+   "level": "Excellent"
   },
   "closed": true
  },
@@ -378,12 +390,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.riotgames.com/en/work-with-us/job/3347742/director-qa-unpublished-r-d-product-los-angeles-usa",
   "date_found": "2026-06-22",
   "date_posted": "",
-  "notes": "Owns QA process for a large team. Requires 10+ yrs QA, 3+ yrs leadership.",
   "fit": {
    "score": 94,
-   "level": "Excellent",
-   "why": "Director owning QA for a greenfield R&D product; you exceed the 10+ yrs / 3+ leadership bar, bring AI-driven test automation, and LA is your home region.",
-   "blurb": "I've owned QA process and people for large game organizations for over a decade — at Fortis, Netflix, Amazon Games, and Blizzard — and I'm currently leading an AI transformation of QA using agentic tooling and LLMs. Standing up quality and modern AI-assisted automation for an unannounced R&D product is exactly the greenfield work I do today at Fortis, and I'm based in your Los Angeles region."
+   "level": "Excellent"
   },
   "closed": true
  },
@@ -419,12 +428,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://job-boards.greenhouse.io/scopely/jobs/4865386008",
   "date_found": "2026-06-22",
   "date_posted": "",
-  "notes": "Direct Greenhouse URL confirmed on 2026-07-07 scan. Remote US or Canada. Role explicitly champions AI-powered QA solutions to optimize testing workflows, improve defect detection, and accelerate release cycles. Reports to Senior QA Director (EU).",
   "fit": {
    "score": 90,
-   "level": "Excellent",
-   "why": "Mobile live-service Director role — matches your Fortis mobile/live-service QA leadership and remote preference.",
-   "blurb": "Directing QA for a top-grossing mobile live-service title aligns directly with my work at Fortis Games, where I built the mobile-first QA discipline and now lead its AI transformation — leveraging agentic AI to target an 80% cut in manual release-test time. I pair that with deep LiveOps incident management honed across Blizzard, Amazon, and Netflix."
+   "level": "Excellent"
   },
   "closed": true
  },
@@ -440,12 +446,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/director-qa-remote/3193808",
   "date_found": "2026-06-22",
   "date_posted": "",
-  "notes": "Fintech/SaaS transformation. Owns QA systems & processes for product lines.",
   "fit": {
    "score": 78,
-   "level": "Good",
-   "why": "Director-level software QA leadership transfers cleanly, and DFIN's modernization mandate is a direct match for the AI-driven test-automation transformation you lead at Fortis.",
-   "blurb": "Modernizing QA systems and processes across product lines is exactly what I do — at Fortis I stood up CI pipelines and a centralized framework and now lead an AI transformation using LLMs and agentic tooling to target an 80% reduction in manual release testing. That automation-and-AI playbook translates directly to DFIN's SaaS transformation, even coming from a games background."
+   "level": "Good"
   },
   "closed": true
  },
@@ -503,12 +506,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://meet.jobs/en/jobs/43454-qa-manager-apps",
   "date_found": "2026-07-02",
   "date_posted": "",
-  "notes": "Leads 6-8 FT QA Coordinators + outsourced testers for Roblox Player App (70M+ DAU). Platform Orchestration team. Weekly mobile release cadence. Exceptional comp.",
   "fit": {
    "score": 70,
-   "level": "Good",
-   "why": "Leading QA for a 70M-DAU gaming platform at exceptional comp, but QA Manager is under-leveled vs your Director background and role is onsite San Mateo.",
-   "blurb": "Leading QA for Roblox's Player App — enjoyed by 70+ million daily users — is the high-stakes mobile release environment I've been building toward at Fortis and Amazon Games. I'd bring director-level rigor in release-cycle quality, CI/CD automation strategy, and people development to a team operating at Roblox's unprecedented scale."
+   "level": "Good"
   },
   "closed": true
  },
@@ -565,12 +565,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://careers.unity.com/position/qa-manager-software-engineering/2450378",
   "date_found": "2026-07-02",
   "date_posted": "",
-  "notes": "Leads Quality Analysts supporting global development teams. Partners with Professional Services/external delivery. Burbank CA is commutable from OC. Games engine company.",
   "fit": {
    "score": 65,
-   "level": "Good",
-   "why": "Unity's engine QA organization is games-adjacent and Burbank is commutable from OC — but QA Manager is below your Director trajectory.",
-   "blurb": "Leading QA for Unity's software engineering teams would let me apply 20 years of game-development quality leadership to the engine layer that powers the entire industry — from global CI/CD strategy to modern automation frameworks. I'd bring director-level rigor and my current AI/agentic-testing focus to help Unity's QA team raise quality velocity across Professional Services delivery."
+   "level": "Good"
   },
   "closed": true
  },
@@ -586,12 +583,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://amazon.jobs/en/jobs/3014304/qa-manager-amazon-games",
   "date_found": "2026-07-02",
   "date_posted": "",
-  "notes": "Leads QA Engineers + manual testers on AAA HD title in Bucharest expansion studio. Taylor's former employer. Under-leveled vs Director scope held at Amazon; requires international relocation to Romania.",
   "fit": {
    "score": 60,
-   "level": "Stretch",
-   "why": "Amazon Games is Taylor's former employer but returning as QA Manager is a step down from the Director/Head scope held there, and Bucharest requires international relocation.",
-   "blurb": "Amazon Games is where I built my AAA QA leadership — overseeing New World, Lost Ark, and Crucible across global teams. While I know this organization well, re-entering at QA Manager level would be a step back from the Director scope I've held since, and the Bucharest location requires relocating abroad — I'd watch for a Director-level opening in a US Amazon Games studio."
+   "level": "Stretch"
   },
   "closed": true
  },
@@ -607,12 +601,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://careers.activision.com/job/R025272/Director-QA-Activision",
   "date_found": "2026-07-02",
   "date_posted": "",
-  "notes": "Oversees all QA operations at the Bloomington/Minneapolis MN office across multiple concurrent AAA projects. Primary QA contact for all studio teams. 12+ yrs games QA experience and 4+ yrs leading large-scale departments required. Call of Duty franchise.",
   "fit": {
    "score": 92,
-   "level": "Excellent",
-   "why": "Director owning all QA operations for a major AAA studio — your exact scope at Amazon Games/Fortis — though onsite Minneapolis requires a cross-country move.",
-   "blurb": "Overseeing all QA efforts across multiple concurrent titles at a studio of Activision's scale mirrors exactly what I led at Amazon Games — coordinating New World, Crucible, and Lost Ark across global teams — and what I do today at Fortis, where I also lead an AI-driven transformation targeting an 80% cut in manual release-test time. I bring 12+ years of video game industry experience at Director level, ISTQB CTAL-TM certification, and the large-scale department leadership this Minneapolis role demands."
+   "level": "Excellent"
   },
   "closed": true
  },
@@ -628,12 +619,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/software-quality-assurance-qa-director/4024241",
   "date_found": "2026-07-02",
   "date_posted": "2025-02-10",
-  "notes": "Leads globally dispersed QA team for Benevity's CSR/ESG SaaS platform. Defines QA strategy and roadmap, owns test automation strategy and AI-driven testing approaches, builds and mentors QA organization. 10+ yrs Agile/remote QA experience required.",
   "fit": {
    "score": 79,
-   "level": "Good",
-   "why": "Remote SaaS QA Director with explicit AI-driven testing mandate maps directly to your Fortis AI transformation work — strongest non-games tech fit this scan.",
-   "blurb": "Defining QA strategy and championing AI-driven testing approaches for a globally dispersed team is the work I lead at Fortis today — using LLMs and agentic AI to target an 80% reduction in manual release testing across a remote-first organization. I'd bring the same quality-first engineering culture and automation modernization playbook to Benevity's SaaS platform, with 20 years of experience building and scaling QA disciplines from scratch."
+   "level": "Good"
   },
   "closed": true
  },
@@ -649,12 +637,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/director-quality-engineering/4754580",
   "date_found": "2026-07-02",
   "date_posted": "2025-04-23",
-  "notes": "Leads and oversees QA strategy, processes, and team for ClickUp's SaaS productivity platform. Implements robust testing frameworks and drives automation initiatives. Visionary QE leadership role.",
   "fit": {
    "score": 75,
-   "level": "Good",
-   "why": "Director-level QE leadership at a high-growth SaaS company; automation focus aligns well even with the games-to-SaaS domain shift.",
-   "blurb": "Building and driving QA strategy across a complex SaaS product — implementing robust testing frameworks and pushing automation maturity — is a direct translation of my CI/CD and test-automation leadership at Fortis, Amazon Games, and Blizzard. I'd bring director-level rigor for scaling QA organizations and modernizing automation infrastructure, including my current AI-driven testing initiative targeting an 80% reduction in manual release work."
+   "level": "Good"
   },
   "closed": true
  },
@@ -670,12 +655,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/director-quality-assurance-lenderai-platform/7058305",
   "date_found": "2026-07-02",
   "date_posted": "2025-10-01",
-  "notes": "QA Director for LenderAI — an AI-native SaaS platform processing $11B+ in SBA/non-SBA loans. Leads QA Community of Practice. $160K-$250K comp. Fort Lauderdale FL (hybrid). Small-mid size fintech with AI product at core.",
   "fit": {
    "score": 70,
-   "level": "Good",
-   "why": "QA leadership for an AI-native SaaS product triggers the AI bonus — testing LLM-driven platform outputs is Taylor's emerging specialty — offsetting the fintech domain shift.",
-   "blurb": "Delivering quality assurance for an AI-native platform — where test strategy must account for non-deterministic LLM outputs and agentic workflows — is exactly the challenge I'm solving at Fortis today, where I lead an AI transformation targeting an 80% reduction in manual release testing. My experience building QA disciplines from scratch and owning quality strategy across complex product suites would let me apply that AI-testing expertise directly to LenderAI."
+   "level": "Good"
   },
   "closed": true
  },
@@ -712,12 +694,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://jobs.lever.co/bhvr",
   "date_found": "2026-07-03",
   "date_posted": "2026-06-23",
-  "notes": "Senior Director-level QA role for Dead by Daylight (60M+ players), Canada's largest independent game studio. Hybrid Montreal. QA Team Leads report up through this role. Live-service asymmetric multiplayer flagship.",
   "fit": {
    "score": 87,
-   "level": "Strong",
-   "why": "Senior Director owning QA for Dead by Daylight's live-service multiplayer at 60M+ players — excellent scope match — though hybrid Montreal requires international relocation to Canada.",
-   "blurb": "Leading quality for Dead by Daylight — a live-service multiplayer title at the scale I've built toward across Fortis, Amazon Games, and Blizzard — aligns precisely with my Director-level live-ops QA experience. I'd bring an automation-first quality culture and 20+ years of multiplayer platform QA to help Behaviour Interactive keep pace with one of the world's largest asymmetric multiplayer communities."
+   "level": "Strong"
   },
   "closed": true
  },
@@ -733,12 +712,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.linkedin.com/jobs/view/qa-manager-at-cd-projekt-red-4247562395",
   "date_found": "2026-07-03",
   "date_posted": "",
-  "notes": "Building the QA team from scratch for Project Orion (Cyberpunk 2 sequel) at CDPR's Boston Hub. Owns QA strategy, process, team-building, and vendor alignment. Application closes 09/01/2026. Onsite Boston.",
   "fit": {
    "score": 66,
-   "level": "Good",
-   "why": "Building QA from scratch for a Cyberpunk AAA title is meaningful ownership, but QA Manager is well below your Director trajectory and requires onsite relocation to Boston.",
-   "blurb": "Standing up QA processes and a team from the ground floor for Project Orion at CD Projekt Red is the kind of greenfield build I've done repeatedly — at Fortis, Amazon Games, and Netflix — and CDPR's AAA ambitions match the caliber of work I care about. That said, the QA Manager title is a step back from my Director scope, and the onsite Boston requirement would mean a cross-country relocation from Orange County."
+   "level": "Good"
   },
   "closed": true
  },
@@ -754,13 +730,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.riotgames.com/en/work-with-us/job/6008694/senior-manager-qa-valorant-experience-team-los-angeles-usa",
   "date_found": "2026-07-04",
   "date_posted": "",
-  "notes": "Reports to Director of Quality for VALORANT. Holistically owns QA strategy for Cross VALORANT Experiences. Manages QA Managers and ICs. 8+ yrs QA, 2+ yrs leadership required. $178,800–$249,200 base + incentive + equity. LA is Taylor's home region.",
   "closed": true,
   "fit": {
    "score": 84,
-   "level": "Strong",
-   "why": "Senior Manager owning end-to-end quality for VALORANT Experiences at Riot — excellent comp, LA is your home base, people-management scope confirmed — slightly below your current Director title.",
-   "blurb": "Managing quality end-to-end across VALORANT's cross-experience products is the high-stakes live-service scope I've built my career on — directing QA for Fortis, Netflix Games, and Amazon's new titles through launch and live ops. Riot's LA headquarters is in my home region, and my 20+ years of games QA leadership — including an active AI transformation targeting an 80% cut in manual release testing — means I'd be effective from day one."
+   "level": "Strong"
   }
  },
  {
@@ -775,13 +748,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.riotgames.com/en/work-with-us/job/6908931/senior-manager-qa-teamfight-tactics-los-angeles-usa",
   "date_found": "2026-07-04",
   "date_posted": "",
-  "notes": "Manages QA professionals on TFT AXE Team. Delivers high-quality in-game events, passes, and content. Follows Riot Test Policy across full SDLC. $187,700–$261,700 base + incentive + equity. LA onsite.",
   "closed": true,
   "fit": {
    "score": 81,
-   "level": "Strong",
-   "why": "Senior Manager leading QA on a flagship Riot competitive title in LA — strong comp, people-management scope, commutable from OC — one level below your current Director track.",
-   "blurb": "Delivering consistent quality for Teamfight Tactics — a competitive live-service title with a passionate global player base — is the kind of high-throughput, content-heavy QA challenge I've mastered at Fortis and Amazon Games. I'd bring proven people leadership across large blended teams and my current AI-automation initiative — targeting an 80% reduction in manual release testing — to help the TFT AXE team ship faster and with greater confidence."
+   "level": "Strong"
   }
  },
  {
@@ -796,13 +766,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://explore.jobs.netflix.net/careers/job/790311932645-qa-manager-studio-development-games-usa-remote",
   "date_found": "2026-07-04",
   "date_posted": "2025-09-12",
-  "notes": "Part of Games Operations, reports to Director of QA, Games. Leads multi-studio QA teams, builds external QA partnerships. Ensures Netflix-developed games meet quality standards across the platform portfolio. Application deadline July 8, 2026. Taylor is a Netflix alum (Head of Publishing QA).",
   "closed": true,
   "fit": {
    "score": 85,
-   "level": "Strong",
-   "why": "You were Head of Publishing QA at Netflix; returning as QA Manager is slightly under Director level but your insider knowledge, platform familiarity, and alum status are a decisive edge — and it's remote.",
-   "blurb": "I built Netflix Games Publishing QA from scratch — developing the 3P QA strategy, defining quality standards, and scaling the framework toward a 95-title portfolio — so I'd contribute from day one without any ramp-up on the platform, culture, or games ecosystem. My current AI-driven testing initiative at Fortis — using LLMs and agentic automation to target an 80% reduction in manual release test time — would bring a modern automation uplift to Netflix Games QA operations."
+   "level": "Strong"
   }
  },
  {
@@ -817,13 +784,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/director-quality-assurance/7416252",
   "date_found": "2026-07-04",
   "date_posted": "2026-01-22",
-  "notes": "InsurTech SaaS vertical (life insurance platform). Reports to CTO. Builds QA org from scratch. Explicitly calls out AI-enabled testing tools. 8+ yrs QA, 3+ yrs mgmt. $215K–$240K. Remote US.",
   "closed": true,
   "fit": {
    "score": 73,
-   "level": "Good",
-   "why": "Remote Director of QA at InsurTech SaaS — strong comp ($215K–$240K), build-from-scratch mandate is your specialty, and AI-enabled testing is explicitly in scope (+AI bonus).",
-   "blurb": "Establishing a world-class QA function from the ground up is precisely what I've done at Fortis, Netflix, and Amazon Games — and Bestow's mandate to leverage AI-enabled testing aligns directly with my current work using LLMs and agentic tooling to target an 80% reduction in manual release testing. While insurtech is a domain shift from games, the challenge of building scalable QA disciplines for a compliance-sensitive SaaS platform is one I'm fully equipped to take on at the Director level."
+   "level": "Good"
   }
  },
  {
@@ -838,13 +802,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/director-quality-assurance/9417716",
   "date_found": "2026-07-04",
   "date_posted": "2026-06-14",
-  "notes": "Benefits/HR tech SaaS. Player-coach QA leader: owns strategy + contributes directly to automation framework. Manages QA Engineers and Analysts. ISTQB CTAL-TM explicitly required — Taylor holds it. Playwright, CI/CD, remote.",
   "closed": true,
   "fit": {
    "score": 69,
-   "level": "Good",
-   "why": "Remote Director of QA for a benefits SaaS — ISTQB CTAL-TM is explicitly required (Taylor holds it), automation-first mandate is a direct match, though HR tech is a domain shift.",
-   "blurb": "Bridgeway's player-coach Director of QA mandate — driving automation framework strategy while remaining close to the code — aligns with how I've led QA at Fortis and Amazon Games, where I pair strategic quality ownership with direct automation architecture work. My ISTQB Advanced Test Manager certification (CTAL-TM) is the exact credential Bridgeway calls out, and my current AI-driven testing initiative adds a modern capability that benefits SaaS transformations can leverage directly."
+   "level": "Good"
   }
  },
  {
@@ -880,13 +841,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.riotgames.com/en/work-with-us/job/7272504/senior-qa-manager-gameplay-tft-los-angeles-usa",
   "date_found": "2026-07-05",
   "date_posted": "",
-  "notes": "Fresh Riot posting (job 7272504, distinct from 6908931). Manages QA professionals on TFT Gameplay team across full SDLC. Reports to QA Director. $187,700–$261,700 base + incentive + equity. LA onsite; 8+ yrs QA, 2+ yrs leadership required.",
   "closed": true,
   "fit": {
    "score": 80,
-   "level": "Strong",
-   "why": "Fresh Riot TFT Gameplay Senior QA Manager posting — exceptional comp, LA home base, live-service competitive title — one notch below your current Director trajectory.",
-   "blurb": "Managing QA across TFT's full development cycle is the kind of live-service competitive-title scope I've built my career on — from Overwatch and Battle.net at Blizzard through Fortis, where I now lead an AI transformation targeting an 80% cut in manual release testing. Riot's LA headquarters is minutes from my Orange County home base, and the exceptional comp plus equity at a company of Riot's caliber makes this a compelling conversation."
+   "level": "Strong"
   }
  },
  {
@@ -901,13 +859,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/it-quality-assurance-director/6378160",
   "date_found": "2026-07-05",
   "date_posted": "2025-12-29",
-  "notes": "Drives QA strategy, execution, and optimization across life insurance and annuity software platforms. Leads team of QA staff and SDETs. Defines automation frameworks, tooling, and best practices. Remote US.",
   "closed": true,
   "fit": {
    "score": 68,
-   "level": "Good",
-   "why": "Remote Director of IT QA with full automation strategy mandate — strong skills transfer despite the insurance-tech domain shift; no explicit AI/LLM mandate so no AI bonus.",
-   "blurb": "Evolving an enterprise QA strategy — standardizing frameworks, growing SDETs, and driving automation maturity — is the work I've done across Fortis, Amazon Games, and Blizzard, and it translates cleanly to software-driven insurance platforms. I'd bring proven experience building QA organizations from scratch and a modern CI/CD and test-automation playbook to Penn Mutual's IT quality practice."
+   "level": "Good"
   }
  },
  {
@@ -966,13 +921,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/qa-director/4755537",
   "date_found": "2026-07-06",
   "date_posted": "2025-06-13",
-  "notes": "Forever-remote indie studio (Banner Saga creators). Towerborne — coop action RPG in live-service. Director of QA owns quality vision from pre-release through live ops; manages internal team, external vendors, and partner QA orgs. All test phases: functional, regression, performance, multiplayer, platform compliance. PC and Xbox.",
   "closed": true,
   "fit": {
    "score": 91,
-   "level": "Excellent",
-   "why": "Remote Director of QA for a live-service action RPG — owns internal team + vendors, full dev-through-live-ops scope, forever-remote studio is a near-perfect match.",
-   "blurb": "Owning the QA vision for a live-service cooperative RPG — from pre-release through ongoing live content — is exactly the scope I've built across Fortis Games, Amazon Games, and Netflix, and I'm now leading Fortis' AI transformation of QA targeting an 80% cut in manual release-test time via agentic tooling. Stoic's forever-remote culture and the opportunity to bring automation-first quality practices to an independent studio with AAA-pedigree creators is a compelling combination."
+   "level": "Excellent"
   }
  },
  {
@@ -1009,13 +961,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://boards.greenhouse.io/bungie/jobs/5309128",
   "date_found": "2026-07-06",
   "date_posted": "",
-  "notes": "Key driver defining and actioning quality for Destiny 2 (live AAA FPS, continuously shipping). Leads medium-large QA org. Partners with Engineers and SDETs on testing tech. Manages budget and headcount. Digital-first/remote-eligible in CA and 19+ other US states. Constrained-budget org-building expertise required.",
   "closed": true,
   "fit": {
    "score": 93,
-   "level": "Excellent",
-   "why": "Director owning a large QA org for a flagship live-service AAA title — near-exact career match — and Bungie's remote-in-CA policy means no relocation required from OC.",
-   "blurb": "Sustaining and improving quality for a continuously-shipping live-service AAA game is the exact discipline I've honed across Fortis, Amazon Games (New World, Lost Ark, Crucible), and Blizzard's Overwatch — and I'm now leading an AI transformation of QA at Fortis targeting an 80% reduction in manual release testing through agentic tooling. Bungie's remote-eligible-in-California policy and Destiny 2's scale represent both the culture and challenge I'm looking to step into at the Director level."
+   "level": "Excellent"
   }
  },
  {
@@ -1051,13 +1000,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://jobs.lever.co/veeva/911c0118-8fa1-4201-b53b-1cee14c38798",
   "date_found": "2026-07-06",
   "date_posted": "",
-  "notes": "Automation-first QA Director for Digital Trials Platform (clinical/life-sciences SaaS). Leads 15-25 QA and Automation engineers across US and India. Owns all Software Quality for Web, APIs, Mobile. Veeva is a Work Anywhere company. Boston-area or EST/CST preferred but remote-flexible.",
   "closed": true,
   "fit": {
    "score": 67,
-   "level": "Good",
-   "why": "Director-level QA managing 15-25 engineers with automation-first mandate — strong management scope match and remote-friendly culture — but life-sciences/clinical domain is a significant shift from games.",
-   "blurb": "Leading 15-25 QA and automation engineers across distributed US and India teams — owning test planning, coverage strategy, and automation maturity — mirrors my organizational work at Fortis, Amazon Games, and Blizzard. Veeva's Work Anywhere culture aligns with my remote-first approach, and my automation-first mindset maps directly to the role's core mandate, though I'd apply my CI/CD and cross-platform test engineering depth to ramp on the clinical SaaS domain."
+   "level": "Good"
   }
  },
  {
@@ -1116,13 +1062,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://apply.workable.com/sideinc/j/D7FC901824/",
   "date_found": "2026-07-06",
   "date_posted": "2026-06-23",
-  "notes": "Manually added (not surfaced by daily scan). Games QA/localization services vendor. Global multi-site QA operations: quality visibility & reporting, KPIs, calibration, root-cause; influence without authority; client/partner relationships; AI-led quality improvements. Reports to Global Director of QA. Tailored resume: T_Westfall_Side_Senior_Manager_Global_QA_Operations.",
   "closed": true,
   "fit": {
    "score": 83,
-   "level": "Strong",
-   "why": "Senior QA operations leadership at a global games-services vendor — your multi-site QA ops, KPI/reporting, calibration, and vendor-side insight fit well; a notch below your Director title.",
-   "blurb": "I've run global, multi-site QA operations, reporting, and quality standards across Fortis, Netflix, Amazon, and Blizzard, and I'm now leading Fortis' AI transformation of QA — using agentic AI and LLMs to target an 80% cut in manual release-test time. Having directed external QA and localization partners from the client side, I know exactly what Side's clients expect, and I'd bring strong calibration, root-cause, and cross-site consistency to your global QA operations."
+   "level": "Strong"
   }
  },
  {
@@ -1137,13 +1080,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://boards.greenhouse.io/bungie/jobs/5048526",
   "date_found": "2026-07-07",
   "date_posted": "",
-  "notes": "QA Director for an unannounced Bungie incubation project. Build QA org from the ground up through ship and into live ops. Partners closely with project leadership to build holistic Test strategy. Remote-eligible in CA and 18+ other US states. Distinct from Destiny QA Director role (job 5309128).",
   "closed": true,
   "fit": {
    "score": 91,
-   "level": "Excellent",
-   "why": "QA Director building from ground up on an unannounced Bungie project — near-exact match to your greenfield org-building and live-ops QA scope; remote-in-CA policy means no relocation.",
-   "blurb": "Building a QA organization from scratch for a new title — defining the test strategy, establishing processes, and scaling through ship and live ops — is exactly what I've done at Fortis Games, Netflix, and Amazon Games, and I'm now leading Fortis' AI transformation of QA using agentic tooling to target an 80% reduction in manual release-test time. Bungie's remote-eligible-in-California policy means I can contribute from my Orange County base, and an unannounced incubation project offers the greenfield quality leadership challenge I find most compelling."
+   "level": "Excellent"
   }
  },
  {
@@ -1158,13 +1098,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://careers.blizzard.com/gb/en/job/R025431/Test-Director-Unannounced-Game-Irvine-CA",
   "date_found": "2026-07-07",
   "date_posted": "",
-  "notes": "Hybrid Irvine, CA — OC home region. 'Test Director' is Blizzard's title for QA Director. Leads QA operations and testing across one or more unannounced products. $107K–$198K base + comprehensive benefits; relocation assistance offered. Taylor's former employer (Overwatch, Battle.net, Diablo 3).",
   "closed": true,
   "fit": {
    "score": 88,
-   "level": "Strong",
-   "why": "Director-level QA leadership for an unannounced Blizzard game in OC — Taylor's former employer and home base, strong comp ceiling, Blizzard brand prestige; hybrid (not remote) and wide salary range are the only tempering factors.",
-   "blurb": "Leading QA for a new Blizzard title would be a return to the studio where I first mastered AAA quality — overseeing test operations for Overwatch, Battle.net, and Diablo 3 — and I'd bring the AI-driven transformation mindset I've since developed at Fortis, targeting an 80% reduction in manual release testing via agentic tooling and LLMs. Blizzard's Irvine campus is in my Orange County home region, and standing up quality from greenfield for a new Blizzard franchise is the kind of challenge that drew me to this industry."
+   "level": "Strong"
   }
  },
  {
@@ -1179,13 +1116,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://careers.blizzard.com/pl-pl/openings/oiKDcfwB",
   "date_found": "2026-07-07",
   "date_posted": "",
-  "notes": "Leads QA for World of Warcraft (Blizzard's flagship MMORPG, 20+ years in continuous live service). Leads global QA teams toward quality initiatives, drives test risk mitigation strategy, innovates on test methods and technology. Taylor's former employer. English apply URL: search careers.blizzard.com/global/en/worldofwarcraft to confirm.",
   "closed": true,
   "fit": {
    "score": 91,
-   "level": "Excellent",
-   "why": "Test Director for WoW — Blizzard's flagship live-service MMORPG — at Taylor's former employer in OC; long-running live-service title and global team leadership align precisely with his profile.",
-   "blurb": "Leading quality for World of Warcraft — one of the longest-running live-service games in history — is exactly the continuous-delivery, global-team QA challenge I've built my career toward at Fortis, Netflix, Amazon, and Blizzard itself, where I led test operations for Overwatch and Battle.net. I'd bring an AI-driven testing transformation to WoW QA, using the agentic tooling and LLM-enabled test automation I now champion at Fortis — targeting an 80% cut in manual release-test time — to help WoW's team sustain quality at flagship scale indefinitely."
+   "level": "Excellent"
   }
  },
  {
@@ -1200,13 +1134,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://job-boards.greenhouse.io/rockbot/jobs/5843957004",
   "date_found": "2026-07-07",
   "date_posted": "",
-  "notes": "Leads global quality strategy for Rockbot's business media-streaming hardware + cloud SaaS platform. Primary requirement: hardware/firmware validation expertise for physical A/V streaming devices. Also requires modern automation (Playwright, PyTest, CI/CD) and hardware-software integration testing. $190K–$220K + equity. Remote US.",
   "closed": true,
   "fit": {
    "score": 48,
-   "level": "Low",
-   "why": "Director QA with strong comp ($190-220K, remote) but the primary requirement is hardware/firmware validation for physical streaming devices — a scope mismatch with Taylor's pure software QA background.",
-   "blurb": "The Director, Quality Assurance mandate at Rockbot — building global QA infrastructure spanning connected hardware and cloud applications — draws on my experience establishing QA organizations from scratch and driving automation maturity through modern frameworks and CI/CD integration. While my background is software QA at scale, the systems-level quality strategy and leadership culture I've built at Fortis, Amazon, and Blizzard could transfer; the hardware-first scope would require a domain ramp."
+   "level": "Low"
   }
  },
  {
@@ -1221,12 +1152,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://job-boards.greenhouse.io/scopely/jobs/5180556008",
   "date_found": "2026-07-08",
   "date_posted": "",
-  "notes": "QA Director for Stumble Guys (200M+ downloads, Scopely's mobile battle-royale live-service hit). Hybrid Barcelona or Dundee. Scope includes AI-powered QA tooling, vendor management, full mobile live-service QA ownership. £106K–£132K. Confirmed Greenhouse posting (job 5180556008). Distinct from existing scopely-qa-director-monopoly-go entry.",
   "fit": {
    "score": 84,
-   "level": "Strong",
-   "why": "Games QA Director for a massive mobile live-service title with AI-powered QA tooling mandate — excellent scope and domain match; Barcelona/Dundee hybrid and EU location are the main friction.",
-   "blurb": "Directing QA for Stumble Guys — a 200M+ download mobile battle-royale in continuous live service — maps directly to my work at Fortis Games, where I own QA for mobile live-service titles and now lead an AI transformation targeting an 80% reduction in manual release-test time via agentic tooling. I bring deep mobile QA leadership, vendor management, and the AI-driven test automation experience Scopely's QA Director mandate calls for."
+   "level": "Strong"
   },
   "closed": true
  },
@@ -1263,12 +1191,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://wargaming.com/en/careers/vacancy_3012911_prague/",
   "date_found": "2026-07-08",
   "date_posted": "",
-  "notes": "Leads QA department of 4 streams (functional, regression, automation, compliance) for World of Warships PC — Wargaming's flagship live-service naval combat title. Cross-team QA strategy, process optimization, and team management. Prague onsite. Direct vacancy URL confirmed.",
   "fit": {
    "score": 72,
-   "level": "Good",
-   "why": "Head of QA leading a multi-stream QA department for a flagship live-service PC naval title — right seniority and live-ops scope; Prague onsite and international relocation from OC are the barriers.",
-   "blurb": "Managing a multi-stream QA department through continuous live-service shipping for World of Warships mirrors my work at Fortis, Amazon Games, and Blizzard, where I've led blended functional, automation, and compliance QA teams across major titles in continuous live ops. I'd bring the same structured QA discipline and AI-driven automation strategy to Wargaming's Prague studio; the primary consideration is the relocation from Orange County, CA."
+   "level": "Good"
   },
   "closed": true
  },
@@ -1284,12 +1209,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://wargaming.com/en/careers/vacancy_2983937_nicosia/",
   "date_found": "2026-07-08",
   "date_posted": "",
-  "notes": "Head of QA for an unannounced Wargaming project. Game engine QA focus — leads QA strategy and team for a new title built on Wargaming's internal engine. Greenfield QA org-building opportunity. Onsite Nicosia, Cyprus. LinkedIn job ID 4054951266.",
   "fit": {
    "score": 68,
-   "level": "Good",
-   "why": "Head of QA for an unannounced Wargaming title — greenfield org-building matches your specialty — but Cyprus onsite requires major international relocation and the game-engine QA niche is a stretch.",
-   "blurb": "Building QA from the ground up for an unannounced title is the kind of greenfield challenge I've taken on repeatedly — at Fortis Games, Netflix, and Amazon Games — and I'd bring the same AI-driven quality transformation, from CI/CD strategy through agentic test automation, to Wargaming's new project. The Head of QA scope and the opportunity to shape quality from day one are compelling; relocating to Nicosia from Orange County would be the primary consideration."
+   "level": "Good"
   },
   "closed": true
  },
@@ -1346,12 +1268,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://wargaming.com/en/careers/vacancy_3193409_belgrade/",
   "date_found": "2026-07-09",
   "date_posted": "",
-  "notes": "Cross-platform QA lead for World of Warships: Legends (PS/Xbox consoles, mobile, Steam). Owns complete QA strategy, team leadership, CI/CD optimization, and competency frameworks. Belgrade, Serbia onsite. Distinct from wargaming-head-of-qa-world-of-warships-pc (Prague) entry.",
   "fit": {
    "score": 70,
-   "level": "Good",
-   "why": "Cross-platform live-service Head of QA for a flagship franchise — right seniority and domain; Belgrade Serbia requires international relocation from OC.",
-   "blurb": "Managing a multi-platform QA organization across consoles, mobile, and Steam for a live-service naval title mirrors my leadership work at Fortis, Amazon Games, and Blizzard, where I've owned blended QA teams through continuous live operations. I'd bring the same automation-first, AI-driven quality strategy to Wargaming's World of Warships: Legends; the primary consideration is the relocation from Orange County to Belgrade, Serbia."
+   "level": "Good"
   },
   "closed": true
  },
@@ -1367,12 +1286,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://apply.workable.com/ptw-i/j/F09DBA7B4C/",
   "date_found": "2026-07-09",
   "date_posted": "",
-  "notes": "Leads PTW's global QA and Localization line of business, reporting to COO. Oversees large global team, workforce planning, client deliverables, and AI-QA Automation capabilities. Charleston, SC preferred. PTW (Pole To Win / Side brand) is a top global game services company.",
   "fit": {
    "score": 77,
-   "level": "Good",
-   "why": "Games-services Director of QA managing global QA+LQA — AI-QA Automation mandate earns AI bonus; Taylor's vendor-management experience from the client side gives insider edge.",
-   "blurb": "Leading PTW's global QA and LQA operations — from workforce planning and client deliverables to AI-QA automation capability — aligns directly with my 20+ years managing blended teams across Fortis, Amazon Games, Netflix, and Blizzard, where I've directed both internal and external QA from the client side. PTW's explicit focus on AI-QA Automation matches my current initiative at Fortis using LLMs and agentic tooling to target an 80% reduction in manual release-test time."
+   "level": "Good"
   },
   "closed": true
  },
@@ -1409,12 +1325,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://apply.workable.com/supermassive-games/j/40591676FB/",
   "date_found": "2026-07-09",
   "date_posted": "",
-  "notes": "QA Director on a 6-month Fixed-Term Contract at Supermassive Games (Until Dawn, Dark Pictures Anthology). Leads internal QA team and manages external QA partners for PC/console titles. Guildford, UK onsite. FTC role.",
   "fit": {
    "score": 52,
-   "level": "Stretch",
-   "why": "Correct seniority and games QA scope with confirmed people management — but 6-month fixed-term contract and UK onsite are double barriers to a permanent move from OC.",
-   "blurb": "Leading QA for a narrative AAA studio's next title — managing internal teams and external testing partners through development and release — is a scope I've held multiple times across Fortis, Amazon Games, and Blizzard. The Supermassive pedigree and QA Director scope are compelling, though a 6-month FTC with a UK onsite requirement would need to offer a clear path to permanent placement to justify the relocation from Orange County."
+   "level": "Stretch"
   },
   "closed": true
  },
@@ -1430,12 +1343,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/director-qa/3758621",
   "date_found": "2026-07-09",
   "date_posted": "",
-  "notes": "Director of QA for Aristocrat Interactive's regulated online real money gaming (RMG) platform. Manages 10+ QA team, owns defect management, test planning, and team development. Reports to CTO. 20% hands-on. Requires mobile/web testing expertise, no visa sponsorship. Las Vegas, NV.",
   "fit": {
    "score": 55,
-   "level": "Stretch",
-   "why": "Director-level QA with people management at an iGaming company — correct seniority but regulated RMG/online casino domain is a significant shift from Taylor's game-dev QA background; Las Vegas onsite requires relocation.",
-   "blurb": "Managing a QA team for a regulated online gaming platform — overseeing defect management, test planning, and team development — draws on my Director-level QA leadership across Fortis, Amazon Games, and Blizzard. Aristocrat Interactive's RMG platform is gaming-adjacent and the mobile/web testing scope maps to my multi-platform experience; the Las Vegas onsite requirement and domain shift from game development to regulated online gambling are the primary considerations."
+   "level": "Stretch"
   },
   "closed": true
  },
@@ -1472,12 +1382,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://job-boards.greenhouse.io/scopely/jobs/4773806008",
   "date_found": "2026-07-09",
   "date_posted": "",
-  "notes": "Leads global QA execution and program growth across Scopely's entire portfolio of titles. Partners with game teams and development partners worldwide. Hybrid Barcelona, Spain. $170K-$210K. Distinct from scopely-qa-director-monopoly-go (closed) and scopely-qa-director-stumble-guys (open) entries.",
   "fit": {
    "score": 72,
-   "level": "Good",
-   "why": "Portfolio-level games QA Director at a major mobile publisher — strong scope and comp at $170K–$210K; Barcelona hybrid and international relocation from OC are the main friction.",
-   "blurb": "Owning QA execution and growth across Scopely's global portfolio of titles — from partnering with game teams to aligning quality with senior leadership — is the breadth of organizational QA leadership I've built at Fortis, Netflix, and Amazon Games. Scopely's mobile live-service franchise portfolio and the $170K–$210K compensation range are compelling; Barcelona hybrid is the primary consideration for relocation from Orange County."
+   "level": "Good"
   },
   "closed": true
  },
@@ -1493,13 +1400,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://careers.blizzard.com/gb/en/job/R024925/Associate-Test-Director-Diablo-IV-Irvine-CA",
   "date_found": "2026-07-10",
   "date_posted": "",
-  "notes": "Associate Director-level QA for Diablo IV live-service franchise at Blizzard's Irvine campus. Manages end-to-end test teams across globally distributed staff, aligns with departmental and org strategy, establishes QA standards. Taylor's former employer; worked on Diablo 3. OC home region. Distinct from blizzard-test-director-unannounced-game (closed) and blizzard-test-director-world-of-warcraft (closed).",
   "closed": true,
   "fit": {
    "score": 86,
-   "level": "Strong",
-   "why": "Associate Director-level QA for Diablo IV at Taylor's former studio in OC — franchise knowledge from Diablo 3 tenure and Blizzard culture fit; 'Associate' level is one step below his current Director trajectory.",
-   "blurb": "Leading QA for Diablo IV — a live-service ARPG whose quality bar I understand from my Blizzard tenure on Diablo 3 — builds directly on the AAA games QA leadership I've carried from Blizzard through Netflix, Amazon Games, and Fortis, where I now lead an AI transformation targeting an 80% reduction in manual release-test time. Blizzard's Irvine campus is in my Orange County home region, making this a rare opportunity to step into a named-franchise Director role at a studio whose culture, tooling, and standards I already know deeply."
+   "level": "Strong"
   }
  },
  {
@@ -1514,13 +1418,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://careers.blizzard.com/gb/en/job/R025023/Test-Manager-Overwatch-Irvine-CA",
   "date_found": "2026-07-10",
   "date_posted": "",
-  "notes": "People-management QA role for Overwatch at Blizzard Irvine — 'Test Manager' is Blizzard's title for QA Manager with full team ownership. Manages end-to-end test teams across globally distributed staff; hybrid Irvine CA. Taylor's former employer and former game franchise (managed Overwatch QA at Blizzard). OC home region.",
   "closed": true,
   "fit": {
    "score": 75,
-   "level": "Good",
-   "why": "Test Manager for Overwatch at Taylor's former employer in OC — direct franchise experience from Blizzard tenure, but 'Test Manager' (QA Manager equivalent) is well below his current Director trajectory.",
-   "blurb": "Managing QA for Overwatch — the live-service competitive shooter I helped test and ship during my time at Blizzard — would be a return to deeply familiar franchise territory with zero culture ramp, and I'd bring Director-level rigor, live-ops incident response depth, and my current AI-driven automation initiative to help Overwatch's team sustain quality at scale. Blizzard's Irvine campus is in my Orange County home region; while Test Manager is below my Director trajectory, the Overwatch franchise and studio culture make this a conversation worth having."
+   "level": "Good"
   }
  },
  {
@@ -1556,13 +1457,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.gamesjobsdirect.com/job/ingame-recruitment/qa-director-technical-vertical--eastern-usa-canada-remote/335945",
   "date_found": "2026-07-10",
   "date_posted": "2026-04-08",
-  "notes": "QA Director for unnamed high-growth mobile entertainment company's Core Technology Vertical. Defines long-term QA strategy for tech vertical, leads and scales high-performing QA team, oversees automation frameworks and quality gates across multiple large-scale projects. Fully remote with EST/AST working hours required. Salary up to $142k USD.",
   "closed": true,
   "fit": {
    "score": 75,
-   "level": "Good",
-   "why": "Remote games QA Director with automation-scale mandate and team-leadership scope — EST/AST timezone constraint and $142k salary cap are friction points for a Director at Taylor's current level.",
-   "blurb": "Defining long-term QA strategy and scaling automation frameworks for a major mobile entertainment company's technical vertical maps directly to my Director-level work at Fortis, Amazon Games, and Blizzard — where I've owned end-to-end quality strategy, team leadership, and test automation modernization across complex multi-platform environments. I'd bring my current AI-driven testing initiative — using LLMs and agentic tooling to target an 80% reduction in manual release-test time — to drive quality velocity for a high-growth mobile portfolio."
+   "level": "Good"
   }
  },
  {
@@ -1598,13 +1496,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://careers.nintendo.com/job-openings/listing/240000003V.html",
   "date_found": "2026-07-10",
   "date_posted": "",
-  "notes": "QA Testing Manager at Nintendo of America, Redmond WA hybrid. Requires 2+ years people management experience. Responsibilities: test plan facilitation/adherence, process improvement, metrics monitoring, policy authoring. Under-leveled vs Taylor's Director background; Nintendo brand and games category are strong; requires relocation from OC to Redmond.",
   "closed": true,
   "fit": {
    "score": 63,
-   "level": "Good",
-   "why": "QA Manager at Nintendo of America — iconic games brand with confirmed people-management scope; under-leveled vs Director trajectory and Redmond WA requires relocation from OC.",
-   "blurb": "Contributing to Nintendo's legendary game quality — managing QA Testing processes and standards at one of the world's most iconic game companies — aligns with my 20 years of games QA leadership, and the Redmond office is familiar territory from my Amazon Games days in the Pacific Northwest. While the QA Manager title is below my current Director trajectory, Nintendo's culture and standards make this a compelling conversation, and I'd bring modern CI/CD automation and AI-driven testing practices to help Nintendo's QA team raise velocity."
+   "level": "Good"
   }
  },
  {
@@ -1640,13 +1535,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://boards.greenhouse.io/guerrilla/jobs/6126704002",
   "date_found": "2026-07-11",
   "date_posted": "",
-  "notes": "PlayStation Studios (Sony-owned, Horizon series). Leads internal QA team across all upcoming Guerrilla projects. Confirmed people-management scope ('manage and mentor their internal QA team'). Relocation support and 2 months free Amsterdam accommodation provided. Salary range €103,901–€174,235 per year. Amsterdam onsite.",
   "closed": true,
   "fit": {
    "score": 65,
-   "level": "Good",
-   "why": "Sony/PlayStation first-party games studio, confirmed people-management scope — right vertical; under-leveled vs Director trajectory and requires international relocation to Amsterdam.",
-   "blurb": "Leading QA across Guerrilla's next generation of projects maps directly to my experience building QA organizations from scratch at Fortis, Netflix, and Amazon Games — including multi-platform live-service titles at Director level. The relocation to Amsterdam from Orange County is the primary consideration; Guerrilla's investment in relocation support and the caliber of the Horizon franchise make it a serious conversation."
+   "level": "Good"
   }
  },
  {
@@ -1661,13 +1553,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.builtinnyc.com/job/senior-qa-manager-games/293587",
   "date_found": "2026-07-11",
   "date_posted": "",
-  "notes": "Reports to Head of Engineering for NYT Games Mission. Leads QA team across all NYT Games squads (Wordle, Crossword, Spelling Bee, Connections, etc.). 7+ yrs QA exp, 2+ yrs managing QA engineers required. Mobile apps, web, backend APIs scope. $176K–$193K. Hybrid NYC 2 days/week.",
   "closed": true,
   "fit": {
    "score": 72,
-   "level": "Good",
-   "why": "Senior QA Manager at a premium consumer games brand — above seniority floor with solid comp; non-gaming domain (NYT media) and NYC hybrid are the main gaps.",
-   "blurb": "NYT Games has quietly become one of the most-played casual gaming platforms in the world, and leading QA across Wordle, Connections, and Spelling Bee requires the same live-service discipline I've applied to MMOs and battle-royale titles — daily releases, massive concurrent user spikes, and zero tolerance for regression. I bring 20+ years of QA leadership including mobile, web, and backend scopes, along with an active AI-driven automation program targeting 80% reduction in manual release-test time — directly applicable to NYT Games' high-velocity release cadence."
+   "level": "Good"
   }
  },
  {
@@ -1703,13 +1592,10 @@ const JOBS = /*__JOBS__*/[
   "url": "https://jobs.lever.co/aofl/e1ffd839-aaca-4c5a-b66f-1c50340fc7d6",
   "date_found": "2026-07-11",
   "date_posted": "",
-  "notes": "Director of QA for ABCMouse and Adventure Academy (children's educational gaming platform). Leads full QA ecosystem: manual, automated testing, observability, and release readiness across mobile apps, web, and backend. Glendale CA HQ is in LA/OC metro and commutable from Orange County. Director-level QA org ownership confirmed.",
   "closed": true,
   "fit": {
    "score": 61,
-   "level": "Stretch",
-   "why": "Director-level QA at a games-adjacent ed-tech platform with mobile/web scope — right seniority and LA/OC commutable location; consumer-app vertical is a domain shift from AAA games.",
-   "blurb": "Age of Learning's QA Director role sits at a fascinating intersection — it's a gaming platform requiring the release-quality rigor of mobile game launches and the observability discipline of live services, which maps directly to my background leading QA across mobile, PC, and web titles at Fortis, Netflix, and Amazon. Being headquartered in Glendale makes this uniquely commutable from Orange County, and my AI-driven automation program — targeting 80% reduction in manual release-test time — would translate immediately to ABCMouse and Adventure Academy's continuous delivery cadence."
+   "level": "Stretch"
   }
  },
  {
@@ -1788,12 +1674,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.indeed.com/viewjob?jk=159dec1a61cd7b33",
   "date_found": "2026-07-13",
   "date_posted": "",
-  "notes": "Fully remote studio led by Ken Levine (BioShock creator). Building QA org from scratch for Judas (AAA narrative FPS). Leads internal QA team and manages external QA vendor relationships. Test automation strategy responsibility confirmed. Shipped 2+ AAA titles in QA leadership required.",
   "fit": {
    "score": 65,
-   "level": "Good",
-   "why": "Remote games QA Manager building from scratch for Ken Levine's Judas — right vertical and greenfield org-building scope; QA Manager title is below Taylor's Director trajectory.",
-   "blurb": "Building QA from the ground up for a narrative AAA FPS by the creator of BioShock is the kind of greenfield challenge I've met repeatedly — at Fortis, Netflix, and Amazon Games — and I'd bring director-level rigor, test automation architecture, and my current AI-driven testing initiative to ensure Judas ships at the quality level players expect from Ken Levine. Ghost Story's fully remote studio culture aligns with my work style, and I'd apply the same playbook that's targeting an 80% reduction in manual release-test time at Fortis to Judas QA."
+   "level": "Good"
   },
   "closed": true
  },
@@ -1809,12 +1692,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://careers.playstation.com/sr-manager-production-localisation-qa/job/5836726004",
   "date_found": "2026-07-13",
   "date_posted": "2026-03-26",
-  "notes": "Reports to Senior Director of International Production & Localisation (IPL). Leads two teams: Production and Localisation QA. Partners with PlayStation Studios and external developers worldwide to deliver best-in-class localisation and LQA solutions. London UK hybrid.",
   "fit": {
    "score": 67,
-   "level": "Good",
-   "why": "Senior-Manager-level QA + LQA leadership at Sony/PlayStation — direct localization QA relevance and games pedigree; London onsite is the primary barrier from OC.",
-   "blurb": "Leading Sony's global Localisation QA and Production teams — driving LQA quality standards and partnering with PlayStation Studios worldwide — maps precisely to my current Director of QA & Localization role at Fortis, where I own both functional and localization QA across all titles. I'd bring 20+ years of games QA leadership, deep LQA process expertise from Netflix and Amazon Games, and my AI-driven test automation initiative to elevate PlayStation's international quality operations; London hybrid would require a meaningful lifestyle commitment from Orange County."
+   "level": "Good"
   },
   "closed": true
  },
@@ -1850,12 +1730,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://annapurnainteractive.com/en/jobs/publishing-team/qa-director",
   "date_found": "2026-07-13",
   "date_posted": "",
-  "notes": "Director of QA overseeing multiple external QA teams across Annapurna's publishing slate. Owns QA strategy/roadmap, test plans, external vendor coordination, and qualitative playtests. Requires 8+ yrs in games, 5 yrs QA, 3 yrs publishing, 3 yrs leadership. Apply via hiring@annapurnainteractive.com.",
   "fit": {
    "score": 82,
-   "level": "Strong",
-   "why": "Games publisher QA Director in LA — mirrors Taylor's Netflix Games publishing QA background, Director scope, and external-vendor management experience.",
-   "blurb": "Leading QA across Annapurna Interactive's critically acclaimed publishing slate mirrors exactly what I did at Netflix Games — managing external QA partners and owning quality across a diverse multi-title portfolio. My 20+ years spanning Blizzard, Amazon Games, and Netflix, plus Fortis' ongoing AI-driven QA transformation, make me a strong match for this Director mandate."
+   "level": "Strong"
   },
   "closed": true
  },
@@ -1871,12 +1748,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://www.respawn.com/careers/development-director-qa-manager-apex-legends",
   "date_found": "2026-07-13",
   "date_posted": "",
-  "notes": "Hybrid Development Director + QA Manager for live-service Apex Legends. Manages test effort across multiple global studios, reporting to QA Product Owner. Requires 5+ yrs PM, 3+ yrs AAA/SaaS. Baton Rouge, LA (relocation from OC required).",
   "fit": {
    "score": 78,
-   "level": "Strong",
-   "why": "Live-service AAA QA leadership for Apex Legends (EA/Respawn) with global multi-studio scope — Director-equivalent role; Baton Rouge relocation is the constraint.",
-   "blurb": "Owning quality and development process for a live-service franchise the scale of Apex Legends is a natural fit for my background running QA for live-service titles at Amazon Games (New World, Lost Ark) and Netflix Games. My experience managing cross-studio, cross-platform test efforts globally — and now leading Fortis' agentic AI QA transformation — is precisely the multi-studio live-service leadership this role demands."
+   "level": "Strong"
   },
   "closed": true
  },
@@ -1892,12 +1766,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://explore.jobs.netflix.net/careers/job/790311932645-qa-manager-games-experience-engineering-usa-remote",
   "date_found": "2026-07-13",
   "date_posted": "",
-  "notes": "QA Manager for Netflix's Games Experience Engineering (platform) team — different from the Netflix Senior QA Project Manager (Games Operations) already tracked. Leads QA for Netflix games platform infrastructure; works with automation teams to augment frameworks. Remote.",
   "fit": {
    "score": 70,
-   "level": "Good",
-   "why": "Netflix Games remote QA Manager — under-leveled vs Taylor's current Director scope, but prior employer, strong automation/platform angle, and excellent total comp range.",
-   "blurb": "I know Netflix Games deeply from my time as Head of Publishing QA, giving me immediate context on the platform team's quality challenges and a network of existing cross-functional relationships. While this Manager role is a step below my current Director mandate, Netflix's total comp ceiling and the automation-engineering focus — especially the AI-assisted testing dimensions — make it a genuinely compelling return."
+   "level": "Good"
   },
   "closed": true
  },
@@ -1913,12 +1784,9 @@ const JOBS = /*__JOBS__*/[
   "url": "https://builtin.com/job/qa-manager-games/8829694",
   "date_found": "2026-07-13",
   "date_posted": "2026-06-01",
-  "notes": "QA Manager at heritage games preservation studio (TMNT: Shredder's Revenge, Metal Slug Tactics). Owns QA strategy across multiple projects, manages external QA vendors. Posted June 1, 2026. Salary $90k-$110k is significantly under-leveled for Taylor's Director background.",
   "fit": {
    "score": 62,
-   "level": "Stretch",
-   "why": "Games QA Manager at a respected heritage studio — under-leveled title and comp ($90k-$110k) for a 20-year Director-level QA leader.",
-   "blurb": "Digital Eclipse's mission to preserve gaming heritage and its multi-project QA ownership model resonate with my passion for craft, and I've led multi-title QA strategy at Amazon Games and Netflix. That said, the QA Manager title and $90k-$110k compensation represent a meaningful step back from my current Director mandate, so understanding growth path and total comp would be the first conversation."
+   "level": "Stretch"
   },
   "closed": true
  },

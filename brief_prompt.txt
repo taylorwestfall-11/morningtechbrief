@@ -25,7 +25,16 @@ Generate a complete updated HTML file using the same CSS and layout as the templ
 - All story content with today's news
 - Keep all sections: Top Picks (4 cards), AI & ML, Hardware, Home Automation, Creative & Motion, Quick Hits, Feedback footer
 - Keep all vote/feedback JavaScript intact
-- IMPORTANT: Keep the navigation bar intact — the `<nav>` block immediately after `<body>` that links "📰 AI News" and "💼 Jobs". Reproduce it exactly at the very top of the page; never remove or alter it.
+- IMPORTANT: Keep the navigation bar intact — the `<nav>` block immediately after `<body>` that links "📰 AI News" and "💼 Jobs". Reproduce it exactly at the very top of the page; never remove or alter it. It must stay visually identical to the nav on jobs-7m3k9q.html (same padding, font sizes and the "☕ Taylor's Daily" brand), so switching tabs doesn't reflow the top of the screen.
+- IMPORTANT: Keep the whole `<head>` block intact, especially these lines — reproduce them exactly:
+    <link rel="manifest" href="/morningtechbrief/manifest.json">
+    <meta name="theme-color" content="#12151c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Daily">
+    <link rel="apple-touch-icon" href="/morningtechbrief/icon-192.png">
+  These make the two pages one installed web app. Drop them and tapping "💼 Jobs" kicks iOS out
+  into an in-app browser with a URL bar, and the tab switch stops feeling native. Never remove them.
 
 Formatting rule for article previews: every story preview/excerpt (the `<p>` inside `.pick-card` for Top Picks and `.story-body` for section cards) must be at most 50 words. Trim to the first ~50 words of the article's lede; end on a complete sentence where possible. Do not exceed this limit.
 

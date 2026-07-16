@@ -28,6 +28,19 @@ START, END = "/*__JOBS__*/", "/*__JOBS_END__*/"
 # keeps internal bookkeeping out of a public repo.
 STRIP = {"closed_on", "closed_reason", "check_fails", "last_checked", "unverified_since"}
 
+# Closed roles are archive-only: you see them when hunting for something to
+# re-mark, and that card shows a title, company, badges and the fit ring. It does
+# NOT show the fit rationale or a cover-letter blurb for a job that no longer
+# exists. Those two strings are 33 KB of the 106 KB array -- pure weight on every
+# load, on a phone, for text nobody reads.
+def slim(job):
+    j = {k: v for k, v in job.items() if k not in STRIP}
+    if j.get("closed") and isinstance(j.get("fit"), dict):
+        j["fit"] = {k: v for k, v in j["fit"].items() if k in ("score", "level")}
+    if j.get("closed"):
+        j.pop("notes", None)
+    return j
+
 
 def read(path):
     with open(path, encoding="utf-8") as f:
@@ -58,7 +71,7 @@ def main():
     for k, v in subs.items():
         html = html.replace(k, v)
 
-    jobs = [{k: v for k, v in j.items() if k not in STRIP} for j in data["jobs"]]
+    jobs = [slim(j) for j in data["jobs"]]
     head, _, rest = html.partition(START)
     _, _, tail = rest.partition(END)
     html = head + START + json.dumps(jobs, ensure_ascii=False, indent=1) + END + tail

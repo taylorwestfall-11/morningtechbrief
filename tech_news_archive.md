@@ -538,3 +538,10 @@
 - **SpaceXAI launches Grok 4.5** — first model jointly trained with Cursor post-$60B acquisition; 500K-token context window, priced at $2/M input tokens, targets coding and agentic tasks at ~half the cost of comparable frontier models.
 - **Adobe Creative Agent expands across all Creative Cloud apps** — Photoshop, Premiere, Illustrator, After Effects; describe a goal in natural language, agent orchestrates multi-step workflows; After Effects adds Variable font animation and parametric 3D shapes.
 - **Rapidus targets 2nm wafer pricing 30% below TSMC** — $18K–$21.5K vs TSMC's ~$30K, ahead of a 2027 production launch; in talks with 60+ companies globally as a credible alternative to TSMC at the cutting edge.
+
+## [2026-07-17]
+- **Gemini 3.5 Pro launches today** — Google scrapped the original base model and rebuilt from scratch; targets 2M-token context window, Deep Think Reasoning Layer, Fable audio integration, and cleaner SVG generation.
+- **Anthropic + Samsung custom 2nm chip** — Anthropic in early talks to manufacture its first custom AI inference chip on Samsung's 2nm node; joins OpenAI (Jalapeño) in the custom silicon race pre-IPO.
+- **Hugging Face security incident** — AI-driven intrusion detected and contained; limited internal datasets and credentials accessed, no public models or user data compromised, supply chain verified clean.
+- **Homey Pro 2026 adds Claude & ChatGPT as native AI agents** — local-first hub spanning 7 wireless protocols now lets Claude and ChatGPT control devices, trigger automations, and set moods via natural language.
+- **Nvidia RTX 50 Super series confirmed** — RTX 5080 Super at 415W TDP and RTX 5060 Super with 12GB GDDR7 spotted in Seasonic PSU calculator; full lineup targets late 2026.

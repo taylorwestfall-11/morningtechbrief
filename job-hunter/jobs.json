@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-16",
-    "scan_count": 20,
+    "last_scan": "2026-07-17",
+    "scan_count": 21,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2062,6 +2062,27 @@
       },
       "last_checked": "2026-07-16",
       "check_fails": 0
+    },
+    {
+      "id": "epic-qa-manager-fortnite-mobile",
+      "title": "QA Manager, Fortnite Mobile",
+      "company": "Epic Games",
+      "category": "games",
+      "location": "Cary, NC (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Epic Games Careers (R25963)",
+      "url": "https://www.epicgames.com/site/en-US/careers/jobs/5348925004",
+      "date_found": "2026-07-17",
+      "date_posted": "",
+      "notes": "Leads Mobile QA team for Fortnite 1st Party content — game performance optimizations, device compatibility, and device optimizations on mobile. People management confirmed ('lead, manage and mentor a team of QA professionals'). Requires 7+ yrs QA exp, multi-platform (mobile/console/PC). Distinct from epic-senior-qa-manager-fortnite (Fortnite in-development, Senior-level) and epic-qa-manager-online (Online services).",
+      "closed": false,
+      "fit": {
+        "score": 68,
+        "level": "Good",
+        "why": "Games QA Manager at Epic for Fortnite Mobile — confirmed people-management scope at a major publisher, but QA Manager is well below Director trajectory and Cary NC hybrid limits remote flexibility.",
+        "blurb": "Managing QA for Fortnite's mobile product — covering performance optimization, device compatibility, and platform quality — draws on my multi-platform QA background at Fortis, Amazon Games, and Blizzard, where I've owned mobile, console, and PC test strategies at scale. I'd bring director-level rigor and the AI-driven automation initiative I now lead at Fortis — targeting an 80% reduction in manual release-test time via agentic tooling — to help Epic's Fortnite Mobile team ship higher-quality experiences faster."
+      }
     }
   ]
 }

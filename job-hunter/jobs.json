@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-17",
-    "scan_count": 21,
+    "last_scan": "2026-07-18",
+    "scan_count": 22,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2087,6 +2087,48 @@
       "check_fails": 2,
       "unverified": "403",
       "unverified_since": "2026-07-17"
+    },
+    {
+      "id": "netflix-director-qa-game-studio",
+      "title": "Director of QA, Game Studio",
+      "company": "Netflix",
+      "category": "games",
+      "location": "Los Angeles, CA",
+      "remote": "onsite",
+      "salary": "$240,000–$1,000,000 total comp (Netflix band)",
+      "source": "startup.jobs / Netflix Careers",
+      "url": "https://startup.jobs/director-of-qa-game-studio-netflix-4434977",
+      "date_found": "2026-07-18",
+      "date_posted": "",
+      "notes": "Director of QA for Netflix Games Studio — leads QA across Internal Studios and External Games portfolio. Sets standards for feature development, automation, live operations testing, device compatibility and compliance. Leads DevQA teams, Functional QA, Device Compatibility and Compliance analysts. Hires and nurtures QA managers and analysts. Builds external testing partnerships. Requires 15+ yrs QA management in games industry across multiple platforms. Taylor's former employer — he built Netflix Games Publishing QA from scratch as Head of Publishing QA.",
+      "closed": false,
+      "fit": {
+        "score": 91,
+        "level": "Excellent",
+        "why": "Director-level games QA at Taylor's former employer, spanning internal studios + external portfolio — nearly identical scope to his Netflix tenure, now amplified by AI-QA leadership.",
+        "blurb": "I built Netflix Games' Publishing QA practice from the ground up as Head of Publishing QA, establishing the standards, vendor partnerships, and cross-platform test strategies this Director role is designed to advance — and I'm now leading Fortis Games' AI transformation of QA, using agentic LLM tooling to cut manual release-test time by 80%. Returning to Netflix to scale those disciplines across the full internal and external studio portfolio would be a natural and high-impact next chapter."
+      }
+    },
+    {
+      "id": "netflix-senior-qa-manager-external-games",
+      "title": "Senior QA Manager (External Games) – Games Operations",
+      "company": "Netflix",
+      "category": "games",
+      "location": "Los Angeles, CA",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Netflix Careers",
+      "url": "https://jobs.netflix.com/jobs/302729673",
+      "date_found": "2026-07-18",
+      "date_posted": "",
+      "notes": "Senior QA Manager for Netflix Games Operations, External Games team. Ensures externally developed titles published on Netflix meet quality standards. Confirmed people management: hiring and leading senior and lead-level QA professionals. Leads vendor partnerships for external game test efforts. Establishes KPIs, drives strategy for all test activities (estimation, planning, execution, reporting, closure). Requires proven track record building effective QA teams, implementing best practices, using data to improve strategy across diverse game titles. Taylor's former employer — he served as Head of Publishing QA at Netflix, directly owning external games QA.",
+      "closed": false,
+      "fit": {
+        "score": 85,
+        "level": "Strong",
+        "why": "Senior QA Manager at Taylor's former employer for the exact external-games team he helped build — slightly below Director level but a strong match given tenure and domain.",
+        "blurb": "As Head of Publishing QA at Netflix, I owned the external games QA strategy, vendor partnerships, and cross-platform quality bar that this Senior QA Manager role is built around — and I've since deepened that expertise at Fortis Games by leading an AI-driven QA transformation targeting an 80% reduction in manual release-test time. I'd bring that combination of established Netflix muscle memory and cutting-edge agentic-AI test automation to help Games Operations raise the quality ceiling for every externally published title."
+      }
     }
   ]
 }

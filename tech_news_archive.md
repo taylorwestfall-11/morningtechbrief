@@ -545,3 +545,10 @@
 - **Hugging Face security incident** — AI-driven intrusion detected and contained; limited internal datasets and credentials accessed, no public models or user data compromised, supply chain verified clean.
 - **Homey Pro 2026 adds Claude & ChatGPT as native AI agents** — local-first hub spanning 7 wireless protocols now lets Claude and ChatGPT control devices, trigger automations, and set moods via natural language.
 - **Nvidia RTX 50 Super series confirmed** — RTX 5080 Super at 415W TDP and RTX 5060 Super with 12GB GDDR7 spotted in Seasonic PSU calculator; full lineup targets late 2026.
+
+## [2026-07-18]
+- **OpenAI GPT-Live-1 rolls out globally today** — full-duplex voice model that listens and speaks simultaneously; adds backchannel cues (mhmm, yeah) during pauses; GPT-Live-1 for paid users, GPT-Live-1 mini for free tier; live on iOS, Android, and ChatGPT.com now.
+- **AMD FSR 4.1 officially lands on RX 7000 GPUs ahead of schedule** — same INT8 model as RDNA 4, natively available in 300+ games via Adrenalin driver update; Crimson Desert at 4K jumps from 43 to 64 FPS with no new hardware; RX 6000 series waits until early 2027.
+- **Apple sends legal letters to 40+ OpenAI employees** — trade secrets lawsuit escalates with preservation letters to former Apple staff now at OpenAI; Apple suspects misconduct broader than three originally named; 400+ former Apple employees now work at OpenAI; trending #1 on Hacker News.
+- **Salesforce Slackbot goes GA** — Claude-powered agent connects to full Salesforce platform from chat; retrieve CRM records, generate Tableau charts, launch DocuSign approvals without leaving a channel; five years and $27.7B after the Slack acquisition.
+- **Tom's Hardware overhauls 2026 GPU hierarchy methodology** — strips upscaling and frame generation from all benchmarks; rankings now rely on raw human-driven rasterization only; first major methodology change in years to cut through AI-assisted performance numbers.

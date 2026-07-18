@@ -1,0 +1,99 @@
+Director of QA, Game Studio
+Netflix
+Los Angeles, CA
+Compensation: $240,000–$1,000,000 total comp (Netflix band)
+https://startup.jobs/director-of-qa-game-studio-netflix-4434977
+
+------------------------------------------------------------
+
+Roles
+
+Other
+
+Quality Assurance (QA)
+
+Netflix
+Director of QA, Game Studio
+
+Los Angeles , California , U.S.
+
+Full-Time
+
+On-site
+
+Netflix is looking for an experienced Director of QA to join us in delivering the next generation of video games for a worldwide audience. This role is a part of the Operations leadership team who will drive the development and delivery of new games on the Netflix service. In this role, you will lead the QA efforts across a large portfolio of games from Internal Studios and External Games, setting standards of quality in feature development, automation, live operations testing and device compatibility & compliance. You will work closely with the Game Development teams, Product, Platform Engineering, Program Management, Release Management and more across the Netflix organization to deliver high quality games to our service.
+
+The role will lead the DevQA teams within the game teams, Functional QA, Device Compatibility and Compliance analysts as well as build partnerships with external testing companies.
+
+Responsibilities:
+
+• Build and execute the broader QA strategy to best serve the growing needs for games on the Netflix service
+
+• Continuously evolve infrastructure and process to support Studios in multiple locations, serving all aspects of game testing needs - game team embedded QA (DevQA), Functional QA (FQA), Device Compatibility and Compliance QA (CCQA) for every release; Tools and automation development
+
+• Source and build a scalable, productive partnership with outsourced testing services to enable on-demand support
+
+• Partner with the Development Leadership to establish a best-in-class testing process that is adaptable to the unique needs of each game throughout its development and operations lifecycle to best inform game readiness
+
+• Hire and nurture a strong team of QA managers and QA analysts who partners with the Development teams
+
+• Collaborate with the Engineering teams across the Netflix organization to establish optimal structure and process for testing across games and platform
+
+Requirements:
+
+• 15+ years experience in QA management in the games industry across multiple platforms (PC/Console/Mobile), genres and live service games
+
+• Experience managing and growing a broad QA team of people managers and seasoned IC’s across multiple functions, projects and locations
+
+• Proven experience driving big picture strategy and plan execution to support a scaling business
+
+• Experience working on a diverse portfolio of products at all stages of development and live service, identifying risks and issues, mitigating and resolving them
+
+• Demonstrated experience working with external testing services, managing the end to end process of RFP reviews, contract negotiations and building the structure to support varied and scaling needs
+
+• Ability to build strong partnerships across the organization, from Development, Platform to Publishing
+
+• Ability to improve product development pipelines and workflows through strategic integration of QA resources
+
+• Technical expertise to tackle issues in partnership with Development teams, articulating the issue to diverse stakeholders for expedient resolution
+
+Location: SF Bay Area or Los Angeles
+
+At Netflix, we carefully consider a wide range of compensation factors to determine your personal top of market. We rely on market indicators to determine compensation and consider your specific job family, background, skills, and experience to get it right. These considerations can cause your compensation to vary and will also be dependent on your location.
+
+The overall market range for roles in this area of Netflix is typically $240,000 - $1,000,000.
+
+This market range is based on total compensation (vs. only base salary), which is in line with our compensation philosophy. Netflix is a unique culture and environment. Learn more here .
+
+Netflix
+
+Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more. Start your free trial today.
+
+Read more
+
+Founded
+Founded 1997
+
+Employees
+500+ employees
+
+Industry
+Media
+
+View company profile
+
+Quality Assurance (QA)
+
+•
+
+Interview questions
+
+•
+
+Salary data
+
+•
+
+Browse all jobs
+
+Report this job

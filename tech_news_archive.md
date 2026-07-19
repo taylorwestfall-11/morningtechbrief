@@ -552,3 +552,10 @@
 - **Apple sends legal letters to 40+ OpenAI employees** — trade secrets lawsuit escalates with preservation letters to former Apple staff now at OpenAI; Apple suspects misconduct broader than three originally named; 400+ former Apple employees now work at OpenAI; trending #1 on Hacker News.
 - **Salesforce Slackbot goes GA** — Claude-powered agent connects to full Salesforce platform from chat; retrieve CRM records, generate Tableau charts, launch DocuSign approvals without leaving a channel; five years and $27.7B after the Slack acquisition.
 - **Tom's Hardware overhauls 2026 GPU hierarchy methodology** — strips upscaling and frame generation from all benchmarks; rankings now rely on raw human-driven rasterization only; first major methodology change in years to cut through AI-assisted performance numbers.
+
+## [2026-07-19]
+- **Fable 5 free access ends tonight** — Anthropic's third extension expires at 11:59 PM PT; usage credits at $10/$50 per million tokens (Batch API $5/$25) start July 20; Sonnet 5 at $2/$10 remains on paid plans with no timeline for subscription return.
+- **NVIDIA RTX 50 Super stalled at board partners** — 3GB GDDR7 modules at $60–70 each (3× prior-gen cost) have frozen the launch despite cards sitting at warehouses; RTX 60-series simultaneously pushed to 2028 as AI infrastructure absorbs GDDR7 supply.
+- **Samsung Galaxy Unpacked July 22 in London** — Z Fold 8 Ultra (8-inch, 45W, 5,000mAh), Z Fold 8 Wide "passport" format, Z Flip 8, Galaxy Watch 9 and Watch Ultra 2; Galaxy Glasses with Android XR and Gemini make full commercial debut.
+- **Figma Motion now in open beta** — native AI timeline animation inside Figma on all plans; describe motion goal, agent builds keyframes with spring physics and Bezier curves; exports MP4, GIF, WebM, Animated SVG.
+- **Hugging Face security incident resolved** — AI-driven intrusion exploited a dataset-loader vulnerability to access limited internal datasets and credentials; no public models, user data, or Spaces compromised; supply chain verified clean.

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-18",
-    "scan_count": 22,
+    "last_scan": "2026-07-19",
+    "scan_count": 23,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2137,6 +2137,27 @@
       "last_checked": "2026-07-18",
       "closed_on": "2026-07-18",
       "closed_reason": "Dead link: 404"
+    },
+    {
+      "id": "giants-software-qa-manager",
+      "title": "QA Manager",
+      "company": "GIANTS Software",
+      "category": "games",
+      "location": "Brno, Czech Republic (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "GameJobs Direct",
+      "url": "https://www.gamesjobsdirect.com/job/giants-software-entertainment-gmbh/qa-manager/252162",
+      "date_found": "2026-07-19",
+      "date_posted": "",
+      "notes": "Leads new QA team in Brno for GIANTS Software (Farming Simulator series — one of Europe's most successful game franchises). Responsibilities: hiring, managing, coaching, mentoring QA team members; test planning; status updates; organizing daily tasks. Requires 3+ yrs QA in video game publishing/vendor; console certification (Sony/MS) experience. Onsite Brno, Czech Republic — international relocation required.",
+      "fit": {
+        "score": 62,
+        "level": "Stretch",
+        "why": "QA Manager building a new team at a successful European games studio — confirmed management scope and games category; under-leveled vs. Director trajectory and requires international relocation to Czech Republic.",
+        "blurb": "Building and leading a new QA team from the ground up — hiring, mentoring, and driving quality across the globally beloved Farming Simulator franchise — maps directly to the greenfield org-building I've done at Fortis, Netflix, and Amazon Games, and I've managed console certification workflows for Sony and Microsoft at every studio I've led. GIANTS Software's Brno expansion is a compelling European games quality challenge; the primary consideration is relocating from Orange County to Czech Republic for an onsite role."
+      },
+      "closed": false
     }
   ]
 }

@@ -559,3 +559,10 @@
 - **Samsung Galaxy Unpacked July 22 in London** — Z Fold 8 Ultra (8-inch, 45W, 5,000mAh), Z Fold 8 Wide "passport" format, Z Flip 8, Galaxy Watch 9 and Watch Ultra 2; Galaxy Glasses with Android XR and Gemini make full commercial debut.
 - **Figma Motion now in open beta** — native AI timeline animation inside Figma on all plans; describe motion goal, agent builds keyframes with spring physics and Bezier curves; exports MP4, GIF, WebM, Animated SVG.
 - **Hugging Face security incident resolved** — AI-driven intrusion exploited a dataset-loader vulnerability to access limited internal datasets and credentials; no public models, user data, or Spaces compromised; supply chain verified clean.
+
+## [2026-07-20]
+- **Fable 5 credit billing live today** — Pro and Team Standard move to $10/$50 per million tokens (Batch API $5/$25); Max and Team Premium keep Fable 5 at up to 50% of weekly plan limits; Sonnet 5 at $2/$10 remains on all paid plans.
+- **Kimi K3 drops: world's largest open-weight AI (2.8T params)** — Moonshot AI's MoE model with reasoning always on and 1M-token context tops the Frontend Code Arena benchmark above Fable 5; API at $3/$15/Mtok; full open-source weights arrive July 27.
+- **EU forces Google to open Android to rival AI assistants** — Digital Markets Act ruling opens 11 system-level Android features (wake words, cross-app tasks) to Claude, ChatGPT, and others by Android 18 (August 2027); Google Search data sharing starts January 2027.
+- **WAIC Shanghai closes; WAICO launched** — Xi Jinping's first-ever World AI Conference keynote ends a 4-day event; China launches WAICO, a 29-nation World Artificial Intelligence Cooperation Organization headquartered in Shanghai.
+- **Microsoft Patch Tuesday record: 622 vulnerabilities** — single monthly update patches 622 flaws including two actively exploited zero-days; largest Patch Tuesday in Microsoft history; update Windows systems immediately.

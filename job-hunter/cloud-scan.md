@@ -72,6 +72,13 @@ normal; **NEVER invent roles to pad the list.**
    aggregators usually show a posted or "N days ago" date — convert using today's UTC date.
    A day-only-missing value like "2026-05" is acceptable; the tooling handles it.
 
+   **FRESHNESS — don't add stale postings.** If the posting states a date and it is
+   more than ~60 days old, skip it: it's almost certainly filled or refreshed, and it
+   just clutters the board. (This is a courtesy filter only — the deterministic sweep in
+   `deadlink_check.py` re-reads every live posting's real date and hides anything past
+   60 days regardless, so a stale role that slips through here gets caught there. Don't
+   rely on this rule to be perfect; it's the belt, the sweep is the suspenders.)
+
 3a. BACKFILL: also scan `jobs.json` for existing entries whose `date_posted` is "" and, when their
    posting is reachable this run, fill it in using the same rules (leave "" if not found).
 

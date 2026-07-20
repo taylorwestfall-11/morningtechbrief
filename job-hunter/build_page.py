@@ -30,7 +30,8 @@ START, END = "/*__JOBS__*/", "/*__JOBS_END__*/"
 
 # Fields the page never reads. Dropping them keeps the published file smaller and
 # keeps internal bookkeeping out of a public repo.
-STRIP = {"closed_on", "closed_reason", "check_fails", "last_checked", "unverified_since"}
+STRIP = {"closed_on", "closed_reason", "check_fails", "last_checked",
+         "unverified_since", "date_src"}
 
 # Closed roles are archive-only: you see them when hunting for something to
 # re-mark, and that card shows a title, company, badges and the fit ring. It does

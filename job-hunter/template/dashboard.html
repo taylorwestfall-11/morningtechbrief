@@ -139,6 +139,8 @@
   .badge.games{color:var(--games);border-color:color-mix(in srgb,var(--games) 45%,transparent)}
   .badge.tech{color:var(--tech);border-color:color-mix(in srgb,var(--tech) 45%,transparent)}
   .badge.stale{color:var(--tech);border-color:var(--tech)}
+  .badge.old{color:var(--danger);border-color:color-mix(in srgb,var(--danger) 55%,transparent)}
+  .badge.undated{color:var(--muted);border-style:dashed}
   .badge.stage{color:#0c1018;background:var(--accent);border-color:var(--accent);font-weight:700}
   .badge.unv{color:var(--tech);border-color:color-mix(in srgb,var(--tech) 55%,transparent)}
   .badge.dead{color:var(--danger);border-color:color-mix(in srgb,var(--danger) 55%,transparent)}
@@ -362,7 +364,12 @@ const STAGES = [
 ];
 const STAGE = Object.fromEntries(STAGES.map(s=>[s.key,s]));
 const BOARD_COLS = STAGES.filter(s=>s.group!=="dismissed");
-const STALE_DAYS = 30, EXPIRE_DAYS = 90;
+/* STALE_DAYS: how long a role can sit un-actioned before we nudge (found-age).
+   POST_AGING / POST_HIDE: real posting age. Past AGING we badge it "~Xmo old";
+   past HIDE we treat it like a dead link -- off the board, archive-only, and
+   never hidden once you've engaged it. See the sweep for how date_posted is
+   verified against the live page. */
+const STALE_DAYS = 30, POST_AGING = 30, POST_HIDE = 60;
 
 const SKEY = "jobhunter_state_v3";
 const TKEY = "jobhunter_gh_token";
@@ -406,6 +413,12 @@ function rec(id){ return state.jobs[id] || {status:"new",date:"",notes:"",update
 function statusOf(id){ const s = rec(id).status; return STAGE[s] ? s : "new"; }
 function groupOf(id){ return STAGE[statusOf(id)].group; }
 
+/* Posting age from the verified date_posted. tooOld == past the hide cutoff, so
+   it drops off the board the same way a dead link does. Undated roles have no
+   age (null) and are treated as fresh -- we keep showing them, badged. */
+function postedAge(j){ return daysBetween(j.date_posted); }
+function tooOld(j){ const a = postedAge(j); return a!==null && a>POST_HIDE; }
+
 /* THE INVARIANT (see the two roles that vanished): a job that has EVER left
    "new" is never auto-hidden -- not when its posting dies, not when sync fails,
    not when this phone wipes its storage. Only an explicit dismissal hides it. */
@@ -419,7 +432,8 @@ function everEngaged(id){
    the escape hatch back to anything hidden. */
 function isHidden(j){
   if(filters.archive) return false;
-  return statusOf(j.id)==="not-interested" || (j.closed && !everEngaged(j.id));
+  return statusOf(j.id)==="not-interested"
+    || ((j.closed || tooOld(j)) && !everEngaged(j.id));
 }
 
 /* Remembers the record a stage change overwrote, so one tap puts it back. Only
@@ -671,8 +685,20 @@ function badgesFor(j, opts){
      : j.remote==="hybrid" ? `<span class="badge hybrid">Hybrid</span>`
      : `<span class="badge">On-site</span>`;
   if(!small && j.source) b += `<span class="badge">via ${esc(j.source)}</span>`;
-  if(j.date_posted || j.date_found)
-    b += `<span class="badge">📅 ${j.date_posted ? esc(j.date_posted) : "seen "+esc(j.date_found)}</span>`;
+  // Posting date drives freshness. A verified date shows plainly, plus an age
+  // warning while it's still "new". No date -> say so, so an old-looking role
+  // isn't mistaken for a fresh one just because we couldn't read its date.
+  if(j.date_posted){
+    b += `<span class="badge">📅 ${esc(j.date_posted)}</span>`;
+    const a = postedAge(j);
+    if(st==="new" && a!==null){
+      if(a>POST_HIDE) b += `<span class="badge old">🕰 ~${Math.round(a/30)}mo old</span>`;
+      else if(a>POST_AGING) b += `<span class="badge stale">⚠️ ~${Math.round(a/30)}mo old</span>`;
+    }
+  } else {
+    b += `<span class="badge undated" title="No posting date found — freshness unverified">`
+       + `📅 ${j.date_found ? "seen "+esc(j.date_found)+" · " : ""}date unknown</span>`;
+  }
   return b;
 }
 function stageSel(id){
@@ -702,7 +728,8 @@ function render(){
   // The archive button carries its own count, so you can see at a glance whether
   // there's anything put away to go back for.
   const stowed = JOBS.filter(j =>
-    statusOf(j.id)==="not-interested" || (j.closed && !everEngaged(j.id))).length;
+    statusOf(j.id)==="not-interested"
+    || ((j.closed || tooOld(j)) && !everEngaged(j.id))).length;
   const ab = document.getElementById("arcBtn"), ac = document.getElementById("arcCnt");
   ab.classList.toggle("on", filters.archive);
   ac.hidden = stowed===0; ac.textContent = stowed;
@@ -721,8 +748,8 @@ function render(){
   if(filters.archive && !abar){
     abar = document.createElement("div");
     abar.id = "archiveBar"; abar.className = "banner warn";
-    abar.innerHTML = `<div>🗄 <b>Archive shown.</b> Dead and dismissed postings are visible so you
-      can find and re-mark one. Set a stage on anything you want back on the board.</div>
+    abar.innerHTML = `<div>🗄 <b>Archive shown.</b> Dead, dismissed, and old (${POST_HIDE}d+) postings are
+      visible so you can find and re-mark one. Set a stage on anything you want back on the board.</div>
       <button aria-label="Exit archive">×</button>`;
     abar.querySelector("button").onclick = ()=>{ filters.archive=false; paintOpts(); render(); };
     document.getElementById("banners").appendChild(abar);
@@ -770,8 +797,7 @@ function renderList(n, c){
     const r = rec(j.id), st = r.status;
     const foundAge = daysBetween(j.date_found);
     const isStale = st==="new" && foundAge!==null && foundAge>STALE_DAYS;
-    const postedAge = daysBetween(j.date_posted);
-    const expired = st==="new" && postedAge!==null && postedAge>EXPIRE_DAYS;
+    const expired = st==="new" && tooOld(j);   // only visible in the archive
     const fit = j.fit;
     return `<div class="card ${expired?"expired":""} ${st==="offer"?"offer":""} ${isStale?"stale":""}">
       <div class="card-top">
@@ -785,7 +811,6 @@ function renderList(n, c){
       </div>
       <div class="badges">${badgesFor(j)}
         ${isStale?`<span class="badge stale">⏳ ${foundAge}d old</span>`:""}
-        ${expired?`<span class="badge stale">⚠️ ~${Math.round(postedAge/30)}mo old</span>`:""}
       </div>
       ${fit?`<div class="why"><b>Fit:</b> ${esc(fit.why)}</div>`:""}
       ${j.notes?`<div class="notes-line">${esc(j.notes)}</div>`:""}
@@ -815,8 +840,7 @@ function renderBoard(){
     BOARD_COLS.map(c=>{
       const cards = by[c.key].map(j=>{
         const r = rec(j.id);
-        const postedAge = daysBetween(j.date_posted);
-        const expired = statusOf(j.id)==="new" && postedAge!==null && postedAge>EXPIRE_DAYS;
+        const expired = statusOf(j.id)==="new" && tooOld(j);
         const fit = j.fit;
         return `<div class="bcard ${expired?"expired":""} ${statusOf(j.id)==="offer"?"offer":""}"
                 data-id="${j.id}" draggable="true">

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-19",
-    "scan_count": 23,
+    "last_scan": "2026-07-20",
+    "scan_count": 24,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2161,6 +2161,90 @@
       "last_checked": "2026-07-19",
       "closed_on": "2026-07-19",
       "closed_reason": "Dead link: soft-404: this job has expired"
+    },
+    {
+      "id": "riot-sr-manager-qa-rd-product",
+      "title": "Sr. Manager, QA - Unpublished R&D Product",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "San Francisco Bay Area, CA (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Riot Games Careers",
+      "url": "https://www.riotgames.com/en/work-with-us/job/3109649/sr-manager-qa-unpublished-r-d-product-sf-bay-area-usa",
+      "date_found": "2026-07-20",
+      "date_posted": "",
+      "notes": "Sr. Manager owning QA for a large unannounced R&D project at Riot's SF Bay Area office. Confirmed people management: identifies, recruits, hires QA professionals; holds teams accountable for quality and player impact; leads cross-platform test strategy (mobile/console/PC). Works with scrum masters, producers, and craft leaders to build quality activities across the full SDLC. Distinct from riot-director-qa-rnd (Director level, LA, closed). Bay Area Sr Manager roles at Riot typically run well above $200K + incentive + equity.",
+      "closed": false,
+      "fit": {
+        "score": 83,
+        "level": "Strong",
+        "why": "Sr. Manager owning QA for a large R&D team at Riot — strong seniority and scope match with exceptional potential comp; SF Bay Area hybrid means commute or temporary relocation from OC.",
+        "blurb": "As a Senior Manager owning QA for a large unannounced R&D team at Riot, I'd bring 20+ years of games QA leadership across live-service titles at Fortis, Amazon Games, and Blizzard — including the cross-platform strategy, SDLC integration, and craft-leadership alignment this role demands. I now lead Fortis' AI transformation targeting an 80% reduction in manual release-test time via agentic tooling, and that automation-first quality depth is exactly what an ambitious new product team needs as it scales toward launch."
+      }
+    },
+    {
+      "id": "epic-director-qa-operations",
+      "title": "Director of QA, Operations",
+      "company": "Epic Games",
+      "category": "games",
+      "location": "Cary, NC (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Epic Games Careers / Greenhouse",
+      "url": "https://boards.greenhouse.io/epicgames/jobs/4572711004",
+      "date_found": "2026-07-20",
+      "date_posted": "",
+      "notes": "Director-level QA discipline role at Epic — leads a small team solving systemic QA problems across Unreal Engine, games, metaverse, and online services. Focus: global QA skills development, quality metrics evolution, training material creation, and quality strategy refinement. Not product-specific QA ownership. 8+ years QA, ISTQB or equivalent required (Taylor holds CTAL-TM). Distinct from epic-senior-qa-manager-operations (Distribution QA, job 5158920004). Cary, NC hybrid; cross-country relocation from OC required.",
+      "closed": false,
+      "fit": {
+        "score": 67,
+        "level": "Good",
+        "why": "Director level at Epic with games-industry scope and ISTQB requirement Taylor meets — but discipline/training focus rather than product QA leadership, and Cary NC requires cross-country relocation from OC.",
+        "blurb": "Leading Epic's cross-product QA discipline — building training programs, establishing quality KPIs, and driving long-term solutions across Unreal Engine, games, and online services — is the kind of organizational quality leadership I've built at every studio I've joined, and I'd bring my ISTQB CTAL-TM certification directly to Epic's formal-certification requirement. At Fortis I've owned QA systems and standards work alongside product leadership, and my current AI-driven automation initiative adds a modern tooling lens to training and quality framework design."
+      }
+    },
+    {
+      "id": "unitedhealth-sr-director-quality-engineering",
+      "title": "Sr. Director, Quality Engineering",
+      "company": "UnitedHealth Group",
+      "category": "tech",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "$159,300–$273,200",
+      "source": "UnitedHealth Group Careers",
+      "url": "https://careers.unitedhealthgroup.com/job/minnetonka/sr-director-qlty-engineering-remote/34088/96526558992",
+      "date_found": "2026-07-20",
+      "date_posted": "2026-06-16",
+      "notes": "Sr Director Quality Engineering at UnitedHealth Group. Leads multi-team QE organization across UHG's technology platforms. 12+ years technology operations / SRE / platform / quality engineering; 5+ years senior leadership of multi-team orgs. Fully remote for US candidates outside Minneapolis/DC areas (Taylor in OC = fully remote). 25% travel. $159,300–$273,200 base + incentive + equity + 401K. Healthcare IT domain — significant shift from games; software QE skills transfer directly.",
+      "closed": false,
+      "fit": {
+        "score": 62,
+        "level": "Stretch",
+        "why": "Sr Director level and fully remote with strong comp, but healthcare IT is a major domain shift from games/software QA and 25% travel adds friction.",
+        "blurb": "Leading quality engineering across a large multi-team healthcare technology organization — driving QE standards, building capability, and ensuring software quality outcomes at enterprise scale — directly parallels the organizational QA leadership I've built across Fortis, Netflix, Amazon Games, and Blizzard. While the healthcare domain is new, the core challenges of scaling QE organizations and modernizing test automation are universal; my AI-driven initiative targeting an 80% reduction in manual release-test time translates directly to any enterprise QE transformation mandate."
+      }
+    },
+    {
+      "id": "2k-qa-manager-madrid",
+      "title": "QA Manager",
+      "company": "2K (2K Madrid)",
+      "category": "games",
+      "location": "Madrid, Spain (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Greenhouse (2K)",
+      "url": "https://boards.greenhouse.io/2k/jobs/5963871003",
+      "date_found": "2026-07-20",
+      "date_posted": "",
+      "notes": "QA Manager at 2K's dedicated Madrid QA studio (operational since 2020, near IFEMA). Manages test processes and quality strategy, leads QA team, reports to Director of QA. 6+ years QA, 2+ years QA Manager experience. Extensive people management: performance evaluations, mentoring, growing team skills. Format holder standards (Sony, Microsoft, Nintendo) knowledge required. Onsite Madrid. Distinct from existing 2k-sr-manager-lqa (LQA focus, job 7796121003).",
+      "closed": false,
+      "fit": {
+        "score": 62,
+        "level": "Stretch",
+        "why": "Games QA Manager with confirmed people-management scope at a top publisher — but Manager is well below Director trajectory and Madrid onsite requires international relocation from OC.",
+        "blurb": "Managing QA for 2K's dedicated Madrid studio — overseeing test strategy, leading the team, and ensuring format holder certification across Sony, Microsoft, and Nintendo platforms — draws directly on my multi-platform QA leadership at Fortis, Amazon Games, and Blizzard, where I've held quality ownership across all major console ecosystems. 2K's publisher portfolio is compelling; the primary considerations are the Manager title (a step below my Director scope) and the relocation from Orange County to Madrid."
+      }
     }
   ]
 }

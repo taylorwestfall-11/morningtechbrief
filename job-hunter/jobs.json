@@ -115,7 +115,8 @@
         "blurb": "I previously served as Head of Publishing QA at Netflix, where I built the 3P Publishing QA strategy and JIRA/process standards as the portfolio scaled toward 95+ titles — so I'd ramp on Netflix Games QA program management on day one. My Amazon Games tenure as Program Manager for QA Automation & Tools adds the cross-team delivery and roadmap experience this role needs."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "jsonld"
     },
     {
       "id": "scopely-qa-director-monopoly-go",
@@ -183,7 +184,7 @@
         "blurb": "My two decades of executive quality leadership — defining standards, performance targets, and incident-response programs across global teams — would translate to a VP of Quality mandate, though I'd want to confirm the role centers on software/product quality rather than pharmaceutical regulatory compliance."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 24,
+      "check_fails": 25,
       "unverified": "403",
       "unverified_since": "2026-07-15"
     },
@@ -207,9 +208,7 @@
         "blurb": "Managing QA leaders and driving quality strategy across Gameloft's global mobile portfolio aligns with my experience building cross-platform QA organizations at Fortis, Netflix, and Amazon. I'd bring a director-level playbook — including my current AI-driven automation initiative targeting an 80% cut in manual release-test time — to help scale Gameloft's QA Business Unit."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "roblox-qa-manager-apps",
@@ -254,7 +253,7 @@
         "blurb": "Standardizing QA processes and driving test automation enterprise-wide is exactly the transformation I lead at Fortis today — where I use LLMs and agentic AI to target an 80% reduction in manual release testing. I'd apply that same QE-modernization playbook to HHAeXchange's platform, bringing proven experience building and scaling QA organizations from scratch across multiple product lines."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 24,
+      "check_fails": 25,
       "unverified": "403",
       "unverified_since": "2026-07-15"
     },
@@ -278,7 +277,8 @@
         "blurb": "Building quality processes at Hexworks — a studio with AAA ambitions on the Lords of the Fallen franchise — would draw on my experience standing up QA disciplines from scratch at multiple game studios. I'd bring senior-level FQA/LQA/CQA coverage, cross-studio coordination depth from Amazon Games and Fortis, and AI-driven automation strategy to help Hexworks scale quality."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "jsonld"
     },
     {
       "id": "unity-qa-manager-software-engineering",
@@ -441,7 +441,7 @@
         "blurb": "Leading a QA organization that prioritizes quality, resiliency, and innovation across high-throughput API infrastructure mirrors my live-service incident management and CI/CD discipline at Blizzard, Amazon, and Fortis — where real-time reliability is non-negotiable at scale. I'd apply that proven framework for building high-performing QA teams and automation architecture to DriveWealth's trading platform."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 24,
+      "check_fails": 25,
       "unverified": "403",
       "unverified_since": "2026-07-15"
     },
@@ -629,7 +629,8 @@
         "blurb": "Building a QA discipline for a new studio from scratch — aligning internal and external testing, automation, and release readiness — is exactly what I did at Fortis Games and Amazon, and I bring the same AI-driven transformation mindset (targeting an 80% reduction in manual release-test time via agentic tooling) to help Raw Power Games ship a high-quality first launch. I'm drawn by the industry-veteran culture and the opportunity to shape quality from day one."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "jsonld"
     },
     {
       "id": "riot-senior-qa-manager-gameplay-tft",
@@ -699,7 +700,7 @@
         "blurb": "Leading an AI-driven automation and quality function — deploying intelligent test automation and AI-enabled tooling across a technology organization — maps closely to what I do today at Fortis, where I use LLMs and agentic tooling to target an 80% reduction in manual release testing. The $190K–$230K compensation and explicit AI mandate are compelling; while transitioning from games, the test automation leadership principles transfer directly."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 24,
+      "check_fails": 25,
       "unverified": "403",
       "unverified_since": "2026-07-15"
     },
@@ -724,9 +725,7 @@
         "blurb": "Managing the QA function at a Sony PlayStation studio — overseeing internal and external QA, driving process maturity, and partnering with production — is a scope I've performed at much larger scale across Fortis, Amazon Games, and Blizzard. That said, relocating to Liverpool would be a major life decision; I'd pursue this more seriously if the scope were closer to Director level or if a remote arrangement were available."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "stoic-qa-director",
@@ -773,9 +772,7 @@
         "blurb": "Heading up the QA function for a multi-studio AAA games organization — driving continuous quality improvement, managing budget, and leading live-game readiness — mirrors precisely what I do at Fortis and built at Amazon Games. Creative Assembly's Total War franchise and Sega backing represent the high-stakes live-service quality challenge that demands the organizational depth, automation-first approach, and 20+ years of games QA leadership I bring."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "429",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "bungie-destiny-qa-director",
@@ -821,7 +818,8 @@
         "blurb": "Owning product quality end-to-end across a fast-moving B2C SaaS platform — enforcing standards, blocking releases, and driving improvements — translates directly from my Director role at Fortis, where I define and hold the QA bar for live-service games across mobile, PC, and console. Quo's explicit mandate to leverage emerging AI automation aligns squarely with my current initiative using LLMs and agentic tooling to target an 80% reduction in manual release testing."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "jsonld"
     },
     {
       "id": "veeva-qa-director-digital-trials",
@@ -857,7 +855,7 @@
       "source": "GameJobs.co",
       "url": "https://gamejobs.co/Director-of-QA-Services-at-Kwalee",
       "date_found": "2026-07-06",
-      "date_posted": "",
+      "date_posted": "2025-11-22",
       "notes": "Oversees QA Services for internal projects + external clients (UK and India). Primary mission: convert QA from cost center to profit center by building an external MSA client business. Manages departmental P&L and secures new external contracts. Teams in Leamington Spa and India. Onsite UK.",
       "closed": false,
       "fit": {
@@ -867,9 +865,8 @@
         "blurb": "Building and scaling a QA services organization with budget and vendor ownership draws on my P&L accountability and vendor management experience at Fortis, Amazon Games, and Netflix. That said, the mandate to establish QA as an external MSA profit center is a business-development stretch beyond my core QE leadership focus, and relocating to Leamington Spa from Orange County would be a major commitment for a role that isn't primarily a games-testing quality leadership position."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0,
+      "date_src": "relative"
     },
     {
       "id": "demiurge-studios-qa-manager",
@@ -892,9 +889,7 @@
         "blurb": "Managing and scaling a games QA team at Demiurge — spanning mobile, console, and PC titles — is a scope I've performed many times, from Marvel Puzzle Quest-scale mobile at Amazon to multi-platform live-service games at Fortis and Blizzard. That said, the QA Manager title is a step back from the Director-level scope I've held for years, and relocating to Boston from Orange County would be a significant commitment at this seniority level."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "side-senior-manager-global-qa-operations",
@@ -1054,9 +1049,7 @@
         "blurb": "Leading QA across the Football Manager franchise — a live-service sports sim with a passionate global fanbase — draws on the same multi-platform, live-ops quality discipline I've built at Fortis, Amazon Games, and Blizzard, including the AI-driven automation initiative I now lead targeting an 80% cut in manual release-test time. The Head of QA scope and Sega pedigree are compelling; the primary consideration is the London onsite requirement from my Orange County base."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "wargaming-head-of-qa-world-of-warships-pc",
@@ -1149,9 +1142,7 @@
         "blurb": "Leading QA for Epic's distribution pipeline draws on my publishing QA experience at Netflix Games and Amazon Games, where I managed end-to-end quality workflows for major titles through submission, platform certification, and live launch. I'd bring director-level rigor to Epic's Distro QA team, though the Senior QA Manager title is a step below my current Director trajectory and the Cary NC hybrid arrangement would require relocating from Orange County."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "wargaming-head-of-qa-wow-legends",
@@ -1219,9 +1210,7 @@
         "blurb": "Directing QA for a live-service open-world sports game at Ubisoft — managing dev test, editor test, and automation while overseeing quality at every update across all platforms — is precisely the kind of scope I've owned at Fortis, Amazon Games, and Blizzard. Ubisoft's Annecy studio and the Riders Republic franchise represent high-caliber live-game quality leadership; the primary consideration is relocating from Orange County to France."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "supermassive-qa-director-ftc",
@@ -1290,7 +1279,7 @@
         "blurb": "Building and leading a global QA organization across Big Fish's free-to-play mobile portfolio — managing quality professionals, partnering with game teams worldwide, and influencing quality standards across Pixel United — maps directly to my Director-level work at Fortis, Amazon Games, and Netflix. I'd bring my modern automation-first approach and AI-driven testing initiative to help Big Fish's Las Vegas studio deliver the highest quality player experiences at scale."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
+      "check_fails": 18,
       "unverified": "403",
       "unverified_since": "2026-07-16"
     },
@@ -1384,7 +1373,8 @@
         "blurb": "Owning and standardizing QA frameworks across Scopely's celebrated title portfolio — from MONOPOLY GO! to Pokémon GO and Stumble Guys — maps to the cross-studio quality leadership I've built at Fortis, Netflix, and Amazon Games, and I'd bring my AI-driven automation mindset to help Scopely's Central Studio Operations raise the quality bar globally. Barcelona hybrid is the primary consideration; the portfolio breadth and Scopely's publishing scale make this a meaningful conversation despite the relocation."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "greenhouse"
     },
     {
       "id": "ingame-qa-director-technical-vertical",
@@ -1536,7 +1526,7 @@
       "source": "Lever / Avalanche Studios Careers",
       "url": "https://jobs.lever.co/avalanchestudios/06b9cfb7-b18c-45d9-900b-83edebda0299",
       "date_found": "2026-07-11",
-      "date_posted": "",
+      "date_posted": "2026-06-29",
       "notes": "Leads the QA function at Avalanche's Stockholm studio (Just Cause, Rage, theHunter, unannounced titles). Mission: shift quality from reactive to proactive across Engineering, Production, Design, and LiveOps. Hybrid Stockholm (Mon/Tue/Thu in office, near Central Station). International relocation from OC required.",
       "closed": false,
       "fit": {
@@ -1546,7 +1536,8 @@
         "blurb": "Avalanche's goal of shifting QA from reactive to proactive mirrors the transformation I led at Fortis Games — embedding QA earlier in the development cycle, investing in automation, and building a culture where quality is everyone's responsibility, not just the testing team's. My LiveOps and live-service background across New World, Lost Ark, and Crucible aligns well with Avalanche's ongoing titles; the Stockholm relocation from Orange County is the main variable."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "lever"
     },
     {
       "id": "age-of-learning-director-quality-assurance",
@@ -1615,9 +1606,7 @@
         "blurb": "Building QA from the ground up for a studio launched by BioWare and AAA veterans, backed by Wizards of the Coast, is a challenge I've met multiple times — at Fortis, Netflix, and Amazon Games — and I'd bring the same automation-first, AI-driven strategy to help Archetype ship a high-quality first title. That said, the QA Manager title is a significant step below my current Director scope, and relocating from Orange County to Austin is the primary consideration."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "blizzard-quality-manager-overwatch-r026488",
@@ -1630,7 +1619,7 @@
       "source": "Blizzard Careers (R026488)",
       "url": "https://careers.blizzard.com/global/en/job/R026488/Quality-Manager-Overwatch-Irvine-CA",
       "date_found": "2026-07-12",
-      "date_posted": "",
+      "date_posted": "2026-06-30",
       "notes": "Quality Manager (Blizzard's QA Manager-level title) for Overwatch. Manages end-to-end test team across globally distributed staff, establishes QA standards, drives strategic quality vision. Taylor's former employer; managed Overwatch QA at Blizzard. Hybrid Irvine CA — OC home region. $79K–$147K base. Distinct from closed entry blizzard-test-manager-overwatch (R025023).",
       "closed": false,
       "fit": {
@@ -1640,7 +1629,8 @@
         "blurb": "Managing quality for Overwatch — the live-service competitive shooter I helped test and ship during my first Blizzard tenure — would be a return to deeply familiar territory with zero culture or tooling ramp, and I'd bring Director-level rigor plus my AI-driven automation initiative to help the team sustain quality at scale. Blizzard's Irvine campus is in my Orange County home region; while Quality Manager is a step back from my Director scope, the franchise familiarity and proximity make this worth a conversation."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "jsonld"
     },
     {
       "id": "ghost-story-games-qa-manager",
@@ -1701,7 +1691,7 @@
       "source": "Greenhouse / Built In",
       "url": "https://job-boards.greenhouse.io/2k/jobs/7796121003",
       "date_found": "2026-07-13",
-      "date_posted": "",
+      "date_posted": "2026-07-07",
       "notes": "Leads and grows 2K's regional Localization QA organization in Madrid. Manages managers, ICs, and vendor partners. Drives strategic planning, staffing, budgeting, tooling/automation, and cross-regional LQA workflows. Serves as escalation for complex LQA issues. Spain-based (Estatuto de los Trabajadores compliant).",
       "fit": {
         "score": 58,
@@ -1710,7 +1700,8 @@
         "blurb": "Leading 2K's regional Localization QA organization — setting LQA strategy, building vendor relationships, and aligning with studio OKRs — aligns directly with my work at Fortis, where I own both QA and Localization quality across all titles and have spent years managing external LQA partners. The 2K brand and the localization quality leadership scope are compelling; relocating to Madrid from Orange County is the primary consideration for a role that focuses on LQA rather than the full QA Director mandate I hold today."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "greenhouse"
     },
     {
       "id": "annapurna-interactive-qa-director",
@@ -1828,7 +1819,8 @@
         "blurb": "Directing QA for Star Trek Fleet Command — a top-grossing live-service mobile strategy MMO — is the high-stakes live-service quality challenge I've owned at Fortis, Amazon Games, and Netflix, where I managed blended internal and external QA teams through continuous operations. I'd bring my AI-driven testing initiative (targeting an 80% reduction in manual release-test time via agentic tooling) to elevate STFC's QA strategy; the primary consideration is the EU/UK relocation requirement from Orange County."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "greenhouse"
     },
     {
       "id": "riot-senior-manager-qa-league-around-game",
@@ -1850,9 +1842,7 @@
         "blurb": "As the Senior QA Manager for League of Legends' Around Game initiative, I'd be the quality vision holder for player-facing features experienced by tens of millions of players daily — scope that draws directly on the live-service QA leadership I've built at Fortis, Amazon Games, and Blizzard. Riot's LA headquarters is in my Orange County home region, and I now lead Fortis' AI transformation using LLMs and agentic tooling to target an 80% reduction in manual release-test time, bringing modern automation depth to this player-experience quality role."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 17,
-      "unverified": "403",
-      "unverified_since": "2026-07-16"
+      "check_fails": 0
     },
     {
       "id": "riot-manager-qa-2xko-game-loop",
@@ -2087,9 +2077,7 @@
         "blurb": "Managing QA for Fortnite's mobile product — covering performance optimization, device compatibility, and platform quality — draws on my multi-platform QA background at Fortis, Amazon Games, and Blizzard, where I've owned mobile, console, and PC test strategies at scale. I'd bring director-level rigor and the AI-driven automation initiative I now lead at Fortis — targeting an 80% reduction in manual release-test time via agentic tooling — to help Epic's Fortnite Mobile team ship higher-quality experiences faster."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 8,
-      "unverified": "403",
-      "unverified_since": "2026-07-17"
+      "check_fails": 0
     },
     {
       "id": "netflix-director-qa-game-studio",
@@ -2243,7 +2231,7 @@
       "source": "Greenhouse (2K)",
       "url": "https://boards.greenhouse.io/2k/jobs/5963871003",
       "date_found": "2026-07-20",
-      "date_posted": "",
+      "date_posted": "2024-05-20",
       "notes": "QA Manager at 2K's dedicated Madrid QA studio (operational since 2020, near IFEMA). Manages test processes and quality strategy, leads QA team, reports to Director of QA. 6+ years QA, 2+ years QA Manager experience. Extensive people management: performance evaluations, mentoring, growing team skills. Format holder standards (Sony, Microsoft, Nintendo) knowledge required. Onsite Madrid. Distinct from existing 2k-sr-manager-lqa (LQA focus, job 7796121003).",
       "closed": false,
       "fit": {
@@ -2253,7 +2241,8 @@
         "blurb": "Managing QA for 2K's dedicated Madrid studio — overseeing test strategy, leading the team, and ensuring format holder certification across Sony, Microsoft, and Nintendo platforms — draws directly on my multi-platform QA leadership at Fortis, Amazon Games, and Blizzard, where I've held quality ownership across all major console ecosystems. 2K's publisher portfolio is compelling; the primary considerations are the Manager title (a step below my Director scope) and the relocation from Orange County to Madrid."
       },
       "last_checked": "2026-07-20",
-      "check_fails": 0
+      "check_fails": 0,
+      "date_src": "greenhouse"
     }
   ]
 }

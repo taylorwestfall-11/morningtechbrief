@@ -1,0 +1,77 @@
+Sr. Director, Quality Engineering
+UnitedHealth Group
+Remote (US)
+Compensation: $159,300–$273,200
+Posted: 2026-06-16
+https://careers.unitedhealthgroup.com/job/minnetonka/sr-director-qlty-engineering-remote/34088/96526558992
+
+------------------------------------------------------------
+
+Optum Tech is a global leader in health care innovation. Our teams develop cutting-edge solutions that help people live healthier lives and help make the health system work better for everyone. From advanced data analytics and AI to cybersecurity, we use innovative approaches to solve some of health care's most complex challenges. Your contributions here have the potential to change lives. Ready to build the next breakthrough? Join us to start Caring. Connecting. Growing together.
+
+You'll enjoy the flexibility to work remotely * from anywhere within the U.S. as you take on some tough challenges. For all hires in the Minneapolis or Washington, D.C. area, you will be required to work in the office a minimum of four days per week.
+
+Primary Responsibilities:
+Observability across Tech Ops and Sec Ops
+
+• A unified telemetry, logging, metrics, and tracing strategy that serves both reliability and security use cases. One signal fabric - not two. You will set the standard for what gets instrumented, how it is stored, how it is queried, and how it ties back to action
+
+Standards and governance
+
+• The published, enforced bar for engineering quality, operational readiness, change management, and security posture. Includes service maturity models, production readiness reviews, and the policy-as-code that turns standards from documents into runtime controls
+
+The control plane for SRE-driven action
+
+• A platform that surfaces the right signals, mapped to the right runbooks, mapped to the right authority to act - automated where it can be, human-in-the-loop where it must be. The goal is to compress mean-time-to-action and to make sure SRE effort is spent in the highest-leverage areas, not on toil
+
+The bridge between Tech Ops and Sec Ops
+
+• Today these functions often see the same systems through different lenses, with different tooling, different SLAs, and different escalation paths. You will own the operating model that brings them into a shared posture without merging the functions
+
+Organization build-out
+
+• Hire, structure, and grow the Quality Engineering organization. Expect a mix of SRE-adjacent engineers, observability specialists, governance and standards leads, and platform builders
+
+What you will deliver in the first 12 months:
+A clear, published observability standard with measurable adoption across critical UHC Technology services
+A control plane MVP in production, with at least three high-volume operational workflows (incident response, vulnerability remediation, change validation) running through it
+A governance model that the CIO and UHC CISO both sign off on - one set of standards, one set of metrics, one accountability path
+A multi-quarter roadmap with a credible run-rate and resource envelope
+A staffed, structured organization with named leaders for Observability, Standards & Governance, and Control Plane Engineering
+
+You'll be rewarded and recognized for your performance in an environment that will challenge you and give you clear direction on what it takes to succeed in your role as well as provide development for other roles you may be interested in.
+
+Required Qualifications:
+
+• 12+ years in technology operations, SRE, platform engineering, or quality engineering, with at least 5+ years in senior leadership of multi-team organizations
+
+• Demonstrated track record building observability at scale - not buying a vendor, but defining the practice, the standards, and the adoption curve
+
+• Direct experience operating at the seam between Technology Operations and Security Operations. You understand why the same telemetry has to answer 'is it up' and 'is it compromised'
+
+• Demonstrated hands-on familiarity with the modern observability stack (OpenTelemetry, Prometheus, Grafana, distributed tracing, structured logging at scale) and with policy-as-code tooling (OPA, Kyverno, or equivalent)
+
+• Experience building or operating a control plane - internal developer platform, action automation platform, or equivalent - that compressed operational toil in a measurable way
+
+• Ability to be comfortable owning a budget and being accountable for rolling 12-month cost and steady-state headcount
+
+Preferred Qualifications:
+
+• Demonstrated background that includes time in security operations, SOC engineering, or detection engineering
+
+• Experience in healthcare, regulated industries, or other environments with strict audit, HIPAA, and risk requirements
+
+• Experience presenting governance frameworks to executive risk and audit committees
+
+• Proven track record of moving an organization up a maturity curve (CMMI, SRE maturity, AI DLC, or equivalent) with evidence, not slides
+
+*All employees working remotely will be required to adhere to UnitedHealth Group's Telecommuter Policy.
+
+Pay is based on several factors including but not limited to local labor markets, education, work experience, certifications, etc. In addition to your salary, we offer benefits such as, a comprehensive benefits package, incentive and recognition programs, equity stock purchase and 401k contribution (all benefits are subject to eligibility requirements). No matter where or when you begin a career with us, you'll find a far-reaching choice of benefits and incentives. The salary for this role will range from $159,300 to $273,200 annually based on full-time employment. We comply with all minimum wage laws as applicable.
+Application Deadline: This will be posted for a minimum of 2 business days or until a sufficient candidate pool has been collected. Job posting may come down early due to volume of applicants.
+
+At UnitedHealth Group, our mission is to help people live healthier lives and make the health system work better for everyone. We believe everyone-of every race, gender, sexuality, age, location and income-deserves the opportunity to live their healthiest life. Today, however, there are still far too many barriers to good health which are disproportionately experienced by people of color, historically marginalized groups and those with lower incomes. We are committed to mitigating our impact on the environment and enabling and delivering equitable care that addresses health disparities and improves health outcomes - an enterprise priority reflected in our mission.
+
+UnitedHealth Group is an Equal Employment Opportunity employer under applicable law and qualified applicants will receive consideration for employment without regard to race, national origin, religion, age, color, sex, sexual orientation, gender identity, disability, or protected veteran status, or any other characteristic protected by local, state, or federal laws, rules, or regulations.
+
+UnitedHealth Group is a drug - free workplace. Candidates are required to pass a drug test before beginning employment.

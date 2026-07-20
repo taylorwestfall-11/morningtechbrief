@@ -1,0 +1,60 @@
+QA Manager
+2K (2K Madrid)
+Madrid, Spain (onsite)
+https://boards.greenhouse.io/2k/jobs/5963871003
+
+------------------------------------------------------------
+
+Who We Are
+
+2K is headquartered in Novato, California and is a wholly owned label of Take-Two Interactive Software, Inc. (NASDAQ: TTWO). Founded in 2005, 2K Games is a global video game company, publishing titles developed by some of the most influential game development studios in the world. Our studios responsible for developing 2K’s portfolio of world-class games across multiple platforms, include Visual Concepts, Firaxis, Hangar 13, CatDaddy, Cloud Chamber, 31st Union, HB Studios, and 2K SportsLab. Our portfolio of titles is expanding due to our global strategic plan, building and acquiring exciting studios whose content continues to inspire all of us! 2K publishes titles in today’s most popular gaming genres, including sports, shooters, action, role-playing, strategy, casual, and family entertainment.
+
+Our team of engineers, marketers, artists, writers, data scientists, producers, thinkers and doers, are the professional publishing stewards of 2K’s portfolio currently includes several AAA, sports and entertainment brands, including global powerhouse NBA®️ 2K, renowned BioShock®️, Borderlands®️, Mafia, Sid Meier’s Civilization®️ and XCOM®️ brands; popular WWE®️ 2K and WWE®️ SuperCard franchises, TopSpin 2K25, as well as the critically and commercially acclaimed PGA TOUR®️ 2K
+
+At 2K, we pride ourselves on creating an inclusive work environment, which means encouraging our teams to Come as You Are and do your best work! We encourage ALL applicants to explore our global positions, even if they don’t meet every requirement for the role. If you're interested in the job and think you have what it takes to work at 2K, we encourage you to apply!
+
+Role Overview
+
+As Test Manager, you will lead a team of testing and QA professionals, from Testers to Associate Test Managers, ensuring the highest quality standards across 2K's games and products. You will oversee test processes, implement quality strategies, and ensure adequate staffing across assigned projects.
+
+This role is full-time, onsite in Madrid, reporting to the Director, Test.
+
+What You’ll Do
+
+• Lead, mentor, and grow a team of testing and QA professionals, fostering a culture of collaboration, excellence, and continuous improvement, including performance reviews and staffing decisions.
+
+• Establish quality standards, best practices, and ensure compliance with platform holder guidelines (Sony, Microsoft, Nintendo).
+
+• Manage risk, prioritize testing efforts, and ensure timely resolution of issues, including bug tracking and QA reporting.
+
+• Oversee development milestone sign-off and manage the submission process.
+
+• Act as the key liaison between QA/Test, Producers, Developers, Compliance, and external departments/studios.
+
+• Actively participate in recruiting and interviews to grow the team.
+
+What We Need
+
+• Solid experience in software testing and QA within the video games industry, including experience in a Test/QA Manager role or equivalent.
+
+• Strong understanding of software testing methodologies, bug database systems, and the test plan/bug-writing process.
+
+• Proven experience managing and developing QA/Test teams, including performance evaluations and mentoring.
+
+• Excellent communication and interpersonal skills, with the ability to lead through influence in a matrixed environment.
+
+• Must be able to communicate effectively in English, both written and oral.
+
+What Will Make You A Great Fit
+
+• Knowledge of platform holder standards and submission processes (Sony, Microsoft, Nintendo).
+
+• Experience with MS Office, Source Control, and Visual Studio; technical proficiency with PCs and gaming consoles.
+
+This job description is not designed to cover or contain a comprehensive listing of activities, duties or responsibilities that are required of the employee; other tasks and duties may be assigned or reassigned as needed.
+
+2K complies with the labor regulations established under Spanish employment law (Estatuto de los Trabajadores) and all applicable European Union employment and data protection standards. Personal data collected during the recruitment and employment process will be handled in accordance with the EU General Data Protection Regulation (GDPR) and applicable Spanish data protection laws.
+
+We are committed to ensuring equality of opportunity and fostering an inclusive environment across all aspects of employment, regardless of gender, nationality, age, disability, or any other protected characteristic under Spanish and EU legislation.
+
+Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts.

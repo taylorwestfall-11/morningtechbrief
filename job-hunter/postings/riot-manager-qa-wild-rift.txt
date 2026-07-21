@@ -1,0 +1,74 @@
+Manager, QA - Wild Rift
+Riot Games
+Shanghai, China (onsite)
+https://www.riotgames.com/en/work-with-us/job/7015284/qa-manager-wild-rift-shanghai-china
+
+------------------------------------------------------------
+
+Software Engineering Group
+Principal Software Engineer, Client - Wild Rift
+Shanghai, China Job Id: REQ-0009135
+
+Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title League of Legends to critical and player acclaim. As the most played video game in the world, over 100 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the League of Legends experience.
+
+We’re looking for humble but ambitious, razor-sharp professionals who can teach us a thing or two. We promise to return the favor. Like us, you take play seriously; you’re passionate about games. We embrace those who see things differently, aren’t afraid to experiment, and who have a healthy disregard for constraints.
+
+That's where you come in.
+
+Riot engineers bring deep knowledge of specific technical areas but also value the opportunity to work in a variety of broader domains. We work with both new and current technology, creating innovative solutions to solve complex, large-scale challenges and deliver player value. As a Principal Software Engineer, you’ll lead the development of key features and model high standards of engineering excellence.
+
+As a Principal Software Engineer on Wild Rift, you will leverage your deep technical expertise and vision to define the direction of the client across core architecture, rendering, performance, and device scalability, enhancing the player experience across the game. You will work closely with the leadership team to set the client architecture vision, multi-year roadmap, engineering standards, and architectural guardrails, while aligning stakeholders across Riot and co-development partners to turn that direction into shipped outcomes. Joining a passionate and driven team, you will help shape the premier mobile League of Legends experience enjoyed by millions of players worldwide, delivering high-impact results and memorable moments that last a lifetime.
+
+Responsibilities:
+
+• Define the client technical strategy, architecture, and multi-year roadmap, and set the engineering standards and architectural guardrails the client team builds to.
+
+• Own the client’s non-functional quality bar, including frame time, memory, startup time, crash rate, thermal behavior, and device-tier quality across a fragmented mobile hardware matrix.
+
+• Lead the architecture of Unity client systems and frameworks, including gameplay-facing systems, UI, content/runtime boundaries, asset management, and rendering/performance foundations.
+
+• Drive rendering and graphics direction, including quality tiers, visual budgets, shader and asset constraints, and tooling needed to scale from flagship to low-spec devices.
+
+• Lead the toughest cross-cutting client problems hands-on, from investigation and technical design through rollout and post-launch validation.
+
+• Establish the profiling, observability, and automated quality/performance gates needed to measure, protect, and continuously improve the client.
+
+• Establish and maintain the Unity engine optimization pipeline, with the ability to diagnose and resolve underlying performance overhead caused by engine-level issues.
+
+• Raise engineering quality through RFCs, design reviews, code reviews, technical standards, and mentorship across the client organization.
+
+• Partner closely with gameplay, tech art, design, QA, release, platform, and co-development teams to align execution and raise the technical bar across the full client surface.
+
+Required Qualifications:
+
+• BS in Computer Science, computer engineering, or related field, or equivalent experience.
+
+• 4+ years as a tech lead or principal engineer setting technical direction for a mobile game client.
+
+• 8+ years deep experience building and shipping large-scale Unity-based mobile game clients (iOS and Android), or equivalent experience extending and operating a commercial game engine at the runtime, rendering, or client architecture layer.
+
+• Strong modern C# and a track record of architecting large, live client codebases.
+
+• Proven, measurable quality and performance wins on constrained, low-spec hardware across a wide device matrix.
+
+• Hands-on experience profiling and optimizing CPU, GPU, and memory behavior using industry-standard tooling.
+
+• Experience leading technical design reviews, setting engineering standards, and driving strategy across teams.
+
+Desired Qualifications:
+
+• Experience working in co-development environments.
+
+• Experience on a MOBA or other real-time competitive game at global scale, in the tens of millions of players or more.
+
+• Experience extending Unity engine systems, asset/build pipelines, or client performance tooling for a large live mobile game.
+
+• Shader authoring and PBR pipeline experience, or close technical art collaboration on a high-quality art style.
+
+• Experience supporting emerging markets and fragmented Android hardware.
+
+• Familiarity with applying machine learning to rendering or asset pipelines.
+
+Apply
+
+Please enable JavaScript to apply for this position.

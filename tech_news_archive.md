@@ -566,3 +566,10 @@
 - **EU forces Google to open Android to rival AI assistants** — Digital Markets Act ruling opens 11 system-level Android features (wake words, cross-app tasks) to Claude, ChatGPT, and others by Android 18 (August 2027); Google Search data sharing starts January 2027.
 - **WAIC Shanghai closes; WAICO launched** — Xi Jinping's first-ever World AI Conference keynote ends a 4-day event; China launches WAICO, a 29-nation World Artificial Intelligence Cooperation Organization headquartered in Shanghai.
 - **Microsoft Patch Tuesday record: 622 vulnerabilities** — single monthly update patches 622 flaws including two actively exploited zero-days; largest Patch Tuesday in Microsoft history; update Windows systems immediately.
+
+## [2026-07-21]
+- **Samsung Galaxy Unpacked July 22 London** — Z Fold 8 Ultra (5,000mAh, Flex Titanium crease reduction), Z Fold 8 Wide, Z Flip 8, Galaxy Watch 9, Watch Ultra 2, and the full commercial debut of Galaxy Glasses (Android XR + Gemini, co-designed with Gentle Monster).
+- **WordPress wp2shell CVE-2026-63030 actively exploited** — chained REST API + SQL injection flaw enables pre-auth RCE on default WordPress 6.9.0–7.0.1 installs; exploitation confirmed in the wild July 18–20; update to 7.0.2 / 6.9.5 / 6.8.6 immediately.
+- **GPT-5.6 Sol/Terra/Luna public + ChatGPT Work agent** — OpenAI opened the three-tier family July 9 (Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per Mtok) alongside ChatGPT Work, an agent that drafts documents and spreadsheets from context across connected apps.
+- **Inkling by Thinking Machines (Mira Murati) released July 15** — 975B-parameter open-weight MoE with 41B active params, 1M-token context, native text-image-audio understanding; Apache 2.0 weights on Hugging Face; fine-tunable via Tinker platform.
+- **Apple sues OpenAI for trade secret theft** — filed July 10 alleging coordinated IP extraction at every level; complaint names hardware chief Tang Tan (ex-Apple VP) and cites 400+ former Apple employees now at OpenAI; OpenAI denies the allegations.

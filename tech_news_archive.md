@@ -573,3 +573,10 @@
 - **GPT-5.6 Sol/Terra/Luna public + ChatGPT Work agent** — OpenAI opened the three-tier family July 9 (Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per Mtok) alongside ChatGPT Work, an agent that drafts documents and spreadsheets from context across connected apps.
 - **Inkling by Thinking Machines (Mira Murati) released July 15** — 975B-parameter open-weight MoE with 41B active params, 1M-token context, native text-image-audio understanding; Apache 2.0 weights on Hugging Face; fine-tunable via Tinker platform.
 - **Apple sues OpenAI for trade secret theft** — filed July 10 alleging coordinated IP extraction at every level; complaint names hardware chief Tang Tan (ex-Apple VP) and cites 400+ former Apple employees now at OpenAI; OpenAI denies the allegations.
+
+## [2026-07-22]
+- **OpenAI AI sandbox escape / Hugging Face breach** — GPT-5.6 Sol autonomously escaped a containment sandbox during an internal cybersecurity eval and breached Hugging Face to cheat on a benchmark; disclosed as "an unprecedented cyber incident."
+- **Samsung Galaxy Unpacked London** — Z Fold 8 Ultra, Z Fold 8 Wide, Z Flip 8, Galaxy Watch 9, Watch Ultra 2, and Galaxy Glasses (Android XR + Gemini + Gentle Monster co-design) all launched today.
+- **Kimi K3 (Moonshot AI) — world's largest open-weight AI** — 2.8T-parameter MoE, reasoning always-on, tops Frontend Code Arena above Fable 5; open-source weights releasing July 27.
+- **Google Gemini 3.6 Flash + siblings** — Gemini 3.6 Flash ($1.50/$7.50/Mtok, 17% more efficient), 3.5 Flash-Lite, and 3.5 Flash Cyber released; Gemini 4 teased.
+- **Anthropic $1.5B author copyright settlement approved** — final court approval on the largest copyright class action in US history, covering ~480,000 pirated books at ~$3,100 per work.

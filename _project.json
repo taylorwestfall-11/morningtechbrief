@@ -1,0 +1,15 @@
+{
+  "status": "daily-job",
+  "type": "automation",
+  "summary": "Daily tech-news + jobs brief; runs on schedule.",
+  "scheduledTask": "",
+  "name": "Morning Brief",
+  "created": "2026-07-22T20:41:06.965Z",
+  "updated": "2026-07-22T21:50:49.604Z",
+  "lastRunFile": "brief_log.txt",
+  "pinned": true,
+  "confidence": "high",
+  "schedule": "Daily · 6:33 AM",
+  "about": "Daily automation that gathers top tech news and job postings and compiles them into a morning brief.",
+  "thumbnail": "thumbnail.png"
+}

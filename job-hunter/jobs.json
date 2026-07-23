@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-22",
-    "scan_count": 26,
+    "last_scan": "2026-07-23",
+    "scan_count": 27,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2316,6 +2316,48 @@
       "closed": false,
       "last_checked": "2026-07-22",
       "check_fails": 0
+    },
+    {
+      "id": "riot-senior-manager-qa-valorant-foundations",
+      "title": "Senior Manager, QA - VALORANT, Foundations",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, CA (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Riot Games Careers",
+      "url": "https://www.riotgames.com/en/work-with-us/job/6268984/senior-manager-qa-valorant-foundations-los-angeles-usa",
+      "date_found": "2026-07-23",
+      "date_posted": "2026-07-15",
+      "notes": "Owns end-to-end quality for VALORANT's Foundations team (a technical 'team of teams'). Confirmed people management: manages budgets and headcount, drives quality vision across the team. Reports to QA Director for VALORANT. 8+ years QA, 2+ years leadership, ISTQB preferred. Distinct from closed riot-senior-manager-qa-valorant (job 6008694, VALORANT Experience Team). LA onsite — Taylor is Orange County (~35 mi).",
+      "closed": false,
+      "fit": {
+        "score": 82,
+        "level": "Strong",
+        "why": "Senior Manager at Riot for VALORANT Foundations — confirmed people-management scope at a top games studio, LA onsite is feasible from OC; one notch below Director trajectory.",
+        "blurb": "As a 20+ year QA leader who built and scaled games QA disciplines at Fortis, Netflix, Amazon Games, and Blizzard — including owning cross-platform test strategy for live-service titles and large vendor ecosystems — I bring exactly the end-to-end quality ownership VALORANT Foundations demands. At Fortis I now lead an AI-driven QA transformation targeting an 80% reduction in manual release-test time, and I'd apply that same automation-first thinking to help Riot's Foundations team scale quality as VALORANT continues to evolve."
+      }
+    },
+    {
+      "id": "ubisoft-quality-control-director-bucharest",
+      "title": "Quality Control Director",
+      "company": "Ubisoft",
+      "category": "games",
+      "location": "Bucharest, Romania (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Ubisoft Careers",
+      "url": "https://www.ubisoft.com/en-us/company/careers/search/744000016653385-quality-control-director",
+      "date_found": "2026-07-23",
+      "date_posted": "",
+      "notes": "Director-level QC role overseeing 900+ QC professionals across Ubisoft Bucharest and Craiova studios. Reports into worldwide QC Direction. Drives efficiency and performance of the Quality org, leads strategic talent development and budget/headcount strategy, shares best practices with other QC Directors globally. Traditional game-testing QC model (functional, automation, console, mobile). Bucharest onsite — major international relocation from OC required. Distinct from ubisoft-qa-director-riders-republic (Annecy/Riders Republic).",
+      "closed": false,
+      "fit": {
+        "score": 72,
+        "level": "Good",
+        "why": "Director-level QC at a major game publisher with massive org scope (900 professionals) — strong title and scale, but Bucharest onsite requires international relocation and QC model is traditional rather than AI/automation-driven.",
+        "blurb": "Leading a 900-professional quality organization across Ubisoft's Bucharest and Craiova studios — aligning with worldwide QC Direction, driving operational efficiency, and developing talent at scale — draws directly on my director-level QA org experience at Fortis, Netflix, and Amazon Games, where I've built and shaped quality disciplines across multiple studios and geographies. I'd aim to bring my AI-driven quality transformation experience — currently targeting an 80% reduction in manual release-test time at Fortis — to modernize Ubisoft's QC operations at scale; the primary consideration is the Bucharest onsite requirement and international relocation from Orange County."
+      }
     }
   ]
 }

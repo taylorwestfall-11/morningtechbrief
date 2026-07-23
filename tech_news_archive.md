@@ -580,3 +580,10 @@
 - **Kimi K3 (Moonshot AI) — world's largest open-weight AI** — 2.8T-parameter MoE, reasoning always-on, tops Frontend Code Arena above Fable 5; open-source weights releasing July 27.
 - **Google Gemini 3.6 Flash + siblings** — Gemini 3.6 Flash ($1.50/$7.50/Mtok, 17% more efficient), 3.5 Flash-Lite, and 3.5 Flash Cyber released; Gemini 4 teased.
 - **Anthropic $1.5B author copyright settlement approved** — final court approval on the largest copyright class action in US history, covering ~480,000 pirated books at ~$3,100 per work.
+
+## 2026-07-23
+- AMD Advancing AI 2026 keynote today in San Francisco: EPYC Venice (first x86 CPU on TSMC 2nm), Helios AI rack ($5.25M, 31 TB HBM4, CDNA5/MI455X); Microsoft Azure and Oracle signed as first customers.
+- AMD and Anthropic seal 2-gigawatt Instinct MI450 chip deal with AMD investing up to $5B in Anthropic; deployment in Helios rack systems starts H1 2027.
+- SIGGRAPH 2026 closes in Los Angeles — AI-as-creative-partner theme throughout; Autodesk reveals 3D Gaussian Splats in 3ds Max and AI motion capture for Maya; "The Last 20%" session highlights genAI-to-deliverable-frame pipelines.
+- OpenAI launches GPT-Red, an automated red-teaming AI that cuts prompt-injection success on GPT-5.6 from 90%+ to under 23% — signals AI-on-AI safety testing as a permanent pipeline layer.
+- Home Assistant 2026.7 three-week field report: natural-language automations earn widespread praise as biggest usability leap yet; Matter.js server now default with auto-migration to Matter 1.5.1.

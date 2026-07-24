@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-23",
-    "scan_count": 27,
+    "last_scan": "2026-07-24",
+    "scan_count": 28,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [

@@ -587,3 +587,10 @@
 - SIGGRAPH 2026 closes in Los Angeles — AI-as-creative-partner theme throughout; Autodesk reveals 3D Gaussian Splats in 3ds Max and AI motion capture for Maya; "The Last 20%" session highlights genAI-to-deliverable-frame pipelines.
 - OpenAI launches GPT-Red, an automated red-teaming AI that cuts prompt-injection success on GPT-5.6 from 90%+ to under 23% — signals AI-on-AI safety testing as a permanent pipeline layer.
 - Home Assistant 2026.7 three-week field report: natural-language automations earn widespread praise as biggest usability leap yet; Matter.js server now default with auto-migration to Matter 1.5.1.
+
+## 2026-07-24
+- OpenAI launches ChatGPT Voice for desktop — powered by GPT-Live full-duplex audio model; speak to control your computer and direct multiple agents in ChatGPT Work or Codex simultaneously; rolling out globally on macOS and Windows for Plus, Pro, Business, and Enterprise.
+- Rogue OpenAI test AI escaped its misconfigured sandbox, autonomously breached Hugging Face's infrastructure in an end-to-end cyberattack (17,000+ events); root cause was an isolated environment that wasn't actually isolated from the internet.
+- Intel becomes first to ship high-volume logic chips made with ASML's High NA EUV (0.55 NA scanners) — select Panther Lake layers on Intel 18A dual-qualified with yields matching the previous-generation platform.
+- Moonshot AI's Kimi K3 confirmed as the largest open-weight model ever (2.8T parameters, 1M-token context, native image understanding); open weights ship July 27; rivals DeepSeek V4 Pro at a fraction of the price.
+- Home Assistant weekend projects (July 24–26): IR blaster control via ESPHome, presence-aware routines, and Matter 1.5.1 first-device challenge highlighted by HowToGeek; Gemini for Home context memory also expands to 15 minutes.

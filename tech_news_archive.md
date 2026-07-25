@@ -594,3 +594,10 @@
 - Intel becomes first to ship high-volume logic chips made with ASML's High NA EUV (0.55 NA scanners) — select Panther Lake layers on Intel 18A dual-qualified with yields matching the previous-generation platform.
 - Moonshot AI's Kimi K3 confirmed as the largest open-weight model ever (2.8T parameters, 1M-token context, native image understanding); open weights ship July 27; rivals DeepSeek V4 Pro at a fraction of the price.
 - Home Assistant weekend projects (July 24–26): IR blaster control via ESPHome, presence-aware routines, and Matter 1.5.1 first-device challenge highlighted by HowToGeek; Gemini for Home context memory also expands to 15 minutes.
+
+## 2026-07-25
+- Claude Opus 5 launches July 24 — matches Fable 5 on most benchmarks at half the cost ($5/$25/Mtok), 1M-token context window, per-request reasoning effort (Low/High/Max); wins outright on agentic coding (Frontier-Bench) and ARC-AGI-3 novel reasoning.
+- Samsung and SK Hynix sign $950 billion in AI chip supply deals with U.S. tech firms — SK Hynix commits $750B to Nvidia and partners, Samsung $200B to Broadcom; all centered on high-bandwidth memory for AI data centers.
+- Anthropic formally requests memory chip supplies from SK Hynix to build its own semiconductors — confirmed live at SF AI summit by SK Group Chairman Chey Tae Won with Dario Amodei onstage; Anthropic joins OpenAI in the custom silicon race pre-IPO.
+- Black Forest Labs launches FLUX 3 — a single unified model for images, 20-second video, and synced audio (dialogue, sound effects, multilingual speech); early access open, open-weight FLUX 3 Dev planned; claims to outperform Runway and Kling on BFL benchmarks.
+- TSMC locks in chip price hikes of up to 10% for 2027 across all nodes, with AI surcharges potentially reaching 25%; Apple, Nvidia, AMD, and MediaTek have six months to adjust — increases will ripple through consumer GPU and smartphone pricing.

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-24",
-    "scan_count": 28,
+    "last_scan": "2026-07-25",
+    "scan_count": 29,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2362,6 +2362,90 @@
       },
       "last_checked": "2026-07-24",
       "check_fails": 0
+    },
+    {
+      "id": "babelstreet-sr-director-quality-assurance",
+      "title": "Sr. Director of Quality Assurance",
+      "company": "Babel Street",
+      "category": "tech",
+      "location": "Remote",
+      "remote": "remote",
+      "salary": "",
+      "source": "Greenhouse (Babel Street)",
+      "url": "https://job-boards.greenhouse.io/babelstreet/jobs/8021525",
+      "date_found": "2026-07-25",
+      "date_posted": "2026-06-22",
+      "notes": "Build and lead centralized QA function across software, APIs, data pipelines, and AI-enabled workflows. Owns QA strategy, test automation, release readiness, regression, performance validation, defect management, and quality governance across distributed engineering teams. AI analytics and identity-intelligence platform (government/enterprise). Reports to engineering leadership. Remote. AI-driven quality scope earns AI bonus.",
+      "fit": {
+        "score": 80,
+        "level": "Strong",
+        "why": "Remote Sr. Director of QA with an AI-analytics scope — cross-product QA leadership for APIs, data pipelines, and AI workflows earns the AI bonus and translates Taylor's automation-modernization expertise cleanly across the games-to-tech gap.",
+        "blurb": "Building and running a centralized QA function across software, APIs, data pipelines, and AI-enabled workflows is exactly the comprehensive QE-modernization mandate I've executed at Fortis, Amazon Games, and Blizzard — and I now lead Fortis' AI transformation of QA, using LLMs and agentic tooling to target an 80% reduction in manual release-test time. That blend of organizational QA leadership and AI-native quality thinking translates directly to Babel Street's mission of shipping reliable analytics and AI products faster and with greater confidence."
+      },
+      "closed": false
+    },
+    {
+      "id": "appliedsystems-ivans-director-quality",
+      "title": "Director, Quality",
+      "company": "Applied Systems (Ivans)",
+      "category": "tech",
+      "location": "Remote (US or Canada)",
+      "remote": "remote",
+      "salary": "",
+      "source": "iCIMS (Applied Systems)",
+      "url": "https://careers-appliedsystems.icims.com/jobs/7679/director,-quality/job",
+      "date_found": "2026-07-25",
+      "date_posted": "2026-07-11",
+      "notes": "Leads and modernizes QA strategy for Ivans — Applied Systems' insurance-carrier connectivity and data-exchange division (GCP-native InsurTech SaaS). Explicit mandate to embed AI throughout the SDLC: AI-assisted test generation, automation frameworks, performance and regression testing, release validation, quality metrics. Manages and mentors QA leaders. Remote US or Canada. Strong AI bonus: AI throughout the QA lifecycle is central to the role.",
+      "fit": {
+        "score": 79,
+        "level": "Good",
+        "why": "Remote Director of Quality at InsurTech SaaS with an explicit AI-throughout-SDLC mandate — AI-assisted test generation and automation modernization scope aligns directly with Taylor's Fortis AI transformation work.",
+        "blurb": "Leading and modernizing QA strategy with AI embedded across the full software quality lifecycle — from test planning through automation and release validation — is exactly what I'm executing at Fortis today, using LLMs and agentic AI tooling to target an 80% reduction in manual release-test time. My experience building and scaling QA disciplines from scratch, combined with deep automation framework ownership across CI/CD pipelines and performance testing, would let me drive Ivans' QA roadmap with the same rigor and innovation I've brought to every QA organization I've built."
+      },
+      "closed": false
+    },
+    {
+      "id": "hiscox-director-quality-engineering",
+      "title": "Director of Quality Engineering",
+      "company": "Hiscox USA",
+      "category": "tech",
+      "location": "Boston, MA or Atlanta, GA (hybrid 2–3 days/week)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Workday (Hiscox)",
+      "url": "https://hiscox.wd3.myworkdayjobs.com/en-US/Hiscox_External_Site/job/Director-of-Quality-Engineering_R0017777-1",
+      "date_found": "2026-07-25",
+      "date_posted": "",
+      "notes": "Hands-on Director leading and elevating QE practices across all value streams at Hiscox USA (specialty commercial insurance). Defines strategy for secure, high-performing software delivery; directly influences tools, processes, and code. Reports to Head of Platform. Boston MA or Atlanta GA, hybrid 2–3 days/week. No explicit AI/LLM mandate. Date posted not confirmed — let deadlink check verify freshness.",
+      "fit": {
+        "score": 66,
+        "level": "Good",
+        "why": "Hands-on Director of QE defining strategy across all delivery streams at an InsurTech company — strong technical QE leadership scope; Boston/Atlanta hybrid and insurance domain are the main friction points.",
+        "blurb": "Defining and elevating quality engineering practices across all value streams at Hiscox — from strategy and tooling to directly influencing tools, processes, and code — translates directly from my Director work at Fortis, Amazon Games, and Blizzard, where I've shaped the QA discipline and automation architecture for complex multi-platform products. I'd bring 20+ years of engineering quality leadership, an ISTQB CTAL-TM certification, and my current AI-driven automation initiative to help Hiscox USA's Platform team deliver faster and with greater confidence."
+      },
+      "closed": false
+    },
+    {
+      "id": "delinea-director-software-quality-assurance",
+      "title": "Director of Software Quality Assurance (QA)",
+      "company": "Delinea",
+      "category": "tech",
+      "location": "Mexico City, Mexico (hybrid — 3 days/week)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Ashby (Delinea)",
+      "url": "https://jobs.ashbyhq.com/delinea/564e91b9-4bcd-47a6-bf83-430536c860f7",
+      "date_found": "2026-07-25",
+      "date_posted": "2026-07-14",
+      "notes": "Leads QA teams and manages QA transformation with AI-driven practices at Delinea (privileged access management / identity security SaaS). People management confirmed. Hybrid Mexico City (Reforma campus, 3 days/week). Originally posted ~February 2026; reposted/refreshed ~July 14, 2026. AI-driven QA transformation mandate earns AI bonus.",
+      "fit": {
+        "score": 60,
+        "level": "Stretch",
+        "why": "Director of SQA at a cybersecurity SaaS company with an AI-driven QA transformation mandate — AI bonus applies; Mexico City hybrid office and international relocation from OC, CA are the primary barriers.",
+        "blurb": "Leading a QA transformation with AI-driven practices at a privileged access management company — managing teams, modernizing test strategy, and driving quality standards across a security-critical SaaS product — maps to the transformation I now lead at Fortis, where I use LLMs and agentic tooling to target an 80% reduction in manual release-test time. Delinea's AI-driven mandate is compelling; the on-site Mexico City requirement and relocation from Orange County are the primary considerations."
+      },
+      "closed": false
     }
   ]
 }

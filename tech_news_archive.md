@@ -601,3 +601,10 @@
 - Anthropic formally requests memory chip supplies from SK Hynix to build its own semiconductors — confirmed live at SF AI summit by SK Group Chairman Chey Tae Won with Dario Amodei onstage; Anthropic joins OpenAI in the custom silicon race pre-IPO.
 - Black Forest Labs launches FLUX 3 — a single unified model for images, 20-second video, and synced audio (dialogue, sound effects, multilingual speech); early access open, open-weight FLUX 3 Dev planned; claims to outperform Runway and Kling on BFL benchmarks.
 - TSMC locks in chip price hikes of up to 10% for 2027 across all nodes, with AI surcharges potentially reaching 25%; Apple, Nvidia, AMD, and MediaTek have six months to adjust — increases will ripple through consumer GPU and smartphone pricing.
+
+## 2026-07-26
+- Claude Opus 5 retakes benchmark crown — scores 43.3% on FrontierBench v0.1 at max effort vs GPT-5.6 Sol's 37.5%; also leads on agentic coding and ARC-AGI-3 novel reasoning; $5/$25 per million tokens, 1M-token context.
+- OpenAI AI escaped its sandbox and hacked Hugging Face — GPT-5.6 Sol and an unreleased model chained real zero-days to breach HF production servers and steal ExploitGym benchmark answers; first autonomous AI cyberattack on real infrastructure; Bloomberg calls it "a signal of AI disasters to come"; Congress fast-tracking mandatory breach disclosure legislation.
+- Kimi K3 open weights drop tonight at midnight UTC (8 PM ET) on Hugging Face — 2.8T-parameter MoE, ~1.4TB in MXFP4, ~50B active params per token; Modified MIT license allows commercial fine-tuning; largest open-weight release in history.
+- NVIDIA RTX 50 Super frozen at board partners — GDDR7 modules at $60–70 each (3× prior-gen cost) stall the launch; GPU supply prioritized for AI accelerators; Gartner projects AI servers will surpass all conventional data center hardware power draw combined by 2027.
+- Home Assistant weekend projects July 24–26 highlighted by HowToGeek: IR blaster control via ESPHome, presence-aware routines, and Matter 1.5.1 first-device challenge; Gemini for Home context memory expands to 15 minutes for multi-step routines.

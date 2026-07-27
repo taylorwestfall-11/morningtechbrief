@@ -1,0 +1,108 @@
+Head of Quality Engineering
+Xapo Bank
+Remote (Work from Anywhere — Gibraltar HQ)
+Posted: 2026-06-29
+https://job-boards.greenhouse.io/xapo61/jobs/7774837003
+
+------------------------------------------------------------
+
+Work from anywhere, impact everywhere
+
+Diversity is at the heart of who we are at Xapo Bank.
+We’re a fully distributed team of over 160 Xapiens that work remotely from 50+ countries around the world.
+
+Our beginning: A world that enjoys economic freedom and wealth protection,no matter where you live or who is running your country.
+To achieve that, we search the world for the best people for the job.
+We work hard, think globally, and inspire each other to learn and grow.
+We are committed to changing the way things are done.
+
+Although we are headquartered in Gibraltar, this is a full time, 100% remote position
+Work from anywhere!
+
+Position overview
+
+We're looking for a Head of Quality Engineering to join our technology function, reporting directly to the CTO. At Xapo, we are building truly cross-functional teams with full ownership of design, architecture, building, testing, delivery, data, and operations, structured as Stream Aligned Teams (SATs), Platform teams and Enabling teams as per Team Topologies.
+
+This role owns the quality framework across the entire technology function, coverage standards, gate criteria, AI-assisted test tooling, SAT enablement, and pre-release veto authority. You give engineering, apps, and web a single accountable owner for what "quality" means and how it is measured.
+
+This is not a traditional QA role. You will not sit in a test team checking other people's code, SAT engineers own quality in their own code (shift-left). You own the system engineers test within: the framework, the tooling, the gates, and the standards.
+
+The role is deliberately tooling-heavy over headcount-heavy. Your budget is for tooling and AI tokens, not for building a QA team beneath you. The agentic QA pipeline is already in active PoC with positive early results; you will own scaling it to production. Your north star: fully automated quality enforcement, where releases are blocked automatically when rigorous checks fail, without needing human intervention. Target: more than 80% of release quality decisions made by automated tooling within 12 months of hire.
+
+This is an opportunity to shape how a regulated crypto bank defines and enforces software quality, at the intersection of engineering excellence, AI-assisted tooling, and a genuinely high-stakes production environment.
+
+Responsibilities
+
+• Quality framework definition: own coverage standards (unit, service, integration, end-to-end), gate criteria, and the quality contribution to the function-level Definition of Done. Aligned with Head of Engineering on backend and Head of Frontend Engineering on client-side.
+
+• Coverage baselines: define measurable coverage thresholds per service and per tribe, with trend visibility, and drive adoption across teams.
+
+• Pre-release veto authority: hold and exercise the authority to block releases when quality gates are not met. Own the automated tooling that makes this veto self-triggering rather than dependent on a single person.
+
+• AI-assisted test tooling: define and drive the framework for automated test generation, regression coverage, integration test tooling, and the agentic QA pipeline. You are the designer and driver; implementation is a cross-functional effort with Platform, backend, web, and mobile engineers.
+
+• SAT enablement: produce the training, documentation, tooling, and templates that let Stream Aligned Team engineers do quality work themselves, without a separate QA function.
+
+• Test environment strategy: partner with Head of Platform Engineering on dedicated QA environments, test data management, and integration test infrastructure.
+
+• Quality posture reporting: own the metrics like defect escape rate, coverage trends, release veto rate, AI tooling adoption progress, and percentage of releases requiring no manual quality intervention.
+
+• Security testing integration: partner with Security on SAST, DAST, and dependency scanning as components of the quality gate.
+
+Skills needed
+
+• 8+ years in software quality engineering, with a clear track record of owning quality frameworks across engineering organisations, not just managing a QA team or running manual test cycles.
+
+• Hands-on experience building CI/CD quality gates at multiple levels: unit, service, integration, and end-to-end. You know where tests go in a pipeline and how to make them block a release reliably.
+
+• Practical experience with AI-assisted test tooling, LLM-driven test generation, agentic QA pipelines, or equivalent. You don't need to have shipped a production-grade system, but you need a genuine point of view and hands-on exposure.
+
+• Demonstrated ability to raise quality standards without a reporting hierarchy, you have influenced engineering teams through better tooling, documentation, and frameworks, not through authority over people.
+
+• Solid understanding of distributed, event-driven microservices architectures and what testing them well requires: contract testing, consumer-driven contracts, integration test data strategies.
+
+• Experience defining and tracking quality metrics: defect escape rate, coverage baselines, release veto rates. You have turned quality into something measurable.
+
+• Strong written communication, you can write a coverage standard, gate criteria document, or enablement guide that engineers actually read and use.
+
+• Experience in regulated fintech, payments, or banking environments, with a strong emphasis on mobile-first product delivery. You have an appreciation for the stakes of a quality failure in a customer-funds context, particularly within the unique constraints and user expectations of a mobile application environment
+
+Nice to have:
+
+• Hands-on experience with agentic or generative AI test tooling in production or near-production contexts.
+
+• Familiarity with Team Topologies, how Stream Aligned, Platform, and Enabling teams interact in practice.
+
+• Security testing experience: SAST, DAST, dependency scanning, and how these integrate into a CI/CD quality gate.
+
+• Background in crypto, Web3, custody, or blockchain-based systems.
+
+• Open-source contributions or external thought leadership (talks, articles, OSS projects) related to quality engineering or test automation.
+
+While your North Star is absolute automation, you possess a "roll-up-your-sleeves" mentality. You aren't afraid to get your hands dirty, jump into the trenches, and manually test the mobile apps yourself if a critical release or an edge-case roadblock requires it.
+
+Other requirements
+
+• A dedicated workspace.
+
+• A reliable internet connection with the fastest speed possible in your area.
+
+• Alignment with Our Values and the Xapo Values-Driven Leadership principles.
+
+Why work for Xapo?
+
+Impact Globally, Work Remotely.
+
+•
+Shape the Future
+Improve lives through cutting-edge technology, work 100% remotely from anywhere in the world.
+
+•
+Great work-life balance
+Build amazing things with a balance of autonomy and collaborative teamwork. Set your own work schedule and make use of a flexible PTO plan when you need to recharge.
+
+•
+Expect Excellence
+Collaborate, learn, and grow with a high-performance team. Learn how you learn best - from books to conferences, you’ll get a yearly budget for your individual learning and development goals.
+
+At Xapo, we prioritize consumer protection and adhere to regulatory requirements by ensuring that all Xapiens are accountable for upholding principles of fair treatment, transparency, and ethical conduct in their interactions with customers and stakeholders.

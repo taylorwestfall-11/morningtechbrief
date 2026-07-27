@@ -608,3 +608,10 @@
 - Kimi K3 open weights drop tonight at midnight UTC (8 PM ET) on Hugging Face — 2.8T-parameter MoE, ~1.4TB in MXFP4, ~50B active params per token; Modified MIT license allows commercial fine-tuning; largest open-weight release in history.
 - NVIDIA RTX 50 Super frozen at board partners — GDDR7 modules at $60–70 each (3× prior-gen cost) stall the launch; GPU supply prioritized for AI accelerators; Gartner projects AI servers will surpass all conventional data center hardware power draw combined by 2027.
 - Home Assistant weekend projects July 24–26 highlighted by HowToGeek: IR blaster control via ESPHome, presence-aware routines, and Matter 1.5.1 first-device challenge; Gemini for Home context memory expands to 15 minutes for multi-step routines.
+
+## 2026-07-27
+- Kimi K3 open weights live on Hugging Face — 2.8T-parameter MoE (896 experts, 16 active per token), 1M-token context, native vision, ~594GB MXFP4 download; largest open-weight model in history; Modified MIT license allows commercial fine-tuning.
+- Nvidia in talks to backstop $250B in OpenAI data center financing — SoftBank SB Energy's 10GW Piketon Ohio campus could cost $500B+ including chips; would give OpenAI its first owned infrastructure instead of renting from Microsoft, Amazon, and Oracle.
+- Claude Opus 5 benchmark deep-dive confirms lead — 43.3% FrontierBench v0.1 (2× Opus 4.8), ARC-AGI-3 at 30.2% (3× next-best), OSWorld 2.0 surpasses Fable 5 at one-third the cost.
+- AMD FSR 4.1 rolls out to all Radeon RX 7000-series (RDNA 3) GPUs via Adrenalin 26.7 — same INT8 neural upscaling as RDNA 4, active in 300+ games; RDNA 2 follows in early 2027.
+- GitHub slashes bug bounty payouts by 50%+ starting today — critical findings drop from up to $30K to a fixed $10K, all severity tiers reduced.

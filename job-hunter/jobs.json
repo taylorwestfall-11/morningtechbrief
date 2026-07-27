@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-26",
-    "scan_count": 30,
+    "last_scan": "2026-07-27",
+    "scan_count": 31,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2457,6 +2457,90 @@
       "closed": false,
       "last_checked": "2026-07-26",
       "check_fails": 0
+    },
+    {
+      "id": "31stunion-qa-manager",
+      "title": "QA Manager",
+      "company": "31st Union (2K / Take-Two)",
+      "category": "games",
+      "location": "San Mateo, CA (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Greenhouse (31st Union / 2K)",
+      "url": "https://boards.greenhouse.io/31stunion/jobs/5897502003",
+      "date_found": "2026-07-27",
+      "date_posted": "2026-07-09",
+      "notes": "Leads internal Development QA team for Project ETHOS (free-to-play 3rd-person rogue-like hero shooter). Primary liaison between QA and Development, Production, and External QA partners. Owns test plan creation, execution, defect tracking, and reporting. 31st Union is a 2K/Take-Two studio based in San Mateo. Bay Area onsite — requires relocation from OC.",
+      "fit": {
+        "score": 65,
+        "level": "Good",
+        "why": "Games QA Manager at a 2K/Take-Two studio for a new live-service title — right vertical and publisher pedigree; under-leveled vs. Director trajectory and Bay Area onsite requires relocation from OC.",
+        "blurb": "Managing QA for a new 2K live-service shooter title — aligning internal dev QA with production, engineering, and external partners — draws directly on my leadership experience at Fortis, Amazon Games, and Blizzard, where I owned end-to-end quality strategy across blended internal and vendor teams. While QA Manager is below my Director scope, 31st Union's 2K backing and a new live-service IP in early development are compelling; Bay Area relocation is the primary consideration from Orange County."
+      },
+      "closed": false
+    },
+    {
+      "id": "firaxis-qa-manager",
+      "title": "QA Manager (Firaxis)",
+      "company": "Firaxis Games (2K)",
+      "category": "games",
+      "location": "Las Vegas, NV (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Greenhouse (2K)",
+      "url": "https://boards.greenhouse.io/2k/jobs/5162914003",
+      "date_found": "2026-07-27",
+      "date_posted": "",
+      "notes": "QA Manager for an upcoming Firaxis project (Civilization and XCOM franchise studio), staffed from 2K's Las Vegas location. Firaxis is 2K's legendary strategy game studio. Las Vegas, NV onsite — requires relocation from OC. Distinct from 2k-qa-manager-madrid (Madrid QA Manager) and 2k-sr-manager-lqa (Madrid LQA Sr Manager).",
+      "fit": {
+        "score": 63,
+        "level": "Stretch",
+        "why": "QA Manager at legendary strategy studio Firaxis (Civ/XCOM) under 2K — right games vertical and publisher prestige; QA Manager is below Director trajectory and Las Vegas onsite requires relocation from OC.",
+        "blurb": "Managing QA for the next Firaxis title — ensuring the quality of turn-based strategy experiences that defined the genre — draws on the same structured test planning, team leadership, and cross-functional stakeholder alignment I've built at Fortis, Amazon Games, and Blizzard. While QA Manager is a step below my current Director scope and Las Vegas requires a move from Orange County, Firaxis's world-class reputation and Take-Two's resources make this worth a conversation."
+      },
+      "closed": false
+    },
+    {
+      "id": "xapo-bank-head-quality-engineering",
+      "title": "Head of Quality Engineering",
+      "company": "Xapo Bank",
+      "category": "tech",
+      "location": "Remote (Work from Anywhere — Gibraltar HQ)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Greenhouse (Xapo Bank)",
+      "url": "https://job-boards.greenhouse.io/xapo61/jobs/7774837003",
+      "date_found": "2026-07-27",
+      "date_posted": "2026-06-29",
+      "notes": "Reports to CTO; owns global quality framework, coverage standards, and automated quality gates across Xapo's crypto banking platform. Explicitly drives AI-assisted test tooling and agentic QA pipelines. 100% remote / Work Anywhere — Gibraltar HQ, distributed team across 50+ countries. ~160 employees. Posted June 29, 2026. AI-driven testing mandate earns AI bonus.",
+      "fit": {
+        "score": 67,
+        "level": "Good",
+        "why": "Head of QE reporting to CTO at a 100% remote fintech company with explicit AI-agentic testing mandate (+AI bonus) — right seniority and org-ownership scope; fintech/crypto domain shift from games is the primary gap.",
+        "blurb": "Building and owning global quality engineering at a fully distributed company — with an explicit mandate to deploy AI-assisted test tooling and agentic QA pipelines — maps directly to what I lead at Fortis today, where I use LLMs and agentic AI to target an 80% reduction in manual release-test time. Reporting to a CTO across a 50-country remote team is the organizational scale I'm ready for; the primary consideration is the shift from games quality leadership to fintech/crypto."
+      },
+      "closed": false
+    },
+    {
+      "id": "metropolis-director-qa",
+      "title": "Director of QA",
+      "company": "Metropolis Technologies",
+      "category": "tech",
+      "location": "USA (office-first — teams in DR and USA)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Greenhouse (Metropolis Technologies)",
+      "url": "https://boards.greenhouse.io/metropolis/jobs/4429481003",
+      "date_found": "2026-07-27",
+      "date_posted": "2026-07-23",
+      "notes": "Founding QA Director reporting to CTO/CPO at Metropolis Technologies (AI computer vision for parking — TIME100 Most Influential Company 2026, largest parking operator in North America). Build and lead QA team from ground up across DR + USA offices. Office-first culture (4+ days/week per agent research). Distinct from all existing tech QA entries.",
+      "fit": {
+        "score": 60,
+        "level": "Stretch",
+        "why": "Director of QA founding role at an AI computer vision company — right title and greenfield build-from-scratch mandate; office-first model and non-games domain are the primary barriers from OC.",
+        "blurb": "Building a QA function from the ground up as the founding Director — defining standards, growing a distributed team, and ensuring quality across an AI-powered consumer platform — is a challenge I've met multiple times at Fortis, Netflix, and Amazon Games, and Metropolis's AI computer vision scope is an adjacent domain to apply that expertise. The primary considerations are the office-first attendance model and the shift from games QA to mobility-tech AI products."
+      },
+      "closed": false
     }
   ]
 }

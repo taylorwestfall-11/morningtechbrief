@@ -615,3 +615,10 @@
 - Claude Opus 5 benchmark deep-dive confirms lead — 43.3% FrontierBench v0.1 (2× Opus 4.8), ARC-AGI-3 at 30.2% (3× next-best), OSWorld 2.0 surpasses Fable 5 at one-third the cost.
 - AMD FSR 4.1 rolls out to all Radeon RX 7000-series (RDNA 3) GPUs via Adrenalin 26.7 — same INT8 neural upscaling as RDNA 4, active in 300+ games; RDNA 2 follows in early 2027.
 - GitHub slashes bug bounty payouts by 50%+ starting today — critical findings drop from up to $30K to a fixed $10K, all severity tiers reduced.
+
+## 2026-07-28
+- Anthropic says 80% of its new production code is now written by Claude — marks the shift from AI as a coding aid to AI as the primary production author; VentureBeat covers what enterprise teams still at single digits need to do to close the gap.
+- Microsoft launches seven in-house MAI models, claims 89% GPU cost cut vs. OpenAI in production data — MAI-Voice-2-Flash now powers Dynamics 365 Contact Center; Excel and Outlook prompts already routing to MAI; Mustafa Suleyman says goal is to eliminate external model payments.
+- AMD unveils Instinct MI455X + Helios rack at Advancing AI 2026 — CDNA 5 on TSMC 2nm GAA, 320B transistors, hybrid-bonded chiplets; Helios packs 72 GPUs with Zen 6 Venice CPUs for 31TB HBM4 and 1.4PB/s bandwidth; racks start at $5.25M.
+- Waymo eyes Uber exit — ending exclusivity in Austin and Atlanta, filing notice for its own consumer app starting January 2028 (Uber contract ends May 2028); follows earlier Phoenix split; Uber shares fell 4.8%.
+- OpenAI GPT-Live-1 rolls out globally with no waitlist — real-time video AI now live on iOS, Android, and ChatGPT.com; users share live camera feed and get real-time spoken or text responses.

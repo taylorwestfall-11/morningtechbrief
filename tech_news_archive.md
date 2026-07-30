@@ -629,3 +629,10 @@
 - MCP 2026-07-28 spec released — biggest update to the Model Context Protocol since authorization was added; stateless core removes session tracking, adds header-based routing and formal extensions framework for Apps and Tasks.
 - Intel hikes Core Ultra 270K Plus to $349 (+$50) amid Nvidia/AMD rivalry pressure and falling stock; 18A production milestone hit at 15,000 wafers per month; SK Hynix closes record $26.5B US IPO on sustained AI memory demand.
 - Home Assistant Companion 2026.8.0 drops iOS 15, watchOS 8, macOS 11 support; IoTorero joins Works with Home Assistant as first ESPHome-ready smart plug/relay partner with full local control.
+
+## 2026-07-30
+- Claude Mythos breaks HAWK-256 post-quantum cipher in 60 hours using a new "Möbius Bridge" technique — also accelerates seven-round AES-128 attack 200–800×; NIST withdraws HAWK from post-quantum standardization.
+- Home Assistant 2026.8 beta week underway — Companion app drops iOS 15, watchOS 8, and macOS 11 starting this release; GA and release-party livestream set for August 5 at 20:00 GMT.
+- GPT-5.6 Sol, Terra, and Luna expanding beyond government-gated preview; Sol beats Claude Fable 5 on coding benchmarks at less than half the cost; Luna is 80% cheaper than Sol.
+- Adobe's Topaz Labs acquisition cleared by FTC ahead of schedule — Neurostream on-device AI (upscaling, noise removal, frame interpolation) heading to Firefly and Creative Cloud in H2 2026.
+- Nvidia confirms no new gaming GPUs in 2026, ending a 30-year streak — "RAMageddon" AI memory drought pushes RTX 60-series to 2028 as HBM supply is redirected to AI accelerators.

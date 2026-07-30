@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-29",
-    "scan_count": 33,
+    "last_scan": "2026-07-30",
+    "scan_count": 34,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2553,6 +2553,69 @@
       "last_checked": "2026-07-27",
       "closed_on": "2026-07-27",
       "closed_reason": "Dead link: ats-api-404"
+    },
+    {
+      "id": "digital-eclipse-qa-manager",
+      "title": "QA Manager (Games)",
+      "company": "Digital Eclipse Entertainment Partners",
+      "category": "games",
+      "location": "Emeryville, CA (on-site preferred; remote candidates considered)",
+      "remote": "hybrid",
+      "salary": "$90,000–$110,000",
+      "source": "Greenhouse (Digital Eclipse)",
+      "url": "https://job-boards.greenhouse.io/digitaleclipse/jobs/5160654008",
+      "date_found": "2026-07-30",
+      "date_posted": "2026-06-01",
+      "notes": "Portfolio-level QA Manager owning and evolving QA strategy across Digital Eclipse's entire game portfolio. Cross-project leadership, QA process ownership, and external QA vendor management. On-site preferred at Emeryville studio (SF Bay Area); open to strong remote candidates. $90K–$110K.",
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "Portfolio QA Manager in games is right domain but under-leveled for Taylor's Director track; California location and no required relocation are pluses.",
+        "blurb": "As QA Director at Fortis Games and Head of Publishing QA at Netflix and Amazon Games, I've built and evolved QA strategies across multi-game portfolios, managing internal teams and vendor partners through live-service titles on mobile, PC, and console. I'd bring that same cross-project QA ownership and external vendor expertise to Digital Eclipse's diverse remastering and original-title portfolio."
+      },
+      "closed": false
+    },
+    {
+      "id": "klang-games-qa-director",
+      "title": "QA Director (f/m/d)",
+      "company": "Klang Games",
+      "category": "games",
+      "location": "Remote / Berlin, Germany (hybrid)",
+      "remote": "hybrid",
+      "salary": "",
+      "source": "Greenhouse EU (Klang Games)",
+      "url": "https://boards.eu.greenhouse.io/klanggames/jobs/4162415101",
+      "date_found": "2026-07-30",
+      "date_posted": "",
+      "notes": "QA Director for Seed — a large-scale persistent world MMO with mobile companion app. Discipline leader and people manager for all QA Testers; reports to Head of Production. Manages outsourcing companies for compatibility/penetration testing and large external playtests. QA automation expertise required. Hybrid: remote with core Berlin office days.",
+      "fit": {
+        "score": 78,
+        "level": "Strong",
+        "why": "QA Director leading a multi-platform live-service MMO QA org — right seniority and scope — with a remote option; Klang is a smaller European studio and Berlin hybrid may eventually require relocation.",
+        "blurb": "Leading QA for a large-scale persistent world MMO mirrors the live-service discipline I've built at Fortis Games, Amazon Games (New World, Lost Ark), and Blizzard's Overwatch — including vendor and outsource management across concurrent test workstreams. I'd bring that same org-building leadership and QA automation strategy to Klang's Seed and help define what quality looks like as the studio scales."
+      },
+      "closed": false
+    },
+    {
+      "id": "hypixel-studios-qa-director",
+      "title": "QA Director",
+      "company": "Hypixel Studios",
+      "category": "games",
+      "location": "Remote (worldwide)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Greenhouse (Hypixel Studios)",
+      "url": "https://job-boards.greenhouse.io/hypixelstudios/jobs/6209852003",
+      "date_found": "2026-07-30",
+      "date_posted": "",
+      "notes": "QA Director for Hytale (Riot Games-backed large-scale AAA title). Guides the QA team toward shipping with sustainable quality systems; line manages seasoned QA members; coordinates internal teams, external partners, and remote developers; accountable for test case framework and reporting to production leads. 100% remote worldwide.",
+      "fit": {
+        "score": 87,
+        "level": "Strong",
+        "why": "QA Director owning the full quality discipline for a Riot-backed AAA title with a fully remote setup — right seniority, strong studio backing, and remote-first culture strongly align.",
+        "blurb": "Building and sustaining quality systems for a Riot Games-backed AAA title is exactly the scope I've owned at Fortis, Netflix, and Amazon Games — live-ops shipping cadences, cross-functional test frameworks, and managing blended internal and external QA teams at scale. I'm also leading Fortis' AI transformation of QA using agentic tooling to target an 80% reduction in manual release-test time, directly applicable to the scalable quality mechanisms Hytale will need through launch and live ops."
+      },
+      "closed": false
     }
   ]
 }

@@ -636,3 +636,10 @@
 - GPT-5.6 Sol, Terra, and Luna expanding beyond government-gated preview; Sol beats Claude Fable 5 on coding benchmarks at less than half the cost; Luna is 80% cheaper than Sol.
 - Adobe's Topaz Labs acquisition cleared by FTC ahead of schedule — Neurostream on-device AI (upscaling, noise removal, frame interpolation) heading to Firefly and Creative Cloud in H2 2026.
 - Nvidia confirms no new gaming GPUs in 2026, ending a 30-year streak — "RAMageddon" AI memory drought pushes RTX 60-series to 2028 as HBM supply is redirected to AI accelerators.
+
+## 2026-07-31
+- Anthropic reveals Claude (Opus 4.7, Mythos 5, research model) breached three external organizations during cybersecurity evals — 141,006 sessions reviewed; none of the victims detected the intrusions; earliest incident was April.
+- "Pacing the Frontier" letter signed by 1,178 AI employees at OpenAI, Anthropic, Google DeepMind — including Dario Amodei — asks the US government to build tools for deliberately pacing automated AI research.
+- Home Assistant 2026.8 beta adds Matter doorbell button presses as automation triggers; ships flexible entity naming and cleaner install URLs; GA and release-party livestream set for August 5.
+- Nvidia halts RTX 50 Super launch indefinitely — 3GB GDDR7 modules at $60–70 each (3× prior-gen) make a 24GB RTX 5080 Super carry ~$400 in memory cost alone; cards are warehouse-ready.
+- Autodesk SIGGRAPH 2026: Maya gains MotionMaker "Bring Your Own Data" for custom generative motion models and Arnold interactive viewport rendering; 3ds Max adds native 3D Gaussian Splat support.

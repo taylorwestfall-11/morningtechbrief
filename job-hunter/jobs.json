@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-07-30",
-    "scan_count": 34,
+    "last_scan": "2026-07-31",
+    "scan_count": 35,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2625,6 +2625,27 @@
       "last_checked": "2026-07-30",
       "closed_on": "2026-07-30",
       "closed_reason": "Dead link: ats-api-404"
+    },
+    {
+      "id": "appspace-senior-director-software-quality-assurance",
+      "title": "Senior Director of Software Quality Assurance",
+      "company": "Appspace",
+      "category": "tech",
+      "location": "Remote (US, global offices)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Greenhouse (Appspace)",
+      "url": "https://job-boards.greenhouse.io/appspace/jobs/6128940004",
+      "date_found": "2026-07-31",
+      "date_posted": "2026-07-30",
+      "notes": "Senior Director owning QA strategy, organization, and culture across Appspace's multi-product SaaS platform (digital signage, space reservation, visitor management, intranet). Build and lead a globally distributed QA org spanning manual, automation, and performance testing. Shift-left mandate; AI-driven development lifecycle context. Accountability for frameworks, tooling, metrics, and people. Automation stack: Playwright, Selenium, Cypress, Appium, REST Assured/Postman, CI/CD.",
+      "fit": {
+        "score": 74,
+        "level": "Good",
+        "why": "Senior Director scope building a global distributed QA org across multi-product SaaS — right seniority, org-building, and automation mandate; non-games domain shift keeps it in the Good band.",
+        "blurb": "Building and leading a globally distributed QA organization across a multi-product SaaS platform is work I've done repeatedly — at Fortis Games, Amazon Games, and Netflix — where I stood up QA orgs from scratch, owned the full testing stack (manual, automation, performance), and drove shift-left practices across engineering. At Fortis, I'm also leading an AI transformation of QA using agentic tooling that targets an 80% reduction in manual release-test time, directly aligned with Appspace's AI-driven development lifecycle priorities."
+      },
+      "closed": false
     }
   ]
 }

@@ -643,3 +643,10 @@
 - Home Assistant 2026.8 beta adds Matter doorbell button presses as automation triggers; ships flexible entity naming and cleaner install URLs; GA and release-party livestream set for August 5.
 - Nvidia halts RTX 50 Super launch indefinitely — 3GB GDDR7 modules at $60–70 each (3× prior-gen) make a 24GB RTX 5080 Super carry ~$400 in memory cost alone; cards are warehouse-ready.
 - Autodesk SIGGRAPH 2026: Maya gains MotionMaker "Bring Your Own Data" for custom generative motion models and Arnold interactive viewport rendering; 3ds Max adds native 3D Gaussian Splat support.
+
+## 2026-08-01
+- Claude Opus 5 in production focus: doubles Opus 4.8's Frontier-Bench score and leads ARC-AGI-3, with mid-conversation tool changes, visual output generation, and auto safety fallbacks; Sonnet 5 promo pricing ($2/$10/Mtok) ends August 31.
+- Home Assistant 2026.8 GA set for August 5 — Matter doorbells fire as event entities triggering automations; flexible entity naming, cleaner install URLs, and Z-Wave lock credential support all ship.
+- Nvidia DLSS 4.5 Ray Reconstruction arrives this month via Nvidia App — 2nd-gen transformer model, 35% more compute, 20% more parameters, UE5 plugin; RTX 60-series pushed to 2028 as DRAM drought continues.
+- NVIDIA and Hugging Face bring Isaac GR00T 1.7 open reasoning VLA model for humanoid robots to LeRobot; Kimi K3 AI agents found Redis zero-days and built working RCE exploits (trending on HN).
+- Motionographer turns 20 — platform refresh announced with dark mode, homepage jobs, and new Events page; Prime Video's $47M GenAI Creators' Fund greenlights three AI-assisted animated series.

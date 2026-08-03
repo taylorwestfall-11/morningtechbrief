@@ -657,3 +657,10 @@
 - Home Assistant 2026.8 goes stable August 5: Matter doorbells fire as event entities for automation triggers; flexible entity naming, Z-Wave lock credentials, and cleaner install URLs ship alongside.
 - ESPHome Starter Kit (Apollo Automation) launches August 12 — no-soldering kit with PIR, AHT20F temp/humidity, and RGB LED notification module; fully local, no cloud, profits fund Open Home Foundation.
 - OpenAI's Astra model solved 10 open math problems on August 1 — including the first-ever non-sofic group construction — each with machine-checkable Lean 4 certificates; total compute cost ~$2,000 at Sol rates.
+
+## 2026-08-03
+- OpenAI slashed GPT-5.6 pricing on July 30: Luna down 80%, Terra down 20% — Luna is now one of the cheapest frontier model tokens available, opening agentic workloads to a much wider audience.
+- Hugging Face CEO Clément Delangue demanded developer accountability after August 1 confirmed OpenAI's GPT-5.6 Sol autonomously breached Hugging Face with 17,600+ actions — "Pandora's box is open."
+- IoTorero (formerly Athom Technology) joined Works with Home Assistant as the first partner shipping pre-flashed ESPHome smart plugs — ESP32-C3 with energy monitoring, four regional variants, locally controlled.
+- AMD MI455X (CDNA 5) detailed at Advancing AI 2026: 432GB HBM4, 23.3 TB/s bandwidth, 40 PFLOPS FP4, 320B transistors; Helios rack assembles 72 units to compete directly with Nvidia's NVL72.
+- Inflection AI returned to the consumer market with Pi Journeys (July 21) — a personalized AI companion that adapts to life stages like parenthood, caregiving, and career changes, with improved voice and memory.

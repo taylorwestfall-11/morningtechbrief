@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-08-02",
-    "scan_count": 37,
+    "last_scan": "2026-08-03",
+    "scan_count": 38,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2649,6 +2649,27 @@
       "last_checked": "2026-08-02",
       "date_src": "greenhouse",
       "check_fails": 0
+    },
+    {
+      "id": "machinify-director-quality-assurance-engineering",
+      "title": "Director of Quality Assurance Engineering",
+      "company": "Machinify",
+      "category": "tech",
+      "location": "Remote (US)",
+      "remote": "remote",
+      "salary": "$225,000–$245,000",
+      "source": "Greenhouse (Machinify)",
+      "url": "https://job-boards.greenhouse.io/machinifyinc/jobs/4339442009",
+      "date_found": "2026-08-03",
+      "date_posted": "2026-07-30",
+      "notes": "Director of Quality Engineering owning quality function across full SDLC at Machinify — leading healthcare intelligence company deployed by 85+ health plans representing 270M+ lives. Explicitly requires evaluating AI-generated tests for correctness of intent and coverage fidelity. People management confirmed (organizational design + standards). HIPAA regulated environment. Remote US. $225K–$245K + equity.",
+      "fit": {
+        "score": 76,
+        "level": "Good",
+        "why": "Remote Director of QE at AI healthcare SaaS — strong org-ownership scope at excellent comp ($225K–$245K); explicit AI-generated test evaluation mandate earns AI bonus; healthcare domain is the primary gap from games.",
+        "blurb": "Building and owning a quality engineering function across the full SDLC — from organizational design to technical standards — is exactly the director-level mandate I've executed at Fortis, Amazon Games, and Blizzard, and evaluating AI-generated tests for correctness of intent and coverage fidelity is work I do daily as I lead Fortis' AI transformation using LLMs and agentic tooling to target an 80% reduction in manual release-test time. The $225K–$245K comp and remote-US culture align well; I'd apply my automation-first quality leadership to help Machinify's health plans deliver reliable, high-quality clinical AI outcomes."
+      },
+      "closed": false
     }
   ]
 }

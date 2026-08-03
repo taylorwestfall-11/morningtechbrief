@@ -1,0 +1,92 @@
+Director of Quality Assurance Engineering
+Machinify
+Remote (US)
+Compensation: $225,000–$245,000
+Posted: 2026-07-29
+https://job-boards.greenhouse.io/machinifyinc/jobs/4339442009
+
+------------------------------------------------------------
+
+Machinify is a leading healthcare intelligence company with expertise across the payment continuum, delivering unmatched value, transparency, and efficiency to health plan clients across the country. Deployed by over 85 health plans, including many of the top 20, and representing more than 270 million lives, Machinify brings together a fully configurable and content-rich, AI-powered platform along with best-in-class expertise. We’re constantly reimagining what’s possible in our industry, creating disruptively simple, powerfully clear ways to maximize financial outcomes and drive down healthcare costs.
+
+We’re seeking a skilled a Director of Quality Assurance Engineering to join our team!
+
+The Director of Quality Engineering owns the quality function across the full software development lifecycle — from strategy and organizational design to the technical standards that govern how software ships. This is a strategic leadership role for someone who is leading the rethinking of what quality means in an era where AI generates the majority of code, and who can build the systems, culture, and team to match.
+
+The Ideal candidate is...
+
+• A leader who has a pulse on industry AI best practices and is already transforming quality for the AI-accelerated development era.
+
+• Someone who relishes impact through roles no longer defined by traditional QA boundaries: you operate at the intersection of platform, engineering, MLE, and product.
+
+• A quality advocate who can hold the bar on rigor without becoming the bottleneck on velocity.
+
+• A data-driven leader who develops meaningful metrics and uses them to drive decisions — not just report status.
+
+Does this sound like the right opportunity to explore?... Lets connect!
+
+What You’ll Do
+
+Strategy & Leadership
+
+• Rethink the QA team methodologies and skillsets/training in a world where AI generates the majority of code — evaluation methodologies, coverage metrics that account for AI-generated tests, and scaling to validation of multiplying volumes of code and use cases, without proportional headcount growth.
+
+• Lead, grow, and inspire a high-performing team of Quality Engineers; own hiring targets, career ladders, and a high impact, innovative culture; Grow leadership muscle in your team.
+
+• Represent quality to executive leadership and regulators with meaningful metrics and auditable evidence; be the organizational quality gate.
+
+Technical Quality Strategy
+
+• Own an AI-driven technical quality architecture: test data strategy in PHI-constrained environments, CI/CD-integrated gate design, and the automation framework philosophy across unit, integration, and end-to-end surfaces.
+
+• Establish release quality standards and exit criteria that balance engineering velocity with production confidence; Define defect triage and escalation protocols used across teams.
+
+• Partner with platform and MLE to integrate AI/LLM evaluation methodology into the delivery pipeline.
+
+• Deep familiarity with the test automation landscape across languages and stacks
+
+What You Bring
+
+• 10+ years of software quality engineering experience, with 4+ years in a leadership role and 2+ years driving strategy and execution in an AI-accelerated development environment.
+
+• Track record of building or transforming a quality function at scale — org and role design, not just team management.
+
+• Experience evaluating AI-generated tests for correctness of intent and coverage fidelity — able to distinguish tests that pass from tests that actually verify the right behavior.
+
+• Experience showing measurable impact with mutation testing, risk-based testing, and production observability as a continuous quality gate.
+
+• Experience in regulated environments (HIPAA or equivalent) strongly preferred.
+
+• Excitement to make an impact in rewiring US healthcare!
+
+What We Offer
+
+• Work from anywhere in the US! Machinify is digital-first.
+
+•
+Top Medical/Dental/Vision offerings
+
+•
+FSA/HSA
+
+•
+Tuition reimbursement
+
+•
+Competitive salary, 401(k) with company match
+
+•
+Unlimited PTO
+
+•
+Additional health and wellness benefits and perks
+
+• Flexible and trusting environment where you’ll feel empowered to do your best work
+
+The salary for this position is based on an array of factors unique to each candidate: Such as years and depth of experience, set skills, certifications, etc. We are hiring for different levels, and our Recruiting team will let you know if you qualify for a different role/range. Salary is one component of the total compensation package, which includes meaningful equity, excellent healthcare, flexible time off, and other benefits and perks.
+
+Pay range: 225,000-245,000 + meaningful equity package
+
+Equal Employment Opportunity at Machinify
+
+We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender, gender identity or expression, or veteran status. We are proud to be an equal opportunity workplace. Machinify is an employment at will employer. We participate in E-Verify as required by applicable law. In accordance with applicable state laws, we do not inquire about salary history during the recruitment process. If you require a reasonable accommodation to complete any part of the application or recruitment process, please let our recruiters know. See our Candidate Privacy Notice at: https://www.machinify.com/candidate-privacy-notice/

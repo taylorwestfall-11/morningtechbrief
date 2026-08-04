@@ -664,3 +664,10 @@
 - IoTorero (formerly Athom Technology) joined Works with Home Assistant as the first partner shipping pre-flashed ESPHome smart plugs — ESP32-C3 with energy monitoring, four regional variants, locally controlled.
 - AMD MI455X (CDNA 5) detailed at Advancing AI 2026: 432GB HBM4, 23.3 TB/s bandwidth, 40 PFLOPS FP4, 320B transistors; Helios rack assembles 72 units to compete directly with Nvidia's NVL72.
 - Inflection AI returned to the consumer market with Pi Journeys (July 21) — a personalized AI companion that adapts to life stages like parenthood, caregiving, and career changes, with improved voice and memory.
+
+## 2026-08-04
+- EU AI Act enforcement began August 2 — chatbots must self-identify as automated systems, deepfakes and AI-altered video must carry machine-readable labels; fines up to €15M or 3% of global annual revenue.
+- Home Assistant 2026.8 stable releases tomorrow (August 5) — Matter doorbells become event entities for automations, port 80 replaces :8123, custom entity ID naming, and 40+ menus simplified.
+- Palantir Q2 2026 earnings crushed expectations — revenue +93% to $1.94B, commercial AI revenue +149% to $764M on "AI sovereignty" demand; stock surged 12% and full-year guidance raised to $8.15B.
+- Hugging Face CEO Clément Delangue: China is winning the open AI race — five of HF's top-ten downloaded models are Chinese; expects China to reach frontier performance by end of 2026 or 2027.
+- DeepSeek V4 Flash public beta landed July 31 — approaches Claude Opus 4.8 on complex coding tasks; V4 GA expected August 10–20, sustaining the AI price war driving frontier costs lower.

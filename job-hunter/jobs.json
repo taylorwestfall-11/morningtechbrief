@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-08-05",
-    "scan_count": 40,
+    "last_scan": "2026-08-06",
+    "scan_count": 41,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2673,6 +2673,27 @@
       "last_checked": "2026-08-05",
       "date_src": "greenhouse",
       "check_fails": 0
+    },
+    {
+      "id": "thatsnomoon-senior-manager-quality-assurance",
+      "title": "Senior Manager, Quality Assurance",
+      "company": "That's No Moon Entertainment",
+      "category": "games",
+      "location": "USA (Remote)",
+      "remote": "remote",
+      "salary": "$145,000–$170,000",
+      "source": "Greenhouse (That's No Moon Entertainment)",
+      "url": "https://job-boards.greenhouse.io/thatsnomoonentertainment/jobs/5807302004",
+      "date_found": "2026-08-06",
+      "date_posted": "",
+      "notes": "Owns and evolves quality strategy for an unannounced AAA title at an independent studio co-founded by former Infinity Ward and other AAA veterans. Accountable for maintaining and refining the QA organization, defining QA process, and providing quality signals throughout development. Partners closely with Production and discipline leadership to surface risk, inform decision-making, and ensure platform compliance. Fully remote US. $145K–$170K base + equity + profit share.",
+      "fit": {
+        "score": 73,
+        "level": "Good",
+        "why": "Remote US Senior Manager of QA at an independent AAA games studio — right vertical and people-management scope confirmed; Senior Manager title is below Director trajectory and $145K–$170K comp is modest for that level.",
+        "blurb": "Owning the quality strategy for an independent studio's unannounced AAA title — maintaining the QA organization, defining process, and ensuring platform compliance — maps directly to the greenfield QA org-building I've done at Fortis Games, Netflix, and Amazon Games. I'd bring director-level rigor to That's No Moon's senior QA mandate and apply my current AI-driven testing initiative — using agentic tooling and LLMs to target an 80% reduction in manual release-test time — to help ship a high-quality first title."
+      },
+      "closed": false
     }
   ]
 }

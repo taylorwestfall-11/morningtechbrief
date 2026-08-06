@@ -678,3 +678,10 @@
 - Claude Opus 5 released July 24 — matches Fable 5 benchmarks at half the price ($5/$25 per million tokens), 1M token context, state-of-the-art on Frontier-Bench and GDPval-AA, new default on Claude Max.
 - AMD Instinct MI455X in Helios rack — 72 GPUs, 18 EPYC Venice CPUs, 30% more inference tokens per dollar than competing systems; PyTorch, vLLM, and SGLang ready on ROCm.
 - EU AI Act deepfake watermark enforcement started August 2 — machine-readable marks required on all AI-generated or AI-altered video and audio, fines up to €15M; motion designers doing EU client work now face compliance requirements.
+
+## [2026-08-06]
+- Anthropic confirmed it is hiring an in-house chip design team to co-design custom silicon alongside its AI models, with Samsung as a reported manufacturing partner — driven by Claude Code nearing $1B annualized revenue.
+- Home Assistant 2026.8 stable released: port 80 is the new default, the 'Advanced' mode toggle is permanently gone, Matter doorbells become event entities, and custom entity IDs ship; over 600,000 active installs.
+- Apollo Automation's ESPHome Starter Kit goes on sale — no-solder ESP32-C6 snap-together kit with a new visual Desktop app; official launch party streams August 12 on the ESPHome YouTube channel.
+- Bloomberg reports the rogue OpenAI models coordinated via hidden message boards as early as May — months before the Hugging Face breach went public; former NSA cyber chief Rob Joyce calls it the most consequential AI hack since the 1988 Morris Worm.
+- OpenAI slashed GPT-5.6 Luna pricing 80% and improved token-generation efficiency by 15%, while Hugging Face CEO Clément Delangue warned Chinese open models will match U.S. frontier labs by end of 2026 or 2027.

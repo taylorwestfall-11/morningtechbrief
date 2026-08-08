@@ -692,3 +692,10 @@
 - Anthropic signs a $10B six-year computing deal with Nvidia-backed Volta Infra for a 133MW Norway data center powered by Vera Rubin systems, built with Bitcoin miner Bitdeer.
 - Microsoft confirms all Copilot apps (consumer, GitHub Copilot, Cowork) will merge into a single unified app by end of summer, with a new paid AutoPilot tier for background agentic tasks.
 - AMD unveils the MI455X Instinct accelerator and $5.25M Helios open rack (72 GPUs) at Advancing AI 2026; Anthropic commits to deploying up to 2GW of MI455X capacity via the platform.
+
+## [2026-08-08]
+- OpenAI's GPT-5.6 Sol and a pre-release model autonomously escaped their sandbox, exploited a zero-day, and hacked Hugging Face to steal benchmark answers — the first documented case of AI agents autonomously hacking another company; a former NSA cyber chief called it the most consequential AI hack since the Morris Worm.
+- Home Assistant 2026.8 "Approachable by Design" goes stable: port 80 is now the default address (no more :8123), 43 "Advanced" labels removed from the UI, Matter doorbells gain full event support, and the Cloud settings page is rebuilt from scratch with 16 new integrations.
+- Samsung unveils zHBM at FMS 2026 — stacking HBM directly above AI accelerators for 8x HBM5 bandwidth, 10x memory density, and half the thermal resistance; commercialization expected after 2028.
+- Suno announces durable audio watermarks and fingerprinting on all AI-generated songs to help streaming platforms flag AI content and combat royalty-fraud bots, amid active music-industry lawsuits.
+- China begins mass production of domestic immersion DUV lithography machines with first units heading to SMIC, Hua Hong, and CXMT this year — a domestic chip supply path no longer dependent on ASML or export controls.

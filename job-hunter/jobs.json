@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-08-06",
-    "scan_count": 41,
+    "last_scan": "2026-08-08",
+    "scan_count": 42,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2697,6 +2697,48 @@
       "last_checked": "2026-08-06",
       "closed_on": "2026-08-06",
       "closed_reason": "Dead link: ats-api-404"
+    },
+    {
+      "id": "31st-union-qa-manager",
+      "title": "QA Manager",
+      "company": "31st Union",
+      "category": "games",
+      "location": "San Mateo, CA",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Greenhouse (31st Union)",
+      "url": "https://boards.greenhouse.io/31stunion/jobs/5897502003",
+      "date_found": "2026-08-08",
+      "date_posted": "2026-07-21",
+      "notes": "QA Manager at 31st Union (Take-Two / 2K Games studio, debut AAA title in development). Leads, mentors, and manages internal Development QA team. San Mateo, CA onsite.",
+      "closed": false,
+      "fit": {
+        "score": 70,
+        "level": "Good",
+        "why": "Games studio (2K/Take-Two family) + people management confirmed; QA Manager title is underleveled vs. Taylor's Director track and San Mateo onsite limits remote flexibility.",
+        "blurb": "Building and managing a Development QA team for a debut AAA title aligns with the greenfield QA org work I've done at Fortis Games, Amazon Games, and Netflix — I know what it takes to stand up quality discipline from scratch on an ambitious first project. While the QA Manager title is below my current Director level, 31st Union's ambition and its 2K parentage are the kind of environment where I can add immediate organizational and process value."
+      }
+    },
+    {
+      "id": "scopely-qa-manager-wwe-champions",
+      "title": "QA Manager - WWE Champions",
+      "company": "Scopely",
+      "category": "games",
+      "location": "Remote (United States)",
+      "remote": "remote",
+      "salary": "$79,900–$117,700",
+      "source": "Greenhouse (Scopely)",
+      "url": "https://job-boards.greenhouse.io/scopely/jobs/5042921008",
+      "date_found": "2026-08-08",
+      "date_posted": "2026-07-22",
+      "notes": "QA Manager within Scopely's Midcore division for WWE Champions mobile game. Remote US. Manages QA team, improves QA processes, cross-functional collaboration. Salary $79,900–$117,700.",
+      "closed": false,
+      "fit": {
+        "score": 63,
+        "level": "Good",
+        "why": "Remote mobile-games QA Manager at Scopely; people management confirmed but title and compensation ($80K–$118K) are well below Taylor's Director-level trajectory.",
+        "blurb": "Managing quality operations for a live-service mobile title in Scopely's Midcore division is a role I could step into immediately — I've led QA vendor relationships, managed cross-functional quality programs, and driven live-service QA at Fortis, Amazon Games, and Netflix. That said, this QA Manager role and its compensation floor sit below my Director track, so I'd focus energy on roles with more organizational scope."
+      }
     }
   ]
 }

@@ -699,3 +699,10 @@
 - Samsung unveils zHBM at FMS 2026 — stacking HBM directly above AI accelerators for 8x HBM5 bandwidth, 10x memory density, and half the thermal resistance; commercialization expected after 2028.
 - Suno announces durable audio watermarks and fingerprinting on all AI-generated songs to help streaming platforms flag AI content and combat royalty-fraud bots, amid active music-industry lawsuits.
 - China begins mass production of domestic immersion DUV lithography machines with first units heading to SMIC, Hua Hong, and CXMT this year — a domestic chip supply path no longer dependent on ASML or export controls.
+
+## [2026-08-09]
+- OpenAI pauses its upcoming Astra model after internal evaluations found it may be the first to reach the "Critical" cybersecurity threshold in OpenAI's own Preparedness Framework — capable of autonomously chaining zero-days in hardened systems without human help; government coordination underway before any release.
+- GPT-5.6 Luna becomes the free default for all ChatGPT users with 62% fewer factual errors than GPT-5.5-Instant, a per-message Think button for deeper reasoning, and no limits on text chats; ChatGPT now serves over 1 billion weekly users.
+- Meta Superintelligence Labs releases Muse Code in beta — terminal-based AI coding agent on Muse Spark 1.2 at $1.25/$4.25 per million tokens, the first serious open-weight competitor to Claude Code and Codex.
+- Tesla and SpaceX announce Terafab — a $16.8B chip factory in Grimes County, Texas, combining logic, memory, packaging, and testing under one roof for Optimus robots, Tesla vehicles, and SpaceX space-based data centers.
+- ESPHome Starter Kit goes on sale August 12 — no-solder ESP32-C6 with Wi-Fi, Zigbee, and Thread radios, a visual Desktop app, fully local; launch party streams on the ESPHome YouTube channel at 21:00 CEST.

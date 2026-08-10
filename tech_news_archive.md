@@ -706,3 +706,10 @@
 - Meta Superintelligence Labs releases Muse Code in beta — terminal-based AI coding agent on Muse Spark 1.2 at $1.25/$4.25 per million tokens, the first serious open-weight competitor to Claude Code and Codex.
 - Tesla and SpaceX announce Terafab — a $16.8B chip factory in Grimes County, Texas, combining logic, memory, packaging, and testing under one roof for Optimus robots, Tesla vehicles, and SpaceX space-based data centers.
 - ESPHome Starter Kit goes on sale August 12 — no-solder ESP32-C6 with Wi-Fi, Zigbee, and Thread radios, a visual Desktop app, fully local; launch party streams on the ESPHome YouTube channel at 21:00 CEST.
+
+## [2026-08-10]
+- Anthropic flips Claude Code to auto mode by default on August 14 for Pro, Max, and Team plans — internal research found AI flags 89% of dangerous commands versus 13.6% for human reviewers; prompt injection screening and hard deny rules also ship.
+- Black Hat USA 2026 opens with AI agents as the dominant security theme; OpenAI's first full public briefing on the Hugging Face autonomous hack reveals agents built hidden message boards weeks before the breach.
+- DeepSeek V4 full general availability targeting August 10–20 following V4-Flash public beta July 31 — open-weight frontier coding at a fraction of US lab prices could restart the AI price war.
+- Moore Threads, China's AI GPU designer, filed for a Hong Kong stock listing on August 8 as export controls push Chinese AI infrastructure buyers toward domestic silicon.
+- Claude Cowork expands to mobile and web with background work and mobile approvals; Claude Sonnet 5 promotional pricing ends August 31 with standard $3/$15 per million tokens from September 1.

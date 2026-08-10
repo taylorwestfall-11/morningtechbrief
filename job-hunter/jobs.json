@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-08-09",
-    "scan_count": 43,
+    "last_scan": "2026-08-10",
+    "scan_count": 44,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2750,6 +2750,69 @@
       "last_checked": "2026-08-08",
       "closed_on": "2026-08-08",
       "closed_reason": "Dead link: ats-api-404"
+    },
+    {
+      "id": "riot-qa-manager-league-of-legends-motivations",
+      "title": "QA Manager - League of Legends, Motivations",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, CA",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Riot Games Careers",
+      "url": "https://www.riotgames.com/en/work-with-us/job/4135351/qa-manager-league-of-legends-motivations-los-angeles-usa",
+      "date_found": "2026-08-10",
+      "date_posted": "",
+      "notes": "Manages QA professionals across the LoL Motivations team (purchasing, Store, Loot, delivery services, configuration management). Owns testing strategy and test automation for front-end and back-end commerce systems. People management confirmed. LA onsite.",
+      "fit": {
+        "score": 73,
+        "level": "Good",
+        "why": "QA Manager (people management confirmed) at top-tier games studio Riot; title sits below Taylor's Director level and onsite-LA limits flexibility.",
+        "blurb": "Managing QA across LoL's live-service commerce platform — purchasing, Store, Loot, delivery — is squarely in my wheelhouse; I owned similar quality programs for live-service titles at Fortis Games and Amazon Games, including the full store and purchase flow for Lost Ark. I'd bring director-level org rigor and my AI-driven testing initiative — using agentic AI to target an 80% reduction in manual release-test time — to help Riot's Motivations team ship a best-in-class commerce experience."
+      },
+      "closed": false
+    },
+    {
+      "id": "sprypoint-quality-assurance-engineering-manager",
+      "title": "Quality Assurance Engineering Manager",
+      "company": "SpryPoint",
+      "category": "tech",
+      "location": "Ottawa, Ontario, Canada (Remote)",
+      "remote": "remote",
+      "salary": "",
+      "source": "Lever (SpryPoint)",
+      "url": "https://jobs.lever.co/sprypointservices/5fbff367-c8fc-48e3-bb4a-b1ab26e188da",
+      "date_found": "2026-08-10",
+      "date_posted": "2026-08-06",
+      "notes": "Player-coach QA Engineering Manager building SpryPoint's QA automation function from scratch at a utility-billing SaaS company. Defines AI-assisted and agentic testing strategy, hires the team, selects tooling, and sets standards. 50/50 hands-on/leadership split.",
+      "fit": {
+        "score": 74,
+        "level": "Good",
+        "why": "Remote SaaS QA Manager with explicit agentic-testing / AI adoption mandate earns AI bonus (+7); org-building from scratch matches Taylor's strengths; non-games domain and player-coach hands-on split limit upside.",
+        "blurb": "Building a QA automation function from the ground up and defining how AI and agentic testing fit into the delivery process is exactly what I'm executing at Fortis Games right now — where my team is targeting an 80% reduction in manual release-test time through LLM-driven agentic workflows. I'd apply that same AI-first test automation playbook to SpryPoint's scaling SaaS platform and establish quality standards that grow with the product."
+      },
+      "closed": false
+    },
+    {
+      "id": "lila-sciences-senior-director-test-automation",
+      "title": "Senior Director, Software Development, Test Automation",
+      "company": "Lila Sciences",
+      "category": "tech",
+      "location": "San Francisco, CA",
+      "remote": "onsite",
+      "salary": "$260,000–$390,000",
+      "source": "Greenhouse (Lila Sciences)",
+      "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4294875009",
+      "date_found": "2026-08-10",
+      "date_posted": "",
+      "notes": "Senior Director building Lila's test automation platform and quality engineering practice for AI-powered scientific and lab automation products. Owns CI/CD test infrastructure, AI-driven test tooling, and the eval discipline for the AI/agent stack (golden datasets, rubrics). Builds and leads a 3–5 person team. Hands-on Python/TypeScript expected. SF onsite. $260K–$390K.",
+      "fit": {
+        "score": 68,
+        "level": "Good",
+        "why": "Director-level with strong AI/eval mandate and exceptional comp ($260K–$390K); AI test automation is central (+8 bonus); biotech domain shift + SF onsite + hands-on Python/TypeScript architecture requirements are the primary gaps.",
+        "blurb": "Owning the AI-driven test automation platform and eval discipline for an AI-powered product is work I'm building at Fortis Games — where I lead the LLM and agentic AI transformation of QA targeting an 80% reduction in manual release-test time — and I bring the cross-functional leadership and QE team-building experience to stand it up from scratch. The SF onsite requirement and biotech domain are factors I'd weigh carefully, but the $260K–$390K compensation and the chance to architect AI eval infrastructure from the ground up are genuinely compelling."
+      },
+      "closed": false
     }
   ]
 }

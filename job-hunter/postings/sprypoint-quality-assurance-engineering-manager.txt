@@ -1,0 +1,121 @@
+Quality Assurance Engineering Manager
+SpryPoint
+Ottawa, Ontario, Canada (Remote)
+Posted: 2026-07-10
+https://jobs.lever.co/sprypointservices/5fbff367-c8fc-48e3-bb4a-b1ab26e188da
+
+------------------------------------------------------------
+
+The Company 
+2025 Deloitte Technology Fast 50 Canada Recipient & Fast 500 North America Recipient 🏆 
+ 
+SpryPoint is modernizing how utilities serve their communities. As a high-growth software company, we're shaking up the status quo in the utility industry with the first and only truly cloud-native customer service and operations platform purpose-built for modern utilities.
+ 
+Founded by industry veterans in 2011, we've grown from a profitable startup to a rapidly scaling company of 300+ employees serving 100+ utility clients across North America and the Caribbean. Our mission is simple: utility leaders should expect more from their technology providers.
+ 
+Utilities face urgent demand to replace inefficient legacy systems while managing increasing operational complexity, and evolving customer expectations. With more than a decade of experience, and a track record of successful implementations spanning water, electric, and gas utilities, SpryPoint has built a reputation as a trusted and mission-critical partner to utilities across North America.
+ 
+We deliver comprehensive solutions including SpryCIS, SpryEngage, SpryMobile, and SpryWallet that modernize the entire meter-to-cash process. What sets us apart? Our "updates, not upgrades" approach, user-centric design, and unwavering focus on customer success.
+ 
+Backed by strategic investment from Norwest Venture Partners since 2023, and an exciting new investment partnership from Insight Partners announced in 2026, we're accelerating our growth while staying true to our core values: lead with kindness, vision with impact, radical honesty, bold disruption, keep it simple, and execute with excellence.
+ 
+Join our award-winning team in transforming an essential industry that powers communities across the Americas. 
+ 
+ 
+ 
+
+
+We are standing up a dedicated QA automation function, and we're looking for a QA Engineering Manager to build and lead it from the ground up. This is a rare opportunity to shape a quality practice from scratch: you'll choose the tooling, set the standards, hire the team, and define how AI fits into how we test.
+This is a hands-on, player-coach role. You'll split your time roughly 50/50 between leading the team and doing the work yourself: setting direction, hiring, and coaching on one side, and writing automated tests, building framework components, and reviewing code on the other. You'll lead by example and stay close enough to the code to make sound calls and earn the trust of the engineers you lead.
+In your first 90 days, you'll start with discovery: partnering with our Principal AI Engineer and AI team to understand existing AI tools and practices, and working with engineering teams to understand current QA practices and define how QA and engineering will collaborate going forward. In parallel, you'll confirm prerequisites (environments, CI/CD, critical user journeys), select your tooling and framework, and stand up a proof-of-concept suite on the highest-risk flows. By the end of year one, you'll have delivered a working, trusted automation suite on critical flows, a small high-performing team, a quality metrics dashboard in active use, and a clear plan for AI adoption.
+
+
+What You Will Do
+• Define and own the quality engineering strategy and roadmap across our products.
+
+• Stay hands-on: personally write automated tests, build framework components, and review code alongside the team (roughly half your time).
+
+• Select the test automation tooling and framework, and set the standards squads build on.
+
+• Integrate automated testing into our CI/CD pipelines and partner with DevOps on stable, repeatable deployments.
+
+• Define quality gates: what blocks a merge and what blocks a release, aligned with engineering leadership and risk.
+
+• Drive a risk-based approach to testing so effort goes where it protects clients most.
+
+• Push tests down the stack (API before UI), drive down the flaky-test rate, and enable squads so the practice doesn't depend on any one person.
+
+• Hire, coach, and grow a team of automation engineers, and raise testing discipline across product squads.
+
+• Own quality metrics and a dashboard that leadership trusts, providing objective signals for go/no-go release decisions.
+
+• Evaluate and adopt AI-assisted testing tools (test generation, self-healing tests, defect triage, agentic testing) through a practical, hybrid model, while keeping a human-in-the-loop standard so AI-generated tests and code are reviewed, not trusted blindly.
+
+What You Bring
+• 7+ years in software quality or engineering, including 3+ years leading and growing engineers.
+
+• A track record of building or significantly maturing a test automation practice.
+
+• Current, hands-on coding ability: you can build framework components and write automated tests yourself, and you want to keep doing so in this role.
+
+• Strong technical judgement on automation frameworks, CI/CD, and test architecture, backed by recent hands-on experience.
+
+• Fluency with modern automation tooling (Playwright, Cypress, Selenium) and CI/CD (GitHub Actions, Jenkins, GitLab CI).
+
+• Experience defining quality metrics and using them to influence release decisions.
+
+• Clear communicator who can translate quality risk into terms leadership and product can act on.
+
+• Hands-on understanding of how AI is changing testing, with sound judgement on where it helps and where it doesn't. Experience evaluating or adopting AI-assisted QA tooling or a credible plan for doing so.
+
+• Familiarity with testing AI or LLM features (evaluation harnesses, golden datasets, guardrails, bias and accuracy checks), or the ability to get there quickly.
+
+Nice to Have
+• Familiarity with Claude and Claude Code.
+
+• Background as an SDET or automation engineer earlier in your career.
+
+• Experience introducing quality practices into an organisation that did not have them before.
+
+• Experience in a regulated or high-reliability domain (utilities, fintech, healthcare or similar).
+Our Hiring Process: 
+ 
+👋 Stage 1: Recruiter Interview (45 minutes)
+We'll dive into your professional background and experience, share more about SpryPoint and the role, and answer any burning questions you might have.
+ 
+ 👋 Stage 2: Hiring Manager Interview (45 minutes)
+This is a great chance to meet with the Director of Software Engineering and dive deep into your career goals, work experience, and how we can support your growth. We encourage you to ask questions to learn more about the opportunity.
+ 
+ 🧑‍💻 Stage 3: Technical Assignment
+You'll complete a technical exercise relevant to the role.
+ 
+ 👥 Stage 4: Final Interviews (60 minutes)
+You'll walk the team through your technical assignment and showcase your skills. This is also a great opportunity to meet more of the team and see if there's a strong team fit!
+ 
+🚀 Stage 5: References and Offer
+We'll check your references to confirm all the great things we've learned about you. If all goes well, we’ll be thrilled to extend an offer and welcome you to the team!
+
+
+💫 Expect More From Your Career at SpryPoint
+ 
+🚀 Work your way - Remote-first environment, flexible working hours across North America, and hub offices in Charlottetown & Atlanta
+💰 Competitive Total Rewards - Comprehensive compensation package that grows with you
+💻 Complete Setup - MacBook + $800 to create your ideal home workspace
+🏥 Total Wellness - Health, dental, vision, and life insurance from day one
+ 🏝️ Recharge Time - Generous PTO and unlimited sick days
+ 📈 Future Security - RRSP (Canada) and 401k (US) matching programs
+ 🧠 Continuous Growth - $2,500 annual development fund, tuition assistance, and Book Bounty program
+🧳 Team Connection - Annual company events and team offsites that bring us together
+ 
+ 
+AI Disclaimer: 🔗 [LINK]
+We use an AI notetaker (Metaview) during interviews so we can give you our full attention. Please opt-in via this quick consent form. It's optional - if you'd prefer not to be recorded, just skip this step. 
+ 
+Accommodations 
+Need accommodations during our interview process? Let us know and we'll work with you to provide the necessary support.
+ 
+Equal Opportunity & Inclusion 
+SpryPoint is an equal-opportunity employer committed to creating an inclusive environment where everyone can thrive. We welcome applications from all qualified candidates regardless of race, religion, color, national origin, ancestry, sex, sexual orientation, gender identity, age, physical or mental disability, medical condition, genetic characteristics, veteran or marital status, pregnancy, or any other classification protected by applicable laws.
+ 
+Professional Identity Verification 
+To help us verify candidate authenticity and streamline our screening process, we strongly encourage candidates to include a link to their LinkedIn profile and verify it with their current work email address. While not required, this helps us confirm your professional background and accelerates our review process. Candidates with verified LinkedIn profiles typically receive faster responses and priority consideration during our screening process. Note that all final candidates will complete a background check and identity verification as a part of our SOC 2 compliance procedures.

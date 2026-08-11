@@ -713,3 +713,10 @@
 - DeepSeek V4 full general availability targeting August 10–20 following V4-Flash public beta July 31 — open-weight frontier coding at a fraction of US lab prices could restart the AI price war.
 - Moore Threads, China's AI GPU designer, filed for a Hong Kong stock listing on August 8 as export controls push Chinese AI infrastructure buyers toward domestic silicon.
 - Claude Cowork expands to mobile and web with background work and mobile approvals; Claude Sonnet 5 promotional pricing ends August 31 with standard $3/$15 per million tokens from September 1.
+
+## [2026-08-11]
+- Anthropic, Macquarie Asset Management, and Singapore's GIC launched Theseus Infrastructure — a dedicated JV to build and lease AI data centers to Anthropic in the US under long-term contracts; Macquarie and GIC fund the equity.
+- Claude embeds invisible statistical watermarks into all generated text (global, not EU-only) starting August 2 — patterns survive copy-paste and light editing; images carry signed C2PA metadata; required under EU AI Act Article 50.
+- ESPHome Starter Kit goes on sale August 12 with a live YouTube launch party tonight at 21:00 CEST — official no-solder Apollo Automation kit with PIR, AHT20F, RGB LED modules; fully local, profits fund Open Home Foundation.
+- Samsung unveiled zHBM at FMS 2026 — a 3D architecture that stacks HBM directly above AI accelerators targeting 8× HBM5 performance, 10× density, and 3× energy efficiency improvements.
+- OpenAI's public S-1 filing is expected late August ahead of a September Nasdaq IPO targeting $852B–$1T valuation; company earns $2B/month but still loses $1.22 per dollar earned; Goldman Sachs and Morgan Stanley underwriting.

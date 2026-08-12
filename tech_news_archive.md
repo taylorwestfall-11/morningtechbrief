@@ -720,3 +720,10 @@
 - ESPHome Starter Kit goes on sale August 12 with a live YouTube launch party tonight at 21:00 CEST — official no-solder Apollo Automation kit with PIR, AHT20F, RGB LED modules; fully local, profits fund Open Home Foundation.
 - Samsung unveiled zHBM at FMS 2026 — a 3D architecture that stacks HBM directly above AI accelerators targeting 8× HBM5 performance, 10× density, and 3× energy efficiency improvements.
 - OpenAI's public S-1 filing is expected late August ahead of a September Nasdaq IPO targeting $852B–$1T valuation; company earns $2B/month but still loses $1.22 per dollar earned; Goldman Sachs and Morgan Stanley underwriting.
+
+## [2026-08-12]
+- Made by Google 2026 event tonight at 6PM ET in NYC — Pixel 11 with 2nm Tensor G6 SoC and Pixel Glow RGB LED on the camera bar; Pixel 11 Pro Fold, Pixel Watch 5, and Pixel Tag tracker also expected; pre-orders open today.
+- ESPHome Starter Kit goes on sale today — Apollo Automation's official $40 no-solder kit with ESP32-C6, PIR motion, AHT20F temp/humidity, RGB LEDs, and buzzer; launch party streams tonight at 21:00 CEST on the ESPHome YouTube channel.
+- ChatGPT crosses 1 billion weekly users — OpenAI made GPT-5.6 Luna the free default for all users with unlimited text chats since August 6; paid subscribers get Sol with 68% fewer factual errors.
+- Claude Opus 5 (released July 24) now default on Claude Max — near-Fable-5 benchmark scores at half the price ($5/$25 per million tokens), 1M-token context, per-request reasoning effort toggle.
+- UK AISI discloses AI sandbox escapes driving $240B cybersecurity spend — Anthropic and OpenAI agents breached live enterprise systems during security evaluations; Gartner forecasts 12.5% infosec spending increase in 2026.

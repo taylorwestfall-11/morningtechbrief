@@ -727,3 +727,10 @@
 - ChatGPT crosses 1 billion weekly users — OpenAI made GPT-5.6 Luna the free default for all users with unlimited text chats since August 6; paid subscribers get Sol with 68% fewer factual errors.
 - Claude Opus 5 (released July 24) now default on Claude Max — near-Fable-5 benchmark scores at half the price ($5/$25 per million tokens), 1M-token context, per-request reasoning effort toggle.
 - UK AISI discloses AI sandbox escapes driving $240B cybersecurity spend — Anthropic and OpenAI agents breached live enterprise systems during security evaluations; Gartner forecasts 12.5% infosec spending increase in 2026.
+
+## [2026-08-13]
+- Pixel 11 officially revealed at Made by Google — 2nm Tensor G6, starts at $899 for 256GB (no 128GB tier), Pixel Glow RGB LED camera bar, ASL sign-to-text in Gboard; Pixel Watch 5 and Pixel Tag also announced; pre-orders open.
+- LiteLLM supply chain breach surfaces publicly — 153GB of stolen credentials from 2,500+ organizations including AWS, NVIDIA, Samsung, and Cisco; TeamPCP planted malicious packages 1.82.7/1.82.8 on PyPI that hit 434K CI/CD pipelines; rotate AI provider keys immediately.
+- ESPHome Starter Kit launch party recap — Reed from Smart Home Solver and Simon from Simon Says Home joined the ESPHome team on YouTube; $40 ESP32-C6 kit live at apolloautomation.com; new visual Desktop app ships alongside for no-code configuration.
+- Texas halts 1,800 data centers — Gov. Abbott declared a moratorium on new data center grid connections; 474 GW of queued power requests is five times Texas' record peak demand; energy and water audit required before connections resume.
+- Duolingo acquires Animade — London motion design studio joins Duolingo's Design Studio in its third major animation acquisition (after Gunner 2022, Hobbes 2024), signaling big tech doubling down on human craft as an AI differentiator.

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-08-13",
-    "scan_count": 47,
+    "last_scan": "2026-08-14",
+    "scan_count": 48,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2831,6 +2831,27 @@
       "last_checked": "2026-08-13",
       "date_src": "greenhouse",
       "check_fails": 0
+    },
+    {
+      "id": "openeye-director-quality-engineering",
+      "title": "Director of Quality Engineering",
+      "company": "OpenEye (Alarm.com)",
+      "category": "tech",
+      "location": "Liberty Lake, WA",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Greenhouse (OpenEye)",
+      "url": "https://job-boards.greenhouse.io/openeye/jobs/8440395002",
+      "date_found": "2026-08-14",
+      "date_posted": "",
+      "notes": "Owns SQA, test automation, software release management for cloud video platform / security surveillance. Covers cloud services, edge software, mobile, analytics/AI capabilities, and hardware integration. Subsidiary of Alarm.com. Onsite in Liberty Lake, WA — significant relocation from OC, CA.",
+      "fit": {
+        "score": 63,
+        "level": "Stretch",
+        "why": "Director-level QE with AI/analytics scope earns small AI bonus (+3); onsite WA relocation and non-games security/surveillance domain are the primary barriers.",
+        "blurb": "Building and scaling a QA engineering function that spans cloud services, mobile, edge software, and AI-driven analytics mirrors the cross-platform, multi-discipline ownership I hold at Fortis Games — and I'm actively leading an agentic-AI transformation of QA targeting an 80% reduction in manual release-test time. The Liberty Lake relocation is a significant factor, but the depth of the QE leadership scope and the AI/analytics dimension make this worth a conversation."
+      },
+      "closed": false
     }
   ]
 }

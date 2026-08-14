@@ -734,3 +734,10 @@
 - ESPHome Starter Kit launch party recap — Reed from Smart Home Solver and Simon from Simon Says Home joined the ESPHome team on YouTube; $40 ESP32-C6 kit live at apolloautomation.com; new visual Desktop app ships alongside for no-code configuration.
 - Texas halts 1,800 data centers — Gov. Abbott declared a moratorium on new data center grid connections; 474 GW of queued power requests is five times Texas' record peak demand; energy and water audit required before connections resume.
 - Duolingo acquires Animade — London motion design studio joins Duolingo's Design Studio in its third major animation acquisition (after Gunner 2022, Hobbes 2024), signaling big tech doubling down on human craft as an AI differentiator.
+
+## [2026-08-14]
+- Claude Code auto mode becomes the default for Pro, Max, and Team plans today — Anthropic's AI classifier catches 89% of dangerous commands vs. 13.6% for human reviewers; Anthropic also stops billing for the classifier's extra tokens.
+- GPT-5.6 Sol Ultrafast mode previews via Cerebras at up to 750 tokens/second — 14× standard speed; first frontier-model speed tier built on specialized external silicon, targeting incident response and financial analysis.
+- Meta releases Muse Glimmer — a 30B open-source (Apache 2.0) agent model that runs under 20GB on a single consumer GPU; available on Hugging Face with llama.cpp and MLX integrations coming; paired with Zuckerberg's "Future is for Everyone" superintelligence manifesto.
+- Nvidia sold RTX 5090 Founders Editions at their original $1,999 MSRP at QuakeCon 2026 while retail prices exceed $4,300 — selling at launch prices 18 months later is now a convention attraction, not a retail norm.
+- IoTorero joins Works with Home Assistant as the first ESPHome-native smart plug and relay partner, offering fully local control with no cloud bridge required.

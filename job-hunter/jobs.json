@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-08-14",
-    "scan_count": 48,
+    "last_scan": "2026-08-15",
+    "scan_count": 49,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2855,6 +2855,27 @@
       "last_checked": "2026-08-14",
       "closed_on": "2026-08-14",
       "closed_reason": "Dead link: ats-api-404"
+    },
+    {
+      "id": "2kvegas-director-test-nba2k",
+      "title": "Director, Test, NBA 2K",
+      "company": "2K Vegas",
+      "category": "games",
+      "location": "Las Vegas, NV (onsite)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Greenhouse (2K Vegas)",
+      "url": "https://boards.greenhouse.io/2kvegas/jobs/6100913003",
+      "date_found": "2026-08-15",
+      "date_posted": "",
+      "notes": "Director-level QA testing leadership for the NBA 2K franchise at 2K Vegas (Take-Two subsidiary). Leads and mentors QA team. Requirements: 10+ yrs QA exp, 5+ yrs QA leadership/management in video games. Studio handles testing and customer success for 2K titles including NBA 2K, WWE 2K, PGA Tour 2K, and Borderlands. Las Vegas onsite — relocation required from OC.",
+      "fit": {
+        "score": 78,
+        "level": "Good",
+        "why": "Director-level games QA at a major Take-Two/2K subsidiary with confirmed people management; onsite Las Vegas requires relocation, and NBA 2K's annual sports-sim cycle differs from Taylor's live-service/automation strength.",
+        "blurb": "Leading test for one of the best-selling sports franchises in gaming — a title with millions of players and a high-stakes annual release cycle — maps cleanly to my experience at Blizzard, Amazon Games, and Fortis: large-scale, high-visibility QA with multi-platform scope and team leadership across publishers with household-name titles. The onsite Las Vegas requirement and the shift from live-service to annual-release cadence are the primary considerations, but the Director-level ownership and Take-Two brand make this a genuine opportunity worth exploring."
+      },
+      "closed": false
     }
   ]
 }

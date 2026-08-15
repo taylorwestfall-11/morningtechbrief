@@ -741,3 +741,10 @@
 - Meta releases Muse Glimmer — a 30B open-source (Apache 2.0) agent model that runs under 20GB on a single consumer GPU; available on Hugging Face with llama.cpp and MLX integrations coming; paired with Zuckerberg's "Future is for Everyone" superintelligence manifesto.
 - Nvidia sold RTX 5090 Founders Editions at their original $1,999 MSRP at QuakeCon 2026 while retail prices exceed $4,300 — selling at launch prices 18 months later is now a convention attraction, not a retail norm.
 - IoTorero joins Works with Home Assistant as the first ESPHome-native smart plug and relay partner, offering fully local control with no cloud bridge required.
+
+## [2026-08-15]
+- GPT-5.6-Cyber becomes OpenAI's first model to hit the "High" cyber capability threshold on its Preparedness Framework; mandatory hardware security keys now required for all Daybreak accounts; o3 retires from ChatGPT August 26.
+- RTX 50-series GPU prices surge 27–39% at US retail — RTX 5090 reaches $4,699 (135% above MSRP), RTX 5070 up 36% to $899; AMD RX 9070 GRE holds near $499 MSRP as the lone current-gen value buy.
+- Anthropic Claude for Teachers free for all verified US K-12 educators — incorporates all 50 states' academic standards; Teach for America AI Fluency course and Detroit Public Schools pilot also announced.
+- Google open-sources HEIR (Homomorphic Encryption Intermediate Representation), a compiler that converts pretrained AI models to run inference on fully encrypted inputs without the server ever decrypting data.
+- tl;dv AI meeting notetaker exposed 181,874 recordings from 84,312 users to any authenticated user due to a missing Firestore tenant-isolation rule; roughly 1,000 records were fully public; bug now patched.

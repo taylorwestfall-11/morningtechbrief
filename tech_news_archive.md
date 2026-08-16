@@ -748,3 +748,10 @@
 - Anthropic Claude for Teachers free for all verified US K-12 educators — incorporates all 50 states' academic standards; Teach for America AI Fluency course and Detroit Public Schools pilot also announced.
 - Google open-sources HEIR (Homomorphic Encryption Intermediate Representation), a compiler that converts pretrained AI models to run inference on fully encrypted inputs without the server ever decrypting data.
 - tl;dv AI meeting notetaker exposed 181,874 recordings from 84,312 users to any authenticated user due to a missing Firestore tenant-isolation rule; roughly 1,000 records were fully public; bug now patched.
+
+## [2026-08-16]
+- Anthropic embeds invisible statistical watermarks into all new Claude text worldwide — subtly biases word choices so AI origin is detectable; images use signed C2PA metadata; triggered by EU AI Act but applied globally.
+- Meta releases Muse Glimmer — 30B open-source (Apache 2.0) agent model compressed to ~17GB for a single 24GB consumer GPU; designed for local multi-step agentic workflows; available now on Hugging Face.
+- AMD issues official 10–20% price increase on full RX 9000 series; RX 9070 XT (launched at $599) now tops $1,000 in retail; surging GDDR6 memory costs are the primary driver.
+- Home Assistant 2026.8 "Approachable by Design" field roundup: port 80 replaces :8123, Matter doorbells fire as event entities, 40+ Advanced labels removed, 16 new integrations including Dyson Infrared and LiteLLM.
+- GPT-5.6 Sol Ultrafast mode via Cerebras runs at 750 tokens/second (14× standard speed); Cerebras keeps model weights in on-chip SRAM, eliminating the GPU memory bottleneck; limited preview expanding.

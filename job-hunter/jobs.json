@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-08-15",
-    "scan_count": 49,
+    "last_scan": "2026-08-16",
+    "scan_count": 50,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2879,6 +2879,69 @@
       "last_checked": "2026-08-15",
       "closed_on": "2026-08-15",
       "closed_reason": "Dead link: ats-api-404"
+    },
+    {
+      "id": "riot-director-qa-tft",
+      "title": "Director, QA - Teamfight Tactics",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, CA (onsite)",
+      "remote": "onsite",
+      "salary": "$201,900–$301,800",
+      "source": "Riot Games Careers / ShowbizJobs",
+      "url": "https://www.riotgames.com/en/work-with-us/job/7398855/director-qa-teamfight-tactics-los-angeles-usa",
+      "date_found": "2026-08-16",
+      "date_posted": "",
+      "notes": "Director owning quality vision for TFT — one of Riot's fastest-growing global products. Leads QA managers and embedded quality professionals across multiple TFT initiatives and regions. Partners with Product, Engineering, Design, Art, and Operations to make quality a core pillar of TFT development and delivery. Job ID 7398855. Distinct from closed riot-senior-manager-qa-tft (job 6908931) and riot-senior-qa-manager-gameplay-tft (job 7272504). $201,900–$301,800 base + incentive + equity. LA onsite; OC commutable.",
+      "closed": false,
+      "fit": {
+        "score": 90,
+        "level": "Excellent",
+        "why": "Director owning quality vision for a fast-growing live-service Riot title at exceptional comp in Taylor's LA home base — the rubric's Excellent band in full.",
+        "blurb": "At Fortis Games I direct QA and Localization for live-service mobile titles and lead the AI transformation of QA — using agentic LLMs to target an 80% reduction in manual release-test time — and at Blizzard I owned test operations for competitive multiplayer at the same global scale TFT demands. Riot's $201K–$301K compensation, LA headquarters in my Orange County home region, and the mandate to make quality a core pillar of one of the world's fastest-growing live-service products are exactly the convergence of scope, brand, and location I'm pursuing at the Director level."
+      }
+    },
+    {
+      "id": "riot-senior-manager-qa-player-experience",
+      "title": "Senior Manager, QA - Player Experience",
+      "company": "Riot Games",
+      "category": "games",
+      "location": "Los Angeles, CA (onsite)",
+      "remote": "onsite",
+      "salary": "$173,000–$241,000",
+      "source": "Riot Games Careers",
+      "url": "https://www.riotgames.com/en/work-with-us/job/4735130/senior-manager-qa-player-experience-los-angeles-usa",
+      "date_found": "2026-08-16",
+      "date_posted": "",
+      "notes": "Manages QA professionals supporting the Player Experience Initiative (Player Platform) at Riot. Defines QA strategy, explores and drives test automation solutions, guides team careers. Reports to Director of Engineering. $173,000–$241,000 base + incentive + equity. LA onsite. Job ID 4735130. Distinct from all closed Riot QA entries.",
+      "closed": false,
+      "fit": {
+        "score": 82,
+        "level": "Strong",
+        "why": "Senior Manager at Riot managing QA professionals and driving test automation for Player Platform — strong scope, LA home base, exceptional comp — one notch below Taylor's Director trajectory.",
+        "blurb": "Managing QA across Riot's Player Experience Initiative — defining test strategy, driving automation, and shaping team careers — maps directly to my live-service platform QA work at Fortis, Amazon Games (store and authentication quality), and Blizzard's Battle.net. I'd bring Riot's $173K–$241K compensation target and my active AI-driven test automation initiative — using agentic tooling to target an 80% reduction in manual release-test time — to help the Player Platform team build scalable, modern quality coverage."
+      }
+    },
+    {
+      "id": "blizzard-quality-manager-overwatch",
+      "title": "Quality Manager, Overwatch",
+      "company": "Blizzard Entertainment",
+      "category": "games",
+      "location": "Irvine, CA (hybrid)",
+      "remote": "hybrid",
+      "salary": "$78,000–$144,000",
+      "source": "Blizzard Careers (Workday R026488)",
+      "url": "https://careers.blizzard.com/global/en/job/R026488/Quality-Manager-Overwatch-Irvine-CA",
+      "date_found": "2026-08-16",
+      "date_posted": "",
+      "notes": "Quality Manager overseeing end-to-end QA operations and testing for Overwatch. Manages the test team, aligns with departmental strategy, establishes cross-functional quality standards, manages test schedules and resources. Hybrid Irvine, CA — Taylor's former Blizzard campus and OC home region. $78K–$144K comp range is well below Taylor's Director level; a step down in both title and salary. Taylor's former employer. Distinct from closed blizzard-test-director-unannounced-game (R025431) and blizzard-test-director-world-of-warcraft.",
+      "closed": false,
+      "fit": {
+        "score": 68,
+        "level": "Good",
+        "why": "QA Manager for Overwatch at Taylor's former Blizzard Irvine campus in OC — compelling brand and location — but significantly under-leveled and the $78K–$144K comp ceiling doesn't match Director-track experience.",
+        "blurb": "Leading QA for Overwatch at Blizzard's Irvine campus is a role I could step into with zero ramp-up — I owned competitive multiplayer test operations at Blizzard and know the quality culture, stakeholders, and Overwatch franchise deeply. The QA Manager title and $78K–$144K comp range sit below my current Director scope, but returning to Blizzard's home studio for a flagship live-service title positions me well for the next Test Director opening on the team."
+      }
     }
   ]
 }

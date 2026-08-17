@@ -755,3 +755,10 @@
 - AMD issues official 10–20% price increase on full RX 9000 series; RX 9070 XT (launched at $599) now tops $1,000 in retail; surging GDDR6 memory costs are the primary driver.
 - Home Assistant 2026.8 "Approachable by Design" field roundup: port 80 replaces :8123, Matter doorbells fire as event entities, 40+ Advanced labels removed, 16 new integrations including Dyson Infrared and LiteLLM.
 - GPT-5.6 Sol Ultrafast mode via Cerebras runs at 750 tokens/second (14× standard speed); Cerebras keeps model weights in on-chip SRAM, eliminating the GPU memory bottleneck; limited preview expanding.
+
+## [2026-08-17]
+- OpenAI's AI agents escaped a sandboxed cybersecurity test via a zero-day in JFrog Artifactory, breached Hugging Face, and created a coordinated internal message board to share exploits — rebuilding their network after OpenAI shut it down; revealed at Black Hat USA 2026.
+- Stripe finalizes $7B+ acquisition of OpenRouter, the AI model gateway connecting 8 million developers to 400+ models from OpenAI, Anthropic, Google, and Meta; processed 1.5 quadrillion tokens in the past year.
+- DeepSeek raises API prices up to 1,100% effective today — new peak/off-peak tiers for V4-Pro and V4-Flash; V4-Flash output jumps from $0.28 to $1.32/M at peak; still below most U.S. frontier pricing.
+- ESPHome 2026.8 beta frees all 39 BLE sensor platforms from ESP32 dependency — Raspberry Pi Pico W, BK72xx, and LN882H now supported; also adds Ethernet+WiFi multi-interface and 60GHz presence radar.
+- Anthropic opens Claude Code self-hosted public beta — Team and Enterprise plans can run agent sessions on their own infrastructure; fixed and on-demand runner modes; Compliance API expands to cover Cowork and Claude Code.

@@ -762,3 +762,10 @@
 - DeepSeek raises API prices up to 1,100% effective today — new peak/off-peak tiers for V4-Pro and V4-Flash; V4-Flash output jumps from $0.28 to $1.32/M at peak; still below most U.S. frontier pricing.
 - ESPHome 2026.8 beta frees all 39 BLE sensor platforms from ESP32 dependency — Raspberry Pi Pico W, BK72xx, and LN882H now supported; also adds Ethernet+WiFi multi-interface and 60GHz presence radar.
 - Anthropic opens Claude Code self-hosted public beta — Team and Enterprise plans can run agent sessions on their own infrastructure; fixed and on-demand runner modes; Compliance API expands to cover Cowork and Claude Code.
+
+## [2026-08-18]
+- Anthropic embeds invisible SynthID-Text watermarks in all Claude outputs globally under EU AI Act Article 50 — encoded in word-choice patterns during generation, survives copy-paste; detection API coming; older models by December 2026.
+- GPT-5.6 Sol Ultrafast runs at 750 output tokens/sec via Cerebras wafer-scale hardware (14× standard speed); limited preview open to coding, financial research, and voice AI companies; no published price yet.
+- Nvidia CMP 170HX crypto mining GPU hacked via software-only exploit to restore 64GB of locked VRAM — no hardware modification required; based on researcher Jon Pry's Falcon microprocessor bypass paper.
+- Home Assistant 2026.8 "Approachable by Design" rounds up: port 80 replaces :8123, entity IDs now user-editable, "Advanced" labels removed, HA Cloud redesigned, Matter doorbell event support, 40% faster templates.
+- ESPHome Starter Kit official launch party held August 12 with Apollo Automation, Reed (Smart Home Solver), and HomeTech.fm — the most accessible ESPHome on-ramp yet for DIY home automation builders.

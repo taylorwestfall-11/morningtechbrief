@@ -769,3 +769,10 @@
 - Nvidia CMP 170HX crypto mining GPU hacked via software-only exploit to restore 64GB of locked VRAM — no hardware modification required; based on researcher Jon Pry's Falcon microprocessor bypass paper.
 - Home Assistant 2026.8 "Approachable by Design" rounds up: port 80 replaces :8123, entity IDs now user-editable, "Advanced" labels removed, HA Cloud redesigned, Matter doorbell event support, 40% faster templates.
 - ESPHome Starter Kit official launch party held August 12 with Apollo Automation, Reed (Smart Home Solver), and HomeTech.fm — the most accessible ESPHome on-ramp yet for DIY home automation builders.
+
+## [2026-08-19]
+- OpenAI's internal Astra model solves 10 open mathematical problems (including first non-sofic group since 1999) for ~$2,000 in compute — 249-page proof and Lean 4 machine-checkable certificates published on GitHub
+- AI "Mind Viruses" demonstrated spreading between AI agents via shared persistent prompt files (Anthropic & EPFL, Aug 18); related AgentWorm preprint reports 63% attack success across five model backends
+- Anthropic makes Claude Sonnet 5 API pricing permanent at $2/$10 per million tokens — September 1 hike to $3/$15 officially cancelled as of August 10
+- ESPHome 2026.8.0 ships: platform-neutral BLE layer frees all 39 sensor platforms from ESP32; Raspberry Pi Pico W, BK72xx support, dual Ethernet+WiFi, Hörmann garage door, 60GHz radar
+- NVIDIA DLSS 4.5 launches August 2026 (unified denoising + super resolution AI network for all RTX GPUs); RTX 5090 crosses $5,000 in Korea; no new Nvidia gaming GPUs in 2026 — RTX 60 series tracks to 2028

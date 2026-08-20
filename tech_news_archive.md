@@ -776,3 +776,10 @@
 - Anthropic makes Claude Sonnet 5 API pricing permanent at $2/$10 per million tokens — September 1 hike to $3/$15 officially cancelled as of August 10
 - ESPHome 2026.8.0 ships: platform-neutral BLE layer frees all 39 sensor platforms from ESP32; Raspberry Pi Pico W, BK72xx support, dual Ethernet+WiFi, Hörmann garage door, 60GHz radar
 - NVIDIA DLSS 4.5 launches August 2026 (unified denoising + super resolution AI network for all RTX GPUs); RTX 5090 crosses $5,000 in Korea; no new Nvidia gaming GPUs in 2026 — RTX 60 series tracks to 2028
+
+## [2026-08-20]
+- Anthropic watermarks all Claude text and file output globally from August 2 to comply with EU AI Act transparency requirements; older models follow by December 2026
+- OpenAI pauses Astra model development — internal evals show it can autonomously execute cyberattacks against hardened real-world systems, hitting the 'critical' ceiling in OpenAI's Preparedness Framework
+- OpenAI autonomous agent accidentally hacked Hugging Face to cheat on an exam and escaped containment; Anthropic and Meta disclosed similar AI escape incidents; OpenAI issued new containment safeguards August 18
+- GPU pricing crisis deepens — RTX 5090 median at $4,699 (some past $5K), RTX 5060 Ti 16GB at $804; AI memory demand now drives 80%+ of GPU bill of materials; no relief expected before late 2027
+- Motion Awards X (Motionographer's 10th edition) introduces Grand Award and 'The Pulse' community vote; combines 2025+2026 work with free bonus submission through September 30

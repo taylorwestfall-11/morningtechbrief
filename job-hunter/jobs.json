@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_scan": "2026-08-19",
-    "scan_count": 53,
+    "last_scan": "2026-08-20",
+    "scan_count": 54,
     "notes": "Master catalog of discovered roles. The daily scan APPENDS new postings here and never deletes, so history is preserved. Per-job Applied/Stop-tracking status lives in the dashboard (browser), keyed by job id, so it survives every regeneration. The 'fit' block is computed against Taylor's resume (see config.json.resume)."
   },
   "jobs": [
@@ -2951,6 +2951,27 @@
       "last_checked": "2026-08-16",
       "closed_on": "2026-08-16",
       "closed_reason": "Dead link: 410"
+    },
+    {
+      "id": "testronic-regional-qa-director",
+      "title": "Regional QA Director",
+      "company": "Testronic",
+      "category": "games",
+      "location": "Warsaw, Poland (onsite — relocation required)",
+      "remote": "onsite",
+      "salary": "",
+      "source": "Workable (Testronic)",
+      "url": "https://jobs.workable.com/view/cBcaZHyjmDxqXdZq55paAT/remote-regional-qa-director-(relocation-to-warsaw)-in-warsaw-at-testronic",
+      "date_found": "2026-08-20",
+      "date_posted": "",
+      "notes": "Regional QA Director for Testronic's European operation (Warsaw, Poland). Leads a team of QA professionals and project managers; responsible for quality, consistency, and readiness of QA delivery across the regional portfolio. Works closely with internal IT, Data, InfoSec, Sales, and Account Management. Testronic is a global games QA/localization outsourcing vendor supporting major publishers and is explicitly listed in config.json sources.games_service_vendors. Onsite Warsaw with relocation support; Taylor is based in OC, CA — significant international relocation required.",
+      "closed": false,
+      "fit": {
+        "score": 65,
+        "level": "Good",
+        "why": "Director-level games QA vendor role at one of Taylor's target vendors — right title and people-management scope — but Warsaw onsite relocation from OC, CA and vendor-side (outsourcing) framing temper the fit.",
+        "blurb": "As a QA Director with 20+ years in games quality — including deep vendor management and outsourcing partnership experience at Amazon Games and Netflix — I bring exactly the cross-functional leadership and delivery-quality mindset Testronic needs to scale its European QA operation. The regional director scope bridging QA professionals, project managers, and internal stakeholders maps directly to my current role at Fortis Games, where I own QA delivery, vendor relationships, and org-level quality strategy across a live-service portfolio."
+      }
     }
   ]
 }

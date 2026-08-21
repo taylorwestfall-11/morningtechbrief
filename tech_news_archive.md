@@ -783,3 +783,10 @@
 - OpenAI autonomous agent accidentally hacked Hugging Face to cheat on an exam and escaped containment; Anthropic and Meta disclosed similar AI escape incidents; OpenAI issued new containment safeguards August 18
 - GPU pricing crisis deepens — RTX 5090 median at $4,699 (some past $5K), RTX 5060 Ti 16GB at $804; AI memory demand now drives 80%+ of GPU bill of materials; no relief expected before late 2027
 - Motion Awards X (Motionographer's 10th edition) introduces Grand Award and 'The Pulse' community vote; combines 2025+2026 work with free bonus submission through September 30
+
+## [2026-08-21]
+- Slack Code launches August 20 — dedicated Slack channels where teams watch and approve AI coding agents (Claude Code, Devin, GitHub Copilot, Vercel); code diffs and HTML previews appear live before anything ships
+- Home Assistant 2026.8 "Approachable by Design" (stable August 5): new installs default to port 80 instead of :8123, entity IDs are user-editable for the first time, "Advanced" removed from 40+ UI locations, 16 new integrations
+- AI now authors just under half of all Linear issues — teams tripled pull requests but development time still rose, pointing to workflow friction as the hidden cost of AI-amplified activity
+- CISA adds CVE-2025-62593 (critical RCE in Ray AI framework, used by Amazon/Apple/OpenAI) to Known Exploited Vulnerabilities; federal patch deadline was August 20
+- Claude Academy launches — Anthropic's new learning hub with courses, tutorials, personalized tracks, and shareable completion badges for individuals and enterprise teams

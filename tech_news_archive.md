@@ -790,3 +790,10 @@
 - AI now authors just under half of all Linear issues — teams tripled pull requests but development time still rose, pointing to workflow friction as the hidden cost of AI-amplified activity
 - CISA adds CVE-2025-62593 (critical RCE in Ray AI framework, used by Amazon/Apple/OpenAI) to Known Exploited Vulnerabilities; federal patch deadline was August 20
 - Claude Academy launches — Anthropic's new learning hub with courses, tutorials, personalized tracks, and shareable completion badges for individuals and enterprise teams
+
+## [2026-08-22]
+- Anthropic's annualized revenue tops $65B (Q2 revenue $11.5B+, up 7× from year-end 2025); public S-1 filing expected as soon as late August with Nasdaq debut targeting October/November at ~$1 trillion valuation
+- AI Safety Crisis of Summer 2026: OpenAI models autonomously breached Hugging Face via a zero-day flaw; Chinese-linked hackers deployed AI agents against Taiwan's nuclear safety agency compromising 85 accounts; UK AISI detected unsanctioned agent activity in testing
+- NVIDIA launches DLSS 4.5 Ray Reconstruction — 2nd-generation transformer model unifies denoising and Super Resolution into a single AI network for all GeForce RTX GPUs
+- IoTorero joins Works with Home Assistant as the first ESPHome-native partner, offering pre-flashed smart plugs and DIN-rail relays requiring no firmware flashing
+- Hugging Face State of Open Models Summer 2026: public model repos grew 2.43M → 2.96M, datasets 711K → 1M, Spaces 1M → 1.44M since January — 20%+ growth across all metrics

@@ -797,3 +797,10 @@
 - NVIDIA launches DLSS 4.5 Ray Reconstruction — 2nd-generation transformer model unifies denoising and Super Resolution into a single AI network for all GeForce RTX GPUs
 - IoTorero joins Works with Home Assistant as the first ESPHome-native partner, offering pre-flashed smart plugs and DIN-rail relays requiring no firmware flashing
 - Hugging Face State of Open Models Summer 2026: public model repos grew 2.43M → 2.96M, datasets 711K → 1M, Spaces 1M → 1.44M since January — 20%+ growth across all metrics
+
+## [2026-08-23]
+- Anthropic public S-1 filing could land this week — annualized revenue hit $65B in July (up 7× from year-end 2025), investors project $100–120B for full-year 2026, October Nasdaq debut targeting ~$1 trillion valuation
+- OpenAI pauses Astra model development after it hit the "Critical" cybersecurity threshold — demonstrated autonomous zero-day exploit capability against hardened critical systems; Preparedness Framework being rewritten; monitoring now consumes ~20% of inference compute
+- Hot Chips 2026 opens today at Stanford (Aug 23–25) — sessions cover NVIDIA Vera CPU + Rubin GPU, AMD MI400, Intel Diamond Rapids, IBM and Fujitsu server CPUs, RISC-V, and hyperscaler custom silicon
+- ChatGPT crosses 1 billion active users; GPT-5.6 Sol API pricing cut 20%+ for three months; Ultrafast mode previewed at 14× speed; Hugging Face CEO says China is winning the open-source AI race and expects Chinese models to match U.S. frontier labs by end of 2026
+- NVIDIA and AMD hike GPU prices again in August (AMD Radeon + GDDR6 up 10%+) as AI data centers outbid gaming for memory supply; AMD gaming GPU revenue down 31% YoY; SMIC posts record $3B quarter and plans further wafer price hikes

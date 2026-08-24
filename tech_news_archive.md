@@ -804,3 +804,10 @@
 - Hot Chips 2026 opens today at Stanford (Aug 23–25) — sessions cover NVIDIA Vera CPU + Rubin GPU, AMD MI400, Intel Diamond Rapids, IBM and Fujitsu server CPUs, RISC-V, and hyperscaler custom silicon
 - ChatGPT crosses 1 billion active users; GPT-5.6 Sol API pricing cut 20%+ for three months; Ultrafast mode previewed at 14× speed; Hugging Face CEO says China is winning the open-source AI race and expects Chinese models to match U.S. frontier labs by end of 2026
 - NVIDIA and AMD hike GPU prices again in August (AMD Radeon + GDDR6 up 10%+) as AI data centers outbid gaming for memory supply; AMD gaming GPU revenue down 31% YoY; SMIC posts record $3B quarter and plans further wafer price hikes
+
+## 2026-08-24
+- Anthropic CEO Dario Amodei now grills job candidates on mission-over-money: "How would you feel if safety concerns sent the stock to zero?" — Axios Aug 24 scoop.
+- ESPHome 2026.8.0 expands BLE beyond ESP32 — 39 sensor platforms go platform-neutral, Bluetooth Proxy now works on Raspberry Pi Pico W, BK72xx, and LN882H; 60GHz presence radar and Hörmann garage door support also land.
+- OpenAI o3 retires from ChatGPT on August 26 after a 90-day sunset; API access unaffected; signals full pivot to GPT-5.5 flagship series (Instant, Thinking, Pro).
+- AMD launches Helios, a rack-scale AI platform combining Epyc 9006 CPUs, MI455X GPUs, Pensando networking, and ROCm — a direct all-in-one challenge to NVIDIA's Vera Rubin NVL72.
+- Hugging Face Summer 2026 report: Chinese labs released the largest open model in nearly every month of 2026; public models on HF grew from 2.43M to 2.96M since January.

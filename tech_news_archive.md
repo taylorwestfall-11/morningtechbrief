@@ -811,3 +811,10 @@
 - OpenAI o3 retires from ChatGPT on August 26 after a 90-day sunset; API access unaffected; signals full pivot to GPT-5.5 flagship series (Instant, Thinking, Pro).
 - AMD launches Helios, a rack-scale AI platform combining Epyc 9006 CPUs, MI455X GPUs, Pensando networking, and ROCm — a direct all-in-one challenge to NVIDIA's Vera Rubin NVL72.
 - Hugging Face Summer 2026 report: Chinese labs released the largest open model in nearly every month of 2026; public models on HF grew from 2.43M to 2.96M since January.
+
+## 2026-08-25
+- Hugging Face in $13B+ acquisition talks — open-source AI platform working with a bank to evaluate bids at 3× its last private valuation; no buyer confirmed; previously turned down NVIDIA's $500M offer at $7B.
+- Anthropic public S-1 filing imminent — end-of-August target, revenue run-rate at $65B ARR (up from $47B in May); Goldman Sachs, JPMorgan, and Morgan Stanley lead the October Nasdaq debut targeting ~$1T valuation.
+- OpenAI reaches 1 billion weekly ChatGPT users; removes text chat limits; GPT-5.6 Luna API cut 80% to $0.20/$1.20 per million tokens as price war with Chinese labs intensifies.
+- OpenAI Private Safety Processing previewed (Aug 19) — detects misuse patterns across sessions without storing enterprise data; directly counters Anthropic's mandatory 30-day retention for Fable 5 access.
+- NVIDIA Vera next-gen GPU architecture claims 40% better tokens-per-watt vs Rubin; AI hardware narrative pivots from raw FLOPS to inference efficiency as data center power costs dominate.

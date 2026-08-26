@@ -818,3 +818,10 @@
 - OpenAI reaches 1 billion weekly ChatGPT users; removes text chat limits; GPT-5.6 Luna API cut 80% to $0.20/$1.20 per million tokens as price war with Chinese labs intensifies.
 - OpenAI Private Safety Processing previewed (Aug 19) — detects misuse patterns across sessions without storing enterprise data; directly counters Anthropic's mandatory 30-day retention for Fable 5 access.
 - NVIDIA Vera next-gen GPU architecture claims 40% better tokens-per-watt vs Rubin; AI hardware narrative pivots from raw FLOPS to inference efficiency as data center power costs dominate.
+
+## 2026-08-26
+- Time Magazine "Inside OpenAI's Reboot" — Astra multi-agent model previewed to US senators in DC; 16 AI agents coordinate to solve research-level math; first "Critical" cybersecurity rating under the Preparedness Framework requires extra safety review before release; Sora, Atlas browser, and Disney deal wound down.
+- NVIDIA DLSS 4.5 Ray Reconstruction ships at Gamescom (Aug 25) — 2nd-gen transformer model delivers 35% more compute, available for all GeForce RTX GPUs via driver update; RTX ecosystem crosses 1,000 supported games and apps.
+- Anthropic reverses Fable 5 data retention policy — enterprises will get greater control over their data instead of mandatory 30-day retention, Bloomberg reports; directly responds to OpenAI's competing Private Safety Processing.
+- Official ESPHome Starter Kit launches at $40 — Apollo Automation + Open Home Foundation co-develop the first beginner-friendly ESP32-C6 board with PIR, temp/humidity, RGB, and buzzer modules; no soldering or coding required.
+- OpenAI o3 retires from ChatGPT today after 90-day sunset; GPT-5.5 Instant, Thinking, and Pro become the new reasoning defaults; Lambda Cloud (Nvidia-backed) in talks to raise $3B at $12B+ valuation.

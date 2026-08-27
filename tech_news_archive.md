@@ -825,3 +825,10 @@
 - Anthropic reverses Fable 5 data retention policy — enterprises will get greater control over their data instead of mandatory 30-day retention, Bloomberg reports; directly responds to OpenAI's competing Private Safety Processing.
 - Official ESPHome Starter Kit launches at $40 — Apollo Automation + Open Home Foundation co-develop the first beginner-friendly ESP32-C6 board with PIR, temp/humidity, RGB, and buzzer modules; no soldering or coding required.
 - OpenAI o3 retires from ChatGPT today after 90-day sunset; GPT-5.5 Instant, Thinking, and Pro become the new reasoning defaults; Lambda Cloud (Nvidia-backed) in talks to raise $3B at $12B+ valuation.
+
+## 2026-08-27
+- Nvidia agrees to acquire Hugging Face for $12.9 billion (CNBC) — ties chip dominance to the world's largest open-source AI platform (2.96M models, 1M datasets); no signed agreement yet, could still fall through.
+- Claude Code ships self-written feedback reports: auto-drafts when tools fail or mistakes surface, queues at ~/.claude/feedback/drafts/ until user sends; also adds built-in Concise output style and prompt caching fix for custom gateways.
+- Anthropic embeds invisible machine-readable watermarks in all Claude text and file outputs from August 2, applied globally to comply with the EU AI Act — first major frontier lab to default-watermark everything.
+- OpenAI launches Zero Data Retention for frontier models: no prompts or outputs stored after processing, no employee review, no training without explicit opt-in; Private Safety Processing handles safety monitoring via automated pattern analysis; full rollout September.
+- Texas halts ~1,800 data center projects after finding AI infrastructure power demands exceed five times the state's all-time peak grid record; developers pivot to rural unincorporated land.

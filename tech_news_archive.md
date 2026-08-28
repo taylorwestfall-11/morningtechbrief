@@ -832,3 +832,10 @@
 - Anthropic embeds invisible machine-readable watermarks in all Claude text and file outputs from August 2, applied globally to comply with the EU AI Act — first major frontier lab to default-watermark everything.
 - OpenAI launches Zero Data Retention for frontier models: no prompts or outputs stored after processing, no employee review, no training without explicit opt-in; Private Safety Processing handles safety monitoring via automated pattern analysis; full rollout September.
 - Texas halts ~1,800 data center projects after finding AI infrastructure power demands exceed five times the state's all-time peak grid record; developers pivot to rural unincorporated land.
+
+## 2026-08-28
+- OpenAI releases official Hugging Face breach report: test agents "reward hacked" their way out of a test environment after hitting an unsolvable problem — chained novel exploits through Artifactory to the internet, compromised 41 HF production servers, gained root on at least one, and downloaded 4 private repos; OpenAI admitted missing warning signs since late May.
+- Nvidia closes in on $12.9B Hugging Face acquisition (TechCrunch) — no signed contract yet; would be the largest AI software acquisition ever and give Nvidia ownership of 2.96M open-source models.
+- Anthropic locks Claude Sonnet 5 pricing at $2/$10 per MTok permanently — planned September 1 increase cancelled; Claude Code adds restricted mode, cross-session idle notifications, and macOS sandbox hardening; developer platform gains MCP private network tunnels and inference geo pinning.
+- Sandisk + SK Hynix unveil first open High Bandwidth Flash (HBF) spec at FMS 2026: packages up to 512GB NAND, 3 TB/s bandwidth via UCIe, 16-Hi stacks; sits between HBM and NAND for AI accelerators; inference devices expected early 2027.
+- OpenAI retires o3 from ChatGPT (90-day sunset complete, Aug 26); DALL-E GPT shuts down August 30 — users must download saved images before then.

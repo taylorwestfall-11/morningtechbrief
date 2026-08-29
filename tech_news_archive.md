@@ -839,3 +839,10 @@
 - Anthropic locks Claude Sonnet 5 pricing at $2/$10 per MTok permanently — planned September 1 increase cancelled; Claude Code adds restricted mode, cross-session idle notifications, and macOS sandbox hardening; developer platform gains MCP private network tunnels and inference geo pinning.
 - Sandisk + SK Hynix unveil first open High Bandwidth Flash (HBF) spec at FMS 2026: packages up to 512GB NAND, 3 TB/s bandwidth via UCIe, 16-Hi stacks; sits between HBM and NAND for AI accelerators; inference devices expected early 2027.
 - OpenAI retires o3 from ChatGPT (90-day sunset complete, Aug 26); DALL-E GPT shuts down August 30 — users must download saved images before then.
+
+## 2026-08-29
+- Anthropic unveils Model Hardware Standard (MHS) in research preview — open, model-agnostic protocol letting AI agents control physical hardware (lab robots, quantum lasers, liquid handlers) the same way MCP connects software; Claude calibrated a $700K QuEra laser at 99.3% accuracy across 700 trials; open-source spec planned.
+- Salesforce and Anthropic launch "Claudeforce" — full CRM inside Claude with 37 pre-built sales skills; Claude becomes default reasoning engine across the Salesforce platform; open beta at Dreamforce 2026 in September.
+- Home Assistant 2026.9 beta drops: tiered alerts system (alert vs. warning severity per entity), unified Matter network map combining Thread and Wi-Fi devices in one topology, Favorites panel, and Serial hardware browser; GA due September.
+- AMD presents MI400 GPU architecture and Helios rack-scale AI system at Hot Chips 2026 — integrated EPYC 9006 + MI455X + Pensando + ROCm in one platform; direct challenge to Nvidia Vera Rubin NVL72.
+- Nvidia DLSS 4.5 ships with 2nd-gen Ray Reconstruction transformer unifying denoising and super resolution in one AI pass; works on all GeForce RTX GPUs; AMD and Nvidia both raise GPU prices again in August as AI demand outbids gaming.

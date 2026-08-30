@@ -846,3 +846,10 @@
 - Home Assistant 2026.9 beta drops: tiered alerts system (alert vs. warning severity per entity), unified Matter network map combining Thread and Wi-Fi devices in one topology, Favorites panel, and Serial hardware browser; GA due September.
 - AMD presents MI400 GPU architecture and Helios rack-scale AI system at Hot Chips 2026 — integrated EPYC 9006 + MI455X + Pensando + ROCm in one platform; direct challenge to Nvidia Vera Rubin NVL72.
 - Nvidia DLSS 4.5 ships with 2nd-gen Ray Reconstruction transformer unifying denoising and super resolution in one AI pass; works on all GeForce RTX GPUs; AMD and Nvidia both raise GPU prices again in August as AI demand outbids gaming.
+
+## [2026-08-30]
+- **Nvidia in unconfirmed talks to acquire Hugging Face for $12.9B** — Bloomberg and Reuters report the deal; neither company commenting; would give Nvidia ownership of the de-facto open-source AI model hub alongside its hardware dominance.
+- **Claude Cowork gets a built-in browser** — Anthropic launched a sandboxed browser inside the Cowork desktop app on Aug 26; Claude navigates, clicks, and fills forms in a side panel while keeping your own browser session completely separate; live on Enterprise, rolling to Pro/Max.
+- **DALL-E GPT retires today (August 30)** — OpenAI removes the official DALL-E GPT from ChatGPT; any saved images deleted permanently; use ChatGPT Images or user-created image GPTs going forward.
+- **Hugging Face Microduck: $399 bipedal robot** — 25cm duck-bot with 15 motors, camera, lidar, and an articulated beak that lifts 800g; waddling, roller-skating, fall recovery; North American and European delivery targeted before Christmas.
+- **MCP + Google A2A under unified Linux Foundation governance** — Agentic AI Foundation now governs both major agent-communication protocols with 250+ members including AWS, Anthropic, Google, Microsoft, and OpenAI.

@@ -853,3 +853,10 @@
 - **DALL-E GPT retires today (August 30)** — OpenAI removes the official DALL-E GPT from ChatGPT; any saved images deleted permanently; use ChatGPT Images or user-created image GPTs going forward.
 - **Hugging Face Microduck: $399 bipedal robot** — 25cm duck-bot with 15 motors, camera, lidar, and an articulated beak that lifts 800g; waddling, roller-skating, fall recovery; North American and European delivery targeted before Christmas.
 - **MCP + Google A2A under unified Linux Foundation governance** — Agentic AI Foundation now governs both major agent-communication protocols with 250+ members including AWS, Anthropic, Google, Microsoft, and OpenAI.
+
+## [2026-08-31]
+- **Claude Sonnet 5 pricing locked at $2/$10 per million tokens permanently** — Anthropic cancelled the $3/$15 hike that was set for September 1; introductory rate is now the permanent rate, though the new Sonnet 5 tokenizer may still increase real-world token counts by up to 35%.
+- **Nvidia-Hugging Face $12.9B acquisition context** — Taipei Times editorial argues the deal would crown Nvidia king of AI by pairing chip dominance with the de-facto open-source model hub; deal remains unconfirmed with both companies declining to comment.
+- **Home Assistant 2026.9 goes GA September 2** — tiered alert severity on the Security dashboard, unified Matter network map (Thread + Wi-Fi in one view), golden/blue hour Sun integration triggers, and Tile card effect selectors; release party livestream 20:00 GMT September 2.
+- **John Ternus becomes Apple CEO September 1** — hardware engineering lead succeeds Tim Cook; inherits Gemini-powered Siri rollout in iOS 27, foldable iPhone project, and Apple's evolving AI strategy.
+- **DeepSeek closes $7.4B round at $74B valuation** — targeting end-of-August close; 2026 IPO filing and 2027 Shanghai STAR Market debut on the roadmap, positioning as the most credible Chinese public-market AI challenger yet.

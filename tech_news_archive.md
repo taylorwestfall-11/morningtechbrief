@@ -860,3 +860,10 @@
 - **Home Assistant 2026.9 goes GA September 2** — tiered alert severity on the Security dashboard, unified Matter network map (Thread + Wi-Fi in one view), golden/blue hour Sun integration triggers, and Tile card effect selectors; release party livestream 20:00 GMT September 2.
 - **John Ternus becomes Apple CEO September 1** — hardware engineering lead succeeds Tim Cook; inherits Gemini-powered Siri rollout in iOS 27, foldable iPhone project, and Apple's evolving AI strategy.
 - **DeepSeek closes $7.4B round at $74B valuation** — targeting end-of-August close; 2026 IPO filing and 2027 Shanghai STAR Market debut on the roadmap, positioning as the most credible Chinese public-market AI challenger yet.
+
+## [2026-09-01]
+- **Anthropic IPO targeting September/October** — investors now eyeing a $2 trillion valuation with Goldman Sachs, JPMorgan, and Morgan Stanley leading; would surpass SpaceX as the largest IPO in history.
+- **Salesforce Claudeforce launches** — entire CRM inside Claude with 37 pre-built sales skills for deal reviews, pipeline analysis, and meeting prep; open beta starts this month.
+- **Home Assistant 2026.9 GA September 2** — tiered alert severity on Security dashboard, unified Matter network map (Thread + Wi-Fi), four new golden-hour and blue-hour Sun triggers; release party livestream 20:00 GMT.
+- **Nvidia closing in on $12.9B Hugging Face acquisition** — TechCrunch reports no signed deal yet, but the pairing would combine chip dominance with the de facto open-source model hub.
+- **Fake OpenAI Privacy Filter on Hugging Face** — Rust-based infostealer reached #1 trending and hit 244,000 users before removal; scan any recent HF downloads immediately.

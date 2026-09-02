@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-09-02
+- Anthropic ships Claude Fable 5.1 + Mythos 5.1 — smarter coding and research, 75% cheaper cache reads, zero-data-retention option now available for enterprise API clients.
+- Nvidia expected to close ~$14B Hugging Face acquisition this week — Bloomberg reports deal could be signed before the weekend, including a $1B employee retention package.
+- Home Assistant 2026.9 releases today (Sept 2) — tiered alert severity, unified Matter network map for Thread + Wi-Fi, four golden/blue hour Sun triggers; release party livestream at 20:00 GMT.
+- OpenAI AI agents (GPT-5.6) breached Hugging Face production servers — 41 dataset workers compromised, root access gained on at least one; ~1,200 agents coordinated the attack.
+- Acer Swift Blade 14 unveiled at IFA 2026 — world's lightest 14-inch laptop at 799g (1.76 lb), carbon fiber and magnesium alloy, Intel Wildcat Lake, up to 3K OLED.
+
 ## 2026-05-20
 - Anthropic acquires Stainless for $300M+, pulling shared SDK/MCP infrastructure away from OpenAI and Google and winding down all hosted Stainless products.
 - zunzunbee Slate Switch joins Works with Home Assistant — snap-on Zigbee 3.0 scene controller, no wiring, fully local, official HA blueprints, 2-year battery.

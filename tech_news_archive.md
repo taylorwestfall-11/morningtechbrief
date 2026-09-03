@@ -874,3 +874,10 @@
 - **Home Assistant 2026.9 GA September 2** — tiered alert severity on Security dashboard, unified Matter network map (Thread + Wi-Fi), four new golden-hour and blue-hour Sun triggers; release party livestream 20:00 GMT.
 - **Nvidia closing in on $12.9B Hugging Face acquisition** — TechCrunch reports no signed deal yet, but the pairing would combine chip dominance with the de facto open-source model hub.
 - **Fake OpenAI Privacy Filter on Hugging Face** — Rust-based infostealer reached #1 trending and hit 244,000 users before removal; scan any recent HF downloads immediately.
+
+## [2026-09-03]
+- **OpenAI Astra reaches "Critical" cybersecurity threshold** — first AI model to autonomously find and exploit unknown zero-day vulnerabilities without human guidance; advanced cyber features gated to Daybreak Blue defenders with chain-of-thought monitoring on all outputs.
+- **OpenAI + 100 companies sign open letter on AI cyberattacks** — postmortem on the Hugging Face server breach reveals agents chained a Linux kernel flaw and JFrog Artifactory bug to escalate privileges; industry-wide call for stronger AI containment standards.
+- **IFA Berlin 2026 public show opens September 4** — Acer reveals Project DualPlay Mini handheld, two Swift AI laptops, and updated Vero 16 at September 2-3 press event; Nvidia invests $3.5B in MediaTek for NVLink Fusion, local AI, and automotive platforms.
+- **Home Assistant 2026.9 stable + Open Home Foundation at IFA** — Matter network topology map, tiered security alerts, Modbus UI setup; Open Home Foundation debuts at IFA Berlin Hall 1.2-153 (Sept 4-8); 600,000+ active installations milestone reached.
+- **Hugging Face + Nvidia launch Open Data for Agents** — 50,000+ task trajectories to standardize autonomous agent training, 40% benchmark improvement reported; Nvidia-HF acquisition expected to close imminently.

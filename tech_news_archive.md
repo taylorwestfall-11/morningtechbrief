@@ -881,3 +881,10 @@
 - **IFA Berlin 2026 public show opens September 4** — Acer reveals Project DualPlay Mini handheld, two Swift AI laptops, and updated Vero 16 at September 2-3 press event; Nvidia invests $3.5B in MediaTek for NVLink Fusion, local AI, and automotive platforms.
 - **Home Assistant 2026.9 stable + Open Home Foundation at IFA** — Matter network topology map, tiered security alerts, Modbus UI setup; Open Home Foundation debuts at IFA Berlin Hall 1.2-153 (Sept 4-8); 600,000+ active installations milestone reached.
 - **Hugging Face + Nvidia launch Open Data for Agents** — 50,000+ task trajectories to standardize autonomous agent training, 40% benchmark improvement reported; Nvidia-HF acquisition expected to close imminently.
+
+## [2026-09-04]
+- Nvidia officially acquires Hugging Face for $12.9 billion — deal closed September 3; Jensen Huang pledges platform stays open-source; regulatory review expected as Nvidia now controls both AI chips and the top open model marketplace.
+- OpenAI launches GPT-6 Astra to trusted partners — "world's best computer use model," tops FrontierMath Tier 4 and ARC-AGI 3; OpenAI calls it an AGI-threshold milestone; broader ChatGPT Plus/Pro/Enterprise launch September 5.
+- IFA Berlin 2026 opens today — Samsung expands Bespoke AI appliances with generative AI; TP-Link debuts the Archer 8 Ultra (WiFi 8, 19Gbps); SwitchBot Onero H1 laundry robot on floor; Open Home Foundation at Hall 1.2-153.
+- Anthropic releases Claude Fable 5.1 and Mythos 5.1 (September 1) — same underlying model, 75% cache price cut post-export-controls; Mythos 5.1 now powers Claude Security for vetted cybersecurity and life-sciences orgs.
+- Nvidia DLSS 5 launches in NBA 2K27 (September 3) — first consumer game to ship with DLSS 5 neural rendering; supported on all RTX 50 series GPUs, laptops, and GeForce NOW.

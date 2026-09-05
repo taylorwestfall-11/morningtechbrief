@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-09-05
+- GPT-6 Astra goes live today for all ChatGPT Plus, Pro, Business, and Enterprise — full API access at $10/$50 per million tokens; OpenAI calls it an AGI-threshold model topping FrontierMath Tier 4 and ARC-AGI 3.
+- Apple "Surprise and Shine" event confirmed for September 9 — iPhone 18 Pro, 18 Pro Max, and first foldable iPhone Ultra with 5.5" outer / 7.8" inner OLED in titanium; standard iPhone 18 pushed to spring 2027.
+- Nvidia confirms DLSS 5 will come to RTX 40 Series GPUs "later this fall," reversing RTX 50 exclusivity; separately, no new gaming GPU ships in 2026 as RAMageddon shortage funnels HBM to AI accelerators.
+- Home Assistant 2026.9 launches with Matter network topology map, Modbus UI config (Fronius per-string solar data, auto-detecting Sofar inverter), activity tracing, security dashboard, and 13 new integrations.
+- IFA 2026 smart home floor centers on Matter interoperability — Haier, Philips Hue, Govee, and Belkin expand cross-brand compatibility; Govee AI Lighting Bot 2.0 debuts natural-language voice/text prompt control.
+
 ## 2026-09-02
 - Anthropic ships Claude Fable 5.1 + Mythos 5.1 — smarter coding and research, 75% cheaper cache reads, zero-data-retention option now available for enterprise API clients.
 - Nvidia expected to close ~$14B Hugging Face acquisition this week — Bloomberg reports deal could be signed before the weekend, including a $1B employee retention package.

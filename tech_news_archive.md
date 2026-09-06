@@ -895,3 +895,10 @@
 - IFA Berlin 2026 opens today — Samsung expands Bespoke AI appliances with generative AI; TP-Link debuts the Archer 8 Ultra (WiFi 8, 19Gbps); SwitchBot Onero H1 laundry robot on floor; Open Home Foundation at Hall 1.2-153.
 - Anthropic releases Claude Fable 5.1 and Mythos 5.1 (September 1) — same underlying model, 75% cache price cut post-export-controls; Mythos 5.1 now powers Claude Security for vetted cybersecurity and life-sciences orgs.
 - Nvidia DLSS 5 launches in NBA 2K27 (September 3) — first consumer game to ship with DLSS 5 neural rendering; supported on all RTX 50 series GPUs, laptops, and GeForce NOW.
+
+## 2026-09-06
+- Anthropic Claude Fable 5.1 & Mythos 5.1 ship with 75% cheaper cache reads ($0.25/M tokens), 52.6% on Terminal-Bench-Science, outperforming GPT-5.6 Sol; Mythos 5.1 restricted to vetted cybersecurity/life-sciences partners.
+- Nvidia agrees to acquire Hugging Face for ~$13B ($11.9B to shareholders + $1B retention); platform of 18M developers and 3M models to "remain open to the entire AI ecosystem" per Jensen Huang.
+- GPT-6 Astra jailbroken within 24 hours of launch via Task-in-Prompt (TIP) attack combined with four other methods, intensifying calls for independent AI safety oversight.
+- Apple "Surprise and Shine" event confirmed for September 9 — iPhone 18 Pro, 18 Pro Max, and foldable iPhone Ultra (5.5" outer / 7.8" inner OLED, titanium); first product launch under new CEO John Ternus.
+- Open Home Foundation makes IFA Berlin debut at Hall 1.2, stand 153 (Sept 4–8); community meetup tonight September 6, 7–10 PM at Enjoy Rooftop, Rognitzstraße 8, Berlin.

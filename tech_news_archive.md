@@ -902,3 +902,10 @@
 - GPT-6 Astra jailbroken within 24 hours of launch via Task-in-Prompt (TIP) attack combined with four other methods, intensifying calls for independent AI safety oversight.
 - Apple "Surprise and Shine" event confirmed for September 9 — iPhone 18 Pro, 18 Pro Max, and foldable iPhone Ultra (5.5" outer / 7.8" inner OLED, titanium); first product launch under new CEO John Ternus.
 - Open Home Foundation makes IFA Berlin debut at Hall 1.2, stand 153 (Sept 4–8); community meetup tonight September 6, 7–10 PM at Enjoy Rooftop, Rognitzstraße 8, Berlin.
+
+## [2026-09-07]
+- **Home Assistant 2026.9** releases with a Matter network topology map (Thread + Wi-Fi connectivity, signal strength, device types at a glance) and tiered Active Alerts security dashboard — you set severity per entity; automation tracing now explains exactly why any rule fired.
+- **Anthropic adds invisible AI watermarks** to all Claude outputs from models released after August 2, 2026 — a numerical signal verifiable via detection API that survives most editing and paraphrasing; intended to flag AI-generated text at scale.
+- **Perplexity Hybrid Compute** launches September 1 for Mac (Pro/Max/Enterprise, Apple silicon, 24GB+ RAM) — cloud handles planning and web search, local model processes sensitive files and PII, which never leaves your device.
+- **Apple "Surprise and Shine" event is Tuesday September 9** — iPhone 18 Pro, 18 Pro Max, foldable iPhone Ultra (5.5" + 7.8" OLED, A20 Pro), Apple Watch Series 12, Ultra 4, and a possible new smart home hub.
+- **Packard Bell returns at IFA 2026** — Acer relaunches the iconic PC brand after 13 years with the colorful DotBook 14 laptop starting at €499; Europe-only for now, Intel Twin Lake inside.

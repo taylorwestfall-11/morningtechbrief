@@ -909,3 +909,10 @@
 - **Perplexity Hybrid Compute** launches September 1 for Mac (Pro/Max/Enterprise, Apple silicon, 24GB+ RAM) — cloud handles planning and web search, local model processes sensitive files and PII, which never leaves your device.
 - **Apple "Surprise and Shine" event is Tuesday September 9** — iPhone 18 Pro, 18 Pro Max, foldable iPhone Ultra (5.5" + 7.8" OLED, A20 Pro), Apple Watch Series 12, Ultra 4, and a possible new smart home hub.
 - **Packard Bell returns at IFA 2026** — Acer relaunches the iconic PC brand after 13 years with the colorful DotBook 14 laptop starting at €499; Europe-only for now, Intel Twin Lake inside.
+
+## [2026-09-08]
+- **NVIDIA PAIR launches at IFA 2026** — free open-source app pools idle home PCs into a private AI inference cluster via mDNS; five-agent tasks cut from 18 to under 9 minutes; works with Ollama and LM Studio, download available now.
+- **Apple "Surprise and Shine" is tomorrow (Sept 9, 10 AM PT)** — iPhone 18 Pro + Pro Max on 2nm A20 Pro chip with variable-aperture cameras, foldable iPhone Ultra (5.5" + 7.8" OLED), Watch Series 12, Ultra 4, and possible smart home hub; first event under CEO John Ternus.
+- **NVIDIA confirms $12.9B Hugging Face acquisition** — 18M developers, 3M+ models; platform stays open and compute-agnostic, founding team stays on; closes early 2027 pending regulatory approval.
+- **Claudeforce open beta launches this month** — Salesforce + Anthropic partnership embeds Claude natively in Salesforce with 37 prebuilt sales skills reasoning over live CRM data; Slack integration in late 2026.
+- **Claude Fable 5.1 + Mythos 5.1 ship (Sept 1)** — same capability, different safeguard levels; cache reads drop 75% to $0.25/M tokens, cutting agentic task costs by up to 45%; GPT-6 Astra expands to all paid ChatGPT users with added cybersecurity safeguards.

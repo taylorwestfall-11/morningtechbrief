@@ -916,3 +916,10 @@
 - **NVIDIA confirms $12.9B Hugging Face acquisition** — 18M developers, 3M+ models; platform stays open and compute-agnostic, founding team stays on; closes early 2027 pending regulatory approval.
 - **Claudeforce open beta launches this month** — Salesforce + Anthropic partnership embeds Claude natively in Salesforce with 37 prebuilt sales skills reasoning over live CRM data; Slack integration in late 2026.
 - **Claude Fable 5.1 + Mythos 5.1 ship (Sept 1)** — same capability, different safeguard levels; cache reads drop 75% to $0.25/M tokens, cutting agentic task costs by up to 45%; GPT-6 Astra expands to all paid ChatGPT users with added cybersecurity safeguards.
+
+## [2026-09-09]
+- **Apple "Surprise and Shine" event TODAY (10 AM PT)** — CEO John Ternus's first keynote expected to reveal iPhone 18 Pro and Pro Max on 2nm A20 Pro chip with variable-aperture cameras, foldable iPhone Ultra (5.5"/7.8" OLED, titanium), Apple Watch Series 12, and possibly a new smart home hub with Matter/Thread.
+- **Anthropic IPO investor meetings confirmed for October** — targeting $965B valuation, with market estimates projecting a possible $2 trillion listing that would shatter SpaceX's record; OpenAI has delayed its own IPO to 2027; Goldman Sachs, Morgan Stanley, and JPMorgan leading.
+- **NVIDIA Q2 FY27: $96B revenue (+85% YoY), $89B data center** — Q3 guided at $108B (±2%); no new consumer gaming GPUs in 2026 as all advanced-node capacity routes to AI accelerators; paired with $12.93B Hugging Face acquisition closed September 3.
+- **Home Assistant 2026.9 spotlight: Modbus UI config** — solar inverters, heat pumps, and energy meters now configure through the UI instead of hand-written YAML; also ships Matter network topology map, Active Alerts severity tiers, and 13 new integrations.
+- **GPT-6 Astra live for all paid ChatGPT users** — solves 88% of tasks in a single attempt (vs 55.9% for GPT-5.6 Sol); near-perfect FrontierMath Tier 4 and ARC-AGI 3 scores; cybersecurity safeguards added after zero-day exploitation concerns.

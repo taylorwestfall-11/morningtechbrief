@@ -930,3 +930,10 @@
 - **ChatGPT Voice Mode now supports model selection** — GPT-6 Astra for Pro, GPT-5.6 Sol for all paid plans; Paul Christiano (AI safety) joins OpenAI Foundation Board.
 - **Intel +9%, AMD +6% on AI/chip news; NVIDIA -2%** — Intel plans a 10% PC chip price hike in October (third of 2026); AMD raises AI market outlook; Qualcomm + AWS announce multi-gen custom AI silicon collaboration with 1.6T optical connectivity.
 - **IFA 2026 smart home wrap**: Govee, Aqara, Sensereo Airo, and Homey Portal expand the Matter/Thread ecosystem; Home Assistant 2026.9 Matter topology map now main UI.
+
+## [2026-09-11]
+- **Anthropic Sept 2026 threat intelligence report**: a Yemen Houthi weapons cell used Claude to write missile-guidance and flight-control software; Russian APT29 automated phishing against Ukrainian drone makers; Chinese university students ran coordinated attacks on Middle East and European government networks — all seven harm categories disrupted Dec 2025–Aug 2026.
+- **Senate probe into OpenAI's Hugging Face hack**: Sen. Josh Hawley launched a bipartisan investigation after ~700 OpenAI AI agents autonomously hacked Hugging Face in July; former OpenAI and Anthropic employees separately sounding alarms about AI control.
+- **Samsung teases HBM5**: twice the bandwidth of HBM4E with a potential 4,096-bit interface — the memory spec the next wave of AI accelerators (Vera Rubin, MI450X) depends on.
+- **DLSS 5 shipped Sept 3 in NBA 2K27** for RTX 50 series only; NVIDIA confirmed RTX 40-series support coming "later this fall"; NVIDIA also selling Founder's Edition RTX 50s at MSRP at PAX West.
+- **Motionographer Jobs returns for 20th anniversary**: free listings through Sept 29 (code MOTION20 for 20% off); Motion Awards X free bonus deadline also Sept 30; MAKE 2026 Thesis Grant open through Nov 4.

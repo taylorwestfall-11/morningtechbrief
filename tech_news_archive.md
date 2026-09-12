@@ -937,3 +937,10 @@
 - **Samsung teases HBM5**: twice the bandwidth of HBM4E with a potential 4,096-bit interface — the memory spec the next wave of AI accelerators (Vera Rubin, MI450X) depends on.
 - **DLSS 5 shipped Sept 3 in NBA 2K27** for RTX 50 series only; NVIDIA confirmed RTX 40-series support coming "later this fall"; NVIDIA also selling Founder's Edition RTX 50s at MSRP at PAX West.
 - **Motionographer Jobs returns for 20th anniversary**: free listings through Sept 29 (code MOTION20 for 20% off); Motion Awards X free bonus deadline also Sept 30; MAKE 2026 Thesis Grant open through Nov 4.
+
+## [2026-09-12]
+- **iPhone 18 Pro pre-orders open today**: A20 Pro is Apple's first 2nm smartphone chip; ships September 18 alongside Watch Series 12, Ultra 4, and AirPods 5. Foldable iPhone Duo ($1,999) pre-orders open October 16, ships October 23.
+- **GitSpawn: malicious .git configs execute attacker code in 7 AI coding agents** — Claude Code, Codex, Cursor, Qwen Code, Grok Build, Goose, and Hermes Agent vulnerable before workspace-trust prompt; Claude Code patched one path in v2.1.196, second path and several others remain open.
+- **Senate bipartisan "duty of care" AI safety bill**: Klobuchar, Cruz, and Thune drafting legislation making frontier AI safety a legal obligation; government would gain power to block unsafe model releases — introduction expected next week.
+- **Pentagon in talks to lend $5B to Fluidstack**: Office of Strategic Capital loan to shore up U.S. data-center supply chain components, advised by Palmer Luckey's Erebor Bank; comes after Trump executive order on foreign grid equipment.
+- **Russian AI agent swarm breaches 440 PaperCut instances** across 395 organizations in 48 countries using OpenAI Codex + DeepSeek; first remote code execution in under four hours with no human-in-the-loop after launch.

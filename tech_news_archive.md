@@ -944,3 +944,10 @@
 - **Senate bipartisan "duty of care" AI safety bill**: Klobuchar, Cruz, and Thune drafting legislation making frontier AI safety a legal obligation; government would gain power to block unsafe model releases — introduction expected next week.
 - **Pentagon in talks to lend $5B to Fluidstack**: Office of Strategic Capital loan to shore up U.S. data-center supply chain components, advised by Palmer Luckey's Erebor Bank; comes after Trump executive order on foreign grid equipment.
 - **Russian AI agent swarm breaches 440 PaperCut instances** across 395 organizations in 48 countries using OpenAI Codex + DeepSeek; first remote code execution in under four hours with no human-in-the-loop after launch.
+
+## 2026-09-13
+- Anthropic targets October IPO at ~$965B valuation — S-1 filed June 1 after $65B Series H; banks running pre-roadshow meetings; some reports cite $2 trillion public offering target.
+- Nvidia agrees to acquire Hugging Face for ~$13 billion — open-source AI model hub joins chip giant; $1B employee retention program; expected to close H1 2027 pending regulatory approval.
+- Adobe releases After Effects 26.5 with agentic AI Assistant beta — natural language app control, custom JS expression writing, AI Object Matte, native 3D meshes, and animated Variable Font support.
+- Nvidia RTX Spark N1X SoC launches October — 18–20 CPU cores, up to 128GB unified memory, 6,144 CUDA cores; AI workstation-class performance in laptops and compact desktops.
+- Matter 1.6 Joint Fabric enables true multi-admin smart homes — multiple controller platforms co-own devices natively; zero-power NFC commissioning debuted in hardware at IFA 2026 by Heiman.

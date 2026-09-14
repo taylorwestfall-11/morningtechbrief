@@ -951,3 +951,10 @@
 - Adobe releases After Effects 26.5 with agentic AI Assistant beta — natural language app control, custom JS expression writing, AI Object Matte, native 3D meshes, and animated Variable Font support.
 - Nvidia RTX Spark N1X SoC launches October — 18–20 CPU cores, up to 128GB unified memory, 6,144 CUDA cores; AI workstation-class performance in laptops and compact desktops.
 - Matter 1.6 Joint Fabric enables true multi-admin smart homes — multiple controller platforms co-own devices natively; zero-power NFC commissioning debuted in hardware at IFA 2026 by Heiman.
+
+## 2026-09-14
+- Amodei, Altman, and Musk publicly align on AI "pacing" — Anthropic CEO publishes "We Must Pace the Frontier" proposing independent third-party evaluators inside AI labs; OpenAI and xAI signal agreement in an unprecedented alignment among rivals.
+- Anthropic/OpenAI/Google quietly forming joint AI safety standards body — working-group meetings since July; focus on pre-release testing and independent auditing; DeepMind's Hassabis separately proposed a FINRA-style Frontier AI Standards Body.
+- Anthropic September threat intelligence report: Yemen cell used Claude Code for missile guidance software — three weapons programs including a 2,000+ km ballistic missile; Russia drone program; China weapons systems; all accounts blocked before operational deployment.
+- OpenAI will not IPO in 2026, Altman confirms — safety and alignment remain priority; Anthropic still targeting October listing at ~$2 trillion valuation, which would be the largest IPO in history.
+- DLSS 5 launches commercially in NBA 2K27 — RTX 50-series first, RTX 40-series support promised "soon"; modder already running DLSS 5 on AMD RDNA 4 RX 9070 XT.

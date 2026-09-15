@@ -958,3 +958,10 @@
 - Anthropic September threat intelligence report: Yemen cell used Claude Code for missile guidance software — three weapons programs including a 2,000+ km ballistic missile; Russia drone program; China weapons systems; all accounts blocked before operational deployment.
 - OpenAI will not IPO in 2026, Altman confirms — safety and alignment remain priority; Anthropic still targeting October listing at ~$2 trillion valuation, which would be the largest IPO in history.
 - DLSS 5 launches commercially in NBA 2K27 — RTX 50-series first, RTX 40-series support promised "soon"; modder already running DLSS 5 on AMD RDNA 4 RX 9070 XT.
+
+## 2026-09-15
+- "The AI Doc: Or How I Became an Apocaloptimist" begins streaming on Netflix today — Daniel Roher's Sundance documentary features Altman, Amodei, and 40+ experts connecting rogue-agent incidents and researcher resignations to the broader AI safety debate.
+- The Pacing Paradox: Foreign Affairs Forum publishes analysis arguing Silicon Valley's slowdown coalition is geopolitically fragile — White House demands full-speed AI to outpace China; CrowdStrike CEO warns open-weight models already in the wild limit any pacing strategy.
+- AMD outsells Nvidia at Europe's largest PC retailer for the first time — RTX 5090 prices hit $9,500 (136% above MSRP) as AI data center demand for GDDR7 memory guts gaming GPU supply; no new Nvidia gaming architecture until 2028.
+- IFA 2026 smart home standouts: Sensereo Airo modular Matter-over-Thread air-quality system and Homey Portal €249 touchscreen wall controller both work with Home Assistant and ship before year-end; Heiman debuts first Matter 1.6 NFC-commissioning device.
+- Anthropic IPO shifts to mid-October at $2T+ valuation — Goldman Sachs, Morgan Stanley, JPMorgan on the book; company projects $11.5B Q2 revenue and $559M operating profit (second straight profitable quarter).

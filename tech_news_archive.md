@@ -965,3 +965,10 @@
 - AMD outsells Nvidia at Europe's largest PC retailer for the first time — RTX 5090 prices hit $9,500 (136% above MSRP) as AI data center demand for GDDR7 memory guts gaming GPU supply; no new Nvidia gaming architecture until 2028.
 - IFA 2026 smart home standouts: Sensereo Airo modular Matter-over-Thread air-quality system and Homey Portal €249 touchscreen wall controller both work with Home Assistant and ship before year-end; Heiman debuts first Matter 1.6 NFC-commissioning device.
 - Anthropic IPO shifts to mid-October at $2T+ valuation — Goldman Sachs, Morgan Stanley, JPMorgan on the book; company projects $11.5B Q2 revenue and $559M operating profit (second straight profitable quarter).
+
+## 2026-09-16
+- Adobe IBC 2026: Premiere gets Generative Media Tool (select a timeline gap, describe a clip, AI generates it in context); After Effects AI Assistant enters public beta with natural-language multi-step workflow control and expression writing without code.
+- Senate AI safety markup scheduled September 23 — Cruz, Thune, and Klobuchar replace voluntary safety pledges with binding legal duty of care; twice-yearly independent audits required, $1M/day fines for violations; Cantwell opposition is last sticking point.
+- Anthropic public S-1 filing expected late September — investor roadshow starting mid-October targeting $2T+ valuation; revenue run rate reportedly past $65B with $100–120B full-year 2026 projections; OpenAI confirms it will not IPO in 2026.
+- iPhone 18 Pro ships Thursday September 18 with Apple N1 chip — becomes a Thread border router out of the box (Wi-Fi 7 + Bluetooth 6 + Thread); hundreds of millions of upgrading iPhones will passively strengthen Matter-over-Thread smart home meshes.
+- RTX Spark fall laptop lineup solidifying: ASUS ProArt P14/P16, HP OmniBook Ultra (world's thinnest RTX Spark), and Microsoft Surface Laptop Ultra all confirmed for fall 2026; Intel announces third CPU price hike of 2026 (+10%) for October.

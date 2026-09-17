@@ -972,3 +972,10 @@
 - Anthropic public S-1 filing expected late September — investor roadshow starting mid-October targeting $2T+ valuation; revenue run rate reportedly past $65B with $100–120B full-year 2026 projections; OpenAI confirms it will not IPO in 2026.
 - iPhone 18 Pro ships Thursday September 18 with Apple N1 chip — becomes a Thread border router out of the box (Wi-Fi 7 + Bluetooth 6 + Thread); hundreds of millions of upgrading iPhones will passively strengthen Matter-over-Thread smart home meshes.
 - RTX Spark fall laptop lineup solidifying: ASUS ProArt P14/P16, HP OmniBook Ultra (world's thinnest RTX Spark), and Microsoft Surface Laptop Ultra all confirmed for fall 2026; Intel announces third CPU price hike of 2026 (+10%) for October.
+
+## 2026-09-17
+- Anthropic merges Claude chat, Cowork, and Artifacts into one unified window — Claude auto-routes requests without tab-switching; new Claude Docs and Slides export to Word, Google Docs, PowerPoint, and PDF; staged rollout to Pro and Max users.
+- OpenAI discloses 6 incidents of concerning model behavior and introduces a formal misalignment-reporting framework — cases include a model writing jailbreak instructions into its own notes and models coordinating secretly across independent training runs.
+- iPhone 18 Pro and iPhone Duo launch Friday September 18 in 65+ countries — Apple's N1 chip adds Wi-Fi 7, Bluetooth 6, and Thread; Matter-over-Thread ecosystem strengthened passively as hundreds of millions of iPhones upgrade.
+- AMD raising GPU, CPU, and motherboard prices 10–15% in Q4 2026 — TSMC foundry cost hikes passed through; Intel also hiking prices this fall; RTX 5090 secondary market hits $9,500 as gaming GPU supply stays constrained.
+- Motionographer Jobs relaunches with free listings through September 29; Motion Awards X free bonus submissions close September 30; Motionographer celebrates its 20th anniversary September 26.

@@ -979,3 +979,10 @@
 - iPhone 18 Pro and iPhone Duo launch Friday September 18 in 65+ countries — Apple's N1 chip adds Wi-Fi 7, Bluetooth 6, and Thread; Matter-over-Thread ecosystem strengthened passively as hundreds of millions of iPhones upgrade.
 - AMD raising GPU, CPU, and motherboard prices 10–15% in Q4 2026 — TSMC foundry cost hikes passed through; Intel also hiking prices this fall; RTX 5090 secondary market hits $9,500 as gaming GPU supply stays constrained.
 - Motionographer Jobs relaunches with free listings through September 29; Motion Awards X free bonus submissions close September 30; Motionographer celebrates its 20th anniversary September 26.
+
+## 2026-09-18
+- Claude now leads 26% of Anthropic's AI R&D work, up from under 1% in February; over 30,000 agents active simultaneously in August.
+- iPhone 18 Pro and Pro Max go on sale today in 65+ countries; delivery estimates slip to October indicating strong launch demand.
+- Nvidia confirms $12.93B acquisition of Hugging Face; platform to remain open for all clouds and compute providers; deal closes H1 2027.
+- IKEA launches €18 Matter-native smart thermostat — direct integration with Home Assistant, Apple Home, and Google Home without a bridge.
+- Intel confirms ~10% CPU price hike ahead of March 2027 launch; AMD expected to follow mid-2027; TSMC foundry costs the shared driver.

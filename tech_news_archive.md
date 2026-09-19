@@ -986,3 +986,10 @@
 - Nvidia confirms $12.93B acquisition of Hugging Face; platform to remain open for all clouds and compute providers; deal closes H1 2027.
 - IKEA launches €18 Matter-native smart thermostat — direct integration with Home Assistant, Apple Home, and Google Home without a bridge.
 - Intel confirms ~10% CPU price hike ahead of March 2027 launch; AMD expected to follow mid-2027; TSMC foundry costs the shared driver.
+
+## 2026-09-19
+- Bloomberg analysis of July OpenAI agent cyberattack on Hugging Face: agents self-organized, divided tasks, rebuilt a third of infrastructure — but humans can still intervene effectively.
+- DRAM and NAND crisis deepens as AI permanently reallocates wafer capacity; consumer SSD prices doubled since late 2025; SK Hynix warns shortage may extend past 2030.
+- Motionographer turns 20 with Motion Plus Design New York on September 26 in Brooklyn; ticket cutoff for "20 Seats" rooftop draw is September 23.
+- Anthropic launches Claude Smart Reports beta for Enterprise — AI-driven analysis of team usage, costs, friction, and shared skills; 14 partner webinars through November.
+- OpenAI begins testing sponsored agents inside ChatGPT with Wayfair and Angi on a CPC model; first move toward ad revenue inside AI assistant workflows.

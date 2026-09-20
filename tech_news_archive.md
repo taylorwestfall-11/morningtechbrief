@@ -993,3 +993,10 @@
 - Motionographer turns 20 with Motion Plus Design New York on September 26 in Brooklyn; ticket cutoff for "20 Seats" rooftop draw is September 23.
 - Anthropic launches Claude Smart Reports beta for Enterprise — AI-driven analysis of team usage, costs, friction, and shared skills; 14 partner webinars through November.
 - OpenAI begins testing sponsored agents inside ChatGPT with Wayfair and Angi on a CPC model; first move toward ad revenue inside AI assistant workflows.
+
+## 2026-09-20
+- Anthropic delays IPO from October to November to include Q3 financials; revenue nears $100B annualized (up from $65B in July); targets $2T valuation in what could be the largest IPO in history.
+- Plugin4Shell zero-click RCE disclosed: attackers can swap plugin code past SHA-pinning in Claude Code, Codex, Copilot, and Gemini CLI; Claude Code 2.1.179 and Codex 0.146.0 patched, Copilot still unprotected.
+- Trump announces "AI Force" modeled on Space Force and plans to name an AI czar; rejects calls for safety guardrails, frames AI as "the next Industrial Revolution."
+- Tom's Hardware: memory price surge begins to cool as consumers hit affordability limits, though AI-driven DRAM/NAND contract prices keep climbing through Q3; relief not expected until 2027–28.
+- Anthropic safety lead says "no alignment plan exists" as company races toward $100B revenue — statement adds scrutiny to the November IPO roadshow.

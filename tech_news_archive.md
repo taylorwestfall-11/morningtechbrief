@@ -1000,3 +1000,10 @@
 - Trump announces "AI Force" modeled on Space Force and plans to name an AI czar; rejects calls for safety guardrails, frames AI as "the next Industrial Revolution."
 - Tom's Hardware: memory price surge begins to cool as consumers hit affordability limits, though AI-driven DRAM/NAND contract prices keep climbing through Q3; relief not expected until 2027–28.
 - Anthropic safety lead says "no alignment plan exists" as company races toward $100B revenue — statement adds scrutiny to the November IPO roadshow.
+
+## 2026-09-21
+- OpenAI GPT-6 Astra begins rolling out to Pro/Plus/Enterprise/Business accounts — first model rated "Critical" for cybersecurity capability; uses opaque recurrence reasoning that obscures chain-of-thought monitoring, drawing widespread safety criticism.
+- OpenAI, Anthropic, and Google working together to create a joint AI standards body — industry self-governance push as state laws, EU AI Act, and Trump executive order create unworkable compliance patchwork.
+- RTX 5090 scalper listings hit $6,000 as official US retail stock dries up; Moore's Law Is Dead leaks Nvidia RTX 60 and AMD RDNA 5 both delayed to 2028, extending GPU pricing crisis indefinitely.
+- Governor Newsom faces September 30 deadline to sign or veto California's Frontier AI Safety Act — biggest state-level AI governance moment of the year, on collision course with Trump's federal framework.
+- Antitrust class action filed against Anthropic, OpenAI, Google, and xAI — alleging illegal AI slowdown coordination pact following Dario Amodei's widely-read essay on AI risk.

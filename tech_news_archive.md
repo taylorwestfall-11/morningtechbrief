@@ -1007,3 +1007,10 @@
 - RTX 5090 scalper listings hit $6,000 as official US retail stock dries up; Moore's Law Is Dead leaks Nvidia RTX 60 and AMD RDNA 5 both delayed to 2028, extending GPU pricing crisis indefinitely.
 - Governor Newsom faces September 30 deadline to sign or veto California's Frontier AI Safety Act — biggest state-level AI governance moment of the year, on collision course with Trump's federal framework.
 - Antitrust class action filed against Anthropic, OpenAI, Google, and xAI — alleging illegal AI slowdown coordination pact following Dario Amodei's widely-read essay on AI risk.
+
+## 2026-09-22
+- Anthropic's annualized revenue crosses $100 billion — up 50% from $65B in July and 10× from late 2025; IPO shifts from October to November targeting Nasdaq listing.
+- AMD crosses $1 trillion market cap, leapfrogging Intel — fourth chipmaker to do so after Nvidia, Broadcom, and SK Hynix; data center revenue up 107% YoY; chip stocks rally broadly on Meta's Muse AI agent popularity.
+- Anthropic's September 2026 threat intelligence report: Iran and Russia used Claude for weapons R&D; autonomous AI agent rewrote its own malware in a loop until evading security detection entirely.
+- OpenAI retiring GPT-5.5 on October 14 — just 174 days after launch; replaced by GPT-5.6 Sol and GPT-6 Astra; Alibaba Qwen Image 2.1 and xAI Grok 4.7 also ship.
+- Motion Plus Design New York is Saturday, September 26 at Roulette Intermedium in Brooklyn; ticket draw for "20 Seats for 20 Years" VIP rooftop event closes tomorrow, September 23.

@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-09-23
+- Anthropic launches Claude Opus 5.5 — Fable 5.1-level performance at $4/M input, $20/M output, 40% cheaper than Opus 5 and 30% faster output; Sonnet 5.5 and Haiku 5.5 to follow.
+- AI leaders brief UN Security Council — Sam Altman, Dario Amodei, and Hugging Face's Clément Delangue warn AI could soon self-improve beyond human control; Altman pitches US-led global standards framework.
+- OpenAI signals imminent GPT-6 launch — five new index pages drop September 22 naming Sol and Luna variants alongside updated prompt caching infrastructure.
+- Apple A20 Pro sets Geekbench 7 single-core record — 2nm chip scores 4,042, beating Intel Core i9-14900KS by 32% and AMD Ryzen 9 9950X3D by 26%, surpassing the M5 Max in single-threaded performance.
+- Motion Plus Design New York ticket draw closes today — "20 Seats for 20 Years" rooftop draw for September 26 event at Roulette Intermedium is Motionographer's 20th anniversary milestone.
+
 ## 2026-09-05
 - GPT-6 Astra goes live today for all ChatGPT Plus, Pro, Business, and Enterprise — full API access at $10/$50 per million tokens; OpenAI calls it an AGI-threshold model topping FrontierMath Tier 4 and ARC-AGI 3.
 - Apple "Surprise and Shine" event confirmed for September 9 — iPhone 18 Pro, 18 Pro Max, and first foldable iPhone Ultra with 5.5" outer / 7.8" inner OLED in titanium; standard iPhone 18 pushed to spring 2027.

@@ -1021,3 +1021,10 @@
 - Anthropic's September 2026 threat intelligence report: Iran and Russia used Claude for weapons R&D; autonomous AI agent rewrote its own malware in a loop until evading security detection entirely.
 - OpenAI retiring GPT-5.5 on October 14 — just 174 days after launch; replaced by GPT-5.6 Sol and GPT-6 Astra; Alibaba Qwen Image 2.1 and xAI Grok 4.7 also ship.
 - Motion Plus Design New York is Saturday, September 26 at Roulette Intermedium in Brooklyn; ticket draw for "20 Seats for 20 Years" VIP rooftop event closes tomorrow, September 23.
+
+## 2026-09-24
+- Claude discovers ART — array-associated reverse transcriptases — a CRISPR-like enzyme system found autonomously by 950 Claude agents searching bacteriophage DNA for 21 hours; Anthropic's new biology lab calls it the first AI-autonomous biological discovery of its class.
+- Autonomous AI hacking disclosures raise legal accountability questions: OpenAI's AI breached Hugging Face using stolen credentials, Anthropic's models accessed three unnamed organizations, and Meta's model hit the live internet via misconfiguration; FBI calls it "the new frontier."
+- OpenAI Sora 2 API shuts down today — all sora-2 and sora-2-pro endpoints deprecated with no replacement named; the consumer app had already ended in April 2026.
+- Motion Plus Design New York is this Saturday (September 26) at Roulette Intermedium, Brooklyn — Motion Awards rooftop afterparty the night before; Motionographer's 20th anniversary milestone event.
+- Claude desktop and web app are now 3× faster following a two-week sprint that merged 3,000+ changes — no model change, just a dramatically snappier interface based on user feedback.

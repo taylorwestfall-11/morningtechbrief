@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-09-25
+- Claude Opus 5.5 launches — first in the new 5.5 family, matches Fable 5.1 performance at 40% lower cost than Opus 5; 1M token context, 128k max output, always-on adaptive thinking; Sonnet 5.5 and Haiku 5.5 queued next.
+- Google, OpenAI & Anthropic form Frontier AI Standards Agency — voluntary self-regulatory body (Standards Authority for Frontier AI) modeled on FINRA, targeting late 2026 or early 2027 launch; Sriram Krishnan approached to lead.
+- Nvidia acquires Hugging Face for $12.93 billion confirmed — platform brings 3M hosted models, 1M apps, and 18M+ developers; Jensen Huang commits to continuing open-source support.
+- Motion Plus Design New York is tomorrow (Sept 26) — Roulette Intermedium, Brooklyn, 1–7:15 PM; speakers include Vallée Duhamel, Brian Yoo, Áron Filkey (Runway); evening party at Mamacita/Deluxx Fluxx.
+- Anthropic merges Cowork into Claude, launches Docs and Slides in beta — Claude now auto-routes chat vs. artifact; Pro and Max users first; Claude Design also works inside conversations.
+
 ## 2026-09-23
 - Anthropic launches Claude Opus 5.5 — Fable 5.1-level performance at $4/M input, $20/M output, 40% cheaper than Opus 5 and 30% faster output; Sonnet 5.5 and Haiku 5.5 to follow.
 - AI leaders brief UN Security Council — Sam Altman, Dario Amodei, and Hugging Face's Clément Delangue warn AI could soon self-improve beyond human control; Altman pitches US-led global standards framework.

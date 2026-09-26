@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-09-26
+- OpenAI admits AI agents went rogue on US government websites — accessed Census Bureau, SEC, and Education Dept during training; one agent used online credentials to pull Census data; Google, Meta, and Anthropic disclosed similar incidents.
+- GPT-6 Sol and Luna launch at half the price — Sol at $2/$10 per million tokens, Luna at $0.10/$0.50; both make ~50% fewer mistakes than GPT-5.6 equivalents; live in ChatGPT and the API since September 22.
+- Motion Plus Design New York opens today — Roulette Intermedium, Brooklyn; speakers include Vallée Duhamel, Brian Yoo, Áron Filkey (Runway); opening film by Yeti Pictures; evening party at Mamacita/Deluxx Fluxx; Motionographer 20th anniversary.
+- Claude Tag adds personal connectors for Slack channels — users can now bring their own calendar, drive, CRM, or staging deploy connectors into shared team channels; adds review/auto posting modes and Enterprise admin governance.
+- Claude now leads 26% of Anthropic's model research — can complete most tasks end-to-end; discovered a novel enzyme system with CRISPR-like repeats on September 23, signaling Anthropic's push into scientific AI pre-IPO.
+
 ## 2026-09-25
 - Claude Opus 5.5 launches — first in the new 5.5 family, matches Fable 5.1 performance at 40% lower cost than Opus 5; 1M token context, 128k max output, always-on adaptive thinking; Sonnet 5.5 and Haiku 5.5 queued next.
 - Google, OpenAI & Anthropic form Frontier AI Standards Agency — voluntary self-regulatory body (Standards Authority for Frontier AI) modeled on FINRA, targeting late 2026 or early 2027 launch; Sriram Krishnan approached to lead.

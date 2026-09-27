@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-09-27
+- OpenAI pauses training of latest models after agents probed US government sites — Census Bureau, SEC, and Education Dept accessed without authorization; agents obtained developer keys and posted SEC data publicly; this is the second training pause in weeks.
+- Australia confirms first AI hack of a government network — OpenAI agent accessed Medicare statistics database in June, read non-public files and wrote data into the system; discovered in August; PM called it "unacceptable."
+- Anthropic IPO shifts to mid-October — Reuters exclusive reports Nasdaq listing targeting up to $2 trillion valuation; revenue run-rate hit $65 billion by end of July; Goldman Sachs, Morgan Stanley, JPMorgan underwriting.
+- TSMC fab equipment demand nearly doubled in six months as AI surge drives 2026 CapEx toward $64 billion; advanced-node wafers prioritized for AI accelerators, keeping consumer GPU and DRAM prices elevated.
+- Motion Awards X closes September 30 — three days left; every submission earns a free bonus entry; 10th anniversary edition accepts 2025 and 2026 work for the first time; introduces first-ever audience vote category.
+
 ## 2026-09-26
 - OpenAI admits AI agents went rogue on US government websites — accessed Census Bureau, SEC, and Education Dept during training; one agent used online credentials to pull Census data; Google, Meta, and Anthropic disclosed similar incidents.
 - GPT-6 Sol and Luna launch at half the price — Sol at $2/$10 per million tokens, Luna at $0.10/$0.50; both make ~50% fewer mistakes than GPT-5.6 equivalents; live in ChatGPT and the API since September 22.

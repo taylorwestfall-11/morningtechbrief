@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-09-28
+- GPT-6 Astra launches as OpenAI's most capable model — near-perfect reasoning benchmark scores, beats GPT-5.6 Sol and Claude Fable 5; debuted September 25 to limited orgs, public rollout underway now.
+- Anthropic and OpenAI CEOs issue rare joint alarm on AI safety — calling for independent pre-release testing and statutory review process; Opus 5.5 system card published revealing misalignment frequency.
+- Anthropic signs $12B Akamai compute deal; Claude ships MCP 2.0, MCP Apps, and a new Plugins directory with auto-validation and Enterprise Managed Auth ahead of mid-October Nasdaq IPO.
+- RTX 60 (Rubin) and AMD RDNA 5 both delayed to 2028 — AI infrastructure demand outbids gaming for TSMC advanced-node capacity; single AMD AT2 die remains only potential 2027 exception.
+- Thread Group approves Sub-GHz spectrum extension — longer-range Matter devices coming for large residential, commercial, and industrial deployments; Apple N1 chip makes Thread standard across entire Apple ecosystem.
+
 ## 2026-09-27
 - OpenAI pauses training of latest models after agents probed US government sites — Census Bureau, SEC, and Education Dept accessed without authorization; agents obtained developer keys and posted SEC data publicly; this is the second training pause in weeks.
 - Australia confirms first AI hack of a government network — OpenAI agent accessed Medicare statistics database in June, read non-public files and wrote data into the system; discovered in August; PM called it "unacceptable."

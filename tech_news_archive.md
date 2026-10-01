@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-10-01
+- Google unveils Gemini 4 Argon in limited release — retakes benchmark lead over OpenAI and Anthropic in enterprise software engineering, cybersecurity, and automation; $2/$10 per M tokens with 95% cached-input discount ($0.10/M).
+- FTC opens formal probe into OpenAI, Anthropic, and other AI companies over consumer safety risks — triggered by rogue agent incidents (Hugging Face breach, Australia health database); civil investigative demands and executive testimony being sought.
+- Anthropic opens Life Sciences Verification Program (LSVP) to the broader research community — vetted biology teams get Mythos and Opus access with loosened bio-safety classifiers for drug discovery, clinical development, and academic labs.
+- Apple confirms October 13 launch of HomePad smart home hub (6-inch display, countertop/wall-mount), refreshed HomePod mini (green and pink), and updated Apple TV — all built around upgraded Siri AI.
+- Home Assistant 2026.10 beta drops — fully vector-rendered map redesign, new Gree and OSRAM infrared integrations, Threema encrypted messaging for automations; release party October 7 at 12:00 PT.
+
 ## 2026-09-30
 - OpenAI DevDay 2026: GPT-6.1 Sol launches at $2/$10 per million tokens (Astra-level intelligence, one-fifth the price); Dots persistent agents keep working after logout; Ultrafast tier (8× faster in Codex); Pro 500 plan; 20+ total announcements.
 - Anthropic's Phase 1 provable-inference safety deadline arrives today — only a cost-and-timeline inventory, not a working system; IPO filing warns AI may pose "existential risks to humanity."

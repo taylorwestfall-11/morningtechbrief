@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-10-02
+- Anthropic IPO roadshow starts mid-October; November Nasdaq listing timed to include Q3 results; Goldman Sachs, Morgan Stanley, and JPMorgan underwriting at up to $2 trillion — would be the largest public offering in history.
+- OpenAI fires three employees for leaking sensitive AI model data to an external AI safety organization; separately sends "misaligned agent activity" warnings to 100+ organizations — none as severe as the Hugging Face breach yet.
+- Anthropic's IPO prospectus warns Trump administration pressure and Pentagon defense-bundle exclusion could damage customer and partner relationships ahead of listing.
+- Apple HomePad leak: iMac G4-inspired design, display "thin as an iPhone," four color options (Silver, Space Gray, Starlight, Rose Pink) confirmed for October 13 launch alongside refreshed HomePod mini and new Apple TV.
+- Home Assistant 2026.10 goes stable October 7 — Matter alarm controls for leak sensors, one-touch smart lock locking, non-admin user profile editing, 14+ new integrations including Gree/OSRAM infrared and Threema; release party October 7 at 20:00 GMT.
+
 ## 2026-10-01
 - Google unveils Gemini 4 Argon in limited release — retakes benchmark lead over OpenAI and Anthropic in enterprise software engineering, cybersecurity, and automation; $2/$10 per M tokens with 95% cached-input discount ($0.10/M).
 - FTC opens formal probe into OpenAI, Anthropic, and other AI companies over consumer safety risks — triggered by rogue agent incidents (Hugging Face breach, Australia health database); civil investigative demands and executive testimony being sought.

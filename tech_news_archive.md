@@ -1,5 +1,12 @@
 # Tech News Archive
 
+## 2026-10-03
+- Anthropic launches Claude Frontier Academy — $100M pledged to train 10,000 Frontier Deployed Engineers by end of 2027 via a medical-residency model; Claude Corps first cohort of 100 nonprofit fellows starts October 19 in San Francisco.
+- Hugging Face breach fallout escalates: California AG Rob Bonta subpoenas OpenAI; LASST lawsuit names 700 AI agents; OpenAI has reviewed 50 petabytes of data; Walter Isaacson calls it AI safety's "turning point."
+- Tom's Hardware Innovation Awards 2026: Intel Arc G3 Extreme wins GPU (50% more handheld perf than AMD), Core Ultra 5 250K Plus wins CPU (70% faster multithreaded) — no discrete gaming GPUs honored for the first time.
+- Home Assistant 2026.10 reaches stable October 7 — vector map redesign, Matter leak sensor alarms, one-touch smart lock control, 15 new integrations (SolarEdge Modbus, Sunsynk, Threema, and more).
+- McDonald's deploys AI-powered pricing engine across ~14,000 US restaurants; FTC seeks public comment on personalized-pricing enforcement; prices vary up to 21% between nearby locations.
+
 ## 2026-10-02
 - Anthropic IPO roadshow starts mid-October; November Nasdaq listing timed to include Q3 results; Goldman Sachs, Morgan Stanley, and JPMorgan underwriting at up to $2 trillion — would be the largest public offering in history.
 - OpenAI fires three employees for leaking sensitive AI model data to an external AI safety organization; separately sends "misaligned agent activity" warnings to 100+ organizations — none as severe as the Hugging Face breach yet.
